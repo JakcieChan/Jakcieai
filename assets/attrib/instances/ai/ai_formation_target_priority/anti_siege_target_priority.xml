@@ -1,0 +1,126 @@
+<instance version="6" description="" template="ai\ai_formation_target_priority">
+	<group name="ai_formation_target_priority">
+		<float name="target_check_interval_seconds" value="5" />
+		<list name="formation_priority_options">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1129495252">
+				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_target_scale" value="-5" />
+				<float name="already_assigned_scale" value="-1" />
+				<float name="can_move_scale" value="0" />
+				<float name="movement_speed_scale" value="0" />
+				<float name="critical_target_scale" value="0" />
+				<float name="current_target_scale" value="10" />
+				<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+					<list name="unit_type_scores">
+						<group name="unit_type_score" List.ItemID="1604417427">
+							<enum name="unit_type" value="siege" />
+							<float name="score" value="100" />
+						</group>
+						<group name="unit_type_score" List.ItemID="984329308">
+							<enum name="unit_type" value="springald" />
+							<float name="score" value="200" />
+						</group>
+						<group name="unit_type_score" List.ItemID="715442971">
+							<enum name="unit_type" value="bombard" />
+							<float name="score" value="200" />
+						</group>
+						<group name="unit_type_score" List.ItemID="295401583">
+							<enum name="unit_type" value="great_bombard" />
+							<float name="score" value="200" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-1519947064">
+							<enum name="unit_type" value="mangonel" />
+							<float name="score" value="150" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-709569190">
+							<enum name="unit_type" value="jeanne_d_arc" />
+							<float name="score" value="50" />
+						</group>
+						<group name="unit_type_score" List.ItemID="1550826916">
+							<enum name="unit_type" value="building" />
+							<float name="score" value="-1" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-1890496226">
+							<enum name="unit_type" value="farm" />
+							<float name="score" value="-50" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-1283101464">
+							<enum name="unit_type" value="pasture" />
+							<float name="score" value="-50" />
+						</group>
+					</list>
+				</template_reference>
+				<bool name="exclude_no_los" value="True" />
+				<float name="can_shoot_at_scale" value="5" />
+				<bool name="always_consider_non_combat_targets" value="False" />
+			</template_reference>
+		</list>
+		<list name="exclude_unit_types">
+			<enum name="unit_class" value="stone_wall" List.ItemID="1152157545" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="2022207" />
+	<variant name="xp3">
+		<group name="ai_formation_target_priority">
+			<float name="target_check_interval_seconds" value="5" />
+			<list name="formation_priority_options">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1000714762">
+					<float name="time_to_kill_scale" value="-1" />
+					<float name="time_to_target_scale" value="-5" />
+					<float name="already_assigned_scale" value="-1" />
+					<float name="can_move_scale" value="0" />
+					<float name="movement_speed_scale" value="0" />
+					<float name="critical_target_scale" value="0" />
+					<float name="current_target_scale" value="10" />
+					<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+						<list name="unit_type_scores">
+							<group name="unit_type_score" List.ItemID="1604417427">
+								<enum name="unit_type" value="siege" />
+								<float name="score" value="100" />
+							</group>
+							<group name="unit_type_score" List.ItemID="1228319869">
+								<enum name="unit_type" value="springald" />
+								<float name="score" value="200" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-1308886650">
+								<enum name="unit_type" value="bombard" />
+								<float name="score" value="200" />
+							</group>
+							<group name="unit_type_score" List.ItemID="793543396">
+								<enum name="unit_type" value="great_bombard" />
+								<float name="score" value="200" />
+							</group>
+							<group name="unit_type_score" List.ItemID="516431935">
+								<enum name="unit_type" value="mangonel" />
+								<float name="score" value="150" />
+							</group>
+							<group name="unit_type_score" List.ItemID="1121750480">
+								<enum name="unit_type" value="jeanne_d_arc" />
+								<float name="score" value="50" />
+							</group>
+							<group name="unit_type_score" List.ItemID="427409931">
+								<enum name="unit_type" value="building" />
+								<float name="score" value="-1" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-1253253695">
+								<enum name="unit_type" value="farm" />
+								<float name="score" value="-50" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-771489076">
+								<enum name="unit_type" value="pasture" />
+								<float name="score" value="-50" />
+							</group>
+						</list>
+					</template_reference>
+					<bool name="exclude_no_los" value="True" />
+					<float name="can_shoot_at_scale" value="5" />
+					<bool name="always_consider_non_combat_targets" value="False" />
+				</template_reference>
+			</list>
+			<list name="exclude_unit_types">
+				<enum name="unit_class" value="stone_wall" List.ItemID="1757966271" />
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="2022207" />
+	</variant>
+</instance>

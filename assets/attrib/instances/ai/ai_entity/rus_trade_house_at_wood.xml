@@ -1,0 +1,19 @@
+<instance version="4" description="" template="ai\ai_entity">
+	<uniqueid name="pbgid" value="1073741861" />
+	<group name="ai_entity_bag">
+		<list name="applicable_blueprints">
+			<instance_reference name="applicable_blueprint" value="ebps\races\rus\buildings\building_landmark_age2_muscovy_trade_company_control_rus" List.ItemID="-591767268" />
+		</list>
+		<group name="construction">
+			<string name="placement_function" value="" />
+			<bool name="can_build_multiple_in_parallel" value="False" />
+			<int name="max_num_additional_builders" value="10" />
+			<int name="max_num_incomplete_structures_builders" value="-1" />
+			<list name="near_to_structures">
+				<instance_reference name="structure" value="ebps\races\rus\buildings\building_econ_wood_rus\building_econ_wood_control_rus" List.ItemID="1509828610" />
+			</list>
+			<list name="requires_structures">
+			</list>
+		</group>
+	</group>
+</instance>

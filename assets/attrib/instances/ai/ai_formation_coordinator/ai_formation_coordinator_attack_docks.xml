@@ -1,0 +1,48 @@
+<instance version="6" description="" template="ai\ai_formation_coordinator">
+	<group name="ai_formation_coordinator">
+		<list name="non_combat_target_info" overrideParent="True">
+			<group name="info" List.ItemID="384387478">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				<int name="max_units" value="0" overrideParent="True" />
+				<int name="priority" value="0" overrideParent="True" />
+				<list name="unit_types">
+					<enum name="unit_class" value="naval_production_building" overrideParent="True" List.ItemID="-1920180079" />
+				</list>
+			</group>
+		</list>
+		<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+		<template_reference name="siege_option" value="" overrideParent="True">
+		</template_reference>
+		<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+		<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+		<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="207430" />
+	<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	<variant name="xp3">
+		<group name="ai_formation_coordinator">
+			<list name="non_combat_target_info" overrideParent="True">
+				<group name="info" List.ItemID="-856625980">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+					<int name="max_units" value="0" overrideParent="True" />
+					<int name="priority" value="0" overrideParent="True" />
+					<list name="unit_types">
+						<enum name="unit_class" value="naval_production_building" overrideParent="True" List.ItemID="1408801152" />
+					</list>
+				</group>
+			</list>
+			<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+			<template_reference name="siege_option" value="" overrideParent="True">
+			</template_reference>
+			<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+			<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+			<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+		</group>
+		<uniqueid name="pbgid" value="207430" />
+		<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	</variant>
+</instance>

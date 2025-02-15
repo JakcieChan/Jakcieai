@@ -1,0 +1,54 @@
+<instance version="6" description="use to include neutral gaia as a target - when they are not hostile, they are non combatants" template="ai\ai_formation_coordinator">
+	<group name="ai_formation_coordinator">
+		<list name="non_combat_target_info" overrideParent="True">
+			<group name="info" List.ItemID="301037135">
+				<float name="burn_amount_threshold" value="0" />
+				<int name="max_units" value="0" />
+				<int name="priority" value="0" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="animal_retaliate" overrideParent="True" List.ItemID="2037356794" />
+				</list>
+			</group>
+		</list>
+		<template_reference name="siege_option" value="" overrideParent="True">
+		</template_reference>
+		<bool name="ignore_non_pathable_targets" value="True" overrideParent="True" />
+		<bool name="ignore_on_wall_targets" value="True" overrideParent="True" />
+		<bool name="include_world_neutral_enemies" value="True" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+		<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+		<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+		<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+		<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="1889867" />
+	<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	<variant name="xp3">
+		<group name="ai_formation_coordinator">
+			<list name="non_combat_target_info" overrideParent="True">
+				<group name="info" List.ItemID="1165134048">
+					<float name="burn_amount_threshold" value="0" />
+					<int name="max_units" value="0" />
+					<int name="priority" value="0" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="animal_retaliate" overrideParent="True" List.ItemID="662175223" />
+					</list>
+				</group>
+			</list>
+			<template_reference name="siege_option" value="" overrideParent="True">
+			</template_reference>
+			<bool name="ignore_non_pathable_targets" value="True" overrideParent="True" />
+			<bool name="ignore_on_wall_targets" value="True" overrideParent="True" />
+			<bool name="include_world_neutral_enemies" value="True" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+			<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+			<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+			<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+			<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+		</group>
+		<uniqueid name="pbgid" value="1889867" />
+		<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	</variant>
+</instance>

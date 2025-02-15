@@ -1,0 +1,66 @@
+<instance version="6" description="for use when the scout is wounded and retreating (land scout)" template="ai\ai_formation_path">
+	<uniqueid name="pbgid" value="2090353" />
+	<group name="ai_formation_path">
+		<template_reference name="formation_path_query_option" value="options\ai\encounters\formation_threat_path_option">
+			<bool name="use_threat_history" value="True" />
+			<float name="path_recalculate_interval_seconds" value="1" />
+			<float name="combat_fitness_min" value="0.3" />
+			<float name="combat_fitness_max" value="0.5" />
+			<float name="threat_cost_min" value="0" />
+			<float name="threat_cost_max" value="10000" />
+			<template_reference name="enemy_unit_type_scores" value="options\ai\encounters\unit_type_scores">
+				<list name="unit_type_scores">
+					<group name="unit_type_score" List.ItemID="657349923">
+						<enum name="unit_type" value="hq" />
+						<float name="score" value="100" />
+					</group>
+					<group name="unit_type_score" List.ItemID="840058615">
+						<enum name="unit_type" value="tower" />
+						<float name="score" value="100" />
+					</group>
+					<group name="unit_type_score" List.ItemID="-1060082736">
+						<enum name="unit_type" value="castle" />
+						<float name="score" value="100" />
+					</group>
+				</list>
+			</template_reference>
+			<float name="threat_weight_inside_area" value="1" />
+			<float name="threat_weight_outside_area" value="1" />
+			<float name="leaving_area_multiplier" value="0" />
+			<float name="_influence_threshold" value="0.502" />
+		</template_reference>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="2090353" />
+		<group name="ai_formation_path">
+			<template_reference name="formation_path_query_option" value="options\ai\encounters\formation_threat_path_option">
+				<bool name="use_threat_history" value="True" />
+				<float name="path_recalculate_interval_seconds" value="1" />
+				<float name="combat_fitness_min" value="0.3" />
+				<float name="combat_fitness_max" value="0.5" />
+				<float name="threat_cost_min" value="0" />
+				<float name="threat_cost_max" value="10000" />
+				<template_reference name="enemy_unit_type_scores" value="options\ai\encounters\unit_type_scores">
+					<list name="unit_type_scores">
+						<group name="unit_type_score" List.ItemID="-1076629557">
+							<enum name="unit_type" value="hq" />
+							<float name="score" value="100" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-1373079004">
+							<enum name="unit_type" value="tower" />
+							<float name="score" value="100" />
+						</group>
+						<group name="unit_type_score" List.ItemID="1854275780">
+							<enum name="unit_type" value="castle" />
+							<float name="score" value="100" />
+						</group>
+					</list>
+				</template_reference>
+				<float name="threat_weight_inside_area" value="1" />
+				<float name="threat_weight_outside_area" value="1" />
+				<float name="leaving_area_multiplier" value="0" />
+				<float name="_influence_threshold" value="0.502" />
+			</template_reference>
+		</group>
+	</variant>
+</instance>

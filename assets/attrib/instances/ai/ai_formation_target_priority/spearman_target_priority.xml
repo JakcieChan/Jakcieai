@@ -1,0 +1,92 @@
+<instance version="6" description="scoring for formation groups consisting of spearmen, adds scoring to prefer cavalry targets" template="ai\ai_formation_target_priority">
+	<group name="ai_formation_target_priority">
+		<float name="target_check_interval_seconds" value="2" />
+		<list name="formation_priority_options">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1920496360">
+				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_target_scale" value="0" />
+				<float name="already_assigned_scale" value="-1" />
+				<float name="can_move_scale" value="0" />
+				<float name="movement_speed_scale" value="0" />
+				<float name="critical_target_scale" value="10" />
+				<float name="current_target_scale" value="10" />
+				<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+					<list name="unit_type_scores">
+						<group name="unit_type_score" List.ItemID="-1983070352">
+							<enum name="unit_type" value="cavalry" />
+							<float name="score" value="5" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-124370297">
+							<enum name="unit_type" value="monk" />
+							<float name="score" value="8" />
+						</group>
+						<group name="unit_type_score" List.ItemID="503047368">
+							<enum name="unit_type" value="mobile_building" />
+							<float name="score" value="4" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-1196746033">
+							<enum name="unit_type" value="building" />
+							<float name="score" value="-2" />
+						</group>
+					</list>
+				</template_reference>
+				<bool name="exclude_no_los" value="False" />
+				<float name="can_shoot_at_scale" value="5" />
+				<bool name="always_consider_non_combat_targets" value="False" />
+			</template_reference>
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1794346281">
+				<bool name="prefer_focus_target" value="True" />
+			</template_reference>
+		</list>
+		<list name="exclude_unit_types">
+			<enum name="unit_class" value="stone_wall" List.ItemID="-594901305" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="191918" />
+	<variant name="xp3">
+		<group name="ai_formation_target_priority">
+			<float name="target_check_interval_seconds" value="2" />
+			<list name="formation_priority_options">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="589404215">
+					<float name="time_to_kill_scale" value="-1" />
+					<float name="time_to_target_scale" value="0" />
+					<float name="already_assigned_scale" value="-1" />
+					<float name="can_move_scale" value="0" />
+					<float name="movement_speed_scale" value="0" />
+					<float name="critical_target_scale" value="10" />
+					<float name="current_target_scale" value="10" />
+					<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+						<list name="unit_type_scores">
+							<group name="unit_type_score" List.ItemID="-1983070352">
+								<enum name="unit_type" value="cavalry" />
+								<float name="score" value="5" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-124370297">
+								<enum name="unit_type" value="monk" />
+								<float name="score" value="8" />
+							</group>
+							<group name="unit_type_score" List.ItemID="503047368">
+								<enum name="unit_type" value="mobile_building" />
+								<float name="score" value="4" />
+							</group>
+							<group name="unit_type_score" List.ItemID="197070095">
+								<enum name="unit_type" value="building" />
+								<float name="score" value="-2" />
+							</group>
+						</list>
+					</template_reference>
+					<bool name="exclude_no_los" value="False" />
+					<float name="can_shoot_at_scale" value="5" />
+					<bool name="always_consider_non_combat_targets" value="False" />
+				</template_reference>
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1561597751">
+					<bool name="prefer_focus_target" value="True" />
+				</template_reference>
+			</list>
+			<list name="exclude_unit_types">
+				<enum name="unit_class" value="stone_wall" List.ItemID="-443093314" />
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="191918" />
+	</variant>
+</instance>

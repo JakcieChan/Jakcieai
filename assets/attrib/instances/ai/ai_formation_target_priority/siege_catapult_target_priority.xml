@@ -1,0 +1,151 @@
+<instance version="6" description="target selection for catapults in a siege" template="ai\ai_formation_target_priority">
+	<group name="ai_formation_target_priority">
+		<float name="target_check_interval_seconds" value="10" />
+		<list name="formation_priority_options">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="-640655056">
+				<bool name="prefer_focus_target" value="True" />
+			</template_reference>
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="689341220">
+				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_target_scale" value="-5" />
+				<float name="already_assigned_scale" value="10" />
+				<float name="can_move_scale" value="-100" />
+				<float name="movement_speed_scale" value="-1" />
+				<float name="critical_target_scale" value="0" />
+				<float name="current_target_scale" value="10" />
+				<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+					<list name="unit_type_scores">
+						<group name="unit_type_score" comment="Massive bonus score for buildings because we are scoring combat and non-combat targets at the same time.&#xD;&#xA;Because units have way lower health than buildings so the are quicker to kill, but we always want to prioritize buildings over units." List.ItemID="1438245875">
+							<enum name="unit_type" value="building" />
+							<float name="score" value="500" />
+						</group>
+						<group name="unit_type_score" comment="Keeps have a lot of health, so we need this big bonus to offset the negative score from time_to_kill. " List.ItemID="858941626">
+							<enum name="unit_type" value="castle" />
+							<float name="score" value="10000" />
+						</group>
+						<group name="unit_type_score" comment="This is here to prioritize landmarks that are also a keep. The generic priority of landmarks, wonders and other building types is controlled with the non_combat_target_into in the ai_formation_coordinator. " List.ItemID="-990675955">
+							<enum name="unit_type" value="landmark" />
+							<float name="score" value="10000" />
+						</group>
+						<group name="unit_type_score" List.ItemID="606971660">
+							<enum name="unit_type" value="stone_wall_tower" />
+							<float name="score" value="100" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-648169400">
+							<enum name="unit_type" value="outpost" />
+							<float name="score" value="100" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-298015820">
+							<enum name="unit_type" value="gate" />
+							<float name="score" value="50" />
+						</group>
+						<group name="unit_type_score" List.ItemID="555625854">
+							<enum name="unit_type" value="military_production_building" />
+							<float name="score" value="100" />
+						</group>
+						<group name="unit_type_score" List.ItemID="311376303">
+							<enum name="unit_type" value="town_center" />
+							<float name="score" value="100" />
+						</group>
+						<group name="unit_type_score" List.ItemID="1063701381">
+							<enum name="unit_type" value="farm" />
+							<float name="score" value="-500" />
+						</group>
+						<group name="unit_type_score" List.ItemID="1095322161">
+							<enum name="unit_type" value="pasture" />
+							<float name="score" value="-250" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-123874196">
+							<enum name="unit_type" value="siege" />
+							<float name="score" value="50" />
+						</group>
+						<group name="unit_type_score" List.ItemID="815812206">
+							<enum name="unit_type" value="house" />
+							<float name="score" value="-400" />
+						</group>
+					</list>
+				</template_reference>
+				<bool name="exclude_no_los" value="False" />
+				<float name="can_shoot_at_scale" value="50" comment="prefers target that the ranged siege attackers can already shoot at, to minimize teardown/setting up." />
+				<bool name="always_consider_non_combat_targets" value="True" />
+			</template_reference>
+		</list>
+		<list name="exclude_unit_types">
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="191385" />
+	<variant name="xp3">
+		<group name="ai_formation_target_priority">
+			<float name="target_check_interval_seconds" value="10" />
+			<list name="formation_priority_options">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-2022894263">
+					<float name="time_to_kill_scale" value="0" />
+					<float name="time_to_target_scale" value="-5" />
+					<float name="already_assigned_scale" value="10" />
+					<float name="can_move_scale" value="-100" />
+					<float name="movement_speed_scale" value="-1" />
+					<float name="critical_target_scale" value="0" />
+					<float name="current_target_scale" value="10" />
+					<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+						<list name="unit_type_scores">
+							<group name="unit_type_score" comment="Massive bonus score for buildings because we are scoring combat and non-combat targets at the same time.&#xD;&#xA;Because units have way lower health than buildings so the are quicker to kill, but we always want to prioritize buildings over units." List.ItemID="-796595333">
+								<enum name="unit_type" value="building" />
+								<float name="score" value="500" />
+							</group>
+							<group name="unit_type_score" comment="Keeps have a lot of health, so we need this big bonus to offset the negative score from time_to_kill. " List.ItemID="1685620603">
+								<enum name="unit_type" value="castle" />
+								<float name="score" value="10000" />
+							</group>
+							<group name="unit_type_score" comment="This is here to prioritize landmarks that are also a keep. The generic priority of landmarks, wonders and other building types is controlled with the non_combat_target_into in the ai_formation_coordinator. " List.ItemID="-1823103050">
+								<enum name="unit_type" value="landmark" />
+								<float name="score" value="10000" />
+							</group>
+							<group name="unit_type_score" List.ItemID="751714767">
+								<enum name="unit_type" value="stone_wall_tower" />
+								<float name="score" value="100" />
+							</group>
+							<group name="unit_type_score" List.ItemID="615051548">
+								<enum name="unit_type" value="outpost" />
+								<float name="score" value="100" />
+							</group>
+							<group name="unit_type_score" List.ItemID="364139450">
+								<enum name="unit_type" value="gate" />
+								<float name="score" value="50" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-1728196272">
+								<enum name="unit_type" value="military_production_building" />
+								<float name="score" value="100" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-2100397703">
+								<enum name="unit_type" value="town_center" />
+								<float name="score" value="100" />
+							</group>
+							<group name="unit_type_score" List.ItemID="439238247">
+								<enum name="unit_type" value="farm" />
+								<float name="score" value="-500" />
+							</group>
+							<group name="unit_type_score" List.ItemID="1767960594">
+								<enum name="unit_type" value="pasture" />
+								<float name="score" value="-250" />
+							</group>
+							<group name="unit_type_score" List.ItemID="1062823965">
+								<enum name="unit_type" value="siege" />
+								<float name="score" value="50" />
+							</group>
+							<group name="unit_type_score" List.ItemID="67693484">
+								<enum name="unit_type" value="house" />
+								<float name="score" value="-400" />
+							</group>
+						</list>
+					</template_reference>
+					<bool name="exclude_no_los" value="False" />
+					<float name="can_shoot_at_scale" value="50" comment="prefers target that the ranged siege attackers can already shoot at, to minimize teardown/setting up." />
+					<bool name="always_consider_non_combat_targets" value="True" />
+				</template_reference>
+			</list>
+			<list name="exclude_unit_types">
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="191385" />
+	</variant>
+</instance>

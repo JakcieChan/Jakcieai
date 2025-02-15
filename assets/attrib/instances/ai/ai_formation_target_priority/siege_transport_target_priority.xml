@@ -1,0 +1,32 @@
+<instance version="6" description="for things that can transport other units into siege combat, like siege tower, ram" template="ai\ai_formation_target_priority">
+	<group name="ai_formation_target_priority">
+		<float name="target_check_interval_seconds" value="0" />
+		<list name="formation_priority_options">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="-1343892964">
+				<float name="consider_enemies_on_wall_within_distance" value="30" />
+				<template_reference name="unit_type_scores" value="">
+				</template_reference>
+				<bool name="require_walkable_target" value="False" />
+			</template_reference>
+		</list>
+		<list name="exclude_unit_types">
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="191391" />
+	<variant name="xp3">
+		<group name="ai_formation_target_priority">
+			<float name="target_check_interval_seconds" value="0" />
+			<list name="formation_priority_options">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="-1913710263">
+					<float name="consider_enemies_on_wall_within_distance" value="30" />
+					<template_reference name="unit_type_scores" value="">
+					</template_reference>
+					<bool name="require_walkable_target" value="False" />
+				</template_reference>
+			</list>
+			<list name="exclude_unit_types">
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="191391" />
+	</variant>
+</instance>

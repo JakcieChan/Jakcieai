@@ -1,0 +1,48 @@
+<instance version="6" description="" template="ai\ai_entity">
+	<uniqueid name="pbgid" value="1073741829" />
+	<group name="ai_entity_bag">
+		<list name="applicable_blueprints">
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese\buildings\building_landmark_age1_gatehouse_chi\building_landmark_age1_gatehouse_control_chi" List.ItemID="-1818970070" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_landmark_age1_landmarkb_mal" List.ItemID="1698405066" />
+		</list>
+		<group name="construction">
+			<string name="placement_function" value="" />
+			<bool name="can_build_multiple_in_parallel" value="False" />
+			<int name="max_num_additional_builders" value="6" />
+			<int name="max_num_incomplete_structures_builders" value="-1" />
+			<list name="near_to_structures">
+				<instance_reference name="structure" value="ebps\races\rus\buildings\building_econ_mining_camp_rus\building_econ_mining_camp_control_rus" List.ItemID="1998584125" />
+				<instance_reference name="structure" value="ebps\races\chinese\buildings\building_econ_mining_camp_chi\building_econ_mining_camp_control_chi" List.ItemID="-846900436" />
+				<instance_reference name="structure" value="ebps\races\malian\buildings\building_econ_mining_camp_mal" List.ItemID="-939374740" />
+				<instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_mal" List.ItemID="-449020445" />
+				<instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_small_mal" List.ItemID="-1274003717" />
+			</list>
+			<list name="requires_structures">
+			</list>
+		</group>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="1073741829" />
+		<group name="ai_entity_bag">
+			<list name="applicable_blueprints">
+				<instance_reference name="applicable_blueprint" value="ebps\races\chinese\buildings\building_landmark_age1_gatehouse_chi\building_landmark_age1_gatehouse_control_chi" List.ItemID="-768691157" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_landmark_age1_landmarkb_mal" List.ItemID="2104973045" />
+			</list>
+			<group name="construction">
+				<string name="placement_function" value="" />
+				<bool name="can_build_multiple_in_parallel" value="False" />
+				<int name="max_num_additional_builders" value="6" />
+				<int name="max_num_incomplete_structures_builders" value="-1" />
+				<list name="near_to_structures">
+					<instance_reference name="structure" value="ebps\races\rus\buildings\building_econ_mining_camp_rus\building_econ_mining_camp_control_rus" List.ItemID="-1907242370" />
+					<instance_reference name="structure" value="ebps\races\chinese\buildings\building_econ_mining_camp_chi\building_econ_mining_camp_control_chi" List.ItemID="-1131840101" />
+					<instance_reference name="structure" value="ebps\races\malian\buildings\building_econ_mining_camp_mal" List.ItemID="112171948" />
+					<instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_mal" List.ItemID="586158606" />
+					<instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_small_mal" List.ItemID="-1662099522" />
+				</list>
+				<list name="requires_structures">
+				</list>
+			</group>
+		</group>
+	</variant>
+</instance>

@@ -1,0 +1,54 @@
+<instance version="6" description="" template="ai\ai_formation_coordinator">
+	<group name="ai_formation_coordinator">
+		<template_reference name="siege_option" value="options\ai\encounters\formation_siege_coordinator_option">
+			<bool name="initialize_at_encounter_target" value="False" overrideParent="True" />
+		</template_reference>
+		<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+		<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+		<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+		<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+		<list name="non_combat_target_info">
+			<group name="info" List.ItemID="-501217517" List.ParentItemID="-501217517">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+			</group>
+			<group name="info" List.ItemID="1870002138" List.ParentItemID="1870002138">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				<int name="priority" value="0" overrideParent="True" />
+			</group>
+			<group name="info" List.ItemID="-286586598" List.ParentItemID="-286586598">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+			</group>
+		</list>
+		<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="197349" />
+	<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	<variant name="xp3">
+		<group name="ai_formation_coordinator">
+			<template_reference name="siege_option" value="options\ai\encounters\formation_siege_coordinator_option">
+				<bool name="initialize_at_encounter_target" value="False" overrideParent="True" />
+			</template_reference>
+			<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+			<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+			<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+			<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+			<list name="non_combat_target_info">
+				<group name="info" List.ItemID="1421034483" List.ParentItemID="1421034483">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				</group>
+				<group name="info" List.ItemID="-202676656" List.ParentItemID="-202676656">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+					<int name="priority" value="0" overrideParent="True" />
+				</group>
+				<group name="info" List.ItemID="-151969591" List.ParentItemID="-151969591">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				</group>
+			</list>
+			<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+		</group>
+		<uniqueid name="pbgid" value="197349" />
+		<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	</variant>
+</instance>

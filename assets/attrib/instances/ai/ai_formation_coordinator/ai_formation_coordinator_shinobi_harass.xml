@@ -1,0 +1,31 @@
+<instance version="4" description="" template="ai\ai_formation_coordinator">
+	<group name="ai_formation_coordinator">
+		<list name="non_combat_target_info">
+		</list>
+		<float name="ranged_unit_danger_distance" value="0" />
+		<template_reference name="siege_option" value="">
+		</template_reference>
+		<float name="ranged_unit_critical_value" value="0" />
+		<float name="setup_unit_critical_value" value="0" />
+		<bool name="ignore_walls_if_no_other_targets" value="True" />
+		<float name="direct_path_to_target_tolerance" value="3.3" />
+		<float name="direct_path_to_target_tolerance_on_wall" value="1.7" />
+		<float name="path_distance_to_target_threshold" value="2" />
+		<template_reference name="defensive_wall_option" value="">
+		</template_reference>
+		<list name="combat_target_exclude_unit_types">
+			<enum name="unit_class" value="military" List.ItemID="745446283" />
+			<enum name="unit_class" value="building" List.ItemID="-138524207" />
+			<enum name="unit_class" value="gaia" List.ItemID="1680916183" />
+		</list>
+		<bool name="ignore_non_pathable_targets" value="True" />
+		<bool name="ignore_behind_wall_targets" value="True" />
+		<bool name="ignore_on_wall_targets" value="True" />
+		<list name="path_blocker_targeting_info">
+		</list>
+		<bool name="include_world_neutral_enemies" value="False" />
+		<float name="non_pathable_target_max_age" value="5" />
+	</group>
+	<uniqueid name="pbgid" value="2158003" />
+	<instance_reference name="parent_pbg" value="" />
+</instance>

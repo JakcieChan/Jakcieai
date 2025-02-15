@@ -1,0 +1,124 @@
+<instance version="6" description="Core PBG that all specific difficulty PBG's inherit from.  Defines all the tunings that should be present in all child PBG's." template="ai\ai_statemodel_tunings">
+	<group name="ai_statemodel_tunings_bag">
+		<list name="bool_tunings">
+		</list>
+		<list name="float_tunings">
+			<group name="value_tuning" List.ItemID="-147523555">
+				<enum name="key" value="ai_difficulty_archer_reposition_time_interval" />
+				<float name="value" value="4" />
+			</group>
+			<group name="value_tuning" List.ItemID="1479877785">
+				<enum name="key" value="ai_difficulty_encounter_fallback_combat_rating" />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1336523269">
+				<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_threshold" />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1232280868">
+				<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_percent" />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1077278942">
+				<enum name="key" value="ai_difficulty_encounter_fallback_squads_remaining_percent" />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="-924152782">
+				<enum name="key" value="ai_difficulty_encounter_fallback_combat_rating_harass" />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="196835303">
+				<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_percent_harass" />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="1586781026">
+				<enum name="key" value="ai_difficulty_encounter_fallback_squads_remaining_percent_harass" />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="1854133045">
+				<enum name="key" value="ai_difficulty_encounter_cavalry_random_use_threat_path_chance" />
+				<float name="value" value="1" />
+			</group>
+		</list>
+		<list name="int_tunings">
+		</list>
+		<group name="special_enum_tunings">
+			<list name="unit_class_list">
+			</list>
+			<list name="ai_military_engagement_type">
+			</list>
+		</group>
+		<group name="special_pbg_tunings">
+			<list name="ai_phase_encounter_coordinator_bag">
+			</list>
+			<list name="ai_phase_encounter_coordinator_bag_enroute">
+			</list>
+			<list name="ai_phase_encounter_path_bag">
+			</list>
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="205870" />
+	<instance_reference name="parent_pbg" value="" />
+	<variant name="xp3">
+		<group name="ai_statemodel_tunings_bag">
+			<list name="bool_tunings">
+			</list>
+			<list name="float_tunings">
+				<group name="value_tuning" List.ItemID="-2135353521">
+					<enum name="key" value="ai_difficulty_archer_reposition_time_interval" />
+					<float name="value" value="4" />
+				</group>
+				<group name="value_tuning" List.ItemID="935922097">
+					<enum name="key" value="ai_difficulty_encounter_fallback_combat_rating" />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1605829663">
+					<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_threshold" />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="1215438143">
+					<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_percent" />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="66100686">
+					<enum name="key" value="ai_difficulty_encounter_fallback_squads_remaining_percent" />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="1433965036">
+					<enum name="key" value="ai_difficulty_encounter_fallback_combat_rating_harass" />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="1797414028">
+					<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_percent_harass" />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1157868097">
+					<enum name="key" value="ai_difficulty_encounter_fallback_squads_remaining_percent_harass" />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="918998506">
+					<enum name="key" value="ai_difficulty_encounter_cavalry_random_use_threat_path_chance" />
+					<float name="value" value="1" />
+				</group>
+			</list>
+			<list name="int_tunings">
+			</list>
+			<group name="special_enum_tunings">
+				<list name="unit_class_list">
+				</list>
+				<list name="ai_military_engagement_type">
+				</list>
+			</group>
+			<group name="special_pbg_tunings">
+				<list name="ai_phase_encounter_coordinator_bag">
+				</list>
+				<list name="ai_phase_encounter_coordinator_bag_enroute">
+				</list>
+				<list name="ai_phase_encounter_path_bag">
+				</list>
+			</group>
+		</group>
+		<uniqueid name="pbgid" value="205870" />
+		<instance_reference name="parent_pbg" value="" />
+	</variant>
+</instance>

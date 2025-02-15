@@ -1,0 +1,96 @@
+<instance version="6" description="enroute coordinator for harassing enemy squads only (e.g. villagers) " template="ai\ai_formation_coordinator">
+	<group name="ai_formation_coordinator">
+		<list name="non_combat_target_info">
+			<group name="info" List.ItemID="642469532" List.ParentItemID="642469532">
+				<int name="max_units" value="0" overrideParent="True" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="gate" List.ItemID="-622928218" />
+				</list>
+			</group>
+			<group name="info" List.ItemID="-501217517" List.ParentItemID="-501217517">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+			</group>
+			<group name="info" List.ItemID="1870002138" List.ParentItemID="1870002138">
+				<int name="max_units" value="0" overrideParent="True" />
+				<int name="priority" value="2" overrideParent="True" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="resource_drop_off" overrideParent="True" List.ItemID="-1972838773" />
+				</list>
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+			</group>
+			<group name="info" List.ItemID="-286586598" List.ParentItemID="-286586598">
+				<int name="max_units" value="0" overrideParent="True" />
+				<int name="priority" value="3" overrideParent="True" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="trade_post" overrideParent="True" List.ItemID="1768626709" />
+					<enum name="unit_class" value="military_only_production" List.ItemID="-1572662344" />
+					<enum name="unit_class" value="military_production_building" List.ItemID="865074014" />
+					<enum name="unit_class" value="research_building" List.ItemID="57812276" />
+				</list>
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+			</group>
+		</list>
+		<template_reference name="siege_option" value="" overrideParent="True">
+		</template_reference>
+		<list name="combat_target_exclude_unit_types" overrideParent="True">
+			<enum name="unit_class" value="building" overrideParent="True" List.ItemID="828409273" />
+			<enum name="unit_class" value="castle" List.ItemID="1408078134" />
+			<enum name="unit_class" value="landmark" List.ItemID="2058487872" />
+		</list>
+		<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+		<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+		<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+		<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="2055361" />
+	<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_harass" mod="4162919852314ab4a1184f5a93aee14d" />
+	<variant name="xp3">
+		<group name="ai_formation_coordinator">
+			<list name="non_combat_target_info">
+				<group name="info" List.ItemID="1847405950" List.ParentItemID="1847405950">
+					<int name="max_units" value="0" overrideParent="True" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="gate" List.ItemID="-976519389" />
+					</list>
+				</group>
+				<group name="info" List.ItemID="1421034483" List.ParentItemID="1421034483">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				</group>
+				<group name="info" List.ItemID="-202676656" List.ParentItemID="-202676656">
+					<int name="max_units" value="0" overrideParent="True" />
+					<int name="priority" value="2" overrideParent="True" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="resource_drop_off" overrideParent="True" List.ItemID="-521771260" />
+					</list>
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				</group>
+				<group name="info" List.ItemID="-151969591" List.ParentItemID="-151969591">
+					<int name="max_units" value="0" overrideParent="True" />
+					<int name="priority" value="3" overrideParent="True" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="trade_post" overrideParent="True" List.ItemID="1446779396" />
+						<enum name="unit_class" value="military_only_production" List.ItemID="1588391842" />
+						<enum name="unit_class" value="military_production_building" List.ItemID="1270577913" />
+						<enum name="unit_class" value="research_building" List.ItemID="-1643849296" />
+					</list>
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				</group>
+			</list>
+			<template_reference name="siege_option" value="" overrideParent="True">
+			</template_reference>
+			<list name="combat_target_exclude_unit_types" overrideParent="True">
+				<enum name="unit_class" value="building" overrideParent="True" List.ItemID="1176513822" />
+				<enum name="unit_class" value="castle" List.ItemID="1074595010" />
+				<enum name="unit_class" value="landmark" List.ItemID="-1701098581" />
+			</list>
+			<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+			<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+			<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+			<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+		</group>
+		<uniqueid name="pbgid" value="2055361" />
+		<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_harass" mod="4162919852314ab4a1184f5a93aee14d" />
+	</variant>
+</instance>

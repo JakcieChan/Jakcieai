@@ -1,0 +1,114 @@
+<instance version="6" description="" template="ai\ai_strategizer_personality">
+	<group name="ai_strategizer_personality_bag">
+		<list name="base_intention_tunings">
+			<group name="intention_tuning" List.ItemID="-547453421">
+				<enum name="intention_type" value="offense" />
+				<float name="intention_max" value="0.5" />
+				<float name="intention_min" value="0" />
+			</group>
+			<group name="intention_tuning" List.ItemID="-1406632925">
+				<enum name="intention_type" value="economy" />
+				<float name="intention_max" value="0.5" />
+				<float name="intention_min" value="0" />
+			</group>
+			<group name="intention_tuning" List.ItemID="-1166391319">
+				<enum name="intention_type" value="age_up" />
+				<float name="intention_max" value="0.99" />
+				<float name="intention_min" value="0.755" />
+			</group>
+			<group name="intention_tuning" List.ItemID="388422601">
+				<enum name="intention_type" value="religion" />
+				<float name="intention_max" value="0.95" />
+				<float name="intention_min" value="0.6" />
+			</group>
+			<group name="intention_tuning" List.ItemID="-2125709318">
+				<enum name="intention_type" value="wall" />
+				<float name="intention_max" value="1" />
+				<float name="intention_min" value="0" />
+			</group>
+			<group name="intention_tuning" List.ItemID="696422544">
+				<enum name="intention_type" value="combat" />
+				<float name="intention_max" value="0.5" />
+				<float name="intention_min" value="0" />
+			</group>
+			<group name="intention_tuning" List.ItemID="-1317692224">
+				<enum name="intention_type" value="upgrade" />
+				<float name="intention_max" value="-0.85" />
+				<float name="intention_min" value="-1" />
+			</group>
+			<group name="intention_tuning" List.ItemID="-585168814">
+				<enum name="intention_type" value="siege" />
+				<float name="intention_max" value="0.95" />
+				<float name="intention_min" value="0.65" />
+			</group>
+			<group name="intention_tuning" List.ItemID="-2025773086">
+				<enum name="intention_type" value="defense" />
+				<float name="intention_max" value="0.2" />
+				<float name="intention_min" value="-0.1" />
+			</group>
+			<group name="intention_tuning" List.ItemID="-1150263103">
+				<enum name="intention_type" value="combat_naval" />
+				<float name="intention_max" value="1" />
+				<float name="intention_min" value="0.99" />
+			</group>
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="1073741824" />
+	<variant name="xp3">
+		<group name="ai_strategizer_personality_bag">
+			<list name="base_intention_tunings">
+				<group name="intention_tuning" List.ItemID="528429129">
+					<enum name="intention_type" value="offense" />
+					<float name="intention_max" value="0.5" />
+					<float name="intention_min" value="0" />
+				</group>
+				<group name="intention_tuning" List.ItemID="-1038792321">
+					<enum name="intention_type" value="economy" />
+					<float name="intention_max" value="0.5" />
+					<float name="intention_min" value="0" />
+				</group>
+				<group name="intention_tuning" List.ItemID="960241718">
+					<enum name="intention_type" value="age_up" />
+					<float name="intention_max" value="0.99" />
+					<float name="intention_min" value="0.755" />
+				</group>
+				<group name="intention_tuning" List.ItemID="-1715724581">
+					<enum name="intention_type" value="religion" />
+					<float name="intention_max" value="0.95" />
+					<float name="intention_min" value="0.6" />
+				</group>
+				<group name="intention_tuning" List.ItemID="-334662088">
+					<enum name="intention_type" value="wall" />
+					<float name="intention_max" value="1" />
+					<float name="intention_min" value="0" />
+				</group>
+				<group name="intention_tuning" List.ItemID="-1537704754">
+					<enum name="intention_type" value="combat" />
+					<float name="intention_max" value="0.5" />
+					<float name="intention_min" value="0" />
+				</group>
+				<group name="intention_tuning" List.ItemID="-515202774">
+					<enum name="intention_type" value="upgrade" />
+					<float name="intention_max" value="-0.85" />
+					<float name="intention_min" value="-1" />
+				</group>
+				<group name="intention_tuning" List.ItemID="101556623">
+					<enum name="intention_type" value="siege" />
+					<float name="intention_max" value="0.95" />
+					<float name="intention_min" value="0.65" />
+				</group>
+				<group name="intention_tuning" List.ItemID="1883646818">
+					<enum name="intention_type" value="defense" />
+					<float name="intention_max" value="0.2" />
+					<float name="intention_min" value="-0.1" />
+				</group>
+				<group name="intention_tuning" List.ItemID="418138021">
+					<enum name="intention_type" value="combat_naval" />
+					<float name="intention_max" value="1" />
+					<float name="intention_min" value="0.99" />
+				</group>
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="1073741824" />
+	</variant>
+</instance>

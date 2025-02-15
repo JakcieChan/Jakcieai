@@ -1,0 +1,50 @@
+<instance version="6" description="" template="ai\ai_entity">
+	<uniqueid name="pbgid" value="1073741860" />
+	<group name="ai_entity_bag">
+		<list name="applicable_blueprints">
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\buildings\building_landmark_age1_academy_chi_ha_01\building_landmark_age1_meditation_gardens_control_chi_ha_01" List.ItemID="2024454497" />
+		</list>
+		<group name="construction">
+			<string name="placement_function" value="" />
+			<bool name="can_build_multiple_in_parallel" value="False" />
+			<int name="max_num_additional_builders" value="4" />
+			<int name="max_num_incomplete_structures_builders" value="-1" />
+			<list name="near_to_structures">
+				<instance_reference name="structure" value="ebps\races\chinese_ha_01\buildings\building_econ_wood_chi_ha_01\building_econ_wood_control_chi_ha_01" List.ItemID="-139096268" />
+				<instance_reference name="structure" value="ebps\races\chinese_ha_01\buildings\building_econ_mining_camp_chi_ha_01\building_econ_mining_camp_control_chi_ha_01" List.ItemID="-182361670" />
+				<instance_reference name="structure" value="ebps\races\chinese_ha_01\buildings\building_econ_food_chi_ha_01\building_econ_food_control_chi_ha_01" List.ItemID="1382448075" />
+				<instance_reference name="structure" value="ebps\gameplay\resources\gold\resource_gold_deposit" List.ItemID="-1462530026" />
+				<instance_reference name="structure" value="ebps\gameplay\resources\wood\trees\core_tree" List.ItemID="-530092986" />
+				<instance_reference name="structure" value="ebps\gameplay\resources\stone\resource_stone_deposit" List.ItemID="-55952271" />
+				<instance_reference name="structure" value="ebps\gameplay\resources\food\resource_food_forage_berry_bush" List.ItemID="-239019407" />
+			</list>
+			<list name="requires_structures">
+			</list>
+		</group>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="1073741860" />
+		<group name="ai_entity_bag">
+			<list name="applicable_blueprints">
+				<instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\buildings\building_landmark_age1_academy_chi_ha_01\building_landmark_age1_meditation_gardens_control_chi_ha_01" List.ItemID="1765396385" />
+			</list>
+			<group name="construction">
+				<string name="placement_function" value="" />
+				<bool name="can_build_multiple_in_parallel" value="False" />
+				<int name="max_num_additional_builders" value="4" />
+				<int name="max_num_incomplete_structures_builders" value="-1" />
+				<list name="near_to_structures">
+					<instance_reference name="structure" value="ebps\races\chinese_ha_01\buildings\building_econ_wood_chi_ha_01\building_econ_wood_control_chi_ha_01" List.ItemID="758936640" />
+					<instance_reference name="structure" value="ebps\races\chinese_ha_01\buildings\building_econ_mining_camp_chi_ha_01\building_econ_mining_camp_control_chi_ha_01" List.ItemID="-317595819" />
+					<instance_reference name="structure" value="ebps\races\chinese_ha_01\buildings\building_econ_food_chi_ha_01\building_econ_food_control_chi_ha_01" List.ItemID="-1816459930" />
+					<instance_reference name="structure" value="ebps\gameplay\resources\gold\resource_gold_deposit" List.ItemID="-1125827331" />
+					<instance_reference name="structure" value="ebps\gameplay\resources\wood\trees\core_tree" List.ItemID="-298063733" />
+					<instance_reference name="structure" value="ebps\gameplay\resources\stone\resource_stone_deposit" List.ItemID="777077795" />
+					<instance_reference name="structure" value="ebps\gameplay\resources\food\resource_food_forage_berry_bush" List.ItemID="-467209413" />
+				</list>
+				<list name="requires_structures">
+				</list>
+			</group>
+		</group>
+	</variant>
+</instance>

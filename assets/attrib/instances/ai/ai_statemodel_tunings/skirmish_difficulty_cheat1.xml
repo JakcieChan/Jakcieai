@@ -1,0 +1,40 @@
+<instance version="6" description="State model tunings for AI difficulty level &quot;Cheat1&quot;." template="ai\ai_statemodel_tunings">
+	<uniqueid name="pbgid" value="2134259" />
+	<instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" mod="4162919852314ab4a1184f5a93aee14d" />
+	<group name="ai_statemodel_tunings_bag">
+		<list name="float_tunings">
+			<group name="value_tuning" List.ItemID="-147523555" List.ParentItemID="-147523555">
+				<float name="value" value="2" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="5635391" List.ParentItemID="5635391">
+				<float name="value" value="0.425" overrideParent="True" />
+			</group>
+		</list>
+		<list name="bool_tunings">
+			<group name="value_tuning" List.ItemID="1397892922" List.ParentItemID="1397892922">
+				<enum name="key" value="ai_phase_encounter_allow_attack_move" overrideParent="True" />
+				<bool name="value" value="True" overrideParent="True" />
+			</group>
+		</list>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="2134259" />
+		<instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" mod="4162919852314ab4a1184f5a93aee14d" />
+		<group name="ai_statemodel_tunings_bag">
+			<list name="float_tunings">
+				<group name="value_tuning" List.ItemID="-256659863" List.ParentItemID="-256659863">
+					<float name="value" value="2" overrideParent="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1002905844" List.ParentItemID="-1002905844">
+					<float name="value" value="0.5" overrideParent="True" />
+				</group>
+			</list>
+			<list name="bool_tunings">
+				<group name="value_tuning" List.ItemID="-160906495" List.ParentItemID="-160906495">
+					<enum name="key" value="ai_phase_encounter_allow_attack_move" overrideParent="True" />
+					<bool name="value" value="True" overrideParent="True" />
+				</group>
+			</list>
+		</group>
+	</variant>
+</instance>

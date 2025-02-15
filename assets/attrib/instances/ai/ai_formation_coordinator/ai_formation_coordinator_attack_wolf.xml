@@ -1,0 +1,52 @@
+<instance version="6" description="" template="ai\ai_formation_coordinator">
+	<group name="ai_formation_coordinator">
+		<list name="non_combat_target_info">
+			<group name="info" List.ItemID="301037135" List.ParentItemID="301037135">
+				<list name="unit_types" removedIds="2037356794">
+					<enum name="unit_class" value="wolf" List.ItemID="2028832188" List.ListAction="Append" />
+				</list>
+			</group>
+		</list>
+		<list name="combat_target_exclude_unit_types" overrideParent="True">
+			<enum name="unit_class" value="wall" List.ItemID="1731785007" />
+			<enum name="unit_class" value="building" List.ItemID="-281964344" />
+			<enum name="unit_class" value="animal_huntable" List.ItemID="541268190" />
+			<enum name="unit_class" value="animal_herdable" List.ItemID="1933472124" />
+		</list>
+		<bool name="include_world_neutral_enemies" value="True" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+		<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+		<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+		<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+		<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="2075998" />
+	<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_attack_boar" mod="4162919852314ab4a1184f5a93aee14d" />
+	<variant name="xp3">
+		<group name="ai_formation_coordinator">
+			<list name="non_combat_target_info">
+				<group name="info" List.ItemID="1165134048" List.ParentItemID="1165134048">
+					<list name="unit_types" removedIds="662175223">
+						<enum name="unit_class" value="wolf" List.ItemID="966414245" List.ListAction="Append" />
+					</list>
+				</group>
+			</list>
+			<list name="combat_target_exclude_unit_types" overrideParent="True">
+				<enum name="unit_class" value="wall" List.ItemID="360500260" />
+				<enum name="unit_class" value="building" List.ItemID="-232788830" />
+				<enum name="unit_class" value="animal_huntable" List.ItemID="558146008" />
+				<enum name="unit_class" value="animal_herdable" List.ItemID="-1916768263" />
+			</list>
+			<bool name="include_world_neutral_enemies" value="True" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+			<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+			<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+			<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+			<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+		</group>
+		<uniqueid name="pbgid" value="2075998" />
+		<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_attack_boar" mod="4162919852314ab4a1184f5a93aee14d" />
+	</variant>
+</instance>

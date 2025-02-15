@@ -1,0 +1,48 @@
+<instance version="6" description="" template="ai\ai_entity">
+	<uniqueid name="pbgid" value="1073741849" />
+	<group name="ai_entity_bag">
+		<list name="applicable_blueprints">
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_cistern_byz" List.ItemID="322647247" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age2_cistern_byz" List.ItemID="1618796942" />
+		</list>
+		<group name="construction">
+			<string name="placement_function" value="" />
+			<bool name="can_build_multiple_in_parallel" value="True" />
+			<int name="max_num_additional_builders" value="10" />
+			<int name="max_num_incomplete_structures_builders" value="-1" />
+			<list name="near_to_structures">
+				<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_town_center_byz" List.ItemID="-764263746" />
+				<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_town_center_capital_byz" List.ItemID="-1348701686" />
+				<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_econ_food_control_byz" List.ItemID="-1502381352" />
+				<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_econ_mining_camp_control_byz" List.ItemID="-1149611301" />
+				<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_econ_wood_control_byz" List.ItemID="2069172256" />
+			</list>
+			<list name="requires_structures">
+			</list>
+		</group>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="1073741849" />
+		<group name="ai_entity_bag">
+			<list name="applicable_blueprints">
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_cistern_byz" List.ItemID="1734663325" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age2_cistern_byz" List.ItemID="639142310" />
+			</list>
+			<group name="construction">
+				<string name="placement_function" value="" />
+				<bool name="can_build_multiple_in_parallel" value="True" />
+				<int name="max_num_additional_builders" value="10" />
+				<int name="max_num_incomplete_structures_builders" value="-1" />
+				<list name="near_to_structures">
+					<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_town_center_byz" List.ItemID="1017159405" />
+					<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_town_center_capital_byz" List.ItemID="-1287518027" />
+					<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_econ_food_control_byz" List.ItemID="-2140984045" />
+					<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_econ_mining_camp_control_byz" List.ItemID="1593213357" />
+					<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_econ_wood_control_byz" List.ItemID="245083418" />
+				</list>
+				<list name="requires_structures">
+				</list>
+			</group>
+		</group>
+	</variant>
+</instance>

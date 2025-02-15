@@ -1,0 +1,70 @@
+<instance version="6" description="" template="ai\ai_formation_target_priority">
+	<group name="ai_formation_target_priority">
+		<float name="target_check_interval_seconds" value="3" />
+		<list name="formation_priority_options">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-571299651">
+				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_target_scale" value="-5" />
+				<float name="already_assigned_scale" value="-1" />
+				<float name="can_move_scale" value="1" />
+				<float name="movement_speed_scale" value="0" />
+				<float name="critical_target_scale" value="0" />
+				<float name="current_target_scale" value="10" />
+				<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+					<list name="unit_type_scores">
+						<group name="unit_type_score" List.ItemID="-1450782518">
+							<enum name="unit_type" value="trade_cart" />
+							<float name="score" value="50" />
+						</group>
+						<group name="unit_type_score" List.ItemID="1364944277">
+							<enum name="unit_type" value="villager" />
+							<float name="score" value="50" />
+						</group>
+					</list>
+				</template_reference>
+				<bool name="exclude_no_los" value="False" />
+				<float name="can_shoot_at_scale" value="5" />
+				<bool name="always_consider_non_combat_targets" value="False" />
+			</template_reference>
+		</list>
+		<list name="exclude_unit_types">
+			<enum name="unit_class" value="scout" List.ItemID="989494112" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="2145595" />
+	<variant name="xp3">
+		<group name="ai_formation_target_priority">
+			<float name="target_check_interval_seconds" value="3" />
+			<list name="formation_priority_options">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-571299651">
+					<float name="time_to_kill_scale" value="-1" />
+					<float name="time_to_target_scale" value="-5" />
+					<float name="already_assigned_scale" value="-1" />
+					<float name="can_move_scale" value="1" />
+					<float name="movement_speed_scale" value="0" />
+					<float name="critical_target_scale" value="0" />
+					<float name="current_target_scale" value="10" />
+					<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+						<list name="unit_type_scores">
+							<group name="unit_type_score" List.ItemID="-1450782518">
+								<enum name="unit_type" value="trade_cart" />
+								<float name="score" value="50" />
+							</group>
+							<group name="unit_type_score" List.ItemID="1364944277">
+								<enum name="unit_type" value="villager" />
+								<float name="score" value="50" />
+							</group>
+						</list>
+					</template_reference>
+					<bool name="exclude_no_los" value="False" />
+					<float name="can_shoot_at_scale" value="5" />
+					<bool name="always_consider_non_combat_targets" value="False" />
+				</template_reference>
+			</list>
+			<list name="exclude_unit_types">
+				<enum name="unit_class" value="scout" List.ItemID="989494112" />
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="2145595" />
+	</variant>
+</instance>

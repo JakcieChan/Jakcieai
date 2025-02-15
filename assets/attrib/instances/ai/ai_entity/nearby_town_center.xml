@@ -1,0 +1,104 @@
+<instance version="6" description="" template="ai\ai_entity">
+	<uniqueid name="pbgid" value="1073741823" />
+	<group name="ai_entity_bag">
+		<list name="applicable_blueprints">
+			<instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_town_center_sul\building_town_center_sul" List.ItemID="-1965760023" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\rus\buildings\building_town_center_rus\building_town_center_rus" List.ItemID="-63858472" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_town_center_mon" List.ItemID="1246776041" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_town_center_hre\building_town_center_hre" List.ItemID="31287238" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_town_center_fre\building_town_center_fre" List.ItemID="-1282413525" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_eng" List.ItemID="-1348036260" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid\buildings\building_town_center_abb" List.ItemID="1704851400" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_chi" List.ItemID="1210382584" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_town_center_mal" List.ItemID="911582903" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_town_center_ott" List.ItemID="853387695" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_town_center_byz" List.ItemID="-61747165" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_town_center_jpn" List.ItemID="-839675085" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid_ha_01\buildings\building_town_center_abb_ha_01" List.ItemID="1382154073" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\buildings\building_town_center_chi_ha_01\building_town_center_chi_ha_01" List.ItemID="-411364433" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_hre_ha_01" List.ItemID="-1948298602" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_town_center_fre_ha_01\building_town_center_fre_ha_01" List.ItemID="977421572" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\english\buildings\building_landmark_age2_westminster_palace_eng\building_landmark_age2_westminster_palace_eng" List.ItemID="1684523107" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_landmark_age3_hohenzollern_castle_hre\building_landmark_age3_hohenzollern_castle_hre" List.ItemID="-1785831590" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\buildings\building_landmark_age3_hohenzollern_castle_hre_ha_01\building_landmark_age3_hohenzollern_castle_hre_ha_01" List.ItemID="238074037" />
+		</list>
+		<group name="construction">
+			<string name="placement_function" value="" />
+			<bool name="can_build_multiple_in_parallel" value="False" />
+			<int name="max_num_additional_builders" value="10" />
+			<int name="max_num_incomplete_structures_builders" value="-1" />
+			<list name="near_to_structures">
+				<instance_reference name="structure" value="ebps\races\abbasid\buildings\building_town_center_capital_abb" List.ItemID="1881192830" />
+				<instance_reference name="structure" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_capital_chi" List.ItemID="373837650" />
+				<instance_reference name="structure" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_capital_eng" List.ItemID="-803466658" />
+				<instance_reference name="structure" value="ebps\races\french\buildings\building_town_center_fre\building_town_center_capital_fre" List.ItemID="-1365889257" />
+				<instance_reference name="structure" value="ebps\races\hre\buildings\building_town_center_hre\building_town_center_capital_hre" List.ItemID="1281598657" />
+				<instance_reference name="structure" value="ebps\races\malian\buildings\building_town_center_capital_mal" List.ItemID="933650851" />
+				<instance_reference name="structure" value="ebps\races\mongol\buildings\building_town_center_capital_mon" List.ItemID="1908892699" />
+				<instance_reference name="structure" value="ebps\races\ottoman\buildings\building_town_center_capital_ott" List.ItemID="334966785" />
+				<instance_reference name="structure" value="ebps\races\rus\buildings\building_town_center_rus\building_town_center_capital_rus" List.ItemID="-1609025472" />
+				<instance_reference name="structure" value="ebps\races\sultanate\buildings\building_town_center_sul\building_town_center_capital_sul" List.ItemID="-863908121" />
+				<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_town_center_capital_byz" List.ItemID="-1332290752" />
+				<instance_reference name="structure" value="ebps\races\japanese\buildings\building_town_center_capital_jpn" List.ItemID="1488205592" />
+				<instance_reference name="structure" value="ebps\races\abbasid_ha_01\buildings\building_town_center_capital_abb_ha_01" List.ItemID="1940119424" />
+				<instance_reference name="structure" value="ebps\races\chinese_ha_01\buildings\building_town_center_chi_ha_01\building_town_center_capital_chi_ha_01" List.ItemID="-2062010407" />
+				<instance_reference name="structure" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_capital_hre_ha_01" List.ItemID="-760741981" />
+				<instance_reference name="structure" value="ebps\races\french_ha_01\buildings\building_town_center_fre_ha_01\building_town_center_capital_fre_ha_01" List.ItemID="33470589" />
+			</list>
+			<list name="requires_structures">
+			</list>
+		</group>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="1073741823" />
+		<group name="ai_entity_bag">
+			<list name="applicable_blueprints">
+				<instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_town_center_sul\building_town_center_sul" List.ItemID="-575713105" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\rus\buildings\building_town_center_rus\building_town_center_rus" List.ItemID="82605561" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_town_center_mon" List.ItemID="844845075" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_town_center_hre\building_town_center_hre" List.ItemID="-359660668" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_town_center_fre\building_town_center_fre" List.ItemID="2146963049" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_eng" List.ItemID="1312599090" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\abbasid\buildings\building_town_center_abb" List.ItemID="946727001" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_chi" List.ItemID="-679153263" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_town_center_mal" List.ItemID="-134675056" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_town_center_ott" List.ItemID="1683043963" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_town_center_byz" List.ItemID="-1709349373" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_town_center_jpn" List.ItemID="2136235971" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\abbasid_ha_01\buildings\building_town_center_abb_ha_01" List.ItemID="-1997096641" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\buildings\building_town_center_chi_ha_01\building_town_center_chi_ha_01" List.ItemID="2038575769" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_hre_ha_01" List.ItemID="1063384646" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_town_center_fre_ha_01\building_town_center_fre_ha_01" List.ItemID="895166511" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\english\buildings\building_landmark_age2_westminster_palace_eng\building_landmark_age2_westminster_palace_eng" List.ItemID="-200324875" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_landmark_age3_hohenzollern_castle_hre\building_landmark_age3_hohenzollern_castle_hre" List.ItemID="1014544417" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\buildings\building_landmark_age3_hohenzollern_castle_hre_ha_01\building_landmark_age3_hohenzollern_castle_hre_ha_01" List.ItemID="-802670921" />
+			</list>
+			<group name="construction">
+				<string name="placement_function" value="" />
+				<bool name="can_build_multiple_in_parallel" value="False" />
+				<int name="max_num_additional_builders" value="10" />
+				<int name="max_num_incomplete_structures_builders" value="-1" />
+				<list name="near_to_structures">
+					<instance_reference name="structure" value="ebps\races\abbasid\buildings\building_town_center_capital_abb" List.ItemID="366262040" />
+					<instance_reference name="structure" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_capital_chi" List.ItemID="-1797074989" />
+					<instance_reference name="structure" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_capital_eng" List.ItemID="-64190372" />
+					<instance_reference name="structure" value="ebps\races\french\buildings\building_town_center_fre\building_town_center_capital_fre" List.ItemID="-798392859" />
+					<instance_reference name="structure" value="ebps\races\hre\buildings\building_town_center_hre\building_town_center_capital_hre" List.ItemID="-932700961" />
+					<instance_reference name="structure" value="ebps\races\malian\buildings\building_town_center_capital_mal" List.ItemID="-1621860918" />
+					<instance_reference name="structure" value="ebps\races\mongol\buildings\building_town_center_capital_mon" List.ItemID="-1462705561" />
+					<instance_reference name="structure" value="ebps\races\ottoman\buildings\building_town_center_capital_ott" List.ItemID="1631783122" />
+					<instance_reference name="structure" value="ebps\races\rus\buildings\building_town_center_rus\building_town_center_capital_rus" List.ItemID="1242497936" />
+					<instance_reference name="structure" value="ebps\races\sultanate\buildings\building_town_center_sul\building_town_center_capital_sul" List.ItemID="294927849" />
+					<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_town_center_capital_byz" List.ItemID="540268870" />
+					<instance_reference name="structure" value="ebps\races\japanese\buildings\building_town_center_capital_jpn" List.ItemID="511038843" />
+					<instance_reference name="structure" value="ebps\races\abbasid_ha_01\buildings\building_town_center_capital_abb_ha_01" List.ItemID="-393959641" />
+					<instance_reference name="structure" value="ebps\races\chinese_ha_01\buildings\building_town_center_chi_ha_01\building_town_center_capital_chi_ha_01" List.ItemID="2140363624" />
+					<instance_reference name="structure" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_capital_hre_ha_01" List.ItemID="1172162129" />
+					<instance_reference name="structure" value="ebps\races\french_ha_01\buildings\building_town_center_fre_ha_01\building_town_center_capital_fre_ha_01" List.ItemID="643012806" />
+				</list>
+				<list name="requires_structures">
+				</list>
+			</group>
+		</group>
+	</variant>
+</instance>

@@ -1,0 +1,124 @@
+<instance version="6" description="State model tunings for AI difficulty level &quot;Expert&quot;." template="ai\ai_statemodel_tunings">
+	<uniqueid name="pbgid" value="205882" />
+	<instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_core" mod="4162919852314ab4a1184f5a93aee14d" />
+	<group name="ai_statemodel_tunings_bag">
+		<list name="float_tunings" overrideParent="True">
+			<group name="value_tuning" List.ItemID="-147523555" List.ParentItemID="-147523555">
+				<enum name="key" value="ai_difficulty_archer_reposition_time_interval" />
+				<float name="value" value="2" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="1479877785" List.ParentItemID="1479877785">
+				<float name="value" value="0.1" overrideParent="True" />
+				<enum name="key" value="ai_difficulty_encounter_fallback_combat_rating" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1336523269" List.ParentItemID="-1336523269">
+				<float name="value" value="0.1" overrideParent="True" />
+				<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_threshold" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1232280868" List.ParentItemID="-1232280868">
+				<float name="value" value="0.1" overrideParent="True" />
+				<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_percent" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1077278942" List.ParentItemID="-1077278942">
+				<float name="value" value="0.2" overrideParent="True" />
+				<enum name="key" value="ai_difficulty_encounter_fallback_squads_remaining_percent" />
+			</group>
+			<group name="value_tuning" List.ItemID="-924152782" List.ParentItemID="-924152782">
+				<float name="value" value="0.25" overrideParent="True" />
+				<enum name="key" value="ai_difficulty_encounter_fallback_combat_rating_harass" />
+			</group>
+			<group name="value_tuning" List.ItemID="196835303" List.ParentItemID="196835303">
+				<float name="value" value="0.1" overrideParent="True" />
+				<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_percent_harass" />
+			</group>
+			<group name="value_tuning" List.ItemID="1586781026" List.ParentItemID="1586781026">
+				<float name="value" value="0.4" overrideParent="True" />
+				<enum name="key" value="ai_difficulty_encounter_fallback_squads_remaining_percent_harass" />
+			</group>
+			<group name="value_tuning" List.ItemID="1854133045" List.ParentItemID="1854133045">
+				<enum name="key" value="ai_difficulty_encounter_cavalry_random_use_threat_path_chance" />
+				<float name="value" value="1" />
+			</group>
+			<group name="value_tuning" overrideParent="True" List.ItemID="5635391">
+				<enum name="key" value="ai_difficulty_villager_max_pop_percentage" />
+				<float name="value" value="0.5" overrideParent="True" />
+			</group>
+			<group name="value_tuning" overrideParent="True" List.ItemID="-980579590">
+				<enum name="key" value="ai_difficulty_villager_production_delay_time" />
+				<float name="value" value="0" />
+			</group>
+		</list>
+		<list name="bool_tunings">
+			<group name="value_tuning" List.ItemID="-2042309273" List.ListAction="Append">
+				<enum name="key" value="ai_phase_encounter_allow_attack_move_enroute" overrideParent="True" />
+				<bool name="value" value="True" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="1397892922" List.ListAction="Append">
+				<enum name="key" value="ai_phase_encounter_allow_attack_move" overrideParent="True" />
+				<bool name="value" value="True" overrideParent="True" />
+			</group>
+		</list>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="205882" />
+		<instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_core" mod="4162919852314ab4a1184f5a93aee14d" />
+		<group name="ai_statemodel_tunings_bag">
+			<list name="float_tunings" overrideParent="True">
+				<group name="value_tuning" List.ItemID="-256659863" List.ParentItemID="-147523555">
+					<enum name="key" value="ai_difficulty_archer_reposition_time_interval" />
+					<float name="value" value="2" overrideParent="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="372097888" List.ParentItemID="1479877785">
+					<float name="value" value="0.1" overrideParent="True" />
+					<enum name="key" value="ai_difficulty_encounter_fallback_combat_rating" />
+				</group>
+				<group name="value_tuning" List.ItemID="1025435631" List.ParentItemID="-1336523269">
+					<float name="value" value="0.1" overrideParent="True" />
+					<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_threshold" />
+				</group>
+				<group name="value_tuning" List.ItemID="-639236275" List.ParentItemID="-1232280868">
+					<float name="value" value="0.1" overrideParent="True" />
+					<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_percent" />
+				</group>
+				<group name="value_tuning" List.ItemID="533653868" List.ParentItemID="-1077278942">
+					<float name="value" value="0.2" overrideParent="True" />
+					<enum name="key" value="ai_difficulty_encounter_fallback_squads_remaining_percent" />
+				</group>
+				<group name="value_tuning" List.ItemID="339850139" List.ParentItemID="-924152782">
+					<float name="value" value="0.25" overrideParent="True" />
+					<enum name="key" value="ai_difficulty_encounter_fallback_combat_rating_harass" />
+				</group>
+				<group name="value_tuning" List.ItemID="-414016752" List.ParentItemID="196835303">
+					<float name="value" value="0.1" overrideParent="True" />
+					<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_percent_harass" />
+				</group>
+				<group name="value_tuning" List.ItemID="1705269769" List.ParentItemID="1586781026">
+					<float name="value" value="0.4" overrideParent="True" />
+					<enum name="key" value="ai_difficulty_encounter_fallback_squads_remaining_percent_harass" />
+				</group>
+				<group name="value_tuning" List.ItemID="-864307646" List.ParentItemID="1854133045">
+					<enum name="key" value="ai_difficulty_encounter_cavalry_random_use_threat_path_chance" />
+					<float name="value" value="1" />
+				</group>
+				<group name="value_tuning" overrideParent="True" List.ItemID="-1002905844">
+					<enum name="key" value="ai_difficulty_villager_max_pop_percentage" />
+					<float name="value" value="0.6" overrideParent="True" />
+				</group>
+				<group name="value_tuning" overrideParent="True" List.ItemID="-1684664376">
+					<enum name="key" value="ai_difficulty_villager_production_delay_time" />
+					<float name="value" value="0" />
+				</group>
+			</list>
+			<list name="bool_tunings">
+				<group name="value_tuning" List.ItemID="947957884" List.ListAction="Append">
+					<enum name="key" value="ai_phase_encounter_allow_attack_move_enroute" overrideParent="True" />
+					<bool name="value" value="True" overrideParent="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-160906495" List.ListAction="Append">
+					<enum name="key" value="ai_phase_encounter_allow_attack_move" overrideParent="True" />
+					<bool name="value" value="True" overrideParent="True" />
+				</group>
+			</list>
+		</group>
+	</variant>
+</instance>

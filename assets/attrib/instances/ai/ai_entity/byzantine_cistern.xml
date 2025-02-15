@@ -1,0 +1,54 @@
+<instance version="6" description="" template="ai\ai_entity">
+	<uniqueid name="pbgid" value="2145001" />
+	<group name="ai_entity_bag">
+		<list name="applicable_blueprints">
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_tech_unit_infantry_control_byz" List.ItemID="-271718052" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_tech_university_control_byz" List.ItemID="-1608261449" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_cavalry_control_byz" List.ItemID="-1156461635" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_infantry_control_byz" List.ItemID="1768935079" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_ranged_control_byz" List.ItemID="1898691088" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_siege_control_byz" List.ItemID="38192515" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age3_eastern_merc_house_byz" List.ItemID="-891991073" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age1_hippodrome_byz" List.ItemID="-421251784" />
+		</list>
+		<group name="construction">
+			<string name="placement_function" value="" />
+			<bool name="can_build_multiple_in_parallel" value="False" />
+			<int name="max_num_additional_builders" value="4" />
+			<int name="max_num_incomplete_structures_builders" value="-1" />
+			<list name="near_to_structures">
+				<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_cistern_byz" List.ItemID="-1960331316" />
+				<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_landmark_age2_cistern_byz" List.ItemID="-1223732656" />
+			</list>
+			<list name="requires_structures">
+			</list>
+		</group>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="2145001" />
+		<group name="ai_entity_bag">
+			<list name="applicable_blueprints">
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_tech_unit_infantry_control_byz" List.ItemID="-1134081538" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_tech_university_control_byz" List.ItemID="937273799" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_cavalry_control_byz" List.ItemID="-746204422" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_infantry_control_byz" List.ItemID="-306710134" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_ranged_control_byz" List.ItemID="1187292936" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_siege_control_byz" List.ItemID="-995413611" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age3_eastern_merc_house_byz" List.ItemID="-912919164" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age1_hippodrome_byz" List.ItemID="470296093" />
+			</list>
+			<group name="construction">
+				<string name="placement_function" value="" />
+				<bool name="can_build_multiple_in_parallel" value="False" />
+				<int name="max_num_additional_builders" value="4" />
+				<int name="max_num_incomplete_structures_builders" value="-1" />
+				<list name="near_to_structures">
+					<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_cistern_byz" List.ItemID="-1680393613" />
+					<instance_reference name="structure" value="ebps\races\byzantine\buildings\building_landmark_age2_cistern_byz" List.ItemID="1146570800" />
+				</list>
+				<list name="requires_structures">
+				</list>
+			</group>
+		</group>
+	</variant>
+</instance>

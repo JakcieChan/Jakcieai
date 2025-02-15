@@ -1,0 +1,68 @@
+<instance version="6" description="designed for focusing on attacking wonder" template="ai\ai_formation_coordinator">
+	<group name="ai_formation_coordinator">
+		<list name="non_combat_target_info" overrideParent="True">
+			<group name="info" List.ItemID="496605096">
+				<float name="burn_amount_threshold" value="0" />
+				<int name="max_units" value="0" />
+				<int name="priority" value="0" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="wonder_imperial_age" overrideParent="True" List.ItemID="-824770068" />
+					<enum name="unit_class" value="wonder" List.ItemID="-811631646" />
+				</list>
+			</group>
+			<group name="info" List.ItemID="-1916663167">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				<int name="max_units" value="0" />
+				<int name="priority" value="1" overrideParent="True" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="town_center" List.ItemID="2068931186" />
+				</list>
+			</group>
+		</list>
+		<list name="combat_target_exclude_unit_types">
+			<enum name="unit_class" value="resource_drop_off" List.ItemID="-1680073610" List.ListAction="Append" />
+		</list>
+		<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+		<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+		<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+		<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+		<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="224687" />
+	<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_attack_landmarks" mod="4162919852314ab4a1184f5a93aee14d" />
+	<variant name="xp3">
+		<group name="ai_formation_coordinator">
+			<list name="non_combat_target_info" overrideParent="True">
+				<group name="info" List.ItemID="-1370262196">
+					<float name="burn_amount_threshold" value="0" />
+					<int name="max_units" value="0" />
+					<int name="priority" value="0" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="wonder_imperial_age" overrideParent="True" List.ItemID="661777033" />
+						<enum name="unit_class" value="wonder" List.ItemID="1703306482" />
+					</list>
+				</group>
+				<group name="info" List.ItemID="-162985448">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+					<int name="max_units" value="0" />
+					<int name="priority" value="1" overrideParent="True" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="town_center" List.ItemID="-542784932" />
+					</list>
+				</group>
+			</list>
+			<list name="combat_target_exclude_unit_types">
+				<enum name="unit_class" value="resource_drop_off" List.ItemID="-1123126153" List.ListAction="Append" />
+			</list>
+			<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+			<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+			<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+			<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+			<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+		</group>
+		<uniqueid name="pbgid" value="224687" />
+		<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_attack_landmarks" mod="4162919852314ab4a1184f5a93aee14d" />
+	</variant>
+</instance>

@@ -1,0 +1,32 @@
+<instance version="6" description="coordinates formations for an encounter in a siege situation" template="ai\ai_formation_coordinator">
+	<group name="ai_formation_coordinator">
+		<list name="non_combat_target_info" overrideParent="True">
+		</list>
+		<template_reference name="siege_option" value="" overrideParent="True">
+		</template_reference>
+		<bool name="ignore_walls_if_no_other_targets" value="False" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+		<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+		<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+		<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="191386" />
+	<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	<variant name="xp3">
+		<group name="ai_formation_coordinator">
+			<list name="non_combat_target_info" overrideParent="True">
+			</list>
+			<template_reference name="siege_option" value="" overrideParent="True">
+			</template_reference>
+			<bool name="ignore_walls_if_no_other_targets" value="False" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+			<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+			<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+			<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+		</group>
+		<uniqueid name="pbgid" value="191386" />
+		<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	</variant>
+</instance>

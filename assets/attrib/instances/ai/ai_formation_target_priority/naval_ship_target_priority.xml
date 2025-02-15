@@ -1,0 +1,120 @@
+<instance version="6" description="Meant for use by warships and war galleys - not fireboats" template="ai\ai_formation_target_priority">
+	<group name="ai_formation_target_priority">
+		<float name="target_check_interval_seconds" value="1" />
+		<list name="formation_priority_options">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1921137316">
+				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_target_scale" value="-5" />
+				<float name="already_assigned_scale" value="-1" />
+				<float name="can_move_scale" value="0" />
+				<float name="movement_speed_scale" value="0" />
+				<float name="critical_target_scale" value="0" />
+				<float name="current_target_scale" value="10" />
+				<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+					<list name="unit_type_scores">
+						<group name="unit_type_score" List.ItemID="488931088">
+							<enum name="unit_type" value="naval_scout" />
+							<float name="score" value="2" />
+						</group>
+						<group name="unit_type_score" List.ItemID="1196467372">
+							<enum name="unit_type" value="naval_trade_ship" />
+							<float name="score" value="3" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-1414674774">
+							<enum name="unit_type" value="naval_production_building" />
+							<float name="score" value="5" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-1182440343">
+							<enum name="unit_type" value="naval_unit" />
+							<float name="score" value="1" />
+						</group>
+						<group name="unit_type_score" List.ItemID="1986112690">
+							<enum name="unit_type" value="naval_transport" />
+							<float name="score" value="8" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-1688600550">
+							<enum name="unit_type" value="villager" />
+							<float name="score" value="1" />
+						</group>
+						<group name="unit_type_score" List.ItemID="379155217">
+							<enum name="unit_type" value="infantry" />
+							<float name="score" value="-10" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-176632230">
+							<enum name="unit_type" value="cavalry" />
+							<float name="score" value="-10" />
+						</group>
+					</list>
+				</template_reference>
+				<bool name="exclude_no_los" value="False" />
+				<float name="can_shoot_at_scale" value="5" />
+				<bool name="always_consider_non_combat_targets" value="False" />
+			</template_reference>
+		</list>
+		<list name="exclude_unit_types">
+			<enum name="unit_class" value="stone_wall" List.ItemID="-728987088" />
+			<enum name="unit_class" value="palisade_wall" List.ItemID="-1055895264" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="207431" />
+	<variant name="xp3">
+		<group name="ai_formation_target_priority">
+			<float name="target_check_interval_seconds" value="1" />
+			<list name="formation_priority_options">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="265765022">
+					<float name="time_to_kill_scale" value="-1" />
+					<float name="time_to_target_scale" value="-5" />
+					<float name="already_assigned_scale" value="-1" />
+					<float name="can_move_scale" value="0" />
+					<float name="movement_speed_scale" value="0" />
+					<float name="critical_target_scale" value="0" />
+					<float name="current_target_scale" value="10" />
+					<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+						<list name="unit_type_scores">
+							<group name="unit_type_score" List.ItemID="488931088">
+								<enum name="unit_type" value="naval_scout" />
+								<float name="score" value="2" />
+							</group>
+							<group name="unit_type_score" List.ItemID="1196467372">
+								<enum name="unit_type" value="naval_trade_ship" />
+								<float name="score" value="3" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-1414674774">
+								<enum name="unit_type" value="naval_production_building" />
+								<float name="score" value="5" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-1182440343">
+								<enum name="unit_type" value="naval_unit" />
+								<float name="score" value="1" />
+							</group>
+							<group name="unit_type_score" List.ItemID="1986112690">
+								<enum name="unit_type" value="naval_transport" />
+								<float name="score" value="8" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-1688600550">
+								<enum name="unit_type" value="villager" />
+								<float name="score" value="1" />
+							</group>
+							<group name="unit_type_score" List.ItemID="379155217">
+								<enum name="unit_type" value="infantry" />
+								<float name="score" value="-10" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-176632230">
+								<enum name="unit_type" value="cavalry" />
+								<float name="score" value="-10" />
+							</group>
+						</list>
+					</template_reference>
+					<bool name="exclude_no_los" value="False" />
+					<float name="can_shoot_at_scale" value="5" />
+					<bool name="always_consider_non_combat_targets" value="False" />
+				</template_reference>
+			</list>
+			<list name="exclude_unit_types">
+				<enum name="unit_class" value="stone_wall" List.ItemID="124332942" />
+				<enum name="unit_class" value="palisade_wall" List.ItemID="1946554143" />
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="207431" />
+	</variant>
+</instance>

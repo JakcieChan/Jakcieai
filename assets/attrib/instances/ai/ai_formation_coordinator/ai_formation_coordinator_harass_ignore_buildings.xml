@@ -1,0 +1,124 @@
+<instance version="6" description="designed for small attack formations, prioritizes economy enemy squads (villagers).  Ignore buildings." template="ai\ai_formation_coordinator">
+	<group name="ai_formation_coordinator">
+		<list name="non_combat_target_info" overrideParent="True">
+			<group name="info" List.ItemID="750982323">
+				<float name="burn_amount_threshold" value="0" />
+				<int name="max_units" value="0" overrideParent="True" />
+				<int name="priority" value="0" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="gate" List.ItemID="-294677128" />
+				</list>
+			</group>
+			<group name="info" List.ItemID="1079881612">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				<int name="max_units" value="8" overrideParent="True" />
+				<int name="priority" value="1" overrideParent="True" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="house" overrideParent="True" List.ItemID="1303247534" />
+					<enum name="unit_class" value="farm" overrideParent="True" List.ItemID="636155670" />
+				</list>
+			</group>
+			<group name="info" List.ItemID="648904584">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				<int name="max_units" value="0" overrideParent="True" />
+				<int name="priority" value="2" overrideParent="True" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="resource_drop_off" overrideParent="True" List.ItemID="1223530650" />
+				</list>
+			</group>
+			<group name="info" List.ItemID="669961654">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				<int name="max_units" value="0" />
+				<int name="priority" value="3" overrideParent="True" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="trade_post" overrideParent="True" List.ItemID="1382314600" />
+					<enum name="unit_class" value="economy_building" List.ItemID="-774129915" />
+					<enum name="unit_class" value="military_only_production" List.ItemID="1870751040" />
+					<enum name="unit_class" value="military_production_building" List.ItemID="-1404260711" />
+					<enum name="unit_class" value="research_building" List.ItemID="1722481455" />
+				</list>
+			</group>
+			<group name="info" List.ItemID="-1303143924">
+				<float name="burn_amount_threshold" value="0" />
+				<int name="max_units" value="0" />
+				<int name="priority" value="4" />
+				<list name="unit_types">
+					<enum name="unit_class" value="landmark" List.ItemID="-2141681970" />
+					<enum name="unit_class" value="town_center" List.ItemID="313277983" />
+				</list>
+			</group>
+		</list>
+		<list name="combat_target_exclude_unit_types" removedIds="-116817004, -1167424553">
+			<enum name="unit_class" value="building" overrideParent="True" List.ItemID="-116817004" List.ListAction="Append" />
+		</list>
+		<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+		<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+		<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+		<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="2055391" />
+	<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	<variant name="xp3">
+		<group name="ai_formation_coordinator">
+			<list name="non_combat_target_info" overrideParent="True">
+				<group name="info" List.ItemID="-1059668901">
+					<float name="burn_amount_threshold" value="0" />
+					<int name="max_units" value="0" overrideParent="True" />
+					<int name="priority" value="0" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="gate" List.ItemID="-112529658" />
+					</list>
+				</group>
+				<group name="info" List.ItemID="317454811">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+					<int name="max_units" value="8" overrideParent="True" />
+					<int name="priority" value="1" overrideParent="True" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="house" overrideParent="True" List.ItemID="811557542" />
+						<enum name="unit_class" value="farm" overrideParent="True" List.ItemID="1144032881" />
+					</list>
+				</group>
+				<group name="info" List.ItemID="610748334">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+					<int name="max_units" value="0" overrideParent="True" />
+					<int name="priority" value="2" overrideParent="True" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="resource_drop_off" overrideParent="True" List.ItemID="373896952" />
+					</list>
+				</group>
+				<group name="info" List.ItemID="178128538">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+					<int name="max_units" value="0" />
+					<int name="priority" value="3" overrideParent="True" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="trade_post" overrideParent="True" List.ItemID="2113029562" />
+						<enum name="unit_class" value="economy_building" List.ItemID="760440130" />
+						<enum name="unit_class" value="military_only_production" List.ItemID="408697139" />
+						<enum name="unit_class" value="military_production_building" List.ItemID="-815524817" />
+						<enum name="unit_class" value="research_building" List.ItemID="-498940849" />
+					</list>
+				</group>
+				<group name="info" List.ItemID="1760080831">
+					<float name="burn_amount_threshold" value="0" />
+					<int name="max_units" value="0" />
+					<int name="priority" value="4" />
+					<list name="unit_types">
+						<enum name="unit_class" value="landmark" List.ItemID="-1514885182" />
+						<enum name="unit_class" value="town_center" List.ItemID="1109063464" />
+					</list>
+				</group>
+			</list>
+			<list name="combat_target_exclude_unit_types" removedIds="-1885216629, -464762444">
+				<enum name="unit_class" value="building" overrideParent="True" List.ItemID="-728478453" List.ListAction="Append" />
+			</list>
+			<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+			<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+			<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+			<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+		</group>
+		<uniqueid name="pbgid" value="2055391" />
+		<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	</variant>
+</instance>

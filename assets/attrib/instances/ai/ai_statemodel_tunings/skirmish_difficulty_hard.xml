@@ -1,0 +1,80 @@
+<instance version="6" description="State model tunings for AI difficulty level &quot;Hard&quot;." template="ai\ai_statemodel_tunings">
+	<group name="ai_statemodel_tunings_bag">
+		<list name="float_tunings">
+			<group name="value_tuning" List.ItemID="-147523555" List.ParentItemID="-147523555">
+				<float name="value" value="2" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="1479877785" List.ParentItemID="1479877785">
+				<float name="value" value="0.1" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1336523269" List.ParentItemID="-1336523269">
+				<float name="value" value="0.3" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1232280868" List.ParentItemID="-1232280868">
+				<float name="value" value="0.75" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1077278942" List.ParentItemID="-1077278942">
+				<float name="value" value="0.25" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-924152782" List.ParentItemID="-924152782">
+				<float name="value" value="0.2" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="196835303" List.ParentItemID="196835303">
+				<float name="value" value="0.4" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="1586781026" List.ParentItemID="1586781026">
+				<float name="value" value="0.4" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-757168426" List.ListAction="Append">
+				<float name="value" value="0.375" overrideParent="True" />
+				<enum name="key" value="ai_difficulty_villager_max_pop_percentage" />
+			</group>
+			<group name="value_tuning" List.ItemID="1706605578" List.ListAction="Append">
+				<float name="value" value="30" overrideParent="True" />
+				<enum name="key" value="ai_difficulty_villager_production_delay_time" />
+			</group>
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="205881" />
+	<instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_core" mod="4162919852314ab4a1184f5a93aee14d" />
+	<variant name="xp3">
+		<group name="ai_statemodel_tunings_bag">
+			<list name="float_tunings">
+				<group name="value_tuning" List.ItemID="-2135353521" List.ParentItemID="-2135353521">
+					<float name="value" value="2" overrideParent="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="935922097" List.ParentItemID="935922097">
+					<float name="value" value="0.1" overrideParent="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1605829663" List.ParentItemID="-1605829663">
+					<float name="value" value="0.3" overrideParent="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="1215438143" List.ParentItemID="1215438143">
+					<float name="value" value="0.75" overrideParent="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="66100686" List.ParentItemID="66100686">
+					<float name="value" value="0.25" overrideParent="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="1433965036" List.ParentItemID="1433965036">
+					<float name="value" value="0.2" overrideParent="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="1797414028" List.ParentItemID="1797414028">
+					<float name="value" value="0.4" overrideParent="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1157868097" List.ParentItemID="-1157868097">
+					<float name="value" value="0.4" overrideParent="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-757168426" List.ListAction="Append">
+					<float name="value" value="0.375" overrideParent="True" />
+					<enum name="key" value="ai_difficulty_villager_max_pop_percentage" />
+				</group>
+				<group name="value_tuning" List.ItemID="1706605578" List.ListAction="Append">
+					<float name="value" value="30" overrideParent="True" />
+					<enum name="key" value="ai_difficulty_villager_production_delay_time" />
+				</group>
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="205881" />
+		<instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_core" mod="4162919852314ab4a1184f5a93aee14d" />
+	</variant>
+</instance>

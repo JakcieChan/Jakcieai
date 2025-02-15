@@ -1,0 +1,68 @@
+<instance version="6" description="archer target priority when attacking palisades" template="ai\ai_formation_target_priority">
+	<group name="ai_formation_target_priority">
+		<float name="target_check_interval_seconds" value="2" />
+		<list name="formation_priority_options">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="-364520834">
+				<bool name="prefer_focus_target" value="True" />
+			</template_reference>
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1959335453">
+				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_target_scale" value="-2" />
+				<float name="already_assigned_scale" value="-1" />
+				<float name="can_move_scale" value="0" />
+				<float name="movement_speed_scale" value="0" />
+				<float name="critical_target_scale" value="10" />
+				<float name="current_target_scale" value="10" />
+				<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+					<list name="unit_type_scores">
+						<group name="unit_type_score" List.ItemID="987991115">
+							<enum name="unit_type" value="monk" />
+							<float name="score" value="8" />
+						</group>
+					</list>
+				</template_reference>
+				<bool name="exclude_no_los" value="False" />
+				<float name="can_shoot_at_scale" value="10" />
+				<bool name="always_consider_non_combat_targets" value="False" />
+			</template_reference>
+		</list>
+		<list name="exclude_unit_types">
+			<enum name="unit_class" value="stone_wall" List.ItemID="-1377934023" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="195264" />
+	<variant name="xp3">
+		<group name="ai_formation_target_priority">
+			<float name="target_check_interval_seconds" value="2" />
+			<list name="formation_priority_options">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="985838378">
+					<bool name="prefer_focus_target" value="True" />
+				</template_reference>
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="336225067">
+					<float name="time_to_kill_scale" value="-1" />
+					<float name="time_to_target_scale" value="-2" />
+					<float name="already_assigned_scale" value="-1" />
+					<float name="can_move_scale" value="0" />
+					<float name="movement_speed_scale" value="0" />
+					<float name="critical_target_scale" value="10" />
+					<float name="current_target_scale" value="10" />
+					<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+						<list name="unit_type_scores">
+							<group name="unit_type_score" List.ItemID="987991115">
+								<enum name="unit_type" value="monk" />
+								<float name="score" value="8" />
+							</group>
+						</list>
+					</template_reference>
+					<bool name="exclude_no_los" value="False" />
+					<float name="can_shoot_at_scale" value="10" />
+					<bool name="always_consider_non_combat_targets" value="False" />
+				</template_reference>
+			</list>
+			<list name="exclude_unit_types">
+				<enum name="unit_class" value="stone_wall" List.ItemID="2040444230" />
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="195264" />
+	</variant>
+</instance>

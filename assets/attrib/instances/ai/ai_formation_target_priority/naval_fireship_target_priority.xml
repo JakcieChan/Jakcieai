@@ -1,0 +1,116 @@
+<instance version="6" description="" template="ai\ai_formation_target_priority">
+	<group name="ai_formation_target_priority">
+		<float name="target_check_interval_seconds" value="0" />
+		<list name="formation_priority_options">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1069994909">
+				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_target_scale" value="-5" />
+				<float name="already_assigned_scale" value="-1" />
+				<float name="can_move_scale" value="0" />
+				<float name="movement_speed_scale" value="0" />
+				<float name="critical_target_scale" value="0" />
+				<float name="current_target_scale" value="10" />
+				<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+					<list name="unit_type_scores">
+						<group name="unit_type_score" List.ItemID="-1091489315">
+							<enum name="unit_type" value="naval_unit" />
+							<float name="score" value="20" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-1120761188">
+							<enum name="unit_type" value="naval_war_galley" />
+							<float name="score" value="100" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-1673641843">
+							<enum name="unit_type" value="naval_transport" />
+							<float name="score" value="20" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-863940608">
+							<enum name="unit_type" value="naval_fishing_ship" />
+							<float name="score" value="-10" />
+						</group>
+						<group name="unit_type_score" List.ItemID="1468768209">
+							<enum name="unit_type" value="infantry" />
+							<float name="score" value="-10" />
+						</group>
+						<group name="unit_type_score" List.ItemID="1859196601">
+							<enum name="unit_type" value="cavalry" />
+							<float name="score" value="-10" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-939036384">
+							<enum name="unit_type" value="naval_production_building" />
+							<float name="score" value="30" />
+						</group>
+						<group name="unit_type_score" comment="They are not effective against each other. put a penalty on targeting other fireships" List.ItemID="657257252">
+							<enum name="unit_type" value="naval_fireship" />
+							<float name="score" value="-50" />
+						</group>
+					</list>
+				</template_reference>
+				<bool name="exclude_no_los" value="False" />
+				<float name="can_shoot_at_scale" value="5" />
+				<bool name="always_consider_non_combat_targets" value="False" />
+			</template_reference>
+		</list>
+		<list name="exclude_unit_types">
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="207452" />
+	<variant name="xp3">
+		<group name="ai_formation_target_priority">
+			<float name="target_check_interval_seconds" value="0" />
+			<list name="formation_priority_options">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1641881736">
+					<float name="time_to_kill_scale" value="-1" />
+					<float name="time_to_target_scale" value="-5" />
+					<float name="already_assigned_scale" value="-1" />
+					<float name="can_move_scale" value="0" />
+					<float name="movement_speed_scale" value="0" />
+					<float name="critical_target_scale" value="0" />
+					<float name="current_target_scale" value="10" />
+					<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+						<list name="unit_type_scores">
+							<group name="unit_type_score" List.ItemID="-1091489315">
+								<enum name="unit_type" value="naval_unit" />
+								<float name="score" value="20" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-1120761188">
+								<enum name="unit_type" value="naval_war_galley" />
+								<float name="score" value="100" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-1673641843">
+								<enum name="unit_type" value="naval_transport" />
+								<float name="score" value="20" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-863940608">
+								<enum name="unit_type" value="naval_fishing_ship" />
+								<float name="score" value="-10" />
+							</group>
+							<group name="unit_type_score" List.ItemID="1468768209">
+								<enum name="unit_type" value="infantry" />
+								<float name="score" value="-10" />
+							</group>
+							<group name="unit_type_score" List.ItemID="1859196601">
+								<enum name="unit_type" value="cavalry" />
+								<float name="score" value="-10" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-939036384">
+								<enum name="unit_type" value="naval_production_building" />
+								<float name="score" value="30" />
+							</group>
+							<group name="unit_type_score" comment="They are not effective against each other. put a penalty on targeting other fireships" List.ItemID="657257252">
+								<enum name="unit_type" value="naval_fireship" />
+								<float name="score" value="-50" />
+							</group>
+						</list>
+					</template_reference>
+					<bool name="exclude_no_los" value="False" />
+					<float name="can_shoot_at_scale" value="5" />
+					<bool name="always_consider_non_combat_targets" value="False" />
+				</template_reference>
+			</list>
+			<list name="exclude_unit_types">
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="207452" />
+	</variant>
+</instance>

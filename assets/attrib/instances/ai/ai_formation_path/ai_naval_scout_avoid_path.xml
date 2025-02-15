@@ -1,0 +1,66 @@
+<instance version="6" description="" template="ai\ai_formation_path">
+	<uniqueid name="pbgid" value="2090355" />
+	<group name="ai_formation_path" comment="A safer path to use when fleeing">
+		<template_reference name="formation_path_query_option" value="options\ai\encounters\formation_merged_threat_path_option">
+			<bool name="use_threat_history" value="True" comment="just avoid the enemy current positions since threats at sea are constantly moving." />
+			<float name="path_recalculate_interval_seconds" value="1" />
+			<float name="combat_fitness_min" value="0.1" />
+			<float name="combat_fitness_max" value="0.5" />
+			<float name="threat_cost_min" value="0" />
+			<float name="threat_cost_max" value="10000" />
+			<template_reference name="enemy_unit_type_scores" value="options\ai\encounters\unit_type_scores">
+				<list name="unit_type_scores">
+					<group name="unit_type_score" List.ItemID="-1852044803">
+						<enum name="unit_type" value="naval_fireship" />
+						<float name="score" value="100" />
+					</group>
+					<group name="unit_type_score" List.ItemID="1991801817">
+						<enum name="unit_type" value="naval_unit" />
+						<float name="score" value="2" />
+					</group>
+				</list>
+			</template_reference>
+			<float name="threat_weight_inside_area" value="1" />
+			<float name="threat_weight_outside_area" value="1" />
+			<float name="leaving_area_multiplier" value="0" />
+			<float name="secondary_combat_fitness_max" value="1" />
+			<float name="secondary_combat_fitness_min" value="0.1" />
+			<float name="secondary_threat_cost_max" value="1000" comment="reduced cost for threats from land" />
+			<float name="secondary_threat_cost_min" value="0" />
+			<float name="_influence_threshold" value="0.5" />
+		</template_reference>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="2090355" />
+		<group name="ai_formation_path" comment="A safer path to use when fleeing">
+			<template_reference name="formation_path_query_option" value="options\ai\encounters\formation_merged_threat_path_option">
+				<bool name="use_threat_history" value="True" comment="just avoid the enemy current positions since threats at sea are constantly moving." />
+				<float name="path_recalculate_interval_seconds" value="1" />
+				<float name="combat_fitness_min" value="0.1" />
+				<float name="combat_fitness_max" value="0.5" />
+				<float name="threat_cost_min" value="0" />
+				<float name="threat_cost_max" value="10000" />
+				<template_reference name="enemy_unit_type_scores" value="options\ai\encounters\unit_type_scores">
+					<list name="unit_type_scores">
+						<group name="unit_type_score" List.ItemID="448217315">
+							<enum name="unit_type" value="naval_fireship" />
+							<float name="score" value="100" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-1982140340">
+							<enum name="unit_type" value="naval_unit" />
+							<float name="score" value="2" />
+						</group>
+					</list>
+				</template_reference>
+				<float name="threat_weight_inside_area" value="1" />
+				<float name="threat_weight_outside_area" value="1" />
+				<float name="leaving_area_multiplier" value="0" />
+				<float name="secondary_combat_fitness_max" value="1" />
+				<float name="secondary_combat_fitness_min" value="0.1" />
+				<float name="secondary_threat_cost_max" value="1000" comment="reduced cost for threats from land" />
+				<float name="secondary_threat_cost_min" value="0" />
+				<float name="_influence_threshold" value="0.5" />
+			</template_reference>
+		</group>
+	</variant>
+</instance>

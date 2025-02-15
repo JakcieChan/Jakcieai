@@ -1,0 +1,462 @@
+<instance version="6" description="core default tuning for all skirmish encounters.  New tuning field added to this PBG will automatically propagate to all child PBG's and grandchild PBG's (i.e. &quot;skirmish_attack_default&quot; and its child PBGs + &quot;skirmish_defend_default&quot; and its child PBGs).  As a rule of thumb, the default values in this PBG should just be set the same as the default values from the statemodel schema." template="ai\ai_statemodel_tunings">
+	<group name="ai_statemodel_tunings_bag">
+		<list name="bool_tunings">
+			<group name="value_tuning" List.ItemID="-1435389545">
+				<enum name="key" value="ai_phase_encounter_convert_squad_target_to_position" comment="If encounter target is squad, then converting to position to would prevent chasing." />
+				<bool name="value" value="False" />
+			</group>
+			<group name="value_tuning" List.ItemID="-192565608">
+				<enum name="key" value="ai_phase_encounter_clear_enemy_squads" comment="Whether encounter attackers should destroy all enemy squads within scan radius around the encounter target when &quot;EngageTarget&quot; or &quot;EngageEnemyEnRoute&quot;." />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="1770114847">
+				<enum name="key" value="ai_phase_encounter_clear_enemy_buildings" comment="Whether encounter attackers should destroy all enemy buildings within scan radius around the encounter target when &quot;EngageTarget&quot; or &quot;EngageEnemyEnRoute&quot;." />
+				<bool name="value" value="False" />
+			</group>
+			<group name="value_tuning" List.ItemID="1396872278">
+				<enum name="key" value="ai_phase_encounter_exit_test_include_unreachable" comment="If clear_enemy_squads or clear_enemy_buildings are set, then setting this to true means encounter attackers all also try destroy enemy squads or buildings that cannot be pathed to or attacked for other reasons.  Use with caution." />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="1485630827">
+				<enum name="key" value="ai_phase_encounter_target_destroyed" comment="Terminate the encounter when the designated encounter military target is destroyed." />
+				<bool name="value" value="False" />
+			</group>
+			<group name="value_tuning" List.ItemID="716782059">
+				<enum name="key" value="ai_phase_encounter_can_help_nearby" comment="Whether to allow the encounter to be interrupted in order to release its squads to help nearby ally clumps. (i.e. whether &quot;TravelToTarget&quot; -&gt; &quot;TeardownToHelpNearbyClump&quot;)." />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1042869513">
+				<enum name="key" value="ai_phase_encounter_exit_on_partial_path" comment="When only a partial path exists between the Encounter squads and the Encounter target, whether the Encounter squads should continue moving to the end of the partial path or should the Encounter just exit right away. " />
+				<bool name="value" value="False" />
+			</group>
+			<group name="value_tuning" List.ItemID="1513477085">
+				<enum name="key" value="ai_phase_encounter_check_for_open_path_to_enemy_structure" comment="Whether to allow the encounter to be interrupted when the path to encounter target (building) becomes blocked. (i.e. whether &quot;TravelToTarget&quot; -&gt; &quot;TargetUnreachable&quot;)." />
+				<bool name="value" value="False" />
+			</group>
+			<group name="value_tuning" List.ItemID="971463292">
+				<enum name="key" value="ai_phase_encounter_uses_targeted_ability" comment="Whether the Encounter squads should cast a targeted ability when arrived at the encounter target." />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="1952573486">
+				<enum name="key" value="teardowns_disabled" comment="Whether to allow encounter to be interruptted when there are weak ally defend encounters to help or ally buildings recently attacked. (&quot;FormUp&quot; or &quot;TravelToTarget&quot; -&gt; &quot;AbortEncounter&quot;)." />
+				<bool name="value" value="False" />
+			</group>
+			<group name="value_tuning" List.ItemID="-508736727">
+				<enum name="key" value="ai_phase_encounter_defend_destination" comment="Whether the encounter squads should wait for combat (defend) at the final target when it arrives (the &quot;DefendDestination&quot; phase)." />
+				<bool name="value" value="False" />
+			</group>
+			<group name="value_tuning" List.ItemID="1728744307">
+				<enum name="key" value="ai_phase_encounter_lock_resources" comment="Whether the Encounter has exclusive ownership of its assigned Squads (that other Encounters cannot grab them)." />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1257702635">
+				<enum name="key" value="ai_phase_encounter_can_use_transports" comment="Whether to allow boarding naval transports to move to other islands (&quot;FormUp&quot; -&gt; &quot;SailToTargetIsland&quot;)." />
+				<bool name="value" value="False" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1252824685">
+				<enum name="key" value="ai_phase_encounter_exit_on_path_blocker_detected" comment="Whether encounter should exit when its cached path detects path blocker to its intended target (&quot;TravelToTarget&quot; or &quot;EngageTarget&quot; -&gt; &quot;EngagePathBlocker&quot;)." />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" comment="Indicates if the encounter can accept reinforcements from nearby clumps that are fleeing or running away or unable to continue on their original purpose" List.ItemID="357462454">
+				<enum name="key" value="ai_phase_encounter_can_accept_reinforcements" comment="Indicates if the encounter can accept reinforcements from nearby clumps that are fleeing or running away or unable to continue on their original purpose" />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1988997661">
+				<enum name="key" value="ai_phase_encounter_archers_allow_attack_move" />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="438874668">
+				<enum name="key" value="ai_phase_encounter_melee_allow_attack_move" />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-262142634">
+				<enum name="key" value="ai_phase_encounter_stealth_activated" />
+				<bool name="value" value="False" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1292611004">
+				<enum name="key" value="ai_phase_encounter_allow_attack_move_enroute" />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1260737405">
+				<enum name="key" value="ai_phase_encounter_clear_enemy_squads_enroute" />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="797757752">
+				<enum name="key" value="ai_phase_encounter_clear_enemy_buildings_enroute" />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="912213965">
+				<enum name="key" value="ai_phase_encounter_allow_attack_move" />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-288816098">
+				<enum name="key" value="ai_phase_encounter_trigger_monk_dropoff_relic" />
+				<bool name="value" value="True" />
+			</group>
+		</list>
+		<list name="float_tunings">
+			<group name="value_tuning" List.ItemID="1398867735">
+				<enum name="key" value="ai_phase_encounter_enemy_scan_range" comment="Scan range from the center of the formation to look for enemies in meters, used in conjunction with below combat fitness check, set to 0 disable to disable scanning and all below combat exit conditions" />
+				<float name="value" value="60" />
+			</group>
+			<group name="value_tuning" List.ItemID="-150290806">
+				<enum name="key" value="ai_phase_encounter_combat_area" comment="Minimum distance from the encounter target the squads needs to be within to be considered inside encounter area (during combat)." />
+				<float name="value" value="60" />
+			</group>
+			<group name="value_tuning" List.ItemID="-336056717">
+				<enum name="key" value="ai_phase_encounter_combat_leash" comment="Maximum radius from leash target that squads can stray to combat enemies or defend allies in &quot;EngageEnemyEnRoute&quot; or &quot;EngageTarget&quot; phases.  Leash target can be squads centre or final encounter target.  Specify 0 for no leash." />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="673414398">
+				<enum name="key" value="ai_phase_encounter_formup_required_squads_percent" comment="Minimum percentage of squads required to arrive at &quot;FormUp&quot; location before moving on to the next &quot;TravelToTarget&quot; phase. 1.0 implies all squads must arrive." />
+				<float name="value" value="0.5" />
+			</group>
+			<group name="value_tuning" List.ItemID="1765676407">
+				<enum name="key" value="ai_phase_encounter_formup_timeout" comment="Maximum wait time (in seconds) for squads to &quot;FormUp&quot; before moving onto the next &quot;TravelToTarget&quot; phase." />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1368997057">
+				<enum name="key" value="ai_phase_encounter_combat_fitness_threshold" comment="When the current combat fitness ratio of ENEMY vs. ALLY goes above this threshold, encounter exits &quot;TravelToTarget&quot; and transitions to &quot;EngageEnemyEnRoute&quot;.  Set to -1 disable.  Set to a high value (e.g. 0.8) attack only weak enemies we meet. Set to 0 for attack anyone we meet." />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="1350356719">
+				<enum name="key" value="ai_phase_encounter_destination_area" comment="Minimum distance from the encounter target the squads needs to be within to be considered arrived at encounter area (during movement phase such as &quot;TravelToTarget&quot;)." />
+				<float name="value" value="100" />
+			</group>
+			<group name="value_tuning" List.ItemID="1335932643">
+				<enum name="key" value="ai_phase_encounter_destination_required_squads_percent" comment="Minimum percentage of squads required to arrive at the destination area (to exit &quot;TravelToTarget&quot; phase). 1.0 implies all squads must arrive." />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="1547188473">
+				<enum name="key" value="ai_phase_encounter_protect_distance" comment="When encounter is to cast targeted ability, this is the distance that the protectors will try to maintain from the protected formation.  Positive value means front protection (with respect to protected formation's forward facing).  Negative means back protection. (&quot;CastTargetedAbility&quot; phase)." />
+				<float name="value" value="10" />
+			</group>
+			<group name="value_tuning" List.ItemID="111519207">
+				<enum name="key" value="ai_phase_encounter_protect_squad_count_proportion" comment="When encounter is to cast targeted ability, this is the number of protect squads as a ratio to number of squads in the protected formation.  Specify -1 to unlimited. Specify 0 to disable protect (assign no protectors)." />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="-2015182844">
+				<enum name="key" value="ai_phase_encounter_idle_at_end_seconds" comment="The amount of time to remain idle after the encounter is completed at the final target (i.e. finished the &quot;EngageTarget&quot; phase)." />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="360848628">
+				<enum name="key" value="ai_phase_encounter_fallback_combat_rating" comment="When the current combat fitness ratio of ALLY vs. ENEMY falls below this threshold, encounter transition to &quot;Fallback&quot; phase.  0 disables." />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1696196552">
+				<enum name="key" value="ai_phase_encounter_fallback_squad_health_threshold" comment="An individual squad would &quot;want to fallback&quot; if its current health falls below this threshold.  -1.0 disables.  Used in conjunction with &quot;fallback_squad_health_percent&quot;." />
+				<float name="value" value="-1" />
+			</group>
+			<group name="value_tuning" List.ItemID="-69499576">
+				<enum name="key" value="ai_phase_encounter_fallback_squad_health_percent" comment="What percentage of encounter squads &quot;wants to fallback&quot; before we transition to &quot;Fallback&quot; phase.  -1.0 disables.  Used in conjunction with &quot;fallback_squad_health_threshold&quot;." />
+				<float name="value" value="-1" />
+			</group>
+			<group name="value_tuning" List.ItemID="-456788771">
+				<enum name="key" value="ai_phase_encounter_fallback_squads_remaining_percent" comment="Percentage of squads remaining in the encounter before we transition to &quot;Fallback&quot; phase. 0 disables." />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="-670986516">
+				<enum name="key" value="ai_phase_encounter_defend_destination_time" comment="The amount of time in seconds encounter squads should wait for combat (defend) at the final target (if &quot;defend_destination&quot; is set to True)." />
+				<float name="value" value="30" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1821254606">
+				<enum name="key" value="ai_phase_encounter_cached_path_update_interval_secs" comment="Whether encounter should monitor a cached path to its target and update it at what time interval." />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="1783478058">
+				<enum name="key" value="ai_phase_encounter_destroyed_wall_opening_ignore_radius" comment="During siege combat when encounter squads are attacking enemy walls, they will ingore any destroyed wall openings beyond this radius and continue attacking the current wall target.  This tuning only has any effect if both &quot;cached_path_update_interval_secs&quot; and &quot;exit_on_path_blocker_detected&quot; tunings are used." />
+				<float name="value" value="120" />
+			</group>
+			<group name="value_tuning" List.ItemID="784378127">
+				<enum name="key" value="ai_phase_encounter_monk_desired_ratio" comment="This is the desired ratio of military to monks. If you have 7 military and you want 3 monks, 7 + 3 = 10 total units. That means you want a ratio of 0.3. (total : monks)" />
+				<float name="value" value="0" />
+			</group>
+			<group name="value_tuning" List.ItemID="960547094">
+				<enum name="key" value="ai_phase_encounter_open_path_length_to_look_for_siege_path" comment="Encounter cached path tuning.  If the current cached path to target is open but is longer than this length, try look for a more direct siege path going through walls." />
+				<float name="value" value="120" />
+			</group>
+			<group name="value_tuning" List.ItemID="-120722255">
+				<enum name="key" value="ai_phase_encounter_enemy_scan_range_enroute" />
+				<float name="value" value="30" />
+			</group>
+			<group name="value_tuning" List.ItemID="1554747723">
+				<enum name="key" value="ai_phase_encounter_combat_area_enroute" />
+				<float name="value" value="48" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1362021299">
+				<enum name="key" value="ai_phase_encounter_combat_leash_enroute" />
+				<float name="value" value="0" />
+			</group>
+		</list>
+		<list name="int_tunings">
+		</list>
+		<group name="special_enum_tunings">
+			<list name="unit_class_list">
+				<group name="key_values" List.ItemID="-1807857643">
+					<enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="Ignore these entity unit types when testing encounter exit conditions due to &quot;combat_fitness_threshold&quot;, &quot;clear_enemy_squads&quot; or &quot;clear_enemy_buildings&quot;." />
+					<list name="values">
+					</list>
+				</group>
+			</list>
+			<list name="ai_military_engagement_type">
+				<group name="key_value" List.ItemID="1971260856">
+					<enum name="key" value="ai_phase_encounter_engagement_type" comment="Engagment type that classifies the current encounter.  Used in Opportunity &quot;TargetUnreachable&quot; and &quot;TargetInvalidated&quot; that affect some state transitions." />
+					<enum name="value" value="defend_structure" />
+				</group>
+			</list>
+		</group>
+		<group name="special_pbg_tunings">
+			<list name="ai_phase_encounter_coordinator_bag">
+				<group name="key_value" List.ItemID="-2068869878">
+					<enum name="key" value="ai_phase_encounter_coordinator_bag" comment="&quot;ai\ai_formation_coordinator&quot; AE blueprint containing combat tunings to use when at final target (i.e. &quot;EngageTarget&quot; phase)." />
+					<instance_reference name="value" value="" />
+				</group>
+			</list>
+			<list name="ai_phase_encounter_coordinator_bag_enroute">
+				<group name="key_value" List.ItemID="-1931180559">
+					<enum name="key" value="ai_phase_encounter_coordinator_bag_enroute" comment="&quot;ai\ai_formation_coordinator&quot; AE blueprint containing combat tunings to use when still enroute (i.e. &quot;TravelToTarget&quot; and &quot;EngageEnemyEnRoute&quot; phases)." />
+					<instance_reference name="value" value="" />
+				</group>
+			</list>
+			<list name="ai_phase_encounter_path_bag">
+				<group name="key_value" List.ItemID="-1873888590">
+					<enum name="key" value="ai_phase_encounter_path_bag" comment="&quot;ai\ai_formation_path&quot; AE blueprint containing AI threat path tunings that allow encounter squads to automatically avoid threats enroute to target (i.e. &quot;TravelToTarget&quot; phase)." />
+					<instance_reference name="value" value="" />
+				</group>
+			</list>
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="1584062" />
+	<instance_reference name="parent_pbg" value="" />
+	<variant name="xp3">
+		<group name="ai_statemodel_tunings_bag">
+			<list name="bool_tunings">
+				<group name="value_tuning" List.ItemID="1497053407">
+					<enum name="key" value="ai_phase_encounter_convert_squad_target_to_position" comment="If encounter target is squad, then converting to position to would prevent chasing." />
+					<bool name="value" value="False" />
+				</group>
+				<group name="value_tuning" List.ItemID="-2034346886">
+					<enum name="key" value="ai_phase_encounter_clear_enemy_squads" comment="Whether encounter attackers should destroy all enemy squads within scan radius around the encounter target when &quot;EngageTarget&quot; or &quot;EngageEnemyEnRoute&quot;." />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="1444201783">
+					<enum name="key" value="ai_phase_encounter_clear_enemy_buildings" comment="Whether encounter attackers should destroy all enemy buildings within scan radius around the encounter target when &quot;EngageTarget&quot; or &quot;EngageEnemyEnRoute&quot;." />
+					<bool name="value" value="False" />
+				</group>
+				<group name="value_tuning" List.ItemID="1954147581">
+					<enum name="key" value="ai_phase_encounter_exit_test_include_unreachable" comment="If clear_enemy_squads or clear_enemy_buildings are set, then setting this to true means encounter attackers all also try destroy enemy squads or buildings that cannot be pathed to or attacked for other reasons.  Use with caution." />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1040314456">
+					<enum name="key" value="ai_phase_encounter_target_destroyed" comment="Terminate the encounter when the designated encounter military target is destroyed." />
+					<bool name="value" value="False" />
+				</group>
+				<group name="value_tuning" List.ItemID="1342499851">
+					<enum name="key" value="ai_phase_encounter_can_help_nearby" comment="Whether to allow the encounter to be interrupted in order to release its squads to help nearby ally clumps. (i.e. whether &quot;TravelToTarget&quot; -&gt; &quot;TeardownToHelpNearbyClump&quot;)." />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-866262524">
+					<enum name="key" value="ai_phase_encounter_exit_on_partial_path" comment="When only a partial path exists between the Encounter squads and the Encounter target, whether the Encounter squads should continue moving to the end of the partial path or should the Encounter just exit right away. " />
+					<bool name="value" value="False" />
+				</group>
+				<group name="value_tuning" List.ItemID="-2098582441">
+					<enum name="key" value="ai_phase_encounter_check_for_open_path_to_enemy_structure" comment="Whether to allow the encounter to be interrupted when the path to encounter target (building) becomes blocked. (i.e. whether &quot;TravelToTarget&quot; -&gt; &quot;TargetUnreachable&quot;)." />
+					<bool name="value" value="False" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1555487637">
+					<enum name="key" value="ai_phase_encounter_uses_targeted_ability" comment="Whether the Encounter squads should cast a targeted ability when arrived at the encounter target." />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="141318218">
+					<enum name="key" value="teardowns_disabled" comment="Whether to allow encounter to be interruptted when there are weak ally defend encounters to help or ally buildings recently attacked. (&quot;FormUp&quot; or &quot;TravelToTarget&quot; -&gt; &quot;AbortEncounter&quot;)." />
+					<bool name="value" value="False" />
+				</group>
+				<group name="value_tuning" List.ItemID="989525771">
+					<enum name="key" value="ai_phase_encounter_defend_destination" comment="Whether the encounter squads should wait for combat (defend) at the final target when it arrives (the &quot;DefendDestination&quot; phase)." />
+					<bool name="value" value="False" />
+				</group>
+				<group name="value_tuning" List.ItemID="-245457008">
+					<enum name="key" value="ai_phase_encounter_lock_resources" comment="Whether the Encounter has exclusive ownership of its assigned Squads (that other Encounters cannot grab them)." />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-708976563">
+					<enum name="key" value="ai_phase_encounter_can_use_transports" comment="Whether to allow boarding naval transports to move to other islands (&quot;FormUp&quot; -&gt; &quot;SailToTargetIsland&quot;)." />
+					<bool name="value" value="False" />
+				</group>
+				<group name="value_tuning" List.ItemID="548876615">
+					<enum name="key" value="ai_phase_encounter_exit_on_path_blocker_detected" comment="Whether encounter should exit when its cached path detects path blocker to its intended target (&quot;TravelToTarget&quot; or &quot;EngageTarget&quot; -&gt; &quot;EngagePathBlocker&quot;)." />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" comment="Indicates if the encounter can accept reinforcements from nearby clumps that are fleeing or running away or unable to continue on their original purpose" List.ItemID="514728820">
+					<enum name="key" value="ai_phase_encounter_can_accept_reinforcements" comment="Indicates if the encounter can accept reinforcements from nearby clumps that are fleeing or running away or unable to continue on their original purpose" />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="1520391542">
+					<enum name="key" value="ai_phase_encounter_archers_allow_attack_move" />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-251333421">
+					<enum name="key" value="ai_phase_encounter_melee_allow_attack_move" />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-105658720">
+					<enum name="key" value="ai_phase_encounter_stealth_activated" />
+					<bool name="value" value="False" />
+				</group>
+				<group name="value_tuning" List.ItemID="1700009335">
+					<enum name="key" value="ai_phase_encounter_allow_attack_move_enroute" />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="1336473168">
+					<enum name="key" value="ai_phase_encounter_clear_enemy_squads_enroute" />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="648856448">
+					<enum name="key" value="ai_phase_encounter_clear_enemy_buildings_enroute" />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-501392459">
+					<enum name="key" value="ai_phase_encounter_allow_attack_move" />
+					<bool name="value" value="True" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1299986229">
+					<enum name="key" value="ai_phase_encounter_trigger_monk_dropoff_relic" />
+					<bool name="value" value="True" />
+				</group>
+			</list>
+			<list name="float_tunings">
+				<group name="value_tuning" List.ItemID="-724435916">
+					<enum name="key" value="ai_phase_encounter_enemy_scan_range" comment="Scan range from the center of the formation to look for enemies in meters, used in conjunction with below combat fitness check, set to 0 disable to disable scanning and all below combat exit conditions" />
+					<float name="value" value="60" />
+				</group>
+				<group name="value_tuning" List.ItemID="-988517044">
+					<enum name="key" value="ai_phase_encounter_combat_area" comment="Minimum distance from the encounter target the squads needs to be within to be considered inside encounter area (during combat)." />
+					<float name="value" value="60" />
+				</group>
+				<group name="value_tuning" List.ItemID="2075988674">
+					<enum name="key" value="ai_phase_encounter_combat_leash" comment="Maximum radius from leash target that squads can stray to combat enemies or defend allies in &quot;EngageEnemyEnRoute&quot; or &quot;EngageTarget&quot; phases.  Leash target can be squads centre or final encounter target.  Specify 0 for no leash." />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="2091566549">
+					<enum name="key" value="ai_phase_encounter_formup_required_squads_percent" comment="Minimum percentage of squads required to arrive at &quot;FormUp&quot; location before moving on to the next &quot;TravelToTarget&quot; phase. 1.0 implies all squads must arrive." />
+					<float name="value" value="0.5" />
+				</group>
+				<group name="value_tuning" List.ItemID="439044305">
+					<enum name="key" value="ai_phase_encounter_formup_timeout" comment="Maximum wait time (in seconds) for squads to &quot;FormUp&quot; before moving onto the next &quot;TravelToTarget&quot; phase." />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="324348710">
+					<enum name="key" value="ai_phase_encounter_combat_fitness_threshold" comment="When the current combat fitness ratio of ENEMY vs. ALLY goes above this threshold, encounter exits &quot;TravelToTarget&quot; and transitions to &quot;EngageEnemyEnRoute&quot;.  Set to -1 disable.  Set to a high value (e.g. 0.8) attack only weak enemies we meet. Set to 0 for attack anyone we meet." />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1868313487">
+					<enum name="key" value="ai_phase_encounter_destination_area" comment="Minimum distance from the encounter target the squads needs to be within to be considered arrived at encounter area (during movement phase such as &quot;TravelToTarget&quot;)." />
+					<float name="value" value="100" />
+				</group>
+				<group name="value_tuning" List.ItemID="1979247758">
+					<enum name="key" value="ai_phase_encounter_destination_required_squads_percent" comment="Minimum percentage of squads required to arrive at the destination area (to exit &quot;TravelToTarget&quot; phase). 1.0 implies all squads must arrive." />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="904120104">
+					<enum name="key" value="ai_phase_encounter_protect_distance" comment="When encounter is to cast targeted ability, this is the distance that the protectors will try to maintain from the protected formation.  Positive value means front protection (with respect to protected formation's forward facing).  Negative means back protection. (&quot;CastTargetedAbility&quot; phase)." />
+					<float name="value" value="10" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1676609290">
+					<enum name="key" value="ai_phase_encounter_protect_squad_count_proportion" comment="When encounter is to cast targeted ability, this is the number of protect squads as a ratio to number of squads in the protected formation.  Specify -1 to unlimited. Specify 0 to disable protect (assign no protectors)." />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="1991456959">
+					<enum name="key" value="ai_phase_encounter_idle_at_end_seconds" comment="The amount of time to remain idle after the encounter is completed at the final target (i.e. finished the &quot;EngageTarget&quot; phase)." />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="1422033987">
+					<enum name="key" value="ai_phase_encounter_fallback_combat_rating" comment="When the current combat fitness ratio of ALLY vs. ENEMY falls below this threshold, encounter transition to &quot;Fallback&quot; phase.  0 disables." />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="962431626">
+					<enum name="key" value="ai_phase_encounter_fallback_squad_health_threshold" comment="An individual squad would &quot;want to fallback&quot; if its current health falls below this threshold.  -1.0 disables.  Used in conjunction with &quot;fallback_squad_health_percent&quot;." />
+					<float name="value" value="-1" />
+				</group>
+				<group name="value_tuning" List.ItemID="875732013">
+					<enum name="key" value="ai_phase_encounter_fallback_squad_health_percent" comment="What percentage of encounter squads &quot;wants to fallback&quot; before we transition to &quot;Fallback&quot; phase.  -1.0 disables.  Used in conjunction with &quot;fallback_squad_health_threshold&quot;." />
+					<float name="value" value="-1" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1100093709">
+					<enum name="key" value="ai_phase_encounter_fallback_squads_remaining_percent" comment="Percentage of squads remaining in the encounter before we transition to &quot;Fallback&quot; phase. 0 disables." />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="-302625259">
+					<enum name="key" value="ai_phase_encounter_defend_destination_time" comment="The amount of time in seconds encounter squads should wait for combat (defend) at the final target (if &quot;defend_destination&quot; is set to True)." />
+					<float name="value" value="30" />
+				</group>
+				<group name="value_tuning" List.ItemID="1857232511">
+					<enum name="key" value="ai_phase_encounter_cached_path_update_interval_secs" comment="Whether encounter should monitor a cached path to its target and update it at what time interval." />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="-395981716">
+					<enum name="key" value="ai_phase_encounter_destroyed_wall_opening_ignore_radius" comment="During siege combat when encounter squads are attacking enemy walls, they will ingore any destroyed wall openings beyond this radius and continue attacking the current wall target.  This tuning only has any effect if both &quot;cached_path_update_interval_secs&quot; and &quot;exit_on_path_blocker_detected&quot; tunings are used." />
+					<float name="value" value="120" />
+				</group>
+				<group name="value_tuning" List.ItemID="547405353">
+					<enum name="key" value="ai_phase_encounter_monk_desired_ratio" comment="This is the desired ratio of military to monks. If you have 7 military and you want 3 monks, 7 + 3 = 10 total units. That means you want a ratio of 0.3. (total : monks)" />
+					<float name="value" value="0" />
+				</group>
+				<group name="value_tuning" List.ItemID="117303308">
+					<enum name="key" value="ai_phase_encounter_open_path_length_to_look_for_siege_path" comment="Encounter cached path tuning.  If the current cached path to target is open but is longer than this length, try look for a more direct siege path going through walls." />
+					<float name="value" value="120" />
+				</group>
+				<group name="value_tuning" List.ItemID="-1631287940">
+					<enum name="key" value="ai_phase_encounter_enemy_scan_range_enroute" />
+					<float name="value" value="30" />
+				</group>
+				<group name="value_tuning" List.ItemID="1584576745">
+					<enum name="key" value="ai_phase_encounter_combat_area_enroute" />
+					<float name="value" value="48" />
+				</group>
+				<group name="value_tuning" List.ItemID="-2078992142">
+					<enum name="key" value="ai_phase_encounter_combat_leash_enroute" />
+					<float name="value" value="0" />
+				</group>
+			</list>
+			<list name="int_tunings">
+			</list>
+			<group name="special_enum_tunings">
+				<list name="unit_class_list">
+					<group name="key_values" List.ItemID="-841872314">
+						<enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="Ignore these entity unit types when testing encounter exit conditions due to &quot;combat_fitness_threshold&quot;, &quot;clear_enemy_squads&quot; or &quot;clear_enemy_buildings&quot;." />
+						<list name="values">
+						</list>
+					</group>
+				</list>
+				<list name="ai_military_engagement_type">
+					<group name="key_value" List.ItemID="-1409775589">
+						<enum name="key" value="ai_phase_encounter_engagement_type" comment="Engagment type that classifies the current encounter.  Used in Opportunity &quot;TargetUnreachable&quot; and &quot;TargetInvalidated&quot; that affect some state transitions." />
+						<enum name="value" value="defend_structure" />
+					</group>
+				</list>
+			</group>
+			<group name="special_pbg_tunings">
+				<list name="ai_phase_encounter_coordinator_bag">
+					<group name="key_value" List.ItemID="249997518">
+						<enum name="key" value="ai_phase_encounter_coordinator_bag" comment="&quot;ai\ai_formation_coordinator&quot; AE blueprint containing combat tunings to use when at final target (i.e. &quot;EngageTarget&quot; phase)." />
+						<instance_reference name="value" value="" />
+					</group>
+				</list>
+				<list name="ai_phase_encounter_coordinator_bag_enroute">
+					<group name="key_value" List.ItemID="-2128621354">
+						<enum name="key" value="ai_phase_encounter_coordinator_bag_enroute" comment="&quot;ai\ai_formation_coordinator&quot; AE blueprint containing combat tunings to use when still enroute (i.e. &quot;TravelToTarget&quot; and &quot;EngageEnemyEnRoute&quot; phases)." />
+						<instance_reference name="value" value="" />
+					</group>
+				</list>
+				<list name="ai_phase_encounter_path_bag">
+					<group name="key_value" List.ItemID="-1729423691">
+						<enum name="key" value="ai_phase_encounter_path_bag" comment="&quot;ai\ai_formation_path&quot; AE blueprint containing AI threat path tunings that allow encounter squads to automatically avoid threats enroute to target (i.e. &quot;TravelToTarget&quot; phase)." />
+						<instance_reference name="value" value="" />
+					</group>
+				</list>
+			</group>
+		</group>
+		<uniqueid name="pbgid" value="1584062" />
+		<instance_reference name="parent_pbg" value="" />
+	</variant>
+</instance>

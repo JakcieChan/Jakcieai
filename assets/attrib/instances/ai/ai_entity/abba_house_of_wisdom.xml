@@ -1,0 +1,42 @@
+<instance version="6" description="" template="ai\ai_entity">
+	<uniqueid name="pbgid" value="1073741841" />
+	<group name="ai_entity_bag">
+		<list name="applicable_blueprints">
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid\buildings\building_house_of_wisdom_control_abb" List.ItemID="1364393036" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\ayyubid_cmp\buildings\building_house_of_wisdom_ayy" List.ItemID="1315748687" />
+		</list>
+		<group name="construction">
+			<string name="placement_function" value="" />
+			<bool name="can_build_multiple_in_parallel" value="False" />
+			<int name="max_num_additional_builders" value="1" />
+			<int name="max_num_incomplete_structures_builders" value="1" />
+			<list name="near_to_structures">
+				<instance_reference name="structure" value="ebps\races\abbasid\buildings\building_town_center_capital_abb" List.ItemID="-1217880608" />
+				<instance_reference name="structure" value="ebps\races\abbasid_ha_01\buildings\building_town_center_capital_abb_ha_01" List.ItemID="2103713415" />
+			</list>
+			<list name="requires_structures">
+			</list>
+		</group>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="1073741841" />
+		<group name="ai_entity_bag">
+			<list name="applicable_blueprints">
+				<instance_reference name="applicable_blueprint" value="ebps\races\abbasid\buildings\building_house_of_wisdom_control_abb" List.ItemID="-652625390" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\ayyubid_cmp\buildings\building_house_of_wisdom_ayy" List.ItemID="-378653250" />
+			</list>
+			<group name="construction">
+				<string name="placement_function" value="" />
+				<bool name="can_build_multiple_in_parallel" value="False" />
+				<int name="max_num_additional_builders" value="1" />
+				<int name="max_num_incomplete_structures_builders" value="1" />
+				<list name="near_to_structures">
+					<instance_reference name="structure" value="ebps\races\abbasid\buildings\building_town_center_capital_abb" List.ItemID="-1428498264" />
+					<instance_reference name="structure" value="ebps\races\abbasid_ha_01\buildings\building_town_center_capital_abb_ha_01" List.ItemID="-1796526241" />
+				</list>
+				<list name="requires_structures">
+				</list>
+			</group>
+		</group>
+	</variant>
+</instance>

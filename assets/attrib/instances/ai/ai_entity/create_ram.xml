@@ -1,0 +1,74 @@
+<instance version="6" description="" template="ai\ai_entity">
+	<uniqueid name="pbgid" value="1073741830" />
+	<group name="ai_entity_bag">
+		<list name="applicable_blueprints">
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre\units\unit_ram_3_hre" List.ItemID="-1514957576" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid\units\unit_ram_3_abb" List.ItemID="-1285397153" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese\units\unit_ram_3_chi" List.ItemID="-554467343" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\english\units\unit_ram_3_eng" List.ItemID="-1603250288" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french\units\unit_ram_3_fre" List.ItemID="333193263" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\sultanate\units\unit_ram_3_sul" List.ItemID="2058837509" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\rus\units\unit_ram_3_rus" List.ItemID="37802189" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\ottoman\units\unit_ram_3_ott" List.ItemID="-380223105" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\malian\units\unit_ram_3_mal" List.ItemID="476935102" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\ottoman\units\unit_workshop_ram_3_ott" List.ItemID="-1269442147" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\core\units_buildable\unit_ram_3" List.ItemID="-77879729" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\mongol\units\unit_ram_3_mon" List.ItemID="1635069085" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\units\unit_ram_3_byz" List.ItemID="838042551" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\units\unit_ram_3_fre_ha_01" List.ItemID="1025399416" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid_ha_01\units\unit_ram_3_abb_ha_01" List.ItemID="-1605306025" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\units\unit_ram_3_chi_ha_01" List.ItemID="930240606" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\units\unit_ram_3_hre_ha_01" List.ItemID="-1966021310" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\japanese\units\unit_ram_3_jpn" List.ItemID="2053081395" />
+		</list>
+		<group name="construction">
+			<string name="placement_function" value="" />
+			<bool name="can_build_multiple_in_parallel" value="True" />
+			<int name="max_num_additional_builders" value="10" />
+			<int name="max_num_incomplete_structures_builders" value="10" />
+			<list name="near_to_structures">
+				<instance_reference name="structure" value="ebps\races\core\buildings\building_town_center" List.ItemID="-1035298570" />
+				<instance_reference name="structure" value="ebps\races\core\buildings\building_town_center_capital" List.ItemID="-975001280" />
+			</list>
+			<list name="requires_structures">
+			</list>
+		</group>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="1073741830" />
+		<group name="ai_entity_bag">
+			<list name="applicable_blueprints">
+				<instance_reference name="applicable_blueprint" value="ebps\races\hre\units\unit_ram_3_hre" List.ItemID="-199290061" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\abbasid\units\unit_ram_3_abb" List.ItemID="1634535311" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\chinese\units\unit_ram_3_chi" List.ItemID="-1085520816" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\english\units\unit_ram_3_eng" List.ItemID="-1998751187" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\french\units\unit_ram_3_fre" List.ItemID="1435908504" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\sultanate\units\unit_ram_3_sul" List.ItemID="1894706164" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\rus\units\unit_ram_3_rus" List.ItemID="855267334" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\ottoman\units\unit_ram_3_ott" List.ItemID="-164752882" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\malian\units\unit_ram_3_mal" List.ItemID="-158840967" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\ottoman\units\unit_workshop_ram_3_ott" List.ItemID="-1350718184" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\core\units_buildable\unit_ram_3" List.ItemID="250971957" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\mongol\units\unit_ram_3_mon" List.ItemID="-2131048432" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\units\unit_ram_3_byz" List.ItemID="1552223843" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\units\unit_ram_3_fre_ha_01" List.ItemID="1355160326" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\abbasid_ha_01\units\unit_ram_3_abb_ha_01" List.ItemID="473623042" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\units\unit_ram_3_chi_ha_01" List.ItemID="1855787562" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\units\unit_ram_3_hre_ha_01" List.ItemID="-960950429" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\japanese\units\unit_ram_3_jpn" List.ItemID="1047737723" />
+			</list>
+			<group name="construction">
+				<string name="placement_function" value="" />
+				<bool name="can_build_multiple_in_parallel" value="True" />
+				<int name="max_num_additional_builders" value="10" />
+				<int name="max_num_incomplete_structures_builders" value="10" />
+				<list name="near_to_structures">
+					<instance_reference name="structure" value="ebps\races\core\buildings\building_town_center" List.ItemID="820969715" />
+					<instance_reference name="structure" value="ebps\races\core\buildings\building_town_center_capital" List.ItemID="-1834836176" />
+				</list>
+				<list name="requires_structures">
+				</list>
+			</group>
+		</group>
+	</variant>
+</instance>

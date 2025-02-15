@@ -1,0 +1,164 @@
+<instance version="6" description="will look for unbroken defensive walls" template="ai\ai_formation_coordinator">
+	<group name="ai_formation_coordinator">
+		<list name="non_combat_target_info" overrideParent="True">
+			<group name="info" List.ItemID="302847680">
+				<float name="burn_amount_threshold" value="0" />
+				<int name="max_units" value="4" overrideParent="True" />
+				<int name="priority" value="0" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="gate" List.ItemID="638701318" />
+				</list>
+			</group>
+			<group name="info" List.ItemID="-1580981877">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				<int name="max_units" value="3" overrideParent="True" />
+				<int name="priority" value="0" overrideParent="True" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="farm" overrideParent="True" List.ItemID="1765742402" />
+				</list>
+			</group>
+			<group name="info" List.ItemID="1129911630">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				<int name="max_units" value="3" overrideParent="True" />
+				<int name="priority" value="1" overrideParent="True" />
+				<list name="unit_types">
+					<enum name="unit_class" value="house" overrideParent="True" List.ItemID="-1003233298" />
+					<enum name="unit_class" value="resource_drop_off" overrideParent="True" List.ItemID="-2112204588" />
+				</list>
+			</group>
+			<group name="info" List.ItemID="360221980">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				<int name="max_units" value="3" overrideParent="True" />
+				<int name="priority" value="2" overrideParent="True" />
+				<list name="unit_types" overrideParent="True">
+					<enum name="unit_class" value="trade_post" overrideParent="True" List.ItemID="1897214327" />
+					<enum name="unit_class" value="military_only_production" List.ItemID="1993259535" />
+					<enum name="unit_class" value="military_production_building" List.ItemID="-706863689" />
+					<enum name="unit_class" value="research_building" List.ItemID="-814964223" />
+				</list>
+			</group>
+			<group name="info" List.ItemID="-1764319788">
+				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				<int name="max_units" value="0" overrideParent="True" />
+				<int name="priority" value="3" overrideParent="True" />
+				<list name="unit_types">
+					<enum name="unit_class" value="landmark" overrideParent="True" List.ItemID="460678798" />
+				</list>
+			</group>
+		</list>
+		<template_reference name="defensive_wall_option" value="options\ai\encounters\formation_defensive_wall_coordinator_option" overrideParent="True">
+			<float name="defensive_wall_health_threshold_percent" value="0.3" overrideParent="True" />
+			<float name="ramp_leash_multiplier" value="1.5" overrideParent="True" />
+			<bool name="clear_defensive_walls_on_breach" value="False" />
+			<group name="melee_can_target_outside_walls">
+				<float name="combat_fitness_melee_only" value="0.8" overrideParent="True" />
+				<float name="combat_fitness_mixed" value="0.8" overrideParent="True" />
+				<float name="minimum_duration_secs" value="10" overrideParent="True" />
+			</group>
+		</template_reference>
+		<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+		<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+		<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+		<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+		<list name="path_blocker_targeting_info">
+			<group name="targeting_info" List.ItemID="-122734549" List.ParentItemID="-122734549">
+				<list name="attacker_unit_types_include">
+					<enum name="unit_class" value="ram" overrideParent="True" List.ItemID="495658543" List.ParentItemID="495658543" />
+				</list>
+				<group name="blocker_target_scoring">
+					<list name="unit_type_multipliers">
+						<group name="unit_type_multiplier" List.ItemID="951801846" List.ParentItemID="951801846">
+							<float name="multiplier" value="1" overrideParent="True" />
+						</group>
+					</list>
+				</group>
+			</group>
+		</list>
+		<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+		<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="198734" />
+	<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	<variant name="xp3">
+		<group name="ai_formation_coordinator">
+			<list name="non_combat_target_info" overrideParent="True">
+				<group name="info" List.ItemID="116654330">
+					<float name="burn_amount_threshold" value="0" />
+					<int name="max_units" value="4" overrideParent="True" />
+					<int name="priority" value="0" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="gate" List.ItemID="-350546717" />
+					</list>
+				</group>
+				<group name="info" List.ItemID="-1655914532">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+					<int name="max_units" value="3" overrideParent="True" />
+					<int name="priority" value="0" overrideParent="True" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="farm" overrideParent="True" List.ItemID="1643482668" />
+					</list>
+				</group>
+				<group name="info" List.ItemID="945704471">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+					<int name="max_units" value="3" overrideParent="True" />
+					<int name="priority" value="1" overrideParent="True" />
+					<list name="unit_types">
+						<enum name="unit_class" value="house" overrideParent="True" List.ItemID="16854551" />
+						<enum name="unit_class" value="resource_drop_off" overrideParent="True" List.ItemID="-531010918" />
+					</list>
+				</group>
+				<group name="info" List.ItemID="1696184182">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+					<int name="max_units" value="3" overrideParent="True" />
+					<int name="priority" value="2" overrideParent="True" />
+					<list name="unit_types" overrideParent="True">
+						<enum name="unit_class" value="trade_post" overrideParent="True" List.ItemID="1851382103" />
+						<enum name="unit_class" value="military_only_production" List.ItemID="1742885951" />
+						<enum name="unit_class" value="military_production_building" List.ItemID="-713491135" />
+						<enum name="unit_class" value="research_building" List.ItemID="-1292090743" />
+					</list>
+				</group>
+				<group name="info" List.ItemID="1515020879">
+					<float name="burn_amount_threshold" value="0" overrideParent="True" />
+					<int name="max_units" value="0" overrideParent="True" />
+					<int name="priority" value="3" overrideParent="True" />
+					<list name="unit_types">
+						<enum name="unit_class" value="landmark" overrideParent="True" List.ItemID="-705901522" />
+					</list>
+				</group>
+			</list>
+			<template_reference name="defensive_wall_option" value="options\ai\encounters\formation_defensive_wall_coordinator_option" overrideParent="True">
+				<float name="defensive_wall_health_threshold_percent" value="0.3" overrideParent="True" />
+				<float name="ramp_leash_multiplier" value="1.5" overrideParent="True" />
+				<bool name="clear_defensive_walls_on_breach" value="False" />
+				<group name="melee_can_target_outside_walls">
+					<float name="combat_fitness_melee_only" value="0.8" overrideParent="True" />
+					<float name="combat_fitness_mixed" value="0.8" overrideParent="True" />
+					<float name="minimum_duration_secs" value="10" overrideParent="True" />
+				</group>
+			</template_reference>
+			<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />
+			<float name="direct_path_to_target_tolerance_on_wall" value="1.7" overrideParent="True" />
+			<float name="setup_unit_critical_value" value="6" overrideParent="True" />
+			<float name="ranged_unit_critical_value" value="3" overrideParent="True" />
+			<list name="path_blocker_targeting_info">
+				<group name="targeting_info" List.ItemID="1959570867" List.ParentItemID="1959570867">
+					<list name="attacker_unit_types_include" removedIds="994975355">
+						<enum name="unit_class" value="ram" overrideParent="True" List.ItemID="495658543" List.ListAction="Append" />
+					</list>
+					<group name="blocker_target_scoring">
+						<list name="unit_type_multipliers">
+							<group name="unit_type_multiplier" List.ItemID="-512178520" List.ParentItemID="-512178520">
+								<float name="multiplier" value="1" overrideParent="True" />
+							</group>
+						</list>
+					</group>
+				</group>
+			</list>
+			<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
+			<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+		</group>
+		<uniqueid name="pbgid" value="198734" />
+		<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />
+	</variant>
+</instance>

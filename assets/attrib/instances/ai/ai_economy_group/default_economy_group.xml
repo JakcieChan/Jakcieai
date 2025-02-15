@@ -1,0 +1,16 @@
+<instance version="6" description="" template="ai\ai_economy_group">
+	<group name="ai_economy_group_bag">
+		<instance_reference name="default" value="ai\ai_economy\complete\default_economy" mod="4162919852314ab4a1184f5a93aee14d" />
+		<list name="overrides">
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="17637" />
+	<variant name="xp3">
+		<group name="ai_economy_group_bag">
+			<instance_reference name="default" value="ai\ai_economy\complete\default_economy" mod="4162919852314ab4a1184f5a93aee14d" />
+			<list name="overrides">
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="17637" />
+	</variant>
+</instance>

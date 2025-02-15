@@ -1,0 +1,102 @@
+<instance version="6" description="scoring for formation groups consisting of manatarms when attacking a palisade wall" template="ai\ai_formation_target_priority">
+	<group name="ai_formation_target_priority">
+		<float name="target_check_interval_seconds" value="2" />
+		<list name="formation_priority_options">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1434068537">
+				<bool name="prefer_focus_target" value="True" />
+			</template_reference>
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1879739349">
+				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_target_scale" value="-5" />
+				<float name="already_assigned_scale" value="-1" />
+				<float name="can_move_scale" value="0" />
+				<float name="movement_speed_scale" value="-1" />
+				<float name="critical_target_scale" value="2" />
+				<float name="current_target_scale" value="10" />
+				<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+					<list name="unit_type_scores">
+						<group name="unit_type_score" comment="We can't target stone gates in Skirmish, but for legacy it might make a difference" List.ItemID="-1721872769">
+							<enum name="unit_type" value="stone_gate" />
+							<float name="score" value="10" />
+						</group>
+						<group name="unit_type_score" List.ItemID="2000230691">
+							<enum name="unit_type" value="palisade_gate" />
+							<float name="score" value="10" />
+						</group>
+						<group name="unit_type_score" List.ItemID="1897798357">
+							<enum name="unit_type" value="palisade_wall" />
+							<float name="score" value="8" />
+						</group>
+					</list>
+				</template_reference>
+				<bool name="exclude_no_los" value="True" />
+				<float name="can_shoot_at_scale" value="5" />
+				<bool name="always_consider_non_combat_targets" value="False" />
+			</template_reference>
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="1929994845">
+				<float name="consider_enemies_on_wall_within_distance" value="0" />
+				<template_reference name="unit_type_scores" value="">
+				</template_reference>
+				<bool name="require_walkable_target" value="True" />
+			</template_reference>
+		</list>
+		<list name="exclude_unit_types">
+			<enum name="unit_class" value="stone_wall" List.ItemID="-905836188" />
+			<enum name="unit_class" value="villager" List.ItemID="-1865165034" />
+			<enum name="unit_class" value="resource_drop_off" List.ItemID="-1541479025" />
+			<enum name="unit_class" value="trade_cart" List.ItemID="1435243932" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="195236" />
+	<variant name="xp3">
+		<group name="ai_formation_target_priority">
+			<float name="target_check_interval_seconds" value="2" />
+			<list name="formation_priority_options">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="-479121582">
+					<bool name="prefer_focus_target" value="True" />
+				</template_reference>
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1732527489">
+					<float name="time_to_kill_scale" value="-1" />
+					<float name="time_to_target_scale" value="-5" />
+					<float name="already_assigned_scale" value="-1" />
+					<float name="can_move_scale" value="0" />
+					<float name="movement_speed_scale" value="-1" />
+					<float name="critical_target_scale" value="2" />
+					<float name="current_target_scale" value="10" />
+					<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+						<list name="unit_type_scores">
+							<group name="unit_type_score" comment="We can't target stone gates in Skirmish, but for legacy it might make a difference" List.ItemID="-1721872769">
+								<enum name="unit_type" value="stone_gate" />
+								<float name="score" value="10" />
+							</group>
+							<group name="unit_type_score" List.ItemID="2000230691">
+								<enum name="unit_type" value="palisade_gate" />
+								<float name="score" value="10" />
+							</group>
+							<group name="unit_type_score" List.ItemID="1897798357">
+								<enum name="unit_type" value="palisade_wall" />
+								<float name="score" value="8" />
+							</group>
+						</list>
+					</template_reference>
+					<bool name="exclude_no_los" value="True" />
+					<float name="can_shoot_at_scale" value="5" />
+					<bool name="always_consider_non_combat_targets" value="False" />
+				</template_reference>
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="-1514722360">
+					<float name="consider_enemies_on_wall_within_distance" value="0" />
+					<template_reference name="unit_type_scores" value="">
+					</template_reference>
+					<bool name="require_walkable_target" value="True" />
+				</template_reference>
+			</list>
+			<list name="exclude_unit_types">
+				<enum name="unit_class" value="stone_wall" List.ItemID="1035570871" />
+				<enum name="unit_class" value="villager" List.ItemID="953033529" />
+				<enum name="unit_class" value="resource_drop_off" List.ItemID="1496701942" />
+				<enum name="unit_class" value="trade_cart" List.ItemID="1930698893" />
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="195236" />
+	</variant>
+</instance>

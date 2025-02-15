@@ -1,0 +1,30 @@
+<instance version="6" description="" template="ai\ai_formation_target_priority">
+	<group name="ai_formation_target_priority">
+		<float name="target_check_interval_seconds" value="10" />
+		<list name="formation_priority_options">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1257088875">
+				<bool name="prefer_focus_target" value="True" />
+			</template_reference>
+		</list>
+		<list name="exclude_unit_types">
+			<enum name="unit_class" value="human" List.ItemID="-2105380532" />
+			<enum name="unit_class" value="cavalry" List.ItemID="1344819893" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="191747" />
+	<variant name="xp3">
+		<group name="ai_formation_target_priority">
+			<float name="target_check_interval_seconds" value="10" />
+			<list name="formation_priority_options">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="-1188268662">
+					<bool name="prefer_focus_target" value="True" />
+				</template_reference>
+			</list>
+			<list name="exclude_unit_types">
+				<enum name="unit_class" value="human" List.ItemID="-1188976965" />
+				<enum name="unit_class" value="cavalry" List.ItemID="840024666" />
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="191747" />
+	</variant>
+</instance>

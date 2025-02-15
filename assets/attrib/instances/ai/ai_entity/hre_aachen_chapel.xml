@@ -1,0 +1,48 @@
+<instance version="6" description="Aachen Chapel landmark should be near resource drop-offs" template="ai\ai_entity">
+	<uniqueid name="pbgid" value="2085233" />
+	<group name="ai_entity_bag">
+		<list name="applicable_blueprints">
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_landmark_age1_palantine_chapel_hre\building_landmark_age1_palantine_chapel_hre" List.ItemID="-620124798" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\buildings\building_landmark_age1_palantine_chapel_hre_ha_01\building_landmark_age1_palantine_chapel_hre_ha_01" List.ItemID="1792292025" />
+		</list>
+		<group name="construction">
+			<string name="placement_function" value="" />
+			<bool name="can_build_multiple_in_parallel" value="False" />
+			<int name="max_num_additional_builders" value="4" />
+			<int name="max_num_incomplete_structures_builders" value="-1" />
+			<list name="near_to_structures">
+				<instance_reference name="structure" value="ebps\races\hre\buildings\building_econ_food_hre\building_econ_food_control_hre" List.ItemID="677493450" />
+				<instance_reference name="structure" value="ebps\gameplay\resources\wood\trees\core_tree" List.ItemID="1031715519" />
+				<instance_reference name="structure" value="ebps\gameplay\resources\food\resource_food_forage_berry_bush" List.ItemID="1019407615" />
+				<instance_reference name="structure" value="ebps\gameplay\resources\food\resource_food_forage_berry_bush_sml" List.ItemID="-131009348" />
+				<instance_reference name="structure" value="ebps\races\hre\buildings\building_econ_wood_hre\building_econ_wood_control_hre" List.ItemID="1669537945" />
+			</list>
+			<list name="requires_structures">
+			</list>
+		</group>
+	</group>
+	<variant name="xp3">
+		<uniqueid name="pbgid" value="2085233" />
+		<group name="ai_entity_bag">
+			<list name="applicable_blueprints">
+				<instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_landmark_age1_palantine_chapel_hre\building_landmark_age1_palantine_chapel_hre" List.ItemID="1591887202" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\buildings\building_landmark_age1_palantine_chapel_hre_ha_01\building_landmark_age1_palantine_chapel_hre_ha_01" List.ItemID="1970777655" />
+			</list>
+			<group name="construction">
+				<string name="placement_function" value="" />
+				<bool name="can_build_multiple_in_parallel" value="False" />
+				<int name="max_num_additional_builders" value="4" />
+				<int name="max_num_incomplete_structures_builders" value="-1" />
+				<list name="near_to_structures">
+					<instance_reference name="structure" value="ebps\races\hre\buildings\building_econ_food_hre\building_econ_food_control_hre" List.ItemID="-1560087170" />
+					<instance_reference name="structure" value="ebps\gameplay\resources\wood\trees\core_tree" List.ItemID="-1863563118" />
+					<instance_reference name="structure" value="ebps\gameplay\resources\food\resource_food_forage_berry_bush" List.ItemID="-1471683220" />
+					<instance_reference name="structure" value="ebps\gameplay\resources\food\resource_food_forage_berry_bush_sml" List.ItemID="-1662443584" />
+					<instance_reference name="structure" value="ebps\races\hre\buildings\building_econ_wood_hre\building_econ_wood_control_hre" List.ItemID="-319869254" />
+				</list>
+				<list name="requires_structures">
+				</list>
+			</group>
+		</group>
+	</variant>
+</instance>

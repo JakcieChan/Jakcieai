@@ -1,0 +1,80 @@
+<instance version="4" description="" template="ai\ai_entity">
+	<uniqueid name="pbgid" value="1073741862" />
+	<group name="ai_entity_bag">
+		<list name="applicable_blueprints">
+			<instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_unit_siege_sul\building_unit_siege_control_sul" List.ItemID="1505038537" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_unit_ranged_sul\building_unit_ranged_control_sul" List.ItemID="627310007" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_unit_infantry_sul\building_unit_infantry_control_sul" List.ItemID="-1029305867" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_unit_infantry_fre\building_unit_infantry_control_fre" List.ItemID="1210500576" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese\buildings\building_unit_ranged_chi\building_unit_ranged_control_chi" List.ItemID="1631619741" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\english\buildings\building_unit_cavalry_eng\building_unit_cavalry_control_eng" List.ItemID="382111083" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\english\buildings\building_unit_infantry_eng\building_unit_infantry_control_eng" List.ItemID="-2078886037" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\english\buildings\building_unit_siege_eng\building_unit_siege_control_eng" List.ItemID="1635830555" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_unit_cavalry_fre\building_unit_cavalry_control_fre" List.ItemID="2146317402" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_unit_siege_fre\building_unit_siege_control_fre" List.ItemID="-940485537" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_unit_infantry_hre\building_unit_infantry_control_hre" List.ItemID="-627039406" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_unit_ranged_hre\building_unit_ranged_control_hre" List.ItemID="1002092824" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_unit_cavalry_hre\building_unit_cavalry_control_hre" List.ItemID="1065520074" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_unit_siege_hre\building_unit_siege_control_hre" List.ItemID="1044130760" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\rus\buildings\building_unit_cavalry_rus\building_unit_cavalry_control_rus" List.ItemID="1662755763" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_unit_ranged_fre\building_unit_ranged_control_fre" List.ItemID="1933819533" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\rus\buildings\building_unit_ranged_rus\building_unit_ranged_control_rus" List.ItemID="1790443033" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_unit_cavalry_sul\building_unit_cavalry_control_sul" List.ItemID="-1726743391" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\rus\buildings\building_unit_siege_rus\building_unit_siege_control_rus" List.ItemID="-479228235" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\rus\buildings\building_unit_infantry_rus\building_unit_infantry_control_rus" List.ItemID="-2144512142" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\english\buildings\building_unit_ranged_eng\building_unit_ranged_control_eng" List.ItemID="1373211334" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese\buildings\building_unit_siege_chi\building_unit_siege_control_chi" List.ItemID="-2030504470" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese\buildings\building_unit_infantry_chi\building_unit_infantry_control_chi" List.ItemID="270232171" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese\buildings\building_unit_cavalry_chi\building_unit_cavalry_control_chi" List.ItemID="571606530" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid\buildings\building_unit_cavalry_control_abb" List.ItemID="1624875992" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid\buildings\building_unit_infantry_control_abb" List.ItemID="-134062950" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid\buildings\building_unit_ranged_control_abb" List.ItemID="-565713085" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid\buildings\building_unit_siege_control_abb" List.ItemID="2117520817" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="884538120" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="1252987421" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="1946092745" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="-1786515774" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_unit_cavalry_mal" List.ItemID="1986717274" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_unit_infantry_mal" List.ItemID="1078826559" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_unit_ranged_mal" List.ItemID="537898214" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_unit_siege_mal" List.ItemID="-1712798808" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_cavalry_ott" List.ItemID="760698197" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_ranged_ott" List.ItemID="1139853162" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_siege_ott" List.ItemID="-1421692916" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_cavalry_control_byz" List.ItemID="-6069842" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_infantry_control_byz" List.ItemID="1616382188" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_siege_control_byz" List.ItemID="278347381" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_ranged_control_byz" List.ItemID="8006755" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_unit_cavalry_jpn" List.ItemID="435167051" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_unit_infantry_jpn" List.ItemID="-955346549" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_unit_ranged_jpn" List.ItemID="-82605705" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_unit_siege_jpn" List.ItemID="1921744835" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid_ha_01\buildings\building_unit_cavalry_control_abb_ha_01" List.ItemID="1658553652" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid_ha_01\buildings\building_unit_infantry_control_abb_ha_01" List.ItemID="1193766692" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid_ha_01\buildings\building_unit_ranged_control_abb_ha_01" List.ItemID="166380862" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\abbasid_ha_01\buildings\building_unit_siege_control_abb_ha_01" List.ItemID="2139111053" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\buildings\building_unit_cavalry_chi_ha_01\building_unit_cavalry_control_chi_ha_01" List.ItemID="153679703" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\buildings\building_unit_infantry_chi_ha_01\building_unit_infantry_control_chi_ha_01" List.ItemID="516187593" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\buildings\building_unit_ranged_chi_ha_01\building_unit_ranged_control_chi_ha_01" List.ItemID="-1338244210" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\buildings\building_unit_siege_chi_ha_01\building_unit_siege_control_chi_ha_01" List.ItemID="-623817700" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\buildings\building_unit_cavalry_hre_ha_01\building_unit_cavalry_control_hre_ha_01" List.ItemID="-1221665890" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\buildings\building_unit_infantry_hre_ha_01\building_unit_infantry_control_hre_ha_01" List.ItemID="-1643056811" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\buildings\building_unit_ranged_hre_ha_01\building_unit_ranged_control_hre_ha_01" List.ItemID="-502185242" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\hre_ha_01\buildings\building_unit_siege_hre_ha_01\building_unit_siege_control_hre_ha_01" List.ItemID="266898701" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_unit_cavalry_fre_ha_01\building_unit_cavalry_control_fre_ha_01" List.ItemID="1558772912" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_unit_infantry_fre_ha_01\building_unit_infantry_control_fre_ha_01" List.ItemID="2146271627" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_unit_ranged_fre_ha_01\building_unit_ranged_control_fre_ha_01" List.ItemID="-2093810198" />
+			<instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_unit_siege_fre_ha_01\building_unit_siege_control_fre_ha_01" List.ItemID="-1211372306" />
+		</list>
+		<group name="construction">
+			<string name="placement_function" value="" />
+			<bool name="can_build_multiple_in_parallel" value="False" />
+			<int name="max_num_additional_builders" value="4" />
+			<int name="max_num_incomplete_structures_builders" value="-1" />
+			<list name="near_to_structures">
+			</list>
+			<list name="requires_structures">
+			</list>
+		</group>
+	</group>
+</instance>
