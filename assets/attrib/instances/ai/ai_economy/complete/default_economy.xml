@@ -841,7 +841,7 @@
 			<list name="weighted_strategic_intentions">
 			</list>
 			<bool name="inherit_utility" value="True" />
-			<float name="requested_production_scale" value="5" />
+			<float name="requested_production_scale" value="-1" />
 			<bool name="consider_time_to_acquire" value="True" />
 			<float name="minimum_final_utility_to_produce" value="-1" />
 			<float name="minimum_placement_utility_to_produce" value="-1" />
@@ -2656,7 +2656,7 @@
 					<instance_reference name="member" value="ebps\races\french_ha_01\units\unit_scout_1_fre_ha_01" List.ItemID="1344995907" />
 					<instance_reference name="member" value="sbps\races\rus\unit_scout_1_rus" List.ItemID="583275127" />
 				</list>
-				<float name="base_scale" value="12500" />
+				<float name="base_scale" value="9999990" />
 				<float name="minimum_score_to_produce" value="50" />
 				<string name="lua_binding" value="ScoringFunctions_Scouting" />
 				<int name="max_current" value="2" />
@@ -2985,7 +2985,7 @@
 					<instance_reference name="member" value="ebps\races\mongol\buildings\building_pasture_mon" List.ItemID="-1585165007" />
 				</list>
 				<float name="base_scale" value="4000" />
-				<float name="minimum_score_to_produce" value="80" />
+				<float name="minimum_score_to_produce" value="45" />
 				<string name="lua_binding" value="ScoringFunctions_ResourceGenerator" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -3008,7 +3008,7 @@
 					<instance_reference name="member" value="sbps\races\french_ha_01\unit_villager_1_fre_ha_01" List.ItemID="-677131259" />
 					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_villager_1_hre_ha_01" List.ItemID="545815525" />
 				</list>
-				<float name="base_scale" value="10000" />
+				<float name="base_scale" value="999999" />
 				<float name="minimum_score_to_produce" value="0" />
 				<string name="lua_binding" value="ScoringFunctions_Gatherer" />
 				<int name="max_current" value="-1" />
@@ -4912,7 +4912,7 @@
 				<list name="members">
 					<instance_reference name="member" value="sbps\races\malian\unit_villager_1_mal" List.ItemID="-88955383" />
 				</list>
-				<float name="base_scale" value="20000" />
+				<float name="base_scale" value="999999" />
 				<float name="minimum_score_to_produce" value="0" />
 				<string name="lua_binding" value="ScoringFunctions_Gatherer" />
 				<int name="max_current" value="-1" />
@@ -4922,7 +4922,7 @@
 				<list name="members">
 					<instance_reference name="member" value="sbps\races\mongol\unit_villager_1_mon" List.ItemID="-436938242" />
 				</list>
-				<float name="base_scale" value="20000" />
+				<float name="base_scale" value="999999" />
 				<float name="minimum_score_to_produce" value="0" />
 				<string name="lua_binding" value="ScoringFunctions_Gatherer" />
 				<int name="max_current" value="-1" />
@@ -4934,7 +4934,7 @@
 					<instance_reference name="member" value="sbps\races\mongol\unit_scout_1_mon" List.ItemID="-646317984" />
 					<instance_reference name="member" value="sbps\races\mongol\unit_khan_1_mon" List.ItemID="116142317" />
 				</list>
-				<float name="base_scale" value="47500" />
+				<float name="base_scale" value="9999990" />
 				<float name="minimum_score_to_produce" value="50" />
 				<string name="lua_binding" value="ScoringFunctions_Scouting" />
 				<int name="max_current" value="2" />

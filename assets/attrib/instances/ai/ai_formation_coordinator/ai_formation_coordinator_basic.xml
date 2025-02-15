@@ -27,7 +27,7 @@
 			<group name="info" List.ItemID="1870002138">
 				<float name="burn_amount_threshold" value="0" />
 				<int name="max_units" value="0" />
-				<int name="priority" value="0" />
+				<int name="priority" value="4" />
 				<list name="unit_types">
 					<enum name="unit_class" value="outpost" List.ItemID="803582799" />
 					<enum name="unit_class" value="castle" List.ItemID="-1580110751" />
@@ -36,7 +36,7 @@
 			<group name="info" List.ItemID="-286586598">
 				<float name="burn_amount_threshold" value="0" />
 				<int name="max_units" value="0" />
-				<int name="priority" value="3" />
+				<int name="priority" value="2" />
 				<list name="unit_types">
 					<enum name="unit_class" value="economy_building" List.ItemID="860525961" />
 					<enum name="unit_class" value="research_building" List.ItemID="-1571603521" />

@@ -13,8 +13,8 @@
 				<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
 					<list name="unit_type_scores">
 						<group name="unit_type_score" List.ItemID="-1992817922">
-							<enum name="unit_type" value="military" />
-							<float name="score" value="10" />
+							<enum name="unit_type" value="infantry" />
+							<float name="score" value="11" />
 						</group>
 						<group name="unit_type_score" List.ItemID="1942274881">
 							<enum name="unit_type" value="jeanne_d_arc" />
@@ -22,7 +22,7 @@
 						</group>
 						<group name="unit_type_score" List.ItemID="-839120411">
 							<enum name="unit_type" value="monk" />
-							<float name="score" value="20" />
+							<float name="score" value="10" />
 						</group>
 						<group name="unit_type_score" List.ItemID="733869490">
 							<enum name="unit_type" value="ranged" />
