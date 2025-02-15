@@ -1,4 +1,4 @@
-# Jakcie A.I (New DLC Compatible!) 
+# Jakcie A.I (Age of Empires 4 AI improvement/bugfixes mod) 
 
 ## (AND WITH A GITHUB)
 
