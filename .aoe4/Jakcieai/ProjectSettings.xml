@@ -8,8 +8,7 @@
 				<d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
 					<d2p1:Key>AssetExplorerGeneric</d2p1:Key>
 					<d2p1:Value>
-						<d2p1:string>assets\attrib\instances\ai\ai_economy\complete</d2p1:string>
-						<d2p1:string>assets\attrib\instances\ai\ai_economy_group</d2p1:string>
+						<d2p1:string>assets\attrib\instances\ai\ai_entity</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_formation_coordinator</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_formation_path</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_personality</d2p1:string>
@@ -28,16 +27,16 @@
 	</PluginSettings>
 	<RecentFiles>
 		<History xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_entity\malian_house.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\mod.rdo</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_economy\complete\default_economy.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\Jakcieai.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_difficulty_hard.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_personality\default_skirmish.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_settings\default_skirmish_hardest.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_economy\complete\default_economy.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_economy_group\default_economy_group.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_coordinator\ai_formation_coordinator_harass.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_target_priority\cavalry_target_priority.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_isolated_buildings.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_defend\skirmish_defend_ally_clumps.xml</d3p1:string>
 		</History>
 	</RecentFiles>
 </ProjectSettings>

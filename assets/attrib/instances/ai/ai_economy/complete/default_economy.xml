@@ -2738,7 +2738,7 @@
 					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_defense_keep_hre_ha_01\building_defense_keep_hre_ha_01" List.ItemID="-1038007969" />
 					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_defense_keep_fre_ha_01\building_defense_keep_fre_ha_01" List.ItemID="-1574883646" />
 				</list>
-				<float name="base_scale" value="200" />
+				<float name="base_scale" value="225" />
 				<float name="minimum_score_to_produce" value="20" />
 				<string name="lua_binding" value="ScoringFunctions_Keeps" />
 				<int name="max_current" value="-1" />
@@ -2984,7 +2984,7 @@
 					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_resource_farm_fre_ha_01\building_resource_farm_fre_ha_01" List.ItemID="93338234" />
 					<instance_reference name="member" value="ebps\races\mongol\buildings\building_pasture_mon" List.ItemID="-1585165007" />
 				</list>
-				<float name="base_scale" value="2500" />
+				<float name="base_scale" value="4000" />
 				<float name="minimum_score_to_produce" value="80" />
 				<string name="lua_binding" value="ScoringFunctions_ResourceGenerator" />
 				<int name="max_current" value="-1" />
@@ -3032,8 +3032,8 @@
 					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_hre_ha_01" List.ItemID="1872473943" />
 					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_town_center_fre_ha_01\building_town_center_fre_ha_01" List.ItemID="-1337558351" />
 				</list>
-				<float name="base_scale" value="4000" />
-				<float name="minimum_score_to_produce" value="150" />
+				<float name="base_scale" value="3750" />
+				<float name="minimum_score_to_produce" value="175" />
 				<string name="lua_binding" value="ScoringFunctions_ExpansionTC" />
 				<int name="max_current" value="1" />
 				<int name="max_produced_ever" value="-1" />
@@ -3383,6 +3383,9 @@
 					<instance_reference name="member" value="sbps\races\ottoman\unit_horsearcher_2_ott" List.ItemID="-434743634" />
 					<instance_reference name="member" value="sbps\races\ottoman\unit_horsearcher_3_ott" List.ItemID="39466034" />
 					<instance_reference name="member" value="sbps\races\ottoman\unit_horsearcher_4_ott" List.ItemID="1402513903" />
+					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_mansa_javelin_3_mal" List.ItemID="-341636358" />
+					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_mansa_javelin_2_mal" List.ItemID="-1887121446" />
+					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_mansa_javelin_4_mal" List.ItemID="-1536282928" />
 				</list>
 				<float name="base_scale" value="1250" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -3460,6 +3463,11 @@
 					<instance_reference name="member" value="sbps\races\malian\unit_gbeto_2_mal" List.ItemID="697809172" />
 					<instance_reference name="member" value="sbps\races\malian\unit_gbeto_3_mal" List.ItemID="-1229743659" />
 					<instance_reference name="member" value="sbps\races\malian\unit_gbeto_4_mal" List.ItemID="-1187478727" />
+					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_freebornwarrior_3_mal" List.ItemID="682885736" />
+					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_freebornwarrior_4_mal" List.ItemID="1314029150" />
+					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_mansa_musofadi_2_mal" List.ItemID="-1789873070" />
+					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_mansa_musofadi_3_mal" List.ItemID="-529753422" />
+					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_mansa_musofadi_4_mal" List.ItemID="1858384891" />
 				</list>
 				<float name="base_scale" value="1250" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -4431,8 +4439,8 @@
 					<instance_reference name="member" value="upgrade\races\japanese\buildings\upgrade_capital_tier_2_jpn" List.ItemID="-609963201" />
 					<instance_reference name="member" value="upgrade\races\japanese\buildings\upgrade_capital_tier_3_jpn" List.ItemID="-2060920300" />
 				</list>
-				<float name="base_scale" value="2500" />
-				<float name="minimum_score_to_produce" value="200" />
+				<float name="base_scale" value="1500" />
+				<float name="minimum_score_to_produce" value="225" />
 				<string name="lua_binding" value="ScoringFunctions_DaimyoUpgradeJapanese" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -5037,9 +5045,24 @@
 					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_landmark_age2_bamberg_cathedral_hre_ha_01\building_landmark_age2_bamberg_cathedral_hre_ha_01" List.ItemID="69783934" />
 					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_landmark_age2_nuremberg_castle_hre_ha_01\building_landmark_age2_nuremberg_castle_hre_ha_01" List.ItemID="-503622442" />
 				</list>
+				<float name="base_scale" value="1250" />
+				<float name="minimum_score_to_produce" value="75" />
+				<string name="lua_binding" value="ScoringFunctions_LandmarkStandard" />
+				<int name="max_current" value="-1" />
+				<int name="max_produced_ever" value="-1" />
+			</template_reference>
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Malian Farimba upgrades" List.ItemID="1807370206">
+				<list name="members">
+					<instance_reference name="member" value="upgrade\races\malian\units\farimba_unlocks\farimba_unlock_freeborn" List.ItemID="-850701143" />
+					<instance_reference name="member" value="upgrade\races\malian\units\farimba_unlocks\farimba_unlock_freeborn_2" List.ItemID="-636253347" />
+					<instance_reference name="member" value="upgrade\races\malian\units\farimba_unlocks\farimba_unlock_mansa_javelin" List.ItemID="44015280" />
+					<instance_reference name="member" value="upgrade\races\malian\units\farimba_unlocks\farimba_unlock_mansa_javelin_2" List.ItemID="-1987509571" />
+					<instance_reference name="member" value="upgrade\races\malian\units\farimba_unlocks\farimba_unlock_mansa_musofadi" List.ItemID="1501383948" />
+					<instance_reference name="member" value="upgrade\races\malian\units\farimba_unlocks\farimba_unlock_mansa_musofadi_2" List.ItemID="1284195307" />
+				</list>
 				<float name="base_scale" value="1000" />
-				<float name="minimum_score_to_produce" value="100" />
-				<string name="lua_binding" value="ScoringFunctions_LandmarkEcon" />
+				<float name="minimum_score_to_produce" value="0" />
+				<string name="lua_binding" value="ScoringFunctions_PlayerUnitTierUpgrade" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>

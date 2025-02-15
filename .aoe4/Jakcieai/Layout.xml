@@ -4,8 +4,11 @@
     <LayoutPanel Orientation="Vertical">
       <LayoutDocumentPaneGroup Orientation="Horizontal">
         <LayoutDocumentPane Id="172c4545-7d79-44aa-bad9-d77ae0dd0df5" DockWidth="0.475409836065574*">
-          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Asset Explorer" ContentId="EssenceEditor.AssetExplorer" FloatingLeft="-1908" FloatingTop="98" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="02/14/2025 16:45:37" />
-          <LayoutDocument Title="ebps" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ebps" LastActivationTimeStamp="02/14/2025 16:52:46" />
+          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Asset Explorer" ContentId="EssenceEditor.AssetExplorer" FloatingLeft="-1908" FloatingTop="98" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="02/14/2025 18:09:31" />
+          <LayoutDocument Title="ebps" ContentId="Category|ebps" LastActivationTimeStamp="02/14/2025 16:52:46" />
+          <LayoutDocument Title="ai\ai_economy" ContentId="Category|ai\ai_economy" LastActivationTimeStamp="02/14/2025 17:12:50" />
+          <LayoutDocument Title="mod.rdo" ContentId="Reflect|Essence.Editor.ReflectEditor.Controls.DefaultReflectControlActivator|0xFD4C65582FC0A152" LastActivationTimeStamp="02/14/2025 17:07:58" />
+          <LayoutDocument Title="ai\ai_entity" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ai\ai_entity" LastActivationTimeStamp="02/14/2025 18:09:42" />
         </LayoutDocumentPane>
       </LayoutDocumentPaneGroup>
       <LayoutAnchorablePane Id="1b84d0aa-3fd1-4781-909d-fa3e4b760d6d" Name="anchorablesPane" DockHeight="190">
