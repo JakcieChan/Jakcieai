@@ -19,7 +19,7 @@
 				<float name="priority" value="1000" />
 				<string name="tactic_filter_abort" value="" />
 				<string name="tactic_filter_start" value="" />
-				<float name="tactic_max_range_override" value="-1" />
+				<float name="tactic_max_range_override" value="25" />
 				<string name="tactic_filter_position" value="" />
 				<float name="tactic_min_range_override" value="-1" />
 				<float name="max_timeout" value="-1" />
@@ -39,7 +39,7 @@
 				</template_reference>
 				<string name="tactic_on_update" value="" />
 				<bool name="can_target_allies" value="True" />
-				<bool name="can_target_enemies" value="True" />
+				<bool name="can_target_enemies" value="False" />
 			</group>
 			<group name="tactic_info_toggle_off">
 				<enum_table name="class">
@@ -59,7 +59,7 @@
 		<list name="tactic_info_overrides">
 		</list>
 		<group name="buff_info">
-			<bool name="buff_allies" value="False" />
+			<bool name="buff_allies" value="True" />
 			<float name="buff_duration" value="0" />
 			<list name="buff_target_requirements">
 			</list>

@@ -485,41 +485,6 @@
 					<enum name="rhs_squad_type" value="musofadi_warrior" />
 					<float name="relationship_weight" value="2" />
 				</group>
-				<group name="weight_relationship" List.ItemID="611964027">
-					<enum name="lhs_squad_type" value="springald" />
-					<enum name="rhs_squad_type" value="springald" />
-					<float name="relationship_weight" value="1" />
-				</group>
-				<group name="weight_relationship" List.ItemID="857336672">
-					<enum name="lhs_squad_type" value="springald" />
-					<enum name="rhs_squad_type" value="cavalry_tower_elephant" />
-					<float name="relationship_weight" value="1" />
-				</group>
-				<group name="weight_relationship" List.ItemID="1021470365">
-					<enum name="lhs_squad_type" value="springald" />
-					<enum name="rhs_squad_type" value="cavalry_war_elephant" />
-					<float name="relationship_weight" value="1" />
-				</group>
-				<group name="weight_relationship" List.ItemID="1683988074">
-					<enum name="lhs_squad_type" value="springald" />
-					<enum name="rhs_squad_type" value="mangonel" />
-					<float name="relationship_weight" value="7" />
-				</group>
-				<group name="weight_relationship" List.ItemID="-1465231601">
-					<enum name="lhs_squad_type" value="springald" />
-					<enum name="rhs_squad_type" value="trebuchet_counterweight" />
-					<float name="relationship_weight" value="7" />
-				</group>
-				<group name="weight_relationship" List.ItemID="-207892414">
-					<enum name="lhs_squad_type" value="springald" />
-					<enum name="rhs_squad_type" value="trebuchet_traction" />
-					<float name="relationship_weight" value="7" />
-				</group>
-				<group name="weight_relationship" List.ItemID="881614680">
-					<enum name="lhs_squad_type" value="springald" />
-					<enum name="rhs_squad_type" value="siege" />
-					<float name="relationship_weight" value="6" />
-				</group>
 				<group name="weight_relationship" List.ItemID="729764657">
 					<enum name="lhs_squad_type" value="ribauldequin" />
 					<enum name="rhs_squad_type" value="melee" />
@@ -1003,6 +968,11 @@
 				<group name="weight_relationship" comment="PLEASE MAKE VILS" List.ItemID="-160876108">
 					<enum name="lhs_squad_type" value="villager" />
 					<enum name="rhs_squad_type" value="military" />
+					<float name="relationship_weight" value="2" />
+				</group>
+				<group name="weight_relationship" List.ItemID="-1818915727">
+					<enum name="lhs_squad_type" value="springald" />
+					<enum name="rhs_squad_type" value="melee" />
 					<float name="relationship_weight" value="2" />
 				</group>
 			</list>
@@ -8493,7 +8463,7 @@
 			<float name="drop_off_distance_puf_far_distance_start" value="100" />
 			<float name="drop_off_distance_puf_far_distance_scale_per_minute" value="20" />
 			<float name="distance_from_builder_to_structure_scoring_reference" value="50" />
-			<float name="builder_bonus_for_walking_in_the_right_direction" value="3" />
+			<float name="builder_bonus_for_walking_in_the_right_direction" value="4" />
 			<list name="cistern_building_types">
 				<enum name="unit_type" value="cistern" List.ItemID="624197316" />
 			</list>
@@ -8515,6 +8485,7 @@
 				<enum name="unit_type" value="ram_greek_fire" List.ItemID="1548089135" />
 				<enum name="unit_type" value="ram" List.ItemID="-2055240122" />
 				<enum name="unit_type" value="castle" List.ItemID="-1839172142" />
+				<enum name="unit_type" value="wall" List.ItemID="1830816440" />
 			</list>
 			<list name="aqueduct_building_types">
 				<enum name="unit_type" value="aqueduct" List.ItemID="-972345924" />
@@ -8551,9 +8522,9 @@
 				<instance_reference name="structure" value="ebps\races\core\buildings\building_town_center_capital" List.ItemID="742049531" />
 				<instance_reference name="structure" value="ebps\races\core\buildings\building_town_center" List.ItemID="1624731318" />
 			</list>
-			<float name="farm_placement_special_structure_score_bonus" value="5" />
+			<float name="farm_placement_special_structure_score_bonus" value="6" />
 			<float name="farm_placement_capital_score_bonus" value="5.5" />
-			<float name="farm_placement_twon_center_score_bonus" value="2.5" />
+			<float name="farm_placement_twon_center_score_bonus" value="5" />
 			<instance_reference name="Mongols" value="racebps\mongol" />
 		</group>
 		<group name="repair">
