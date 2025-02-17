@@ -34,7 +34,7 @@
 		<list name="float_tunings">
 			<group name="value_tuning" List.ItemID="1398867735" List.ParentItemID="1398867735">
 				<enum name="key" comment="Ignore these entity unit types when testing encounter exit conditions due to &quot;combat_fitness_threshold&quot;, &quot;clear_enemy_squads&quot; or &quot;clear_enemy_buildings&quot;." />
-				<float name="value" value="64" overrideParent="True" />
+				<float name="value" value="50" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-150290806" List.ParentItemID="-150290806">
 				<float name="value" value="35" overrideParent="True" />
@@ -55,10 +55,10 @@
 				<float name="value" value="0.25" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="1547188473" List.ParentItemID="1547188473">
-				<float name="value" value="0" overrideParent="True" />
+				<float name="value" value="1" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="111519207" List.ParentItemID="111519207">
-				<float name="value" value="0.35" overrideParent="True" />
+				<float name="value" value="10" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-2015182844" List.ParentItemID="-2015182844">
 				<float name="value" value="0" overrideParent="True" />
@@ -75,8 +75,11 @@
 			<group name="value_tuning" List.ItemID="-120722255" List.ParentItemID="-120722255">
 				<float name="value" value="40" overrideParent="True" />
 			</group>
+			<group name="value_tuning" List.ItemID="1554747723" List.ParentItemID="1554747723">
+				<float name="value" value="25" overrideParent="True" />
+			</group>
 			<group name="value_tuning" List.ItemID="-1362021299" List.ParentItemID="-1362021299">
-				<float name="value" value="50" overrideParent="True" />
+				<float name="value" value="40" overrideParent="True" />
 			</group>
 		</list>
 		<group name="special_enum_tunings">

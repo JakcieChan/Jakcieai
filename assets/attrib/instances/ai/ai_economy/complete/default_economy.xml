@@ -2762,8 +2762,8 @@
 					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_defense_outpost_hre_ha_01\building_defense_outpost_hre_ha_01" List.ItemID="197636977" />
 					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_defense_outpost_fre_ha_01\building_defense_outpost_fre_ha_01" List.ItemID="-1728858472" />
 				</list>
-				<float name="base_scale" value="150" />
-				<float name="minimum_score_to_produce" value="15" />
+				<float name="base_scale" value="175" />
+				<float name="minimum_score_to_produce" value="20" />
 				<string name="lua_binding" value="ScoringFunctions_Outposts" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -2931,6 +2931,7 @@
 					<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_barbican_cannon_chi" List.ItemID="2069293032" />
 					<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_barbican_springald_chi" List.ItemID="-403129201" />
 					<instance_reference name="member" value="upgrade\races\malian\research\upgrade_outpost_landmark_cannon_mal" List.ItemID="-1700765455" />
+					<instance_reference name="member" value="upgrade\races\malian\research\upgrade_outpost_javelin_slit_mal" List.ItemID="-1905195660" />
 				</list>
 				<float name="base_scale" value="400" />
 				<float name="minimum_score_to_produce" value="150" />
@@ -3031,11 +3032,12 @@
 					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_town_center_chi_ha_01\building_town_center_chi_ha_01" List.ItemID="713214078" />
 					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_hre_ha_01" List.ItemID="1872473943" />
 					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_town_center_fre_ha_01\building_town_center_fre_ha_01" List.ItemID="-1337558351" />
+					<instance_reference name="member" value="ebps\races\mongol\buildings\building_town_center_mon" List.ItemID="1824498140" />
 				</list>
-				<float name="base_scale" value="3750" />
-				<float name="minimum_score_to_produce" value="175" />
+				<float name="base_scale" value="3500" />
+				<float name="minimum_score_to_produce" value="750" />
 				<string name="lua_binding" value="ScoringFunctions_ExpansionTC" />
-				<int name="max_current" value="1" />
+				<int name="max_current" value="2" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Towers" List.ItemID="-376084374">
@@ -3510,7 +3512,6 @@
 					<instance_reference name="member" value="upgrade\races\english\research\upgrade_network_of_citadels_eng" List.ItemID="-1370782226" />
 					<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_mosque_heal_sul" List.ItemID="500323869" />
 					<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" List.ItemID="-1573393529" />
-					<instance_reference name="member" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="1170231957" />
 					<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_villager_health_sul" List.ItemID="1768949314" />
 					<instance_reference name="member" value="upgrade\races\mongol\research\upgrade_villager_health_improved_mon" List.ItemID="135165386" />
 					<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_manned_siege_ott" List.ItemID="-2088837571" />
@@ -3523,7 +3524,7 @@
 					<instance_reference name="member" value="upgrade\races\japanese\research\upgrade_shrine_gion_jpn" List.ItemID="-83454654" />
 				</list>
 				<float name="base_scale" value="550" />
-				<float name="minimum_score_to_produce" value="1" />
+				<float name="minimum_score_to_produce" value="50" />
 				<string name="lua_binding" value="ScoringFunctions_DefensiveUpgrade" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4824,7 +4825,7 @@
 					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_unit_siege_ott" List.ItemID="-1640115665" />
 				</list>
 				<float name="base_scale" value="500" />
-				<float name="minimum_score_to_produce" value="100" />
+				<float name="minimum_score_to_produce" value="175" />
 				<string name="lua_binding" value="ScoringFunctions_MilitaryProductionBuilding" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4844,8 +4845,8 @@
 					<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_keep_handcannonslits_chi" List.ItemID="1934665692" />
 					<instance_reference name="member" value="upgrade\races\malian\research\upgrade_outpost_landmark_springald_mal" List.ItemID="-2136137387" />
 				</list>
-				<float name="base_scale" value="1250" />
-				<float name="minimum_score_to_produce" value="50" />
+				<float name="base_scale" value="500" />
+				<float name="minimum_score_to_produce" value="150" />
 				<string name="lua_binding" value="ScoringFunctions_DefensiveStructureUpgrades" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4854,8 +4855,8 @@
 				<list name="members">
 					<instance_reference name="member" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="-1987512812" />
 				</list>
-				<float name="base_scale" value="1000" />
-				<float name="minimum_score_to_produce" value="1" />
+				<float name="base_scale" value="500" />
+				<float name="minimum_score_to_produce" value="50" />
 				<string name="lua_binding" value="ScoringFunctions_DefensiveUpgrade" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4922,7 +4923,7 @@
 				<list name="members">
 					<instance_reference name="member" value="sbps\races\mongol\unit_villager_1_mon" List.ItemID="-436938242" />
 				</list>
-				<float name="base_scale" value="999999" />
+				<float name="base_scale" value="9999999" />
 				<float name="minimum_score_to_produce" value="0" />
 				<string name="lua_binding" value="ScoringFunctions_Gatherer" />
 				<int name="max_current" value="-1" />
@@ -4976,16 +4977,6 @@
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
-			<template_reference name="production_group" value="ai\economy\production_group" comment="mongol TC" List.ItemID="459900385">
-				<list name="members">
-					<instance_reference name="member" value="ebps\races\mongol\buildings\building_town_center_mon" List.ItemID="2041938779" />
-				</list>
-				<float name="base_scale" value="4250" />
-				<float name="minimum_score_to_produce" value="75" />
-				<string name="lua_binding" value="ScoringFunctions_ExpansionTC" />
-				<int name="max_current" value="1" />
-				<int name="max_produced_ever" value="-1" />
-			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="unit tier 2 upgrade priority" List.ItemID="-1465309232">
 				<list name="members">
 					<instance_reference name="member" value="upgrade\races\english\units\upgrade_unit_manatarms_2_eng" List.ItemID="-2130112154" />
@@ -5008,8 +4999,8 @@
 					<instance_reference name="member" value="upgrade\races\mongol\research\unique\upgrade_outpost_stone_mon" List.ItemID="484023056" />
 				</list>
 				<float name="base_scale" value="250" />
-				<float name="minimum_score_to_produce" value="100" />
-				<string name="lua_binding" value="ScoringFunctions_DefensiveUpgrade" />
+				<float name="minimum_score_to_produce" value="200" />
+				<string name="lua_binding" value="ScoringFunctions_DefensiveStructureUpgrade" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
@@ -5064,6 +5055,17 @@
 				<float name="minimum_score_to_produce" value="0" />
 				<string name="lua_binding" value="ScoringFunctions_PlayerUnitTierUpgrade" />
 				<int name="max_current" value="-1" />
+				<int name="max_produced_ever" value="-1" />
+			</template_reference>
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Boost in mongol and malian tcs&#xD;&#xA;" List.ItemID="-1172243758">
+				<list name="members">
+					<instance_reference name="member" value="ebps\races\malian\buildings\building_town_center_mal" List.ItemID="557800376" />
+					<instance_reference name="member" value="ebps\races\mongol\buildings\building_town_center_mon" List.ItemID="1511691917" />
+				</list>
+				<float name="base_scale" value="4500" />
+				<float name="minimum_score_to_produce" value="750" />
+				<string name="lua_binding" value="ScoringFunctions_ExpansionTC" />
+				<int name="max_current" value="2" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
 		</list>

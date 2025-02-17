@@ -14,7 +14,7 @@
 				<bool name="value" value="True" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-508736727" List.ParentItemID="-508736727">
-				<bool name="value" value="True" overrideParent="True" />
+				<bool name="value" value="False" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="1728744307" List.ParentItemID="1728744307">
 				<bool name="value" value="False" overrideParent="True" />
@@ -25,10 +25,13 @@
 		</list>
 		<list name="float_tunings">
 			<group name="value_tuning" List.ItemID="1398867735" List.ParentItemID="1398867735">
-				<float name="value" value="80" overrideParent="True" />
+				<float name="value" value="50" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-150290806" List.ParentItemID="-150290806">
+				<float name="value" value="35" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-336056717" List.ParentItemID="-336056717">
-				<float name="value" value="40" overrideParent="True" />
+				<float name="value" value="60" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="673414398" List.ParentItemID="673414398">
 				<float name="value" value="0.25" overrideParent="True" />
@@ -42,11 +45,14 @@
 			<group name="value_tuning" List.ItemID="1335932643" List.ParentItemID="1335932643">
 				<float name="value" value="0.25" overrideParent="True" />
 			</group>
+			<group name="value_tuning" List.ItemID="1547188473" List.ParentItemID="1547188473">
+				<float name="value" value="1" overrideParent="True" />
+			</group>
 			<group name="value_tuning" List.ItemID="111519207" List.ParentItemID="111519207">
 				<float name="value" value="10" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-2015182844" List.ParentItemID="-2015182844">
-				<float name="value" value="0" overrideParent="True" />
+				<float name="value" value="1" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-670986516" List.ParentItemID="-670986516">
 				<float name="value" value="30" overrideParent="True" />
@@ -54,8 +60,20 @@
 			<group name="value_tuning" List.ItemID="-1821254606" List.ParentItemID="-1821254606">
 				<float name="value" value="5" overrideParent="True" />
 			</group>
+			<group name="value_tuning" List.ItemID="1783478058" List.ParentItemID="1783478058">
+				<float name="value" value="60" overrideParent="True" />
+			</group>
 			<group name="value_tuning" List.ItemID="784378127" List.ParentItemID="784378127">
 				<float name="value" value="0.05" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-120722255" List.ParentItemID="-120722255">
+				<float name="value" value="40" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="1554747723" List.ParentItemID="1554747723">
+				<float name="value" value="25" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1362021299" List.ParentItemID="-1362021299">
+				<float name="value" value="40" overrideParent="True" />
 			</group>
 		</list>
 		<group name="special_enum_tunings">
@@ -64,6 +82,7 @@
 					<list name="values" overrideParent="True">
 						<enum name="value" value="animal_herdable" List.ItemID="417966207" />
 						<enum name="value" value="animal_gatherable" List.ItemID="-1414592557" />
+						<enum name="value" value="trade_cart" List.ItemID="-1935053080" />
 					</list>
 				</group>
 			</list>
