@@ -3034,10 +3034,10 @@
 					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_town_center_fre_ha_01\building_town_center_fre_ha_01" List.ItemID="-1337558351" />
 					<instance_reference name="member" value="ebps\races\mongol\buildings\building_town_center_mon" List.ItemID="1824498140" />
 				</list>
-				<float name="base_scale" value="3500" />
-				<float name="minimum_score_to_produce" value="750" />
+				<float name="base_scale" value="6000" />
+				<float name="minimum_score_to_produce" value="500" />
 				<string name="lua_binding" value="ScoringFunctions_ExpansionTC" />
-				<int name="max_current" value="2" />
+				<int name="max_current" value="1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Towers" List.ItemID="-376084374">
@@ -4440,7 +4440,7 @@
 					<instance_reference name="member" value="upgrade\races\japanese\buildings\upgrade_capital_tier_2_jpn" List.ItemID="-609963201" />
 					<instance_reference name="member" value="upgrade\races\japanese\buildings\upgrade_capital_tier_3_jpn" List.ItemID="-2060920300" />
 				</list>
-				<float name="base_scale" value="1500" />
+				<float name="base_scale" value="1250" />
 				<float name="minimum_score_to_produce" value="225" />
 				<string name="lua_binding" value="ScoringFunctions_DaimyoUpgradeJapanese" />
 				<int name="max_current" value="-1" />
@@ -5062,10 +5062,10 @@
 					<instance_reference name="member" value="ebps\races\malian\buildings\building_town_center_mal" List.ItemID="557800376" />
 					<instance_reference name="member" value="ebps\races\mongol\buildings\building_town_center_mon" List.ItemID="1511691917" />
 				</list>
-				<float name="base_scale" value="4500" />
-				<float name="minimum_score_to_produce" value="750" />
+				<float name="base_scale" value="7000" />
+				<float name="minimum_score_to_produce" value="500" />
 				<string name="lua_binding" value="ScoringFunctions_ExpansionTC" />
-				<int name="max_current" value="2" />
+				<int name="max_current" value="1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
 		</list>
