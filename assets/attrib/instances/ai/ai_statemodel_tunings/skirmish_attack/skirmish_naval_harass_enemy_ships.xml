@@ -37,14 +37,6 @@
 				<float name="value" value="0" overrideParent="True" />
 			</group>
 		</list>
-		<group name="special_enum_tunings">
-			<list name="ai_military_engagement_type">
-				<group name="key_value" overrideParent="True" List.ItemID="1971260856" List.ParentItemID="1971260856">
-					<enum name="key" value="ai_phase_encounter_engagement_type" comment="Engagment type that classifies the current encounter.  Used in Opportunity &quot;TargetUnreachable&quot; and &quot;TargetInvalidated&quot; that affect some state transitions." />
-					<enum name="value" value="attack_structure" overrideParent="True" />
-				</group>
-			</list>
-		</group>
 		<group name="special_pbg_tunings">
 			<list name="ai_phase_encounter_coordinator_bag">
 				<group name="key_value" List.ItemID="-2068869878" List.ParentItemID="-2068869878">

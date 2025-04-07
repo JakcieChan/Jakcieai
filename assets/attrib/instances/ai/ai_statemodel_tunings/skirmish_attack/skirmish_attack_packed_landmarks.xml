@@ -36,11 +36,6 @@
 					</list>
 				</group>
 			</list>
-			<list name="ai_military_engagement_type">
-				<group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
-					<enum name="value" value="enemy_clump" overrideParent="True" />
-				</group>
-			</list>
 		</group>
 		<list name="float_tunings">
 			<group name="value_tuning" List.ItemID="673414398" List.ParentItemID="673414398">

@@ -1,6 +1,6 @@
 <instance version="6" description="default tuning for skirmish attack encounters.  This is the base PBG that all other skirmish attack encounter tunings should be parented to." template="ai\ai_statemodel_tunings">
 	<group name="ai_statemodel_tunings_bag">
-		<list name="bool_tunings" removedIds="797757752">
+		<list name="bool_tunings" removedIds="797757752, -262142634">
 			<group name="value_tuning" List.ItemID="-1435389545" List.ParentItemID="-1435389545">
 				<bool name="value" value="False" overrideParent="True" />
 			</group>
@@ -78,6 +78,12 @@
 			<group name="value_tuning" List.ItemID="360848628" List.ParentItemID="360848628">
 				<float name="value" value="0" overrideParent="True" />
 			</group>
+			<group name="value_tuning" List.ItemID="-1696196552" List.ParentItemID="-1696196552">
+				<float name="value" value="0" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-69499576" List.ParentItemID="-69499576">
+				<float name="value" value="1" overrideParent="True" />
+			</group>
 			<group name="value_tuning" List.ItemID="-1821254606" List.ParentItemID="-1821254606">
 				<float name="value" value="5" overrideParent="True" />
 			</group>
@@ -109,10 +115,7 @@
 					</list>
 				</group>
 			</list>
-			<list name="ai_military_engagement_type">
-				<group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
-					<enum name="value" value="attack_structure" overrideParent="True" />
-				</group>
+			<list name="ai_military_engagement_type" removedIds="1971260856">
 			</list>
 		</group>
 		<group name="special_pbg_tunings">

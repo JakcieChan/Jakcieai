@@ -28,11 +28,6 @@
 		<group name="special_enum_tunings">
 			<list name="unit_class_list" overrideParent="True">
 			</list>
-			<list name="ai_military_engagement_type">
-				<group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
-					<enum name="value" value="enemy_clump" overrideParent="True" />
-				</group>
-			</list>
 		</group>
 		<group name="special_pbg_tunings">
 			<list name="ai_phase_encounter_coordinator_bag" overrideParent="True">

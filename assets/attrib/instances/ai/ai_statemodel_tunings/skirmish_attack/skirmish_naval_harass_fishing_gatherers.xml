@@ -1,6 +1,6 @@
 <instance version="6" description="" template="ai\ai_statemodel_tunings">
 	<group name="ai_statemodel_tunings_bag">
-		<list name="bool_tunings" removedIds="357462454, -1988997661, 438874668, -262142634">
+		<list name="bool_tunings" removedIds="357462454, -1988997661, 438874668">
 			<group name="value_tuning" List.ItemID="-1435389545" List.ParentItemID="-1435389545">
 				<bool name="value" value="False" overrideParent="True" />
 			</group>
@@ -46,13 +46,6 @@
 				<float name="value" value="0" overrideParent="True" />
 			</group>
 		</list>
-		<group name="special_enum_tunings">
-			<list name="ai_military_engagement_type">
-				<group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
-					<enum name="value" value="enemy_clump" overrideParent="True" />
-				</group>
-			</list>
-		</group>
 		<group name="special_pbg_tunings">
 			<list name="ai_phase_encounter_coordinator_bag">
 				<group name="key_value" List.ItemID="-2068869878" List.ParentItemID="-2068869878">

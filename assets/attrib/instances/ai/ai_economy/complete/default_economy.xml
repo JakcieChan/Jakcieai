@@ -1054,7 +1054,7 @@
 					<instance_reference name="entity" value="ebps\races\chinese_ha_01\buildings\building_defense_wall_chi_ha_01\building_defense_wall_chi_ha_01" List.ItemID="-279397199" />
 				</list>
 				<template_reference name="utility" value="ai\economy\production_instance_utility">
-					<float name="utility" value="300" />
+					<float name="utility" value="1000" />
 					<float name="utility_random_range_offset" value="-1" />
 					<string name="utility_function" value="" />
 					<float name="per_unit_scale" value="-1" />
@@ -3650,7 +3650,7 @@
 					<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_siege_engineers_sul" List.ItemID="936917080" />
 					<instance_reference name="member" value="upgrade\races\mongol\research\upgrade_improved_siege_engineers_mon" List.ItemID="-979568831" />
 				</list>
-				<float name="base_scale" value="2000" />
+				<float name="base_scale" value="1750" />
 				<float name="minimum_score_to_produce" value="150" />
 				<string name="lua_binding" value="ScoringFunctions_PlayerSiegeEngineerUpgrade" />
 				<int name="max_current" value="-1" />
@@ -3778,41 +3778,6 @@
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Monk" />
 				<int name="max_current" value="10" />
-				<int name="max_produced_ever" value="-1" />
-			</template_reference>
-			<template_reference name="production_group" value="ai\economy\production_group" comment="WallAndGate (wood)&#xD;&#xA;" List.ItemID="1979731823">
-				<list name="members">
-					<instance_reference name="member" value="ebps\races\english\buildings\building_defense_wall_eng\building_defense_palisade_eng" List.ItemID="-1249353747" />
-					<instance_reference name="member" value="ebps\races\english\buildings\building_defense_wall_eng\building_defense_palisade_gate_eng" List.ItemID="1158725621" />
-					<instance_reference name="member" value="ebps\races\french\buildings\building_defense_wall_fre\building_defense_palisade_fre" List.ItemID="191899922" />
-					<instance_reference name="member" value="ebps\races\french\buildings\building_defense_wall_fre\building_defense_palisade_gate_fre" List.ItemID="-925378733" />
-					<instance_reference name="member" value="ebps\races\hre\buildings\building_defense_wall_hre\building_defense_palisade_gate_hre" List.ItemID="861779573" />
-					<instance_reference name="member" value="ebps\races\hre\buildings\building_defense_wall_hre\building_defense_palisade_hre" List.ItemID="1394262268" />
-					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_gate_sul" List.ItemID="-1642823330" />
-					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_sul" List.ItemID="378273597" />
-					<instance_reference name="member" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_palisade_gate_rus" List.ItemID="-658461995" />
-					<instance_reference name="member" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_palisade_rus" List.ItemID="455095136" />
-					<instance_reference name="member" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_palisade_chi" List.ItemID="1188864640" />
-					<instance_reference name="member" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_palisade_gate_chi" List.ItemID="835877379" />
-					<instance_reference name="member" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_palisade_gate_mal" List.ItemID="873313513" />
-					<instance_reference name="member" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_palisade_mal" List.ItemID="1488349121" />
-					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_palisade_gate_ott" List.ItemID="-1393134687" />
-					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_palisade_ott" List.ItemID="-808600769" />
-					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_defense_wall_byz\building_defense_palisade_byz" List.ItemID="236351221" />
-					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_defense_wall_byz\building_defense_palisade_gate_byz" List.ItemID="1355137625" />
-					<instance_reference name="member" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_palisade_jpn" List.ItemID="-14960489" />
-					<instance_reference name="member" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_palisade_gate_jpn" List.ItemID="751292095" />
-					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_defense_wall_hre_ha_01\building_defense_palisade_gate_hre_ha_01" List.ItemID="-703276773" />
-					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_defense_wall_hre_ha_01\building_defense_palisade_hre_ha_01" List.ItemID="-607570838" />
-					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_defense_wall_fre_ha_01\building_defense_palisade_fre_ha_01" List.ItemID="446827728" />
-					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_defense_wall_fre_ha_01\building_defense_palisade_gate_fre_ha_01" List.ItemID="961202894" />
-					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_defense_wall_chi_ha_01\building_defense_palisade_chi_ha_01" List.ItemID="-2061845708" />
-					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_defense_wall_chi_ha_01\building_defense_palisade_gate_chi_ha_01" List.ItemID="1437904052" />
-				</list>
-				<float name="base_scale" value="1E+07" />
-				<float name="minimum_score_to_produce" value="0" />
-				<string name="lua_binding" value="ScoringFunctions_WallAndGate" />
-				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="War Ship" List.ItemID="155224978">
@@ -4872,39 +4837,65 @@
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
-			<template_reference name="production_group" value="ai\economy\production_group" comment="WallAndGate (stone)" List.ItemID="-191086673">
+			<template_reference name="production_group" value="ai\economy\production_group" comment="WallAndGate" List.ItemID="-191086673">
 				<list name="members">
-					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_defense_wall_gate_abb" List.ItemID="-1557870177" />
-					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_defense_wall_abb" List.ItemID="-1227292425" />
-					<instance_reference name="member" value="ebps\races\english\buildings\building_defense_wall_eng\building_defense_wall_eng" List.ItemID="1741642612" />
-					<instance_reference name="member" value="ebps\races\english\buildings\building_defense_wall_eng\building_defense_wall_gate_eng" List.ItemID="2043006494" />
-					<instance_reference name="member" value="ebps\races\french\buildings\building_defense_wall_fre\building_defense_wall_fre" List.ItemID="544118664" />
-					<instance_reference name="member" value="ebps\races\french\buildings\building_defense_wall_fre\building_defense_wall_gate_fre" List.ItemID="-1640837278" />
-					<instance_reference name="member" value="ebps\races\hre\buildings\building_defense_wall_hre\building_defense_wall_gate_hre" List.ItemID="-351931133" />
-					<instance_reference name="member" value="ebps\races\hre\buildings\building_defense_wall_hre\building_defense_wall_hre" List.ItemID="-2013716521" />
-					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_gate_sul" List.ItemID="234532296" />
-					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_sul" List.ItemID="1892996671" />
-					<instance_reference name="member" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_wall_rus" List.ItemID="728162573" />
-					<instance_reference name="member" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_wall_gate_rus" List.ItemID="-1697187884" />
-					<instance_reference name="member" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_wall_chi" List.ItemID="-1757981017" />
-					<instance_reference name="member" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_wall_gate_chi" List.ItemID="1712524751" />
-					<instance_reference name="member" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_wall_gate_mal" List.ItemID="1876292043" />
-					<instance_reference name="member" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_wall_mal" List.ItemID="1235308891" />
-					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_wall_gate_ott" List.ItemID="510218459" />
-					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_wall_ott" List.ItemID="816142300" />
-					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_defense_wall_byz\building_defense_wall_byz" List.ItemID="-2035862543" />
-					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_defense_wall_byz\building_defense_wall_gate_byz" List.ItemID="597406886" />
-					<instance_reference name="member" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_wall_jpn" List.ItemID="-1566481650" />
-					<instance_reference name="member" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_wall_gate_jpn" List.ItemID="1545413572" />
-					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_defense_wall_hre_ha_01\building_defense_wall_hre_ha_01" List.ItemID="-380641268" />
-					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_defense_wall_hre_ha_01\building_defense_wall_gate_hre_ha_01" List.ItemID="283410983" />
-					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_defense_wall_fre_ha_01\building_defense_wall_fre_ha_01" List.ItemID="650415483" />
-					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_defense_wall_fre_ha_01\building_defense_wall_gate_fre_ha_01" List.ItemID="1991712770" />
-					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_defense_wall_chi_ha_01\building_defense_wall_chi_ha_01" List.ItemID="-291856404" />
-					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_defense_wall_chi_ha_01\building_defense_wall_gate_chi_ha_01" List.ItemID="1917941049" />
+					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_defense_wall_gate_abb" List.ItemID="-2133355579" />
+					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_defense_wall_abb" List.ItemID="837978354" />
+					<instance_reference name="member" value="ebps\races\english\buildings\building_defense_wall_eng\building_defense_palisade_eng" List.ItemID="557601002" />
+					<instance_reference name="member" value="ebps\races\english\buildings\building_defense_wall_eng\building_defense_palisade_gate_eng" List.ItemID="1943033159" />
+					<instance_reference name="member" value="ebps\races\english\buildings\building_defense_wall_eng\building_defense_wall_eng" List.ItemID="191297519" />
+					<instance_reference name="member" value="ebps\races\english\buildings\building_defense_wall_eng\building_defense_wall_gate_eng" List.ItemID="1727575691" />
+					<instance_reference name="member" value="ebps\races\french\buildings\building_defense_wall_fre\building_defense_palisade_fre" List.ItemID="-857142220" />
+					<instance_reference name="member" value="ebps\races\french\buildings\building_defense_wall_fre\building_defense_palisade_gate_fre" List.ItemID="631593866" />
+					<instance_reference name="member" value="ebps\races\french\buildings\building_defense_wall_fre\building_defense_wall_fre" List.ItemID="-934543155" />
+					<instance_reference name="member" value="ebps\races\french\buildings\building_defense_wall_fre\building_defense_wall_gate_fre" List.ItemID="284798607" />
+					<instance_reference name="member" value="ebps\races\hre\buildings\building_defense_wall_hre\building_defense_palisade_gate_hre" List.ItemID="-934721975" />
+					<instance_reference name="member" value="ebps\races\hre\buildings\building_defense_wall_hre\building_defense_palisade_hre" List.ItemID="-154055186" />
+					<instance_reference name="member" value="ebps\races\hre\buildings\building_defense_wall_hre\building_defense_wall_gate_hre" List.ItemID="241483656" />
+					<instance_reference name="member" value="ebps\races\hre\buildings\building_defense_wall_hre\building_defense_wall_hre" List.ItemID="1007552898" />
+					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_gate_sul" List.ItemID="-454385177" />
+					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_sul" List.ItemID="-307456463" />
+					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_gate_sul" List.ItemID="5399233" />
+					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_sul" List.ItemID="1384447686" />
+					<instance_reference name="member" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_palisade_gate_rus" List.ItemID="-847406399" />
+					<instance_reference name="member" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_palisade_rus" List.ItemID="-63520726" />
+					<instance_reference name="member" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_wall_rus" List.ItemID="1469017277" />
+					<instance_reference name="member" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_wall_gate_rus" List.ItemID="822710367" />
+					<instance_reference name="member" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_palisade_chi" List.ItemID="2054346648" />
+					<instance_reference name="member" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_palisade_gate_chi" List.ItemID="1036321800" />
+					<instance_reference name="member" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_wall_chi" List.ItemID="-387486362" />
+					<instance_reference name="member" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_wall_gate_chi" List.ItemID="1008578019" />
+					<instance_reference name="member" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_palisade_gate_mal" List.ItemID="1053863729" />
+					<instance_reference name="member" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_palisade_mal" List.ItemID="-249066828" />
+					<instance_reference name="member" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_wall_gate_mal" List.ItemID="1283195679" />
+					<instance_reference name="member" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_wall_mal" List.ItemID="-137966630" />
+					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_palisade_gate_ott" List.ItemID="-646637921" />
+					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_palisade_ott" List.ItemID="-1662122264" />
+					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_wall_gate_ott" List.ItemID="1964561911" />
+					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_wall_ott" List.ItemID="573656366" />
+					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_defense_wall_byz\building_defense_palisade_byz" List.ItemID="480404716" />
+					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_defense_wall_byz\building_defense_palisade_gate_byz" List.ItemID="-1488389548" />
+					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_defense_wall_byz\building_defense_wall_byz" List.ItemID="790172583" />
+					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_defense_wall_byz\building_defense_wall_gate_byz" List.ItemID="1588049484" />
+					<instance_reference name="member" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_palisade_jpn" List.ItemID="-1114367423" />
+					<instance_reference name="member" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_palisade_gate_jpn" List.ItemID="-1428626392" />
+					<instance_reference name="member" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_wall_jpn" List.ItemID="-2085171293" />
+					<instance_reference name="member" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_wall_gate_jpn" List.ItemID="1211192745" />
+					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_defense_wall_hre_ha_01\building_defense_palisade_gate_hre_ha_01" List.ItemID="-1538681077" />
+					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_defense_wall_hre_ha_01\building_defense_palisade_hre_ha_01" List.ItemID="759063579" />
+					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_defense_wall_hre_ha_01\building_defense_wall_hre_ha_01" List.ItemID="-1839769920" />
+					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_defense_wall_hre_ha_01\building_defense_wall_gate_hre_ha_01" List.ItemID="-301315156" />
+					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_defense_wall_fre_ha_01\building_defense_palisade_fre_ha_01" List.ItemID="1135676958" />
+					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_defense_wall_fre_ha_01\building_defense_palisade_gate_fre_ha_01" List.ItemID="1116716202" />
+					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_defense_wall_fre_ha_01\building_defense_wall_fre_ha_01" List.ItemID="1997701696" />
+					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_defense_wall_fre_ha_01\building_defense_wall_gate_fre_ha_01" List.ItemID="-1484836225" />
+					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_defense_wall_chi_ha_01\building_defense_palisade_chi_ha_01" List.ItemID="1401882651" />
+					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_defense_wall_chi_ha_01\building_defense_palisade_gate_chi_ha_01" List.ItemID="892482658" />
+					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_defense_wall_chi_ha_01\building_defense_wall_chi_ha_01" List.ItemID="-1526696588" />
+					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_defense_wall_chi_ha_01\building_defense_wall_gate_chi_ha_01" List.ItemID="1358591325" />
 				</list>
 				<float name="base_scale" value="1" />
-				<float name="minimum_score_to_produce" value="10" />
+				<float name="minimum_score_to_produce" value="0" />
 				<string name="lua_binding" value="ScoringFunctions_WallAndGate" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />

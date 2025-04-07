@@ -7797,15 +7797,15 @@
 			</list>
 			<float name="max_distance_from_base_stone_wall" value="50" />
 			<float name="max_distance_from_anchor_wall" value="35" />
-			<float name="expansion_protection_radius" value="10" />
+			<float name="expansion_protection_radius" value="6" />
 			<float name="blocking_wall_max_section_length" value="500" />
 			<enum name="stone_tower_unit_type" value="tower" />
 			<bool name="formation_move_to_nearside_of_wall" value="True" />
 			<enum name="bastion_unit_type" value="palisade_wall_bastion" />
 			<enum name="stone_bastion_unit_type" value="stone_wall_bastion" />
 			<float name="wall_height_for_trajectory" value="9" />
-			<float name="gates_separation_distance" value="50" />
-			<float name="max_allies_distance_share_surrounding_wall" value="150" />
+			<float name="gates_separation_distance" value="30" />
+			<float name="max_allies_distance_share_surrounding_wall" value="80" />
 			<list name="race_wall_mapping">
 				<group name="pbgs" List.ItemID="1997842845">
 					<instance_reference name="race" value="racebps\english" />
@@ -7959,7 +7959,7 @@
 				</group>
 			</list>
 			<int name="num_checks_for_entity_on_perimeter" value="6" />
-			<float name="min_wall_distance_to_enemy_territory" value="1" />
+			<float name="min_wall_distance_to_enemy_territory" value="10" />
 			<float name="min_expansion_wall_distance_to_enemy_territory" value="30" />
 			<float name="max_expansion_wall_perimeter_allowed" value="300" />
 			<float name="max_distance_for_surrounding_wall_entity_consideration" value="100" />
@@ -7971,7 +7971,7 @@
 				<enum name="building_types" value="wall" List.ItemID="-1538598890" />
 				<enum name="building_types" value="castle" List.ItemID="-229710932" />
 			</list>
-			<bool name="blocking_wall_enabled" value="False" />
+			<bool name="blocking_wall_enabled" value="True" />
 		</group>
 		<list name="economy_building_types">
 			<enum name="entity_type" value="trade_post" List.ItemID="2008601974" />
