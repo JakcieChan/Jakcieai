@@ -107,14 +107,14 @@
 			<bool name="reinforce_during_combat" value="True" />
 			<bool name="reinforce_enabled" value="True" />
 			<float name="reinforce_min_health_ratio_to_reach_reinforce_point" value="-1" />
-			<float name="fallback_squad_health_ratio_start" value="0.25" />
-			<float name="fallback_squad_health_ratio_end" value="0.75" />
-			<float name="fallback_vehicle_health_ratio_start" value="0.25" />
+			<float name="fallback_squad_health_ratio_start" value="0.5" />
+			<float name="fallback_squad_health_ratio_end" value="0.99" />
+			<float name="fallback_vehicle_health_ratio_start" value="0.5" />
 			<float name="fallback_vehicle_health_ratio_end" value="0.99" />
 			<float name="fallback_squad_shield_ratio_start" value="-1" />
 			<float name="fallback_squad_shield_ratio_end" value="-1" />
-			<float name="fallback_encounter_squad_remaining_ratio" value="0.1" />
-			<float name="fallback_encounter_squad_ratio" value="0.85" />
+			<float name="fallback_encounter_squad_remaining_ratio" value="-1" />
+			<float name="fallback_encounter_squad_ratio" value="1" />
 			<float name="fallback_combat_rating" value="0" />
 			<float name="retreat_combat_rating" value="0.2" />
 		</group>
