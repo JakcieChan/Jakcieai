@@ -1566,7 +1566,7 @@
 					<instance_reference name="entity" value="ebps\races\french_ha_01\buildings\building_unit_siege_fre_ha_01\building_unit_siege_control_fre_ha_01" List.ItemID="-2058273831" />
 				</list>
 				<template_reference name="utility" value="ai\economy\production_instance_utility">
-					<float name="utility" value="500" />
+					<float name="utility" value="1000" />
 					<float name="utility_random_range_offset" value="-1" />
 					<string name="utility_function" value="" />
 					<float name="per_unit_scale" value="0.85" />
@@ -3261,10 +3261,10 @@
 					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_town_center_lan" List.ItemID="-394034433" />
 					<instance_reference name="member" value="ebps\races\templar\buildings\building_town_center_tem" List.ItemID="1866482969" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="1100" />
 				<float name="minimum_score_to_produce" value="50" />
 				<string name="lua_binding" value="ScoringFunctions_ExpansionTC" />
-				<int name="max_current" value="-1" />
+				<int name="max_current" value="1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Mongol horses get higher base util than other mongol units" List.ItemID="-1483379738">
@@ -4954,7 +4954,7 @@
 					<instance_reference name="member" value="upgrade\races\templar\upgrade_age_feudal_com_1_tem" List.ItemID="1608487907" />
 				</list>
 				<float name="base_scale" value="1000" />
-				<float name="minimum_score_to_produce" value="175" />
+				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_Random3A" />
 				<int name="max_current" value="1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4964,7 +4964,7 @@
 					<instance_reference name="member" value="upgrade\races\templar\unique_upgrades\upgrade_safe_passage_tem" List.ItemID="1368975428" />
 					<instance_reference name="member" value="upgrade\races\templar\unique_upgrades\upgrade_sanctuary_tem" List.ItemID="-1563899217" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="5000" />
 				<float name="minimum_score_to_produce" value="50" />
 				<string name="lua_binding" value="ScoringFunctions_PlayerEconProductionUpgrade" />
 				<int name="max_current" value="-1" />
@@ -4986,7 +4986,7 @@
 					<instance_reference name="member" value="upgrade\races\templar\upgrade_age_feudal_com_3_tem" List.ItemID="-1657982297" />
 				</list>
 				<float name="base_scale" value="1000" />
-				<float name="minimum_score_to_produce" value="175" />
+				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_Random3C" />
 				<int name="max_current" value="1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4997,9 +4997,19 @@
 					<instance_reference name="member" value="upgrade\races\templar\upgrade_age_feudal_com_2_tem" List.ItemID="126386002" />
 				</list>
 				<float name="base_scale" value="1000" />
-				<float name="minimum_score_to_produce" value="175" />
+				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_Random3B" />
 				<int name="max_current" value="1" />
+				<int name="max_produced_ever" value="-1" />
+			</template_reference>
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Manors Lancaster" List.ItemID="-673441893">
+				<list name="members">
+					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_manor_lan" List.ItemID="-281468682" />
+				</list>
+				<float name="base_scale" value="2000" />
+				<float name="minimum_score_to_produce" value="100" />
+				<string name="lua_binding" value="ScoringFunctions_Manor" />
+				<int name="max_current" value="10" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
 		</list>
