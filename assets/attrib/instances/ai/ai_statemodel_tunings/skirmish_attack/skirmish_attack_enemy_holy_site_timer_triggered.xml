@@ -40,23 +40,6 @@
 				<float name="value" value="0" overrideParent="True" />
 			</group>
 		</list>
-		<group name="special_enum_tunings">
-			<list name="unit_class_list">
-				<group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
-					<list name="values" overrideParent="True">
-						<enum name="value" value="wall" List.ItemID="-668202273" />
-						<enum name="value" value="house" List.ItemID="1336951966" />
-						<enum name="value" value="farm" List.ItemID="-109472275" />
-						<enum name="value" value="economy_building" List.ItemID="-1935789003" />
-						<enum name="value" value="production_building" List.ItemID="771576329" />
-						<enum name="value" value="villager" List.ItemID="-1984008000" />
-						<enum name="value" value="scout" List.ItemID="-546213248" />
-						<enum name="value" value="animal_herdable" List.ItemID="-1907031612" />
-						<enum name="value" value="animal_gatherable" List.ItemID="2045969353" />
-					</list>
-				</group>
-			</list>
-		</group>
 		<group name="special_pbg_tunings">
 			<list name="ai_phase_encounter_coordinator_bag">
 				<group name="key_value" List.ItemID="-2068869878" List.ParentItemID="-2068869878">

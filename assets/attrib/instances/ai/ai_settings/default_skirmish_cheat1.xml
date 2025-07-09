@@ -89,7 +89,7 @@
 			<bool name="pathing_detects_suppression" value="True" />
 			<bool name="pathing_detects_firing_arcs" value="True" />
 			<bool name="pathing_detects_min_firing_range" value="True" />
-			<float name="pathing_threat_memory_duration" value="60" />
+			<float name="pathing_threat_memory_duration" value="30" />
 		</group>
 		<group name="fallback">
 			<float name="fallback_capacity_ratio" value="0.3" />

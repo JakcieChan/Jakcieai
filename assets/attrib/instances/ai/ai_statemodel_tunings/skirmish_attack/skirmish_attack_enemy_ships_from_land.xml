@@ -35,12 +35,10 @@
 			</group>
 		</list>
 		<group name="special_enum_tunings">
-			<list name="unit_class_list">
-				<group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
-					<list name="values" overrideParent="True">
-						<enum name="value" value="gaia" List.ItemID="61854547" />
-						<enum name="value" value="scout" List.ItemID="2049066439" />
-					</list>
+			<list name="ai_military_engagement_type" overrideParent="True">
+				<group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
+					<enum name="value" value="enemy_clump" overrideParent="True" />
+					<enum name="key" value="ai_phase_encounter_engagement_type" comment="Engagment type that classifies the current encounter.  Used in Opportunity &quot;TargetUnreachable&quot; and &quot;TargetInvalidated&quot; that affect some state transitions." />
 				</group>
 			</list>
 		</group>

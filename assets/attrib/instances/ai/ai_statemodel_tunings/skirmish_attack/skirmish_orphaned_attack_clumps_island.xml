@@ -28,16 +28,6 @@
 				<float name="value" value="0" overrideParent="True" />
 			</group>
 		</list>
-		<group name="special_enum_tunings">
-			<list name="unit_class_list">
-				<group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
-					<list name="values" overrideParent="True">
-						<enum name="value" value="gaia" List.ItemID="888779753" />
-						<enum name="value" value="scout" List.ItemID="-1403972834" />
-					</list>
-				</group>
-			</list>
-		</group>
 		<group name="special_pbg_tunings">
 			<list name="ai_phase_encounter_coordinator_bag">
 				<group name="key_value" List.ItemID="-2068869878" List.ParentItemID="-2068869878">

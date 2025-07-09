@@ -167,7 +167,7 @@
 							<float name="outer_length" value="10" />
 							<float name="inner_length" value="0" />
 							<float name="width" value="20" />
-							<enum name="dynamic_length_type" value="greater_than_or_equal_to_outer" />
+							<enum name="dynamic_length_type" value="between_inner_and_outer" />
 						</template_reference>
 						<template_reference name="protect_task_option" value="options\ai\encounters\protect_formation_task_option">
 							<float name="ratio" value="1" />
@@ -8940,19 +8940,16 @@
 				<group name="named_type_list" List.ItemID="1986134092">
 					<string name="name" value="default" />
 					<list name="unit_types">
-						<enum name="type" value="hq" List.ItemID="1796437653" />
-						<enum name="type" value="castle" List.ItemID="95297949" />
-						<enum name="type" value="outpost" List.ItemID="-1812093274" />
-						<enum name="type" value="forward_base" List.ItemID="969972736" />
-						<enum name="type" value="defensive_structure" List.ItemID="1178681060" />
+						<enum name="type" value="hq" List.ItemID="-40113593" />
+						<enum name="type" value="outpost" List.ItemID="-170718740" />
+						<enum name="type" value="forward_base" List.ItemID="734246849" />
+						<enum name="type" value="defensive_structure" List.ItemID="368317414" />
 					</list>
 				</group>
 				<group name="named_type_list" List.ItemID="1148131362">
 					<string name="name" value="hq" />
 					<list name="unit_types">
 						<enum name="type" value="hq" List.ItemID="692766630" />
-						<enum name="type" value="outpost" List.ItemID="-1083840282" />
-						<enum name="type" value="castle" List.ItemID="-2047034417" />
 					</list>
 				</group>
 			</list>

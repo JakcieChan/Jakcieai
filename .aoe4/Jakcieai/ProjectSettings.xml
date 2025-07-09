@@ -10,6 +10,7 @@
 					<d2p1:Value>
 						<d2p1:string>assets\attrib\instances\ai\ai_formation_coordinator</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_formation_target_priority</d2p1:string>
+						<d2p1:string>assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_attack</d2p1:string>
 					</d2p1:Value>
 				</d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
 			</d3p1:ExpandedPaths>
@@ -22,16 +23,16 @@
 	</PluginSettings>
 	<RecentFiles>
 		<History xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_stone_walls.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_target_priority\siege_ranged_los_support_incl_walls.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_settings\default_skirmish_hardest.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_coordinator\ai_formation_coordinator_basic_enroute.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_difficulty_core.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\tuning_ai\tuning_ai.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\Jakcieai.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_return_to_hq.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_target_priority\anti_siege_target_priority.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_coordinator\ai_formation_coordinator_siege.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_economy\complete\default_economy.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_strategizer_personality\strategizer_defensive.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_settings\default_skirmish_hardest.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_default.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_path\ai_scout_avoid_threat_path.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_path\ai_scout_path.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_coordinator\ai_formation_coordinator_attack_wonder.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_target_priority\siege_catapult_target_priority.xml</d3p1:string>
 		</History>
 	</RecentFiles>
 </ProjectSettings>

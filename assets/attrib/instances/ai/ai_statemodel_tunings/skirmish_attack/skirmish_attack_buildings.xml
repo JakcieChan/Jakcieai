@@ -28,16 +28,6 @@
 				<float name="value" value="0" overrideParent="True" />
 			</group>
 		</list>
-		<group name="special_enum_tunings">
-			<list name="unit_class_list">
-				<group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
-					<list name="values" overrideParent="True">
-						<enum name="value" value="animal_herdable" List.ItemID="643371130" />
-						<enum name="value" value="animal_gatherable" List.ItemID="481579969" />
-					</list>
-				</group>
-			</list>
-		</group>
 		<group name="special_pbg_tunings">
 			<list name="ai_phase_encounter_path_bag">
 				<group name="key_value" List.ItemID="-1873888590" List.ParentItemID="-1873888590">

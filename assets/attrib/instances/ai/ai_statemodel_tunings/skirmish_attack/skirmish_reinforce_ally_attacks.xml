@@ -28,18 +28,6 @@
 				<float name="value" value="0" overrideParent="True" />
 			</group>
 		</list>
-		<group name="special_enum_tunings">
-			<list name="unit_class_list">
-				<group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
-					<list name="values" overrideParent="True">
-						<enum name="value" value="stone_wall" List.ItemID="1399613325" />
-						<enum name="value" value="palisade_wall" List.ItemID="-1652332728" />
-						<enum name="value" value="animal_herdable" List.ItemID="969056973" />
-						<enum name="value" value="animal_gatherable" List.ItemID="1621749415" />
-					</list>
-				</group>
-			</list>
-		</group>
 		<group name="special_pbg_tunings">
 			<list name="ai_phase_encounter_coordinator_bag_enroute">
 				<group name="key_value" List.ItemID="-1931180559" List.ParentItemID="-1931180559">

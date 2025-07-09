@@ -20,23 +20,6 @@
 				<bool name="value" value="True" overrideParent="True" />
 			</group>
 		</list>
-		<group name="special_enum_tunings">
-			<list name="unit_class_list">
-				<group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
-					<list name="values" overrideParent="True">
-						<enum name="value" value="wall" List.ItemID="713156257" />
-						<enum name="value" value="house" List.ItemID="-1005405813" />
-						<enum name="value" value="farm" List.ItemID="-1927484147" />
-						<enum name="value" value="economy_building" List.ItemID="-1221015258" />
-						<enum name="value" value="research_building" List.ItemID="-2032541300" />
-						<enum name="value" value="villager" List.ItemID="-1938356606" />
-						<enum name="value" value="scout" List.ItemID="-1339375880" />
-						<enum name="value" value="animal_herdable" List.ItemID="986284570" />
-						<enum name="value" value="animal_gatherable" List.ItemID="-173512083" />
-					</list>
-				</group>
-			</list>
-		</group>
 		<list name="float_tunings">
 			<group name="value_tuning" List.ItemID="673414398" List.ParentItemID="673414398">
 				<float name="value" value="0.25" overrideParent="True" />
