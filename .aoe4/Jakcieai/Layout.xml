@@ -5,7 +5,7 @@
       <LayoutDocumentPaneGroup Orientation="Horizontal">
         <LayoutDocumentPane Id="172c4545-7d79-44aa-bad9-d77ae0dd0df5" DockWidth="0.475409836065574*">
           <LayoutDocument Title="ai\ai_settings" ContentId="Category|ai\ai_settings" LastActivationTimeStamp="07/08/2025 21:18:42" />
-          <LayoutDocument Title="ai\ai_personality" ContentId="Category|ai\ai_personality" LastActivationTimeStamp="07/08/2025 21:33:32" />
+          <LayoutDocument Title="ai\ai_personality" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ai\ai_personality" LastActivationTimeStamp="07/08/2025 21:33:59" />
           <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Asset Explorer" ContentId="EssenceEditor.AssetExplorer" FloatingLeft="-1908" FloatingTop="98" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="07/08/2025 21:18:44" />
           <LayoutDocument Title="mod.rdo" ContentId="Reflect|Essence.Editor.ReflectEditor.Controls.DefaultReflectControlActivator|0xFD4C65582FC0A152" LastActivationTimeStamp="07/08/2025 21:04:56" />
           <LayoutDocument Title="ebps" ContentId="Category|ebps" LastActivationTimeStamp="07/08/2025 17:48:02" />
@@ -14,7 +14,7 @@
           <LayoutDocument Title="tuning_ai" ContentId="Category|tuning_ai" LastActivationTimeStamp="07/08/2025 21:19:07" />
           <LayoutDocument Title="ai\ai_statemodel_tunings" ContentId="Category|ai\ai_statemodel_tunings" LastActivationTimeStamp="07/08/2025 20:52:39" />
           <LayoutDocument Title="ai\ai_formation_target_priority" ContentId="Category|ai\ai_formation_target_priority" LastActivationTimeStamp="07/08/2025 20:51:23" />
-          <LayoutDocument Title="ai\ai_formation_coordinator" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ai\ai_formation_coordinator" LastActivationTimeStamp="07/08/2025 21:33:41" />
+          <LayoutDocument Title="ai\ai_formation_coordinator" ContentId="Category|ai\ai_formation_coordinator" LastActivationTimeStamp="07/08/2025 21:33:41" />
           <LayoutDocument Title="ai\ai_formation_path" ContentId="Category|ai\ai_formation_path" LastActivationTimeStamp="07/08/2025 20:28:54" />
         </LayoutDocumentPane>
       </LayoutDocumentPaneGroup>
