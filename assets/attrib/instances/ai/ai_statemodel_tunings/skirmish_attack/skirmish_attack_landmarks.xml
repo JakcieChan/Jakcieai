@@ -29,6 +29,23 @@
 			</group>
 		</list>
 		<group name="special_enum_tunings">
+			<list name="unit_class_list" overrideParent="True">
+				<group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
+					<list name="values" overrideParent="True">
+						<enum name="value" value="wall" List.ItemID="40895084" />
+						<enum name="value" value="house" List.ItemID="108061360" />
+						<enum name="value" value="farm" List.ItemID="-1840257897" />
+						<enum name="value" value="economy_building" List.ItemID="2124700472" />
+						<enum name="value" value="research_building" List.ItemID="-2031468065" />
+						<enum name="value" value="military_production_building" List.ItemID="-548675331" />
+						<enum name="value" value="villager" List.ItemID="238065556" />
+						<enum name="value" value="scout" List.ItemID="-787977077" />
+						<enum name="value" value="animal_herdable" List.ItemID="2121916333" />
+						<enum name="value" value="animal_gatherable" List.ItemID="-515192446" />
+					</list>
+					<enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="Ignore these entity unit types when testing encounter exit conditions due to &quot;combat_fitness_threshold&quot;, &quot;clear_enemy_squads&quot; or &quot;clear_enemy_buildings&quot;." />
+				</group>
+			</list>
 			<list name="ai_military_engagement_type" overrideParent="True">
 				<group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
 					<enum name="value" value="enemy_clump" overrideParent="True" />

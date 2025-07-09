@@ -167,7 +167,7 @@
 							<float name="outer_length" value="10" />
 							<float name="inner_length" value="0" />
 							<float name="width" value="20" />
-							<enum name="dynamic_length_type" value="between_inner_and_outer" />
+							<enum name="dynamic_length_type" value="greater_than_or_equal_to_outer" />
 						</template_reference>
 						<template_reference name="protect_task_option" value="options\ai\encounters\protect_formation_task_option">
 							<float name="ratio" value="1" />

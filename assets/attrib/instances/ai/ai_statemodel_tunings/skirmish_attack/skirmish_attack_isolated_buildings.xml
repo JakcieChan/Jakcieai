@@ -26,6 +26,19 @@
 			</group>
 		</list>
 		<group name="special_enum_tunings">
+			<list name="unit_class_list" overrideParent="True">
+				<group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
+					<list name="values" overrideParent="True">
+						<enum name="value" value="wall" List.ItemID="1760427561" />
+						<enum name="value" value="landmark" List.ItemID="1058818365" />
+						<enum name="value" value="town_center_capital" List.ItemID="-185292122" />
+						<enum name="value" value="wonder" List.ItemID="-489970885" />
+						<enum name="value" value="animal_herdable" List.ItemID="-1125996977" />
+						<enum name="value" value="animal_gatherable" List.ItemID="1490487988" />
+					</list>
+					<enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="Ignore these entity unit types when testing encounter exit conditions due to &quot;combat_fitness_threshold&quot;, &quot;clear_enemy_squads&quot; or &quot;clear_enemy_buildings&quot;." />
+				</group>
+			</list>
 			<list name="ai_military_engagement_type" overrideParent="True">
 				<group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
 					<enum name="value" value="attack_structure" />

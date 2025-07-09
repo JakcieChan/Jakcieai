@@ -25,7 +25,7 @@
 				<float name="value" value="0.25" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="1350356719" List.ParentItemID="1350356719">
-				<float name="value" value="30" overrideParent="True" />
+				<float name="value" value="50" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="360848628" List.ParentItemID="360848628">
 				<float name="value" value="0.25" overrideParent="True" />
@@ -39,10 +39,37 @@
 			<group name="value_tuning" List.ItemID="-456788771" List.ParentItemID="-456788771">
 				<float name="value" value="0.3" overrideParent="True" />
 			</group>
+			<group name="value_tuning" List.ItemID="1783478058" List.ParentItemID="1783478058">
+				<float name="value" value="60" overrideParent="True" />
+			</group>
 			<group name="value_tuning" List.ItemID="784378127" List.ParentItemID="784378127">
 				<float name="value" value="0" overrideParent="True" />
 			</group>
 		</list>
+		<group name="special_enum_tunings" overrideParent="True">
+			<list name="unit_class_list">
+				<group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
+					<list name="values" overrideParent="True">
+						<enum name="value" value="wall" List.ItemID="1178233155" />
+						<enum name="value" value="house" List.ItemID="-891601684" />
+						<enum name="value" value="farm" List.ItemID="-713085599" />
+						<enum name="value" value="economy_building" List.ItemID="-482190741" />
+						<enum name="value" value="production_building" List.ItemID="-353079320" />
+						<enum name="value" value="villager" List.ItemID="349864401" />
+						<enum name="value" value="scout" List.ItemID="857243148" />
+						<enum name="value" value="animal_herdable" List.ItemID="1520449443" />
+						<enum name="value" value="animal_gatherable" List.ItemID="1647215914" />
+					</list>
+					<enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="Ignore these entity unit types when testing encounter exit conditions due to &quot;combat_fitness_threshold&quot;, &quot;clear_enemy_squads&quot; or &quot;clear_enemy_buildings&quot;." />
+				</group>
+			</list>
+			<list name="ai_military_engagement_type">
+				<group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
+					<enum name="value" value="attack_structure" />
+					<enum name="key" value="ai_phase_encounter_engagement_type" comment="Engagment type that classifies the current encounter.  Used in Opportunity &quot;TargetUnreachable&quot; and &quot;TargetInvalidated&quot; that affect some state transitions." />
+				</group>
+			</list>
+		</group>
 		<group name="special_pbg_tunings">
 			<list name="ai_phase_encounter_coordinator_bag">
 				<group name="key_value" List.ItemID="-2068869878" List.ParentItemID="-2068869878">

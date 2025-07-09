@@ -28,6 +28,24 @@
 				<float name="value" value="0" overrideParent="True" />
 			</group>
 		</list>
+		<group name="special_enum_tunings">
+			<list name="unit_class_list" overrideParent="True">
+				<group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
+					<list name="values" overrideParent="True">
+						<enum name="value" value="wall" List.ItemID="344556802" />
+						<enum name="value" value="animal_herdable" List.ItemID="1068186889" />
+						<enum name="value" value="animal_gatherable" List.ItemID="535412927" />
+					</list>
+					<enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="Ignore these entity unit types when testing encounter exit conditions due to &quot;combat_fitness_threshold&quot;, &quot;clear_enemy_squads&quot; or &quot;clear_enemy_buildings&quot;." />
+				</group>
+			</list>
+			<list name="ai_military_engagement_type" overrideParent="True">
+				<group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
+					<enum name="value" value="enemy_clump" overrideParent="True" />
+					<enum name="key" value="ai_phase_encounter_engagement_type" comment="Engagment type that classifies the current encounter.  Used in Opportunity &quot;TargetUnreachable&quot; and &quot;TargetInvalidated&quot; that affect some state transitions." />
+				</group>
+			</list>
+		</group>
 		<group name="special_pbg_tunings">
 			<list name="ai_phase_encounter_coordinator_bag">
 				<group name="key_value" List.ItemID="-2068869878" List.ParentItemID="-2068869878">

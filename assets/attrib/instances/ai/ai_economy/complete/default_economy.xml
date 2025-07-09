@@ -2044,7 +2044,7 @@
 					<instance_reference name="member" value="sbps\races\templar\unit_horseman_4_tem" List.ItemID="-135606306" />
 					<instance_reference name="member" value="sbps\races\hre\unit_black_rider_hre" List.ItemID="215773700" />
 				</list>
-				<float name="base_scale" value="650" />
+				<float name="base_scale" value="675" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Infantry" />
 				<int name="max_current" value="-1" />
@@ -2170,7 +2170,7 @@
 					<instance_reference name="member" value="sbps\races\ottoman\unit_horsearcher_4_ott" List.ItemID="-647058108" />
 					<instance_reference name="member" value="sbps\races\lancaster\unit_handcannon_3_lan_college" List.ItemID="1244867892" />
 				</list>
-				<float name="base_scale" value="650" />
+				<float name="base_scale" value="675" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_RangedInfantry" />
 				<int name="max_current" value="-1" />
@@ -3287,7 +3287,7 @@
 					<instance_reference name="member" value="sbps\races\mongol\unit_knight_4_double_mon" List.ItemID="1984832154" />
 					<instance_reference name="member" value="sbps\races\mongol\unit_knight_4_mon" List.ItemID="1877677896" />
 				</list>
-				<float name="base_scale" value="900" />
+				<float name="base_scale" value="925" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Infantry" />
 				<int name="max_current" value="-1" />
@@ -3641,7 +3641,7 @@
 					<instance_reference name="member" value="sbps\races\french_ha_01\unit_crossbowman_3_fre_ha_01" List.ItemID="-110433602" />
 					<instance_reference name="member" value="sbps\races\french_ha_01\unit_crossbowman_4_fre_ha_01" List.ItemID="-1682130381" />
 				</list>
-				<float name="base_scale" value="750" />
+				<float name="base_scale" value="775" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_RangedInfantry" />
 				<int name="max_current" value="-1" />
@@ -3724,7 +3724,7 @@
 					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_mansa_musofadi_3_mal" List.ItemID="-703319607" />
 					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_mansa_musofadi_4_mal" List.ItemID="-551274651" />
 				</list>
-				<float name="base_scale" value="750" />
+				<float name="base_scale" value="775" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Infantry" />
 				<int name="max_current" value="-1" />

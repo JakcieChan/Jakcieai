@@ -63,10 +63,14 @@
 							<enum name="unit_type" value="house" />
 							<float name="score" value="-400" />
 						</group>
+						<group name="unit_type_score" List.ItemID="2058838821">
+							<enum name="unit_type" value="wall" />
+							<float name="score" value="100" />
+						</group>
 					</list>
 				</template_reference>
 				<bool name="exclude_no_los" value="False" />
-				<float name="can_shoot_at_scale" value="50" comment="prefers target that the ranged siege attackers can already shoot at, to minimize teardown/setting up." />
+				<float name="can_shoot_at_scale" value="10" comment="prefers target that the ranged siege attackers can already shoot at, to minimize teardown/setting up." />
 				<bool name="always_consider_non_combat_targets" value="True" />
 			</template_reference>
 		</list>

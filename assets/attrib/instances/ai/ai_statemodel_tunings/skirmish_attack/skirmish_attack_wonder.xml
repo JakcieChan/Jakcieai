@@ -34,6 +34,24 @@
 				<float name="value" value="0" overrideParent="True" />
 			</group>
 		</list>
+		<group name="special_enum_tunings">
+			<list name="unit_class_list" overrideParent="True">
+				<group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
+					<list name="values" overrideParent="True">
+						<enum name="value" value="wall" List.ItemID="1237843360" />
+						<enum name="value" value="house" List.ItemID="-1512041676" />
+						<enum name="value" value="farm" List.ItemID="-1607227974" />
+						<enum name="value" value="economy_building" List.ItemID="-887279563" />
+						<enum name="value" value="production_building" List.ItemID="2095747980" />
+						<enum name="value" value="villager" List.ItemID="983755378" />
+						<enum name="value" value="scout" List.ItemID="-1118012627" />
+						<enum name="value" value="animal_herdable" List.ItemID="1863742053" />
+						<enum name="value" value="animal_gatherable" List.ItemID="1888862871" />
+					</list>
+					<enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="Ignore these entity unit types when testing encounter exit conditions due to &quot;combat_fitness_threshold&quot;, &quot;clear_enemy_squads&quot; or &quot;clear_enemy_buildings&quot;." />
+				</group>
+			</list>
+		</group>
 		<group name="special_pbg_tunings">
 			<list name="ai_phase_encounter_coordinator_bag">
 				<group name="key_value" List.ItemID="-2068869878" List.ParentItemID="-2068869878">
