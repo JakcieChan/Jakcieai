@@ -36,17 +36,9 @@
 							<enum name="unit_type" value="jeanne_d_arc" />
 							<float name="score" value="50" />
 						</group>
-						<group name="unit_type_score" List.ItemID="1550826916">
-							<enum name="unit_type" value="building" />
-							<float name="score" value="-1" />
-						</group>
-						<group name="unit_type_score" List.ItemID="-1890496226">
-							<enum name="unit_type" value="farm" />
-							<float name="score" value="-50" />
-						</group>
-						<group name="unit_type_score" List.ItemID="-1283101464">
-							<enum name="unit_type" value="pasture" />
-							<float name="score" value="-50" />
+						<group name="unit_type_score" List.ItemID="730715170">
+							<enum name="unit_type" value="wall" />
+							<float name="score" value="10" />
 						</group>
 					</list>
 				</template_reference>

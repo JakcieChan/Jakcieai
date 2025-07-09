@@ -31,6 +31,7 @@
 				<list name="unit_types">
 					<enum name="unit_class" value="outpost" List.ItemID="803582799" />
 					<enum name="unit_class" value="castle" List.ItemID="-1580110751" />
+					<enum name="unit_class" value="capture_point" List.ItemID="-2089526803" />
 				</list>
 			</group>
 			<group name="info" List.ItemID="-286586598">

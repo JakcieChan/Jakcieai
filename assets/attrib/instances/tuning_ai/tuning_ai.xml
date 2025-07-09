@@ -190,7 +190,7 @@
 						<float name="reposition_interval_secs" value="3" />
 						<template_reference name="protect_task_option" value="options\ai\encounters\protect_formation_task_option">
 							<float name="ratio" value="0.4" />
-							<float name="distance" value="-7" />
+							<float name="distance" value="0" />
 							<list name="unit_types">
 								<enum name="unit_class" value="spearman" List.ItemID="-1106175016" />
 							</list>
@@ -1117,7 +1117,7 @@
 		<bool name="force_disable_ai" value="False" />
 		<group name="combat_machine_learning">
 			<list name="rating_input_feature_set">
-				<template_reference name="input_feature_calculator" value="options\ai\combat_machine_learning\rating_input_feature_calculators\squad_archetype_calculator" comment="Mongol double production units get the same score as their non double production counterparts.&#xA;&#xA;There are two main times we consider combat fitness: when producing a unit, and when comparing live units.&#xA;&#xA;When considering mongol double production units from a unit production perspective the additional production utility comes from the fact that these unit productions produce two, so we don't need to accout for the increased &quot;value&quot; in the archetype score.&#xA;&#xA;We will never actually consider &quot;live&quot; double production units from a combat fitness perspective. When a double production spbs is produced, it produces 2 units which are immediately blueprint converted back to the standard counterpart." List.ItemID="-1753984820">
+				<template_reference name="input_feature_calculator" value="options\ai\combat_machine_learning\rating_input_feature_calculators\squad_archetype_calculator" comment="Mongol double production units get the same score as their non double production counterparts.&#xA;&#xA;There are two main times we consider combat fitness: when producing a unit, and when comparing live units.&#xA;&#xA;When considering mongol double production units from a unit production perspective the additional production utility comes from the fact that these unit productions produce two, so we don't need to accout for the increased &quot;value&quot; in the archetype score.&#xA;&#xA;We will never actually consider &quot;live&quot; double production units from a combat fitness perspective. When a double production spbs is produced, it produces 2 units which are immediately blueprint converted back to the standard counterpart." List.ItemID="-1068790104">
 					<list name="archetype_table">
 						<group name="archetype_member_mapping" comment="man_at_arms" List.ItemID="120270220">
 							<string name="name" value="man_at_arms" />
@@ -1333,13 +1333,13 @@
 									</list>
 								</group>
 								<group name="member" List.ItemID="-1903205962">
-									<instance_reference name="memberPBG" value="sbps\races\lancaster\unit_champion_3_lan" />
+									<instance_reference name="memberPBG" value="sbps\races\lancaster\unit_earlsguard_3_lan" />
 									<float name="base_value" value="2.302" />
 									<list name="upgrade_bonuses">
 									</list>
 								</group>
 								<group name="member" List.ItemID="-1742487803">
-									<instance_reference name="memberPBG" value="sbps\races\lancaster\unit_champion_4_lan" />
+									<instance_reference name="memberPBG" value="sbps\races\lancaster\unit_earlsguard_4_lan" />
 									<float name="base_value" value="3.186" />
 									<list name="upgrade_bonuses">
 									</list>
@@ -6107,7 +6107,7 @@
 						</group>
 					</list>
 				</template_reference>
-				<template_reference name="input_feature_calculator" value="options\ai\combat_machine_learning\rating_input_feature_calculators\structure_archetype_calculator" List.ItemID="-4741975">
+				<template_reference name="input_feature_calculator" value="options\ai\combat_machine_learning\rating_input_feature_calculators\structure_archetype_calculator" List.ItemID="1802357538">
 					<list name="archetype_table">
 						<group name="archetype_member_mapping" List.ItemID="604650708">
 							<string name="name" value="cmbt_buildings" />
@@ -8631,7 +8631,7 @@
 					</list>
 					<bool name="with_range" value="False" />
 				</template_reference>
-				<template_reference name="input_feature_calculator" value="options\ai\combat_machine_learning\rating_input_feature_calculators\healer_calculator" List.ItemID="-1955744468">
+				<template_reference name="input_feature_calculator" value="options\ai\combat_machine_learning\rating_input_feature_calculators\healer_calculator" List.ItemID="-714945247">
 					<list name="squads">
 						<instance_reference name="squad" value="sbps\races\english\unit_monk_3_eng" List.ItemID="920065846" />
 						<instance_reference name="squad" value="sbps\races\abbasid\unit_monk_3_abb" List.ItemID="100293302" />
@@ -8942,6 +8942,9 @@
 					<list name="unit_types">
 						<enum name="type" value="hq" List.ItemID="1796437653" />
 						<enum name="type" value="castle" List.ItemID="95297949" />
+						<enum name="type" value="outpost" List.ItemID="-1812093274" />
+						<enum name="type" value="forward_base" List.ItemID="969972736" />
+						<enum name="type" value="defensive_structure" List.ItemID="1178681060" />
 					</list>
 				</group>
 				<group name="named_type_list" List.ItemID="1148131362">
@@ -9183,7 +9186,7 @@
 			</list>
 		</group>
 		<group name="builder">
-			<float name="build_time_per_builder" value="3" />
+			<float name="build_time_per_builder" value="10" />
 			<int name="max_num_additional_builders" value="4" />
 			<list name="max_builders_per_structure_type">
 				<group name="structure_max_builders_pair" List.ItemID="-1972146631">
@@ -9539,6 +9542,14 @@
 				<group name="path_check_data" comment="for sacred sites" List.ItemID="1518693407">
 					<list name="unit_types">
 						<enum name="unit_type" value="special_beacon" List.ItemID="-92605612" />
+					</list>
+					<float name="path_recalculate_interval_secs" value="10" />
+					<bool name="check_allied" value="False" />
+					<bool name="also_try_short_pathfind" value="True" />
+				</group>
+				<group name="path_check_data" comment="for capture points of King of the Hill game mode" List.ItemID="-342939346">
+					<list name="unit_types">
+						<enum name="unit_type" value="capture_point" List.ItemID="622589033" />
 					</list>
 					<float name="path_recalculate_interval_secs" value="10" />
 					<bool name="check_allied" value="False" />

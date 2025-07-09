@@ -58,6 +58,9 @@
 				<float name="can_shoot_at_scale" value="5" />
 				<bool name="always_consider_non_combat_targets" value="True" />
 			</template_reference>
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1748933837">
+				<bool name="prefer_focus_target" value="True" />
+			</template_reference>
 		</list>
 		<list name="exclude_unit_types">
 			<enum name="unit_class" value="human" List.ItemID="-1356673557" />

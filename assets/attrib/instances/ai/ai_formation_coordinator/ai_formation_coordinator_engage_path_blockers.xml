@@ -40,11 +40,7 @@
 			</group>
 			<group name="targeting_info" List.ItemID="-303516486" List.ParentItemID="-303516486">
 				<list name="attacker_unit_types_exclude" overrideParent="True">
-				</list>
-				<list name="attacker_unit_types_include">
-					<enum name="unit_class" value="ram" List.ItemID="1662842136" List.ListAction="Append" />
-					<enum name="unit_class" value="workshop_ram" List.ItemID="-2110500147" List.ListAction="Append" />
-					<enum name="unit_class" value="ram_greek_fire" List.ItemID="-900788865" List.ListAction="Append" />
+					<enum name="unit_class" value="siege_tower" List.ItemID="1081107753" List.ParentItemID="1081107753" />
 				</list>
 			</group>
 			<group name="targeting_info" List.ItemID="30327303" List.ParentItemID="30327303">
@@ -59,6 +55,8 @@
 		</list>
 		<float name="ranged_unit_danger_distance" value="12" overrideParent="True" />
 		<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+		<template_reference name="defensive_wall_option" value="" overrideParent="True">
+		</template_reference>
 	</group>
 	<uniqueid name="pbgid" value="1078967" />
 	<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />

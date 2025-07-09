@@ -14,7 +14,7 @@
 			<group name="intention_tuning" List.ItemID="1179984767">
 				<enum name="intention_type" value="age_up" />
 				<float name="intention_max" value="0.95" />
-				<float name="intention_min" value="0.7" />
+				<float name="intention_min" value="0.75" />
 			</group>
 			<group name="intention_tuning" List.ItemID="1063108465">
 				<enum name="intention_type" value="religion" />
@@ -24,7 +24,7 @@
 			<group name="intention_tuning" List.ItemID="-1774200690">
 				<enum name="intention_type" value="wall" />
 				<float name="intention_max" value="1" />
-				<float name="intention_min" value="0" />
+				<float name="intention_min" value="1" />
 			</group>
 			<group name="intention_tuning" List.ItemID="-1350953826">
 				<enum name="intention_type" value="combat" />
