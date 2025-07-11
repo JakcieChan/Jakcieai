@@ -77,7 +77,7 @@
 				<float name="path_recalculate_interval_extra_random_percent" value="0.3" />
 			</group>
 			<list name="clump_detection_exclude_unit_types">
-				<enum name="exclude_unit_type" value="wall" List.ItemID="-529082449" />
+				<enum name="exclude_unit_type" value="wall" List.ItemID="-1326525752" />
 			</list>
 			<float name="upper_combat_fitness_threshold_for_weakest_enemy" value="0.2" />
 		</group>

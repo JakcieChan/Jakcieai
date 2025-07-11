@@ -2,27 +2,27 @@
 	<group name="ai_formation_target_priority">
 		<float name="target_check_interval_seconds" value="10" />
 		<list name="formation_priority_options">
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1321747612">
-				<float name="time_to_kill_scale" value="0" />
-				<float name="time_to_target_scale" value="-50" />
-				<float name="already_assigned_scale" value="2" />
-				<float name="can_move_scale" value="-1" comment="Rams are slow and should only ever attack static buildings. They should never be in a situation of their target being able to move." />
-				<float name="movement_speed_scale" value="-1" />
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-702244990">
+				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_target_scale" value="-5" />
+				<float name="already_assigned_scale" value="-1" />
+				<float name="can_move_scale" value="-1000" comment="Rams are slow and should only ever attack static buildings. They should never be in a situation of their target being able to move." />
+				<float name="movement_speed_scale" value="0" />
 				<float name="critical_target_scale" value="0" />
-				<float name="current_target_scale" value="15" />
+				<float name="current_target_scale" value="10" />
 				<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
 					<list name="unit_type_scores">
 						<group name="unit_type_score" comment="Massive bonus score for buildings because we are scoring combat and non-combat targets at the same time.&#xD;&#xA;Because units have way lower health than buildings so the are quicker to kill, but we always want to prioritize buildings over units." List.ItemID="2074249730">
 							<enum name="unit_type" value="building" />
-							<float name="score" value="550" />
+							<float name="score" value="500" />
 						</group>
 						<group name="unit_type_score" comment="Keeps have a lot of health, so we need this big bonus to offset the negative score from time_to_kill. " List.ItemID="-1490375220">
 							<enum name="unit_type" value="castle" />
-							<float name="score" value="20000" />
+							<float name="score" value="300" />
 						</group>
 						<group name="unit_type_score" comment="This is here to prioritize landmarks that are also a keep. The generic priority of landmarks, wonders and other building types is controlled with the non_combat_target_into in the ai_formation_coordinator. " List.ItemID="-938630982">
 							<enum name="unit_type" value="landmark" />
-							<float name="score" value="10000" />
+							<float name="score" value="100" />
 						</group>
 						<group name="unit_type_score" List.ItemID="268788029">
 							<enum name="unit_type" value="stone_wall_tower" />
@@ -32,67 +32,47 @@
 							<enum name="unit_type" value="outpost" />
 							<float name="score" value="100" />
 						</group>
-						<group name="unit_type_score" List.ItemID="1635653273">
-							<enum name="unit_type" value="gate" />
-							<float name="score" value="50" />
-						</group>
-						<group name="unit_type_score" List.ItemID="380956387">
-							<enum name="unit_type" value="military_production_building" />
-							<float name="score" value="200" />
-						</group>
-						<group name="unit_type_score" List.ItemID="-809170405">
-							<enum name="unit_type" value="town_center" />
-							<float name="score" value="250" />
-						</group>
-						<group name="unit_type_score" List.ItemID="-210271883">
-							<enum name="unit_type" value="farm" />
-							<float name="score" value="-175" />
-						</group>
-						<group name="unit_type_score" List.ItemID="321552152">
-							<enum name="unit_type" value="house" />
-							<float name="score" value="-100" />
-						</group>
 					</list>
 				</template_reference>
 				<bool name="exclude_no_los" value="False" />
 				<float name="can_shoot_at_scale" value="5" />
 				<bool name="always_consider_non_combat_targets" value="True" />
 			</template_reference>
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1748933837">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1996332148">
 				<bool name="prefer_focus_target" value="True" />
 			</template_reference>
 		</list>
 		<list name="exclude_unit_types">
-			<enum name="unit_class" value="human" List.ItemID="-1356673557" />
-			<enum name="unit_class" value="cavalry" List.ItemID="-201443341" />
+			<enum name="unit_class" value="human" List.ItemID="1923645456" />
+			<enum name="unit_class" value="cavalry" List.ItemID="665044141" />
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="191716" />
+	<uniqueid name="pbgid" value="1073741885" />
 	<variant name="xp3">
 		<group name="ai_formation_target_priority">
 			<float name="target_check_interval_seconds" value="10" />
 			<list name="formation_priority_options">
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1070492993">
-					<float name="time_to_kill_scale" value="0" />
-					<float name="time_to_target_scale" value="-50" />
-					<float name="already_assigned_scale" value="2" />
-					<float name="can_move_scale" value="-1" comment="Rams are slow and should only ever attack static buildings. They should never be in a situation of their target being able to move." />
-					<float name="movement_speed_scale" value="-1" />
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-702244990">
+					<float name="time_to_kill_scale" value="-1" />
+					<float name="time_to_target_scale" value="-5" />
+					<float name="already_assigned_scale" value="-1" />
+					<float name="can_move_scale" value="-1000" comment="Rams are slow and should only ever attack static buildings. They should never be in a situation of their target being able to move." />
+					<float name="movement_speed_scale" value="0" />
 					<float name="critical_target_scale" value="0" />
-					<float name="current_target_scale" value="15" />
+					<float name="current_target_scale" value="10" />
 					<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
 						<list name="unit_type_scores">
 							<group name="unit_type_score" comment="Massive bonus score for buildings because we are scoring combat and non-combat targets at the same time.&#xD;&#xA;Because units have way lower health than buildings so the are quicker to kill, but we always want to prioritize buildings over units." List.ItemID="2074249730">
 								<enum name="unit_type" value="building" />
-								<float name="score" value="550" />
+								<float name="score" value="500" />
 							</group>
 							<group name="unit_type_score" comment="Keeps have a lot of health, so we need this big bonus to offset the negative score from time_to_kill. " List.ItemID="-1490375220">
 								<enum name="unit_type" value="castle" />
-								<float name="score" value="20000" />
+								<float name="score" value="300" />
 							</group>
 							<group name="unit_type_score" comment="This is here to prioritize landmarks that are also a keep. The generic priority of landmarks, wonders and other building types is controlled with the non_combat_target_into in the ai_formation_coordinator. " List.ItemID="-938630982">
 								<enum name="unit_type" value="landmark" />
-								<float name="score" value="10000" />
+								<float name="score" value="100" />
 							</group>
 							<group name="unit_type_score" List.ItemID="268788029">
 								<enum name="unit_type" value="stone_wall_tower" />
@@ -102,38 +82,21 @@
 								<enum name="unit_type" value="outpost" />
 								<float name="score" value="100" />
 							</group>
-							<group name="unit_type_score" List.ItemID="-1691656672">
-								<enum name="unit_type" value="gate" />
-								<float name="score" value="50" />
-							</group>
-							<group name="unit_type_score" List.ItemID="18306643">
-								<enum name="unit_type" value="military_production_building" />
-								<float name="score" value="200" />
-							</group>
-							<group name="unit_type_score" List.ItemID="470132708">
-								<enum name="unit_type" value="town_center" />
-								<float name="score" value="250" />
-							</group>
-							<group name="unit_type_score" List.ItemID="1662615688">
-								<enum name="unit_type" value="farm" />
-								<float name="score" value="-175" />
-							</group>
-							<group name="unit_type_score" List.ItemID="522560621">
-								<enum name="unit_type" value="house" />
-								<float name="score" value="-100" />
-							</group>
 						</list>
 					</template_reference>
 					<bool name="exclude_no_los" value="False" />
 					<float name="can_shoot_at_scale" value="5" />
 					<bool name="always_consider_non_combat_targets" value="True" />
 				</template_reference>
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1996332148">
+					<bool name="prefer_focus_target" value="True" />
+				</template_reference>
 			</list>
 			<list name="exclude_unit_types">
-				<enum name="unit_class" value="human" List.ItemID="-1667049865" />
-				<enum name="unit_class" value="cavalry" List.ItemID="-917409245" />
+				<enum name="unit_class" value="human" List.ItemID="1923645456" />
+				<enum name="unit_class" value="cavalry" List.ItemID="665044141" />
 			</list>
 		</group>
-		<uniqueid name="pbgid" value="191716" />
+		<uniqueid name="pbgid" value="1073741885" />
 	</variant>
 </instance>

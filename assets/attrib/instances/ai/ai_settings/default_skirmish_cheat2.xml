@@ -77,7 +77,7 @@
 				<float name="path_recalculate_interval_extra_random_percent" value="0.3" />
 			</group>
 			<list name="clump_detection_exclude_unit_types">
-				<enum name="exclude_unit_type" value="wall" List.ItemID="-1025201186" />
+				<enum name="exclude_unit_type" value="wall" List.ItemID="148395279" />
 			</list>
 			<float name="upper_combat_fitness_threshold_for_weakest_enemy" value="0.2" />
 		</group>
@@ -92,7 +92,7 @@
 			<float name="pathing_threat_memory_duration" value="30" />
 		</group>
 		<group name="fallback">
-			<float name="fallback_capacity_ratio" value="0.3" />
+			<float name="fallback_capacity_ratio" value="0.5" />
 			<float name="retreat_health_ratio" value="0.3" />
 			<float name="retreat_capacity_ratio" value="0.3" />
 			<bool name="retreat_on_suppression" value="True" />
@@ -101,9 +101,9 @@
 			<float name="retreat_delay_time_min" value="0" />
 			<float name="retreat_delay_time_max" value="0" />
 			<float name="reinforce_wait_time" value="15" />
-			<float name="reinforce_failed_retry_wait_time" value="30" />
+			<float name="reinforce_failed_retry_wait_time" value="60" />
 			<float name="reinforce_max_distance" value="-1" />
-			<float name="reinforce_health_ratio" value="1" />
+			<float name="reinforce_health_ratio" value="0.3" />
 			<bool name="reinforce_during_combat" value="True" />
 			<bool name="reinforce_enabled" value="True" />
 			<float name="reinforce_min_health_ratio_to_reach_reinforce_point" value="-1" />
@@ -116,7 +116,7 @@
 			<float name="fallback_encounter_squad_remaining_ratio" value="-1" />
 			<float name="fallback_encounter_squad_ratio" value="1" />
 			<float name="fallback_combat_rating" value="0" />
-			<float name="retreat_combat_rating" value="0.2" />
+			<float name="retreat_combat_rating" value="0.25" />
 		</group>
 		<group name="skirmish_settings">
 			<group name="capture">
@@ -136,12 +136,12 @@
 				<float name="catchup_max_resource_deficit" value="1000" />
 			</group>
 			<group name="combat_eval">
-				<float name="desired_ratio" value="0.4" />
+				<float name="desired_ratio" value="0.75" />
 			</group>
 			<group name="tasks">
 				<int name="max_num_attack_objectives" value="100" />
 				<int name="max_num_capture_tasks" value="100" />
-				<int name="max_num_construction_tasks" value="100" />
+				<int name="max_num_construction_tasks" value="10" />
 			</group>
 			<group name="army">
 				<float name="max_army_combat_ratio" value="-1" />
@@ -151,7 +151,7 @@
 				<float name="max_capture_points_to_capturing_units_ratio" value="4" />
 				<float name="min_non_support_units_to_support_units_ratio" value="2" />
 			</group>
-			<bool name="use_offensive_player_abilities" value="True" />
+			<bool name="use_offensive_player_abilities" value="False" />
 			<enum_table name="resource_multipliers">
 				<float name="action" value="1" />
 				<float name="popcap" value="1" />
@@ -206,7 +206,7 @@
 			<bool name="should_vehicle_out_maneuvre_enemy" value="True" />
 			<float name="avoidance_delay_time_max" value="0" />
 			<float name="kiting_target_update_delay" value="5" />
-			<float name="kiting_chance" value="1" />
+			<float name="kiting_chance" value="0.5" />
 			<float name="kiting_update_length" value="5" />
 			<group name="heavy_cover_max_occupancy">
 				<int name="default_max_squad_occupancy" value="2" />

@@ -1,6 +1,6 @@
 <instance version="6" description="Skirmish Attack Palisade Walls Encounter setup" template="ai\ai_statemodel_tunings">
 	<group name="ai_statemodel_tunings_bag">
-		<list name="bool_tunings" removedIds="-1292611004, -1260737405, 912213965, -288816098, 1067115595">
+		<list name="bool_tunings">
 			<group name="value_tuning" List.ItemID="-1435389545" List.ParentItemID="-1435389545">
 				<bool name="value" value="False" overrideParent="True" />
 			</group>
@@ -18,6 +18,9 @@
 			</group>
 			<group name="value_tuning" List.ItemID="1952573486" List.ParentItemID="1952573486">
 				<bool name="value" value="True" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1252824685" List.ParentItemID="-1252824685">
+				<bool name="value" value="False" overrideParent="True" />
 			</group>
 		</list>
 		<list name="float_tunings">

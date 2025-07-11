@@ -2,7 +2,7 @@
 	<group name="ai_formation_target_priority">
 		<float name="target_check_interval_seconds" value="0" />
 		<list name="formation_priority_options">
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1069994909">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-969197085">
 				<float name="time_to_kill_scale" value="-1" />
 				<float name="time_to_target_scale" value="-5" />
 				<float name="already_assigned_scale" value="-1" />
@@ -54,12 +54,12 @@
 		<list name="exclude_unit_types">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="207452" />
+	<uniqueid name="pbgid" value="1073741883" />
 	<variant name="xp3">
 		<group name="ai_formation_target_priority">
 			<float name="target_check_interval_seconds" value="0" />
 			<list name="formation_priority_options">
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1641881736">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-969197085">
 					<float name="time_to_kill_scale" value="-1" />
 					<float name="time_to_target_scale" value="-5" />
 					<float name="already_assigned_scale" value="-1" />
@@ -111,6 +111,6 @@
 			<list name="exclude_unit_types">
 			</list>
 		</group>
-		<uniqueid name="pbgid" value="207452" />
+		<uniqueid name="pbgid" value="1073741883" />
 	</variant>
 </instance>

@@ -1,0 +1,56 @@
+<instance version="6" description="Generic melee target priority bag without any direct preferences of units or special logic. Used in the &quot;fall through&quot; guidances to avoid non-specific melee units from going idle. The coordinator already considers bonus damage and armour values so it is expected that the units using this will perform decently enough. " template="ai\ai_formation_target_priority">
+	<group name="ai_formation_target_priority">
+		<float name="target_check_interval_seconds" value="2" />
+		<list name="formation_priority_options">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-393041855">
+				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_target_scale" value="-3" />
+				<float name="already_assigned_scale" value="-1" />
+				<float name="can_move_scale" value="0" />
+				<float name="movement_speed_scale" value="0" />
+				<float name="critical_target_scale" value="10" />
+				<float name="current_target_scale" value="10" />
+				<template_reference name="unit_type_scores" value="">
+				</template_reference>
+				<bool name="exclude_no_los" value="False" />
+				<float name="can_shoot_at_scale" value="5" />
+				<bool name="always_consider_non_combat_targets" value="False" />
+			</template_reference>
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1783368851">
+				<bool name="prefer_focus_target" value="True" />
+			</template_reference>
+		</list>
+		<list name="exclude_unit_types">
+			<enum name="unit_class" value="stone_wall" List.ItemID="1902084161" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="1073741879" />
+	<variant name="xp3">
+		<group name="ai_formation_target_priority">
+			<float name="target_check_interval_seconds" value="2" />
+			<list name="formation_priority_options">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-393041855">
+					<float name="time_to_kill_scale" value="-1" />
+					<float name="time_to_target_scale" value="-3" />
+					<float name="already_assigned_scale" value="-1" />
+					<float name="can_move_scale" value="0" />
+					<float name="movement_speed_scale" value="0" />
+					<float name="critical_target_scale" value="10" />
+					<float name="current_target_scale" value="10" />
+					<template_reference name="unit_type_scores" value="">
+					</template_reference>
+					<bool name="exclude_no_los" value="False" />
+					<float name="can_shoot_at_scale" value="5" />
+					<bool name="always_consider_non_combat_targets" value="False" />
+				</template_reference>
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1783368851">
+					<bool name="prefer_focus_target" value="True" />
+				</template_reference>
+			</list>
+			<list name="exclude_unit_types">
+				<enum name="unit_class" value="stone_wall" List.ItemID="1902084161" />
+			</list>
+		</group>
+		<uniqueid name="pbgid" value="1073741879" />
+	</variant>
+</instance>

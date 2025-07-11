@@ -3,15 +3,15 @@
 		<list name="bool_tunings">
 			<group name="value_tuning" List.ItemID="-811765993">
 				<enum name="key" value="ai_phase_encounter_convert_squad_target_to_position" comment="Don't convert if allow target following." />
-				<bool name="value" value="False" />
+				<bool name="value" value="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1387851575">
 				<enum name="key" value="ai_phase_encounter_clear_enemy_squads" />
-				<bool name="value" value="True" />
+				<bool name="value" value="False" />
 			</group>
 			<group name="value_tuning" List.ItemID="1904301839">
 				<enum name="key" value="ai_phase_encounter_clear_enemy_buildings" />
-				<bool name="value" value="True" />
+				<bool name="value" value="False" />
 			</group>
 			<group name="value_tuning" List.ItemID="1610707132">
 				<enum name="key" value="ai_phase_encounter_exit_test_include_unreachable" />
@@ -23,7 +23,7 @@
 			</group>
 			<group name="value_tuning" List.ItemID="-371807667">
 				<enum name="key" value="ai_phase_encounter_defend_destination" />
-				<bool name="value" value="True" />
+				<bool name="value" value="False" />
 			</group>
 			<group name="value_tuning" List.ItemID="987867061">
 				<enum name="key" value="ai_phase_encounter_can_help_nearby" />
@@ -37,75 +37,59 @@
 				<enum name="key" value="teardowns_disabled" />
 				<bool name="value" value="True" />
 			</group>
-			<group name="value_tuning" List.ItemID="-1725966940">
-				<enum name="key" value="ai_phase_encounter_allow_attack_move_enroute" />
-				<bool name="value" value="True" />
-			</group>
-			<group name="value_tuning" List.ItemID="-333467141">
-				<enum name="key" value="ai_phase_encounter_clear_enemy_squads_enroute" />
-				<bool name="value" value="True" />
-			</group>
-			<group name="value_tuning" List.ItemID="-566072801">
-				<enum name="key" value="ai_phase_encounter_lock_resources" />
-				<bool name="value" value="False" />
-			</group>
-			<group name="value_tuning" List.ItemID="1049072031">
-				<enum name="key" value="ai_phase_encounter_uses_targeted_ability" />
-				<bool name="value" value="False" />
-			</group>
 		</list>
 		<list name="float_tunings">
-			<group name="value_tuning" List.ItemID="590331929">
+			<group name="value_tuning" List.ItemID="-29855445">
 				<enum name="key" value="ai_phase_encounter_combat_area" />
-				<float name="value" value="60" />
+				<float name="value" value="30" />
 			</group>
-			<group name="value_tuning" List.ItemID="1819862230">
+			<group name="value_tuning" List.ItemID="1987856434">
 				<enum name="key" value="ai_phase_encounter_combat_leash" />
-				<float name="value" value="60" />
+				<float name="value" value="40" />
 			</group>
-			<group name="value_tuning" List.ItemID="423775016">
+			<group name="value_tuning" List.ItemID="-1317819310">
 				<enum name="key" value="ai_phase_encounter_formup_required_squads_percent" />
-				<float name="value" value="0.1" />
+				<float name="value" value="0.99" />
 			</group>
-			<group name="value_tuning" List.ItemID="-96757480">
+			<group name="value_tuning" List.ItemID="520319722">
 				<enum name="key" value="ai_phase_encounter_formup_timeout" />
-				<float name="value" value="0" />
+				<float name="value" value="10" />
 			</group>
-			<group name="value_tuning" List.ItemID="1488284679">
+			<group name="value_tuning" List.ItemID="756243100">
 				<enum name="key" value="ai_phase_encounter_combat_fitness_threshold" comment="Set to 0 for attack anyone we meet" />
-				<float name="value" value="0" />
+				<float name="value" value="-1" />
 			</group>
-			<group name="value_tuning" List.ItemID="1077841636">
+			<group name="value_tuning" List.ItemID="1133586547">
 				<enum name="key" value="ai_phase_encounter_fallback_combat_rating" comment="fallback if we meet enemies that exceed this combat fitness against us" />
 				<float name="value" value="0" />
 			</group>
-			<group name="value_tuning" List.ItemID="619936777">
+			<group name="value_tuning" List.ItemID="1618228068">
 				<enum name="key" value="ai_phase_encounter_fallback_squad_health_threshold" comment="health threshold for each individual squad to want to fall back" />
 				<float name="value" value="-1" />
 			</group>
-			<group name="value_tuning" List.ItemID="802214010">
+			<group name="value_tuning" List.ItemID="631415705">
 				<enum name="key" value="ai_phase_encounter_fallback_squad_health_percent" comment="how many individual squads in the group wanting to fallback will trigger fallback" />
-				<float name="value" value="-1" />
+				<float name="value" value="1" />
 			</group>
-			<group name="value_tuning" List.ItemID="1105968309">
+			<group name="value_tuning" List.ItemID="-663506826">
 				<enum name="key" value="ai_phase_encounter_destination_area" />
-				<float name="value" value="64" />
+				<float name="value" value="50" />
 			</group>
-			<group name="value_tuning" List.ItemID="2116965414">
+			<group name="value_tuning" List.ItemID="-724186766">
 				<enum name="key" value="ai_phase_encounter_destination_required_squads_percent" comment="finish travel phase when this percent of squads are in the destination area" />
-				<float name="value" value="0" />
+				<float name="value" value="0.25" />
 			</group>
-			<group name="value_tuning" List.ItemID="1077286206">
+			<group name="value_tuning" List.ItemID="430903832">
 				<enum name="key" value="ai_phase_encounter_fallback_squads_remaining_percent" comment="if this many entities remain out of the starting count then fallback" />
 				<float name="value" value="0" />
 			</group>
-			<group name="value_tuning" List.ItemID="1233642951">
+			<group name="value_tuning" List.ItemID="2048384862">
 				<enum name="key" value="ai_phase_encounter_idle_at_end_seconds" />
 				<float name="value" value="0" />
 			</group>
-			<group name="value_tuning" List.ItemID="-1354618308">
+			<group name="value_tuning" List.ItemID="1920506268">
 				<enum name="key" value="ai_phase_encounter_enemy_scan_range" />
-				<float name="value" value="60" />
+				<float name="value" value="0" />
 			</group>
 		</list>
 		<list name="int_tunings">

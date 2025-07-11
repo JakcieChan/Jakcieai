@@ -1,6 +1,6 @@
 <instance version="6" description="default tuning for skirmish attack encounters.  This is the base PBG that all other skirmish attack encounter tunings should be parented to." template="ai\ai_statemodel_tunings">
 	<group name="ai_statemodel_tunings_bag">
-		<list name="bool_tunings" removedIds="797757752">
+		<list name="bool_tunings" removedIds="797757752, -1292611004, -1260737405, 912213965, -288816098">
 			<group name="value_tuning" List.ItemID="-1435389545" List.ParentItemID="-1435389545">
 				<bool name="value" value="False" overrideParent="True" />
 			</group>
@@ -33,14 +33,6 @@
 			</group>
 			<group name="value_tuning" comment="Archers should force attack at their best target (rather than attack-move which can make them auto-target buildings)." List.ItemID="-1988997661" List.ParentItemID="-1988997661">
 				<bool name="value" value="False" overrideParent="True" />
-			</group>
-			<group name="value_tuning" overrideParent="True" List.ItemID="912213965" List.ParentItemID="912213965">
-				<enum name="key" value="ai_phase_encounter_allow_attack_move" />
-				<bool name="value" value="True" />
-			</group>
-			<group name="value_tuning" overrideParent="True" List.ItemID="1067115595" List.ListAction="Append">
-				<enum name="key" value="ai_phase_encounter_clear_enemy_buildings_enroute" overrideParent="True" />
-				<bool name="value" value="True" overrideParent="True" />
 			</group>
 		</list>
 		<list name="float_tunings">

@@ -9165,7 +9165,7 @@
 				<enum name="building_types" value="wall" List.ItemID="-862212107" />
 				<enum name="building_types" value="castle" List.ItemID="-1411107347" />
 			</list>
-			<bool name="blocking_wall_enabled" value="False" />
+			<bool name="blocking_wall_enabled" value="True" />
 		</group>
 		<list name="economy_building_types">
 			<enum name="entity_type" value="trade_post" List.ItemID="2008601974" />

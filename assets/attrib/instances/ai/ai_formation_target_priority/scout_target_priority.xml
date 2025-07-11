@@ -2,7 +2,7 @@
 	<group name="ai_formation_target_priority">
 		<float name="target_check_interval_seconds" value="3" />
 		<list name="formation_priority_options">
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1856993787">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1579179229">
 				<float name="time_to_kill_scale" value="-1" />
 				<float name="time_to_target_scale" value="-5" />
 				<float name="already_assigned_scale" value="-1" />
@@ -24,10 +24,6 @@
 							<enum name="unit_type" value="scout" />
 							<float name="score" value="10" />
 						</group>
-						<group name="unit_type_score" List.ItemID="1034316834">
-							<enum name="unit_type" value="scar_deer" />
-							<float name="score" value="100" />
-						</group>
 					</list>
 				</template_reference>
 				<bool name="exclude_no_los" value="False" />
@@ -36,17 +32,17 @@
 			</template_reference>
 		</list>
 		<list name="exclude_unit_types">
-			<enum name="unit_class" value="ranged" List.ItemID="-495409695" />
-			<enum name="unit_class" value="building" List.ItemID="-1616071117" />
-			<enum name="unit_class" value="naval_unit" List.ItemID="403342071" />
+			<enum name="unit_class" value="ranged" List.ItemID="-2072170428" />
+			<enum name="unit_class" value="building" List.ItemID="1855191936" />
+			<enum name="unit_class" value="naval_unit" List.ItemID="-1718538567" />
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="2075994" />
+	<uniqueid name="pbgid" value="1073741887" />
 	<variant name="xp3">
 		<group name="ai_formation_target_priority">
 			<float name="target_check_interval_seconds" value="3" />
 			<list name="formation_priority_options">
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="768170446">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1579179229">
 					<float name="time_to_kill_scale" value="-1" />
 					<float name="time_to_target_scale" value="-5" />
 					<float name="already_assigned_scale" value="-1" />
@@ -68,10 +64,6 @@
 								<enum name="unit_type" value="scout" />
 								<float name="score" value="10" />
 							</group>
-							<group name="unit_type_score" List.ItemID="-1037769029">
-								<enum name="unit_type" value="scar_deer" />
-								<float name="score" value="100" />
-							</group>
 						</list>
 					</template_reference>
 					<bool name="exclude_no_los" value="False" />
@@ -80,11 +72,11 @@
 				</template_reference>
 			</list>
 			<list name="exclude_unit_types">
-				<enum name="unit_class" value="ranged" List.ItemID="-1034001244" />
-				<enum name="unit_class" value="building" List.ItemID="-1438070436" />
-				<enum name="unit_class" value="naval_unit" List.ItemID="1829669160" />
+				<enum name="unit_class" value="ranged" List.ItemID="-2072170428" />
+				<enum name="unit_class" value="building" List.ItemID="1855191936" />
+				<enum name="unit_class" value="naval_unit" List.ItemID="-1718538567" />
 			</list>
 		</group>
-		<uniqueid name="pbgid" value="2075994" />
+		<uniqueid name="pbgid" value="1073741887" />
 	</variant>
 </instance>

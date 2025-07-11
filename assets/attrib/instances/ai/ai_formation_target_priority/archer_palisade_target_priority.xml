@@ -2,10 +2,10 @@
 	<group name="ai_formation_target_priority">
 		<float name="target_check_interval_seconds" value="2" />
 		<list name="formation_priority_options">
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="-364520834">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1316755255">
 				<bool name="prefer_focus_target" value="True" />
 			</template_reference>
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1959335453">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-808751069">
 				<float name="time_to_kill_scale" value="-1" />
 				<float name="time_to_target_scale" value="-2" />
 				<float name="already_assigned_scale" value="-1" />
@@ -27,18 +27,18 @@
 			</template_reference>
 		</list>
 		<list name="exclude_unit_types">
-			<enum name="unit_class" value="stone_wall" List.ItemID="-1377934023" />
+			<enum name="unit_class" value="stone_wall" List.ItemID="558286925" />
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="195264" />
+	<uniqueid name="pbgid" value="1073741873" />
 	<variant name="xp3">
 		<group name="ai_formation_target_priority">
 			<float name="target_check_interval_seconds" value="2" />
 			<list name="formation_priority_options">
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="985838378">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1316755255">
 					<bool name="prefer_focus_target" value="True" />
 				</template_reference>
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="336225067">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-808751069">
 					<float name="time_to_kill_scale" value="-1" />
 					<float name="time_to_target_scale" value="-2" />
 					<float name="already_assigned_scale" value="-1" />
@@ -60,9 +60,9 @@
 				</template_reference>
 			</list>
 			<list name="exclude_unit_types">
-				<enum name="unit_class" value="stone_wall" List.ItemID="2040444230" />
+				<enum name="unit_class" value="stone_wall" List.ItemID="558286925" />
 			</list>
 		</group>
-		<uniqueid name="pbgid" value="195264" />
+		<uniqueid name="pbgid" value="1073741873" />
 	</variant>
 </instance>

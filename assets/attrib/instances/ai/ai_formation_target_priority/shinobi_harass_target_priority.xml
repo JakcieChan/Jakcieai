@@ -18,7 +18,7 @@
 						</group>
 						<group name="unit_type_score" List.ItemID="1364944277">
 							<enum name="unit_type" value="villager" />
-							<float name="score" value="50" />
+							<float name="score" value="20" />
 						</group>
 					</list>
 				</template_reference>
@@ -31,7 +31,7 @@
 			<enum name="unit_class" value="scout" List.ItemID="989494112" />
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="2145595" />
+	<uniqueid name="pbgid" value="1073741888" />
 	<variant name="xp3">
 		<group name="ai_formation_target_priority">
 			<float name="target_check_interval_seconds" value="3" />
@@ -52,7 +52,7 @@
 							</group>
 							<group name="unit_type_score" List.ItemID="1364944277">
 								<enum name="unit_type" value="villager" />
-								<float name="score" value="50" />
+								<float name="score" value="20" />
 							</group>
 						</list>
 					</template_reference>
@@ -65,6 +65,6 @@
 				<enum name="unit_class" value="scout" List.ItemID="989494112" />
 			</list>
 		</group>
-		<uniqueid name="pbgid" value="2145595" />
+		<uniqueid name="pbgid" value="1073741888" />
 	</variant>
 </instance>

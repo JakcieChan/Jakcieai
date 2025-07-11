@@ -2,7 +2,7 @@
 	<group name="ai_formation_target_priority">
 		<float name="target_check_interval_seconds" value="0" />
 		<list name="formation_priority_options">
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="-1343892964">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="-845108515">
 				<float name="consider_enemies_on_wall_within_distance" value="30" />
 				<template_reference name="unit_type_scores" value="">
 				</template_reference>
@@ -12,12 +12,12 @@
 		<list name="exclude_unit_types">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="191391" />
+	<uniqueid name="pbgid" value="1073741893" />
 	<variant name="xp3">
 		<group name="ai_formation_target_priority">
 			<float name="target_check_interval_seconds" value="0" />
 			<list name="formation_priority_options">
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="-1913710263">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="-845108515">
 					<float name="consider_enemies_on_wall_within_distance" value="30" />
 					<template_reference name="unit_type_scores" value="">
 					</template_reference>
@@ -27,6 +27,6 @@
 			<list name="exclude_unit_types">
 			</list>
 		</group>
-		<uniqueid name="pbgid" value="191391" />
+		<uniqueid name="pbgid" value="1073741893" />
 	</variant>
 </instance>

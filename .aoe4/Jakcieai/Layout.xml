@@ -4,18 +4,18 @@
     <LayoutPanel Orientation="Vertical">
       <LayoutDocumentPaneGroup Orientation="Horizontal">
         <LayoutDocumentPane Id="172c4545-7d79-44aa-bad9-d77ae0dd0df5" DockWidth="0.475409836065574*">
-          <LayoutDocument Title="ai\ai_settings" ContentId="Category|ai\ai_settings" LastActivationTimeStamp="07/08/2025 21:18:42" />
-          <LayoutDocument Title="ai\ai_personality" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ai\ai_personality" LastActivationTimeStamp="07/08/2025 21:33:59" />
-          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Asset Explorer" ContentId="EssenceEditor.AssetExplorer" FloatingLeft="-1908" FloatingTop="98" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="07/08/2025 21:18:44" />
+          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Asset Explorer" ContentId="EssenceEditor.AssetExplorer" FloatingLeft="-1908" FloatingTop="98" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="07/10/2025 20:58:28" />
           <LayoutDocument Title="mod.rdo" ContentId="Reflect|Essence.Editor.ReflectEditor.Controls.DefaultReflectControlActivator|0xFD4C65582FC0A152" LastActivationTimeStamp="07/08/2025 21:04:56" />
-          <LayoutDocument Title="ebps" ContentId="Category|ebps" LastActivationTimeStamp="07/08/2025 17:48:02" />
-          <LayoutDocument Title="ai\ai_ability" ContentId="Category|ai\ai_ability" LastActivationTimeStamp="07/08/2025 21:04:57" />
-          <LayoutDocument Title="ai\ai_economy" ContentId="Category|ai\ai_economy" LastActivationTimeStamp="07/08/2025 21:04:57" />
-          <LayoutDocument Title="tuning_ai" ContentId="Category|tuning_ai" LastActivationTimeStamp="07/08/2025 21:19:07" />
-          <LayoutDocument Title="ai\ai_statemodel_tunings" ContentId="Category|ai\ai_statemodel_tunings" LastActivationTimeStamp="07/08/2025 20:52:39" />
-          <LayoutDocument Title="ai\ai_formation_target_priority" ContentId="Category|ai\ai_formation_target_priority" LastActivationTimeStamp="07/08/2025 20:51:23" />
-          <LayoutDocument Title="ai\ai_formation_coordinator" ContentId="Category|ai\ai_formation_coordinator" LastActivationTimeStamp="07/08/2025 21:33:41" />
-          <LayoutDocument Title="ai\ai_formation_path" ContentId="Category|ai\ai_formation_path" LastActivationTimeStamp="07/08/2025 20:28:54" />
+          <LayoutDocument Title="ebps" ContentId="Category|ebps" LastActivationTimeStamp="07/10/2025 20:25:55" />
+          <LayoutDocument Title="tuning_ai" ContentId="Category|tuning_ai" LastActivationTimeStamp="07/10/2025 20:54:40" />
+          <LayoutDocument Title="ai\ai_economy" ContentId="Category|ai\ai_economy" LastActivationTimeStamp="07/10/2025 20:52:26" />
+          <LayoutDocument Title="ai\ai_formation_coordinator" ContentId="Category|ai\ai_formation_coordinator" LastActivationTimeStamp="07/10/2025 20:30:29" />
+          <LayoutDocument Title="ai\ai_statemodel_tunings" ContentId="Category|ai\ai_statemodel_tunings" LastActivationTimeStamp="07/10/2025 20:44:00" />
+          <LayoutDocument Title="ai\ai_formation_target_priority" ContentId="Category|ai\ai_formation_target_priority" LastActivationTimeStamp="07/10/2025 20:48:33" />
+          <LayoutDocument Title="ai\ai_personality" ContentId="Category|ai\ai_personality" LastActivationTimeStamp="07/10/2025 20:57:58" />
+          <LayoutDocument Title="ai\ai_settings" ContentId="Category|ai\ai_settings" LastActivationTimeStamp="07/10/2025 20:48:45" />
+          <LayoutDocument Title="ai\ai_strategizer_personality" ContentId="Category|ai\ai_strategizer_personality" LastActivationTimeStamp="07/10/2025 20:58:02" />
+          <LayoutDocument Title="ai\ai_ability" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ai\ai_ability" LastActivationTimeStamp="07/10/2025 20:58:34" />
         </LayoutDocumentPane>
       </LayoutDocumentPaneGroup>
       <LayoutAnchorablePane Id="1b84d0aa-3fd1-4781-909d-fa3e4b760d6d" Name="anchorablesPane" DockHeight="190">
@@ -45,7 +45,7 @@
   <BottomSide />
   <FloatingWindows />
   <Hidden>
-    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Transformation" IsSelected="True" ContentId="ScenarioEditor.Transformation" FloatingLeft="200" FloatingTop="200" FloatingWidth="250" FloatingHeight="300" LastActivationTimeStamp="07/08/2025 16:48:06" PreviousContainerId="78c06263-eb86-40c1-8abf-6d89a3781df0" PreviousContainerIndex="0" />
-    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Painter" IsSelected="True" ContentId="ScenarioEditor.Painter" FloatingLeft="200" FloatingTop="200" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="07/08/2025 16:48:06" PreviousContainerId="9eaff4f0-8e90-4a82-8eab-81b2444b8a0e" PreviousContainerIndex="1" />
+    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Transformation" IsSelected="True" ContentId="ScenarioEditor.Transformation" FloatingLeft="200" FloatingTop="200" FloatingWidth="250" FloatingHeight="300" LastActivationTimeStamp="07/10/2025 20:25:21" PreviousContainerId="78c06263-eb86-40c1-8abf-6d89a3781df0" PreviousContainerIndex="0" />
+    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Painter" IsSelected="True" ContentId="ScenarioEditor.Painter" FloatingLeft="200" FloatingTop="200" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="07/10/2025 20:25:21" PreviousContainerId="9eaff4f0-8e90-4a82-8eab-81b2444b8a0e" PreviousContainerIndex="1" />
   </Hidden>
 </LayoutRoot>

@@ -2,7 +2,7 @@
 	<group name="ai_formation_target_priority">
 		<float name="target_check_interval_seconds" value="2" />
 		<list name="formation_priority_options">
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-2106729580">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="802895653">
 				<float name="time_to_kill_scale" value="-1" />
 				<float name="time_to_target_scale" value="-2" />
 				<float name="already_assigned_scale" value="-1" comment="This is intentionally set to -1 to discurrage focus fire. Focus fire for ranged units is only good up until the point of overkill. Giving targets a slight malus if other tasks are already assigned to it spreads the damage a little bit. &#xD;&#xA;In testing the AI performed drastically better in mirror matchups with the same units for the AI and it's enemy. Beating the enemy (which is attack moving) with plenty of units to spare. &#xD;&#xA;Even very unfavourable matchups like knights against archers starts out splitting the damage but because of the impact of time_to_kill the damaged knights get focused eventually. The outcome in those cases is comparable to focus fire. " />
@@ -14,19 +14,7 @@
 					<list name="unit_type_scores">
 						<group name="unit_type_score" List.ItemID="1520561688">
 							<enum name="unit_type" value="monk" />
-							<float name="score" value="4" />
-						</group>
-						<group name="unit_type_score" List.ItemID="-862081569">
-							<enum name="unit_type" value="military" />
-							<float name="score" value="2" />
-						</group>
-						<group name="unit_type_score" List.ItemID="295595043">
-							<enum name="unit_type" value="jeanne_d_arc" />
-							<float name="score" value="4" />
-						</group>
-						<group name="unit_type_score" List.ItemID="-1881421868">
-							<enum name="unit_type" value="building" />
-							<float name="score" value="-5" />
+							<float name="score" value="8" />
 						</group>
 					</list>
 				</template_reference>
@@ -34,22 +22,22 @@
 				<float name="can_shoot_at_scale" value="10" />
 				<bool name="always_consider_non_combat_targets" value="False" />
 			</template_reference>
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1491798162">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="526118826">
 				<bool name="prefer_focus_target" value="True" />
 			</template_reference>
 		</list>
 		<list name="exclude_unit_types">
-			<enum name="unit_class" value="stone_wall" List.ItemID="-65311242" />
-			<enum name="unit_class" value="animal_herdable" List.ItemID="227155969" />
-			<enum name="unit_class" value="animal_cattle_mal" List.ItemID="237395633" />
+			<enum name="unit_class" value="stone_wall" List.ItemID="720328415" />
+			<enum name="unit_class" value="animal_herdable" List.ItemID="1300101448" />
+			<enum name="unit_class" value="animal_cattle_mal" List.ItemID="-672244609" />
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="190940" />
+	<uniqueid name="pbgid" value="1073741874" />
 	<variant name="xp3">
 		<group name="ai_formation_target_priority">
 			<float name="target_check_interval_seconds" value="2" />
 			<list name="formation_priority_options">
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1370827673">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="802895653">
 					<float name="time_to_kill_scale" value="-1" />
 					<float name="time_to_target_scale" value="-2" />
 					<float name="already_assigned_scale" value="-1" comment="This is intentionally set to -1 to discurrage focus fire. Focus fire for ranged units is only good up until the point of overkill. Giving targets a slight malus if other tasks are already assigned to it spreads the damage a little bit. &#xD;&#xA;In testing the AI performed drastically better in mirror matchups with the same units for the AI and it's enemy. Beating the enemy (which is attack moving) with plenty of units to spare. &#xD;&#xA;Even very unfavourable matchups like knights against archers starts out splitting the damage but because of the impact of time_to_kill the damaged knights get focused eventually. The outcome in those cases is comparable to focus fire. " />
@@ -61,19 +49,7 @@
 						<list name="unit_type_scores">
 							<group name="unit_type_score" List.ItemID="1520561688">
 								<enum name="unit_type" value="monk" />
-								<float name="score" value="4" />
-							</group>
-							<group name="unit_type_score" List.ItemID="832055526">
-								<enum name="unit_type" value="military" />
-								<float name="score" value="2" />
-							</group>
-							<group name="unit_type_score" List.ItemID="-223355023">
-								<enum name="unit_type" value="jeanne_d_arc" />
-								<float name="score" value="4" />
-							</group>
-							<group name="unit_type_score" List.ItemID="1505324668">
-								<enum name="unit_type" value="building" />
-								<float name="score" value="-5" />
+								<float name="score" value="8" />
 							</group>
 						</list>
 					</template_reference>
@@ -81,16 +57,16 @@
 					<float name="can_shoot_at_scale" value="10" />
 					<bool name="always_consider_non_combat_targets" value="False" />
 				</template_reference>
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="-407066962">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="526118826">
 					<bool name="prefer_focus_target" value="True" />
 				</template_reference>
 			</list>
 			<list name="exclude_unit_types">
-				<enum name="unit_class" value="stone_wall" List.ItemID="1052901123" />
-				<enum name="unit_class" value="animal_herdable" List.ItemID="2071902270" />
-				<enum name="unit_class" value="animal_cattle_mal" List.ItemID="-1531230984" />
+				<enum name="unit_class" value="stone_wall" List.ItemID="720328415" />
+				<enum name="unit_class" value="animal_herdable" List.ItemID="1300101448" />
+				<enum name="unit_class" value="animal_cattle_mal" List.ItemID="-672244609" />
 			</list>
 		</group>
-		<uniqueid name="pbgid" value="190940" />
+		<uniqueid name="pbgid" value="1073741874" />
 	</variant>
 </instance>

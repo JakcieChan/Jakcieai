@@ -2044,7 +2044,7 @@
 					<instance_reference name="member" value="sbps\races\templar\unit_horseman_4_tem" List.ItemID="-135606306" />
 					<instance_reference name="member" value="sbps\races\hre\unit_black_rider_hre" List.ItemID="215773700" />
 				</list>
-				<float name="base_scale" value="675" />
+				<float name="base_scale" value="700" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Infantry" />
 				<int name="max_current" value="-1" />
@@ -2170,7 +2170,7 @@
 					<instance_reference name="member" value="sbps\races\ottoman\unit_horsearcher_4_ott" List.ItemID="-647058108" />
 					<instance_reference name="member" value="sbps\races\lancaster\unit_handcannon_3_lan_college" List.ItemID="1244867892" />
 				</list>
-				<float name="base_scale" value="675" />
+				<float name="base_scale" value="700" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_RangedInfantry" />
 				<int name="max_current" value="-1" />
@@ -3287,7 +3287,7 @@
 					<instance_reference name="member" value="sbps\races\mongol\unit_knight_4_double_mon" List.ItemID="1984832154" />
 					<instance_reference name="member" value="sbps\races\mongol\unit_knight_4_mon" List.ItemID="1877677896" />
 				</list>
-				<float name="base_scale" value="925" />
+				<float name="base_scale" value="950" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Infantry" />
 				<int name="max_current" value="-1" />
@@ -3641,7 +3641,7 @@
 					<instance_reference name="member" value="sbps\races\french_ha_01\unit_crossbowman_3_fre_ha_01" List.ItemID="-110433602" />
 					<instance_reference name="member" value="sbps\races\french_ha_01\unit_crossbowman_4_fre_ha_01" List.ItemID="-1682130381" />
 				</list>
-				<float name="base_scale" value="775" />
+				<float name="base_scale" value="800" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_RangedInfantry" />
 				<int name="max_current" value="-1" />
@@ -3724,7 +3724,7 @@
 					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_mansa_musofadi_3_mal" List.ItemID="-703319607" />
 					<instance_reference name="member" value="sbps\races\malian\farimba_units\unit_mansa_musofadi_4_mal" List.ItemID="-551274651" />
 				</list>
-				<float name="base_scale" value="775" />
+				<float name="base_scale" value="800" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Infantry" />
 				<int name="max_current" value="-1" />
@@ -3955,7 +3955,7 @@
 					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_house_of_wisdom_control_abb" List.ItemID="2125901381" />
 					<instance_reference name="member" value="ebps\races\abbasid_ha_01\buildings\building_house_of_wisdom_control_abb_ha_01" List.ItemID="-1702464028" />
 				</list>
-				<float name="base_scale" value="950" />
+				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_LandmarkStandard" />
 				<int name="max_current" value="-1" />
@@ -3974,7 +3974,7 @@
 					<instance_reference name="member" value="upgrade\races\abbasid_ha_01\research\house_of_wisdom\upgrade_add_culture_wing_imperial_a_abb_ha_01" List.ItemID="1316712725" />
 					<instance_reference name="member" value="upgrade\races\abbasid_ha_01\research\house_of_wisdom\upgrade_add_culture_wing_imperial_b_abb_ha_01" List.ItemID="-1167183769" />
 				</list>
-				<float name="base_scale" value="950" />
+				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_LandmarkDefensive" />
 				<int name="max_current" value="1" />
@@ -3992,7 +3992,7 @@
 					<instance_reference name="member" value="upgrade\races\abbasid_ha_01\research\house_of_wisdom\upgrade_add_military_wing_imperial_a_abb_ha_01" List.ItemID="-1218842179" />
 					<instance_reference name="member" value="upgrade\races\abbasid_ha_01\research\house_of_wisdom\upgrade_add_military_wing_imperial_b_abb_ha_01" List.ItemID="-1966285746" />
 				</list>
-				<float name="base_scale" value="950" />
+				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_LandmarkOffensive" />
 				<int name="max_current" value="1" />
@@ -4022,7 +4022,7 @@
 					<instance_reference name="member" value="upgrade\races\abbasid_ha_01\research\house_of_wisdom\upgrade_add_trade_wing_imperial_a_abb_ha_01" List.ItemID="-1447665171" />
 					<instance_reference name="member" value="upgrade\races\abbasid_ha_01\research\house_of_wisdom\upgrade_add_trade_wing_imperial_b_abb_ha_01" List.ItemID="325778409" />
 				</list>
-				<float name="base_scale" value="950" />
+				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_LandmarkEcon" />
 				<int name="max_current" value="1" />
@@ -4612,8 +4612,8 @@
 					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_landmark_age1_casernes_centrales_fre_ha_01\building_landmark_age1_casernes_centrales_fre_ha_01" List.ItemID="-1956785912" />
 					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_landmark_age1_abbey_lan" List.ItemID="-1128546599" />
 				</list>
-				<float name="base_scale" value="950" />
-				<float name="minimum_score_to_produce" value="200" />
+				<float name="base_scale" value="1000" />
+				<float name="minimum_score_to_produce" value="190" />
 				<string name="lua_binding" value="ScoringFunctions_LandmarkDarkAgeA" />
 				<int name="max_current" value="1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4640,8 +4640,8 @@
 					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_landmark_age1_chamber_of_commerce_fre_ha_01\building_landmark_age1_chamber_of_commerce_fre_ha_01" List.ItemID="1523842816" />
 					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_landmark_age1_lancastercastle_lan" List.ItemID="-725360318" />
 				</list>
-				<float name="base_scale" value="950" />
-				<float name="minimum_score_to_produce" value="200" />
+				<float name="base_scale" value="1000" />
+				<float name="minimum_score_to_produce" value="190" />
 				<string name="lua_binding" value="ScoringFunctions_LandmarkDarkAgeB" />
 				<int name="max_current" value="1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4943,8 +4943,8 @@
 					<instance_reference name="member" value="upgrade\races\templar\upgrade_age_castle_com_1_tem" List.ItemID="-1787222017" />
 					<instance_reference name="member" value="upgrade\races\templar\upgrade_age_feudal_com_1_tem" List.ItemID="-1307491603" />
 				</list>
-				<float name="base_scale" value="980" />
-				<float name="minimum_score_to_produce" value="200" />
+				<float name="base_scale" value="1000" />
+				<float name="minimum_score_to_produce" value="190" />
 				<string name="lua_binding" value="ScoringFunctions_Random3A" />
 				<int name="max_current" value="1" />
 				<int name="max_produced_ever" value="-1" />

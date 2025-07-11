@@ -2,10 +2,10 @@
 	<group name="ai_formation_target_priority">
 		<float name="target_check_interval_seconds" value="2" />
 		<list name="formation_priority_options">
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1434068537">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1065645419">
 				<bool name="prefer_focus_target" value="True" />
 			</template_reference>
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1879739349">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-165507511">
 				<float name="time_to_kill_scale" value="-1" />
 				<float name="time_to_target_scale" value="-5" />
 				<float name="already_assigned_scale" value="-1" />
@@ -33,7 +33,7 @@
 				<float name="can_shoot_at_scale" value="5" />
 				<bool name="always_consider_non_combat_targets" value="False" />
 			</template_reference>
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="1929994845">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="-1862450706">
 				<float name="consider_enemies_on_wall_within_distance" value="0" />
 				<template_reference name="unit_type_scores" value="">
 				</template_reference>
@@ -41,21 +41,21 @@
 			</template_reference>
 		</list>
 		<list name="exclude_unit_types">
-			<enum name="unit_class" value="stone_wall" List.ItemID="-905836188" />
-			<enum name="unit_class" value="villager" List.ItemID="-1865165034" />
-			<enum name="unit_class" value="resource_drop_off" List.ItemID="-1541479025" />
-			<enum name="unit_class" value="trade_cart" List.ItemID="1435243932" />
+			<enum name="unit_class" value="stone_wall" List.ItemID="-1216203746" />
+			<enum name="unit_class" value="villager" List.ItemID="-1673359720" />
+			<enum name="unit_class" value="resource_drop_off" List.ItemID="277486903" />
+			<enum name="unit_class" value="trade_cart" List.ItemID="-1141668212" />
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="195236" />
+	<uniqueid name="pbgid" value="1073741881" />
 	<variant name="xp3">
 		<group name="ai_formation_target_priority">
 			<float name="target_check_interval_seconds" value="2" />
 			<list name="formation_priority_options">
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="-479121582">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_target_priority_option" List.ItemID="1065645419">
 					<bool name="prefer_focus_target" value="True" />
 				</template_reference>
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="1732527489">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-165507511">
 					<float name="time_to_kill_scale" value="-1" />
 					<float name="time_to_target_scale" value="-5" />
 					<float name="already_assigned_scale" value="-1" />
@@ -83,7 +83,7 @@
 					<float name="can_shoot_at_scale" value="5" />
 					<bool name="always_consider_non_combat_targets" value="False" />
 				</template_reference>
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="-1514722360">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_siege_transport_priority_option" List.ItemID="-1862450706">
 					<float name="consider_enemies_on_wall_within_distance" value="0" />
 					<template_reference name="unit_type_scores" value="">
 					</template_reference>
@@ -91,12 +91,12 @@
 				</template_reference>
 			</list>
 			<list name="exclude_unit_types">
-				<enum name="unit_class" value="stone_wall" List.ItemID="1035570871" />
-				<enum name="unit_class" value="villager" List.ItemID="953033529" />
-				<enum name="unit_class" value="resource_drop_off" List.ItemID="1496701942" />
-				<enum name="unit_class" value="trade_cart" List.ItemID="1930698893" />
+				<enum name="unit_class" value="stone_wall" List.ItemID="-1216203746" />
+				<enum name="unit_class" value="villager" List.ItemID="-1673359720" />
+				<enum name="unit_class" value="resource_drop_off" List.ItemID="277486903" />
+				<enum name="unit_class" value="trade_cart" List.ItemID="-1141668212" />
 			</list>
 		</group>
-		<uniqueid name="pbgid" value="195236" />
+		<uniqueid name="pbgid" value="1073741881" />
 	</variant>
 </instance>

@@ -2,7 +2,7 @@
 	<group name="ai_formation_target_priority">
 		<float name="target_check_interval_seconds" value="3" />
 		<list name="formation_priority_options">
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1406102988">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1602822116">
 				<float name="time_to_kill_scale" value="-1" />
 				<float name="time_to_target_scale" value="-5" />
 				<float name="already_assigned_scale" value="-1" />
@@ -14,15 +14,23 @@
 					<list name="unit_type_scores">
 						<group name="unit_type_score" List.ItemID="-1450782518">
 							<enum name="unit_type" value="production_building" />
-							<float name="score" value="50" />
+							<float name="score" value="10" />
 						</group>
 						<group name="unit_type_score" List.ItemID="1364944277">
 							<enum name="unit_type" value="economy_building" />
+							<float name="score" value="12" />
+						</group>
+						<group name="unit_type_score" List.ItemID="-468641170">
+							<enum name="unit_type" value="research_building" />
+							<float name="score" value="9" />
+						</group>
+						<group name="unit_type_score" List.ItemID="2005384545">
+							<enum name="unit_type" value="house" />
 							<float name="score" value="10" />
 						</group>
-						<group name="unit_type_score" List.ItemID="694972392">
+						<group name="unit_type_score" List.ItemID="993350944">
 							<enum name="unit_type" value="trade_post" />
-							<float name="score" value="40" />
+							<float name="score" value="11" />
 						</group>
 					</list>
 				</template_reference>
@@ -32,17 +40,19 @@
 			</template_reference>
 		</list>
 		<list name="exclude_unit_types">
-			<enum name="unit_class" value="hq" List.ItemID="-157528367" />
-			<enum name="unit_class" value="tower" List.ItemID="-1087487656" />
-			<enum name="unit_class" value="castle" List.ItemID="-872676873" />
+			<enum name="unit_class" value="gaia" List.ItemID="-306858698" />
+			<enum name="unit_class" value="hq" List.ItemID="1825450854" />
+			<enum name="unit_class" value="tower" List.ItemID="-162587098" />
+			<enum name="unit_class" value="castle" List.ItemID="1658671534" />
+			<enum name="unit_class" value="scout" List.ItemID="1165271110" />
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="1073741889" />
+	<uniqueid name="pbgid" value="1073741890" />
 	<variant name="xp3">
 		<group name="ai_formation_target_priority">
 			<float name="target_check_interval_seconds" value="3" />
 			<list name="formation_priority_options">
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1406102988">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1602822116">
 					<float name="time_to_kill_scale" value="-1" />
 					<float name="time_to_target_scale" value="-5" />
 					<float name="already_assigned_scale" value="-1" />
@@ -54,15 +64,23 @@
 						<list name="unit_type_scores">
 							<group name="unit_type_score" List.ItemID="-1450782518">
 								<enum name="unit_type" value="production_building" />
-								<float name="score" value="50" />
+								<float name="score" value="10" />
 							</group>
 							<group name="unit_type_score" List.ItemID="1364944277">
 								<enum name="unit_type" value="economy_building" />
+								<float name="score" value="12" />
+							</group>
+							<group name="unit_type_score" List.ItemID="-468641170">
+								<enum name="unit_type" value="research_building" />
+								<float name="score" value="9" />
+							</group>
+							<group name="unit_type_score" List.ItemID="2005384545">
+								<enum name="unit_type" value="house" />
 								<float name="score" value="10" />
 							</group>
-							<group name="unit_type_score" List.ItemID="694972392">
+							<group name="unit_type_score" List.ItemID="993350944">
 								<enum name="unit_type" value="trade_post" />
-								<float name="score" value="40" />
+								<float name="score" value="11" />
 							</group>
 						</list>
 					</template_reference>
@@ -72,11 +90,13 @@
 				</template_reference>
 			</list>
 			<list name="exclude_unit_types">
-				<enum name="unit_class" value="hq" List.ItemID="-157528367" />
-				<enum name="unit_class" value="tower" List.ItemID="-1087487656" />
-				<enum name="unit_class" value="castle" List.ItemID="-872676873" />
+				<enum name="unit_class" value="gaia" List.ItemID="-306858698" />
+				<enum name="unit_class" value="hq" List.ItemID="1825450854" />
+				<enum name="unit_class" value="tower" List.ItemID="-162587098" />
+				<enum name="unit_class" value="castle" List.ItemID="1658671534" />
+				<enum name="unit_class" value="scout" List.ItemID="1165271110" />
 			</list>
 		</group>
-		<uniqueid name="pbgid" value="1073741889" />
+		<uniqueid name="pbgid" value="1073741890" />
 	</variant>
 </instance>

@@ -2,7 +2,7 @@
 	<group name="ai_formation_target_priority">
 		<float name="target_check_interval_seconds" value="3" />
 		<list name="formation_priority_options">
-			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="44977010">
+			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="2108835298">
 				<float name="time_to_kill_scale" value="-1" />
 				<float name="time_to_target_scale" value="-5" />
 				<float name="already_assigned_scale" value="-1" />
@@ -32,16 +32,16 @@
 			</template_reference>
 		</list>
 		<list name="exclude_unit_types">
-			<enum name="unit_class" value="stone_wall" List.ItemID="-515681475" />
-			<enum name="unit_class" value="stone_gate" List.ItemID="-598976677" />
+			<enum name="unit_class" value="stone_wall" List.ItemID="1953208565" />
+			<enum name="unit_class" value="stone_gate" List.ItemID="-1356618152" />
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="2058274" />
+	<uniqueid name="pbgid" value="1073741891" />
 	<variant name="xp3">
 		<group name="ai_formation_target_priority">
 			<float name="target_check_interval_seconds" value="3" />
 			<list name="formation_priority_options">
-				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1493585104">
+				<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="2108835298">
 					<float name="time_to_kill_scale" value="-1" />
 					<float name="time_to_target_scale" value="-5" />
 					<float name="already_assigned_scale" value="-1" />
@@ -71,10 +71,10 @@
 				</template_reference>
 			</list>
 			<list name="exclude_unit_types">
-				<enum name="unit_class" value="stone_wall" List.ItemID="-1175033288" />
-				<enum name="unit_class" value="stone_gate" List.ItemID="1557952607" />
+				<enum name="unit_class" value="stone_wall" List.ItemID="1953208565" />
+				<enum name="unit_class" value="stone_gate" List.ItemID="-1356618152" />
 			</list>
 		</group>
-		<uniqueid name="pbgid" value="2058274" />
+		<uniqueid name="pbgid" value="1073741891" />
 	</variant>
 </instance>
