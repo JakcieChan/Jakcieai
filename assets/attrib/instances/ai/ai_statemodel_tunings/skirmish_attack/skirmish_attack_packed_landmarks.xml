@@ -19,6 +19,9 @@
 			<group name="value_tuning" List.ItemID="-1257702635" List.ParentItemID="-1257702635">
 				<bool name="value" value="True" overrideParent="True" />
 			</group>
+			<group name="value_tuning" List.ItemID="-1252824685" List.ParentItemID="-1252824685">
+				<bool name="value" value="True" overrideParent="True" />
+			</group>
 		</list>
 		<group name="special_enum_tunings">
 			<list name="unit_class_list" overrideParent="True">

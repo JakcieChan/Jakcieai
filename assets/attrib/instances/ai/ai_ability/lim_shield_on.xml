@@ -18,8 +18,8 @@
 				<float name="tactic_min_range_override" value="-1" />
 				<float name="max_timeout" value="30" />
 				<float name="retry_timeout" value="-1" />
-				<float name="wait_timeout" value="-1" />
-				<float name="wait_timeout_encounter" value="-1" />
+				<float name="wait_timeout" value="5" />
+				<float name="wait_timeout_encounter" value="5" />
 				<float name="can_do_chance" value="1" />
 				<string name="tactic_on_start" value="" />
 				<string name="tactic_on_exit" value="" />

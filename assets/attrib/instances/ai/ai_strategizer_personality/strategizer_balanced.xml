@@ -18,13 +18,13 @@
 			</group>
 			<group name="intention_tuning" List.ItemID="-136876431">
 				<enum name="intention_type" value="religion" />
-				<float name="intention_max" value="0.95" />
-				<float name="intention_min" value="0.6" />
+				<float name="intention_max" value="0.9" />
+				<float name="intention_min" value="0.55" />
 			</group>
 			<group name="intention_tuning" List.ItemID="-222749427">
 				<enum name="intention_type" value="wall" />
 				<float name="intention_max" value="1" />
-				<float name="intention_min" value="1" />
+				<float name="intention_min" value="0.99" />
 			</group>
 			<group name="intention_tuning" List.ItemID="653132711">
 				<enum name="intention_type" value="combat" />

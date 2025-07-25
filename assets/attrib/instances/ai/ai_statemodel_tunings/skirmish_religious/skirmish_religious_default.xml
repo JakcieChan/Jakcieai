@@ -1,6 +1,6 @@
 <instance version="6" description="Default religious encounter tunings" template="ai\ai_statemodel_tunings">
 	<group name="ai_statemodel_tunings_bag">
-		<list name="bool_tunings" removedIds="-288816098, -1292611004, -1260737405, 912213965">
+		<list name="bool_tunings" removedIds="-288816098">
 			<group name="value_tuning" List.ItemID="-192565608" List.ParentItemID="-192565608">
 				<bool name="value" value="False" overrideParent="True" />
 			</group>

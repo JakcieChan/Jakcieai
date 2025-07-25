@@ -27,7 +27,7 @@
 				<bool name="value" value="False" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1252824685" List.ParentItemID="-1252824685">
-				<bool name="value" value="True" overrideParent="True" />
+				<bool name="value" value="False" overrideParent="True" />
 			</group>
 		</list>
 		<list name="float_tunings">

@@ -1,6 +1,6 @@
 <instance version="6" description="default tuning for skirmish default encounters.  This is the base PBG that all other skirmish defend encounter tunings should be parented to." template="ai\ai_statemodel_tunings">
 	<group name="ai_statemodel_tunings_bag">
-		<list name="bool_tunings" removedIds="797757752">
+		<list name="bool_tunings">
 			<group name="value_tuning" List.ItemID="-1435389545" List.ParentItemID="-1435389545">
 				<bool name="value" value="False" overrideParent="True" />
 			</group>

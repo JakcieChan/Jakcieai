@@ -73,7 +73,6 @@
 		<template_reference name="defensive_wall_option" value="">
 		</template_reference>
 		<list name="combat_target_exclude_unit_types">
-			<enum name="unit_class" value="wall" List.ItemID="-116817004" />
 			<enum name="unit_class" value="animal_herdable" List.ItemID="-1167424553" />
 		</list>
 		<bool name="ignore_non_pathable_targets" value="False" />
@@ -109,6 +108,14 @@
 			<group name="targeting_info" List.ItemID="-303516486">
 				<list name="attacker_unit_types_include">
 					<enum name="unit_class" value="siege" List.ItemID="1502087191" />
+					<enum name="unit_class" value="ram_greek_fire" List.ItemID="2036217693" />
+					<enum name="unit_class" value="ram" List.ItemID="262807347" />
+					<enum name="unit_class" value="bombard" List.ItemID="1928978799" />
+					<enum name="unit_class" value="trebuchet_traction" List.ItemID="-1567794513" />
+					<enum name="unit_class" value="trebuchet_counterweight" List.ItemID="661372252" />
+					<enum name="unit_class" value="war_elephant" List.ItemID="-675207219" />
+					<enum name="unit_class" value="elephant_archer" List.ItemID="1009337265" />
+					<enum name="unit_class" value="elephant_handcannon" List.ItemID="1359070194" />
 				</list>
 				<group name="blocker_target_scoring">
 					<float name="proximity_multiplier" value="1" />
@@ -119,6 +126,7 @@
 								<enum name="unit_type" value="palisade_wall" List.ItemID="1133218698" />
 								<enum name="unit_type" value="stone_wall" List.ItemID="-1674354871" />
 								<enum name="unit_type" value="stone_gate" List.ItemID="175224813" />
+								<enum name="unit_type" value="wall" List.ItemID="512506276" />
 							</list>
 							<float name="multiplier" value="1" />
 						</group>

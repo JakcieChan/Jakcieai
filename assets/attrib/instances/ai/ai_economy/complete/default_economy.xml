@@ -636,7 +636,7 @@
 			</group>
 			<group name="setting_values" List.ItemID="178770966">
 				<enum name="option" value="combat_utility_scale_weight" />
-				<float name="value" value="1" />
+				<float name="value" value="1.05" />
 			</group>
 		</list>
 		<list name="weapons">
@@ -1569,7 +1569,7 @@
 					<float name="utility" value="1000" />
 					<float name="utility_random_range_offset" value="-1" />
 					<string name="utility_function" value="" />
-					<float name="per_unit_scale" value="0.85" />
+					<float name="per_unit_scale" value="0.8" />
 					<float name="per_unit_scale_produced" value="0.95" />
 					<int name="max_num" value="-1" />
 					<int name="max_num_produced" value="-1" />
@@ -2858,7 +2858,7 @@
 					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_defense_keep_fre_ha_01\building_defense_keep_fre_ha_01" List.ItemID="-472771480" />
 					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_defense_keep_lan" List.ItemID="-825145956" />
 				</list>
-				<float name="base_scale" value="100" />
+				<float name="base_scale" value="110" />
 				<float name="minimum_score_to_produce" value="20" />
 				<string name="lua_binding" value="ScoringFunctions_Keeps" />
 				<int name="max_current" value="-1" />
@@ -2884,7 +2884,7 @@
 					<instance_reference name="member" value="ebps\races\templar\buildings\building_defense_outpost_tem" List.ItemID="1111576581" />
 					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_defense_outpost_lan" List.ItemID="-170040779" />
 				</list>
-				<float name="base_scale" value="80" />
+				<float name="base_scale" value="85" />
 				<float name="minimum_score_to_produce" value="50" />
 				<string name="lua_binding" value="ScoringFunctions_Outposts" />
 				<int name="max_current" value="-1" />
@@ -3032,7 +3032,7 @@
 					<instance_reference name="member" value="ebps\races\templar\buildings\building_wonder_tem" List.ItemID="691420547" />
 					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_wonder_age4_lan" List.ItemID="-59977774" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="950" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Wonder" />
 				<int name="max_current" value="1" />
@@ -3067,7 +3067,7 @@
 					<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_garrison_bolts_ott" List.ItemID="961943760" />
 					<instance_reference name="member" value="upgrade\races\templar\unique_upgrades\upgrade_keep_trebuchet" List.ItemID="-1698554461" />
 				</list>
-				<float name="base_scale" value="650" />
+				<float name="base_scale" value="600" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_DefensiveStructureUpgrades" />
 				<int name="max_current" value="-1" />
@@ -3122,7 +3122,7 @@
 					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_resource_farm_lan" List.ItemID="-1686012220" />
 					<instance_reference name="member" value="ebps\races\templar\buildings\building_resource_farm_tem" List.ItemID="-746702361" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="1100" />
 				<float name="minimum_score_to_produce" value="100" />
 				<string name="lua_binding" value="ScoringFunctions_ResourceGenerator" />
 				<int name="max_current" value="-1" />
@@ -3259,7 +3259,7 @@
 					<instance_reference name="member" value="ebps\races\templar\buildings\building_town_center_tem" List.ItemID="1664413990" />
 				</list>
 				<float name="base_scale" value="1000" />
-				<float name="minimum_score_to_produce" value="75" />
+				<float name="minimum_score_to_produce" value="70" />
 				<string name="lua_binding" value="ScoringFunctions_ExpansionTC" />
 				<int name="max_current" value="2" />
 				<int name="max_produced_ever" value="-1" />
@@ -4034,7 +4034,7 @@
 					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_official_1_chi_ha_01" List.ItemID="-765105099" />
 				</list>
 				<float name="base_scale" value="800" />
-				<float name="minimum_score_to_produce" value="100" />
+				<float name="minimum_score_to_produce" value="105" />
 				<string name="lua_binding" value="ScoringFunctions_Official" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4531,7 +4531,7 @@
 				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="100" />
 				<string name="lua_binding" value="ScoringFunctions_Ranch" />
-				<int name="max_current" value="-1" />
+				<int name="max_current" value="8" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Ottoman Great Bombard" List.ItemID="-1845118360">
@@ -4736,7 +4736,7 @@
 					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_cistern_byz" List.ItemID="1891192835" />
 				</list>
 				<float name="base_scale" value="800" />
-				<float name="minimum_score_to_produce" value="200" />
+				<float name="minimum_score_to_produce" value="175" />
 				<string name="lua_binding" value="ScoringFunctions_Cistern" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4805,7 +4805,7 @@
 					<instance_reference name="member" value="ebps\races\malian\buildings\building_open_pit_mine_tiny_mal" List.ItemID="625442201" />
 				</list>
 				<float name="base_scale" value="1000" />
-				<float name="minimum_score_to_produce" value="100" />
+				<float name="minimum_score_to_produce" value="90" />
 				<string name="lua_binding" value="ScoringFunctions_ResourceGenerator" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4846,7 +4846,7 @@
 					<instance_reference name="member" value="ebps\races\chinese\buildings\building_dynasty_pagoda_chi\building_dynasty_pagoda_control_chi" List.ItemID="-269582995" />
 					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_dynasty_pagoda_chi_ha_01\building_dynasty_pagoda_control_chi_ha_01" List.ItemID="1078631624" />
 				</list>
-				<float name="base_scale" value="500" />
+				<float name="base_scale" value="600" />
 				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_Pagoda" />
 				<int name="max_current" value="-1" />
@@ -4917,14 +4917,14 @@
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
-			<template_reference name="production_group" value="ai\economy\production_group" comment="Malian Pastures" List.ItemID="2074457496">
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Mongol Pastures" List.ItemID="2074457496">
 				<list name="members">
 					<instance_reference name="member" value="ebps\races\mongol\buildings\building_pasture_mon" List.ItemID="1921103382" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="1100" />
 				<float name="minimum_score_to_produce" value="100" />
 				<string name="lua_binding" value="ScoringFunctions_Pastures" />
-				<int name="max_current" value="16" />
+				<int name="max_current" value="30" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Manors Lancaster" List.ItemID="973166548">
@@ -5037,7 +5037,7 @@
 					<instance_reference name="member" value="upgrade\races\lancaster\unique\upgrade_shire_levy_3" List.ItemID="2032385753" />
 					<instance_reference name="member" value="upgrade\races\lancaster\unique\upgrade_shire_levy_4" List.ItemID="-628327460" />
 				</list>
-				<float name="base_scale" value="900" />
+				<float name="base_scale" value="925" />
 				<float name="minimum_score_to_produce" value="600" />
 				<string name="lua_binding" value="ScoringFunctions_LancasterLevy" />
 				<int name="max_current" value="-1" />
@@ -5097,7 +5097,7 @@
 					<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_barbican_springald_chi" List.ItemID="220130134" />
 					<instance_reference name="member" value="upgrade\races\malian\research\upgrade_outpost_landmark_springald_mal" List.ItemID="736948137" />
 				</list>
-				<float name="base_scale" value="1250" />
+				<float name="base_scale" value="1275" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_DefensiveStructureUpgrades" />
 				<int name="max_current" value="-1" />

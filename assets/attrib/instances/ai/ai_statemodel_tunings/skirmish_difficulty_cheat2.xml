@@ -10,12 +10,6 @@
 				<float name="value" value="0.375" overrideParent="True" />
 			</group>
 		</list>
-		<list name="bool_tunings">
-			<group name="value_tuning" List.ItemID="1397892922" List.ParentItemID="1397892922">
-				<enum name="key" value="ai_phase_encounter_allow_attack_move" overrideParent="True" />
-				<bool name="value" value="True" overrideParent="True" />
-			</group>
-		</list>
 	</group>
 	<variant name="xp3">
 		<uniqueid name="pbgid" value="2134260" />

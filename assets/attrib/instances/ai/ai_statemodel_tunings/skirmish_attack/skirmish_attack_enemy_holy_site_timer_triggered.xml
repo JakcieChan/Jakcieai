@@ -19,6 +19,9 @@
 			<group name="value_tuning" List.ItemID="-508736727" List.ParentItemID="-508736727">
 				<bool name="value" value="True" overrideParent="True" />
 			</group>
+			<group name="value_tuning" List.ItemID="-1252824685" List.ParentItemID="-1252824685">
+				<bool name="value" value="True" overrideParent="True" />
+			</group>
 			<group name="value_tuning" List.ItemID="438874668" List.ParentItemID="438874668">
 				<bool name="value" value="False" overrideParent="True" />
 			</group>

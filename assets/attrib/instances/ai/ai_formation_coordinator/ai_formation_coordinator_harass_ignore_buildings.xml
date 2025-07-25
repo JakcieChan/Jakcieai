@@ -48,7 +48,7 @@
 				</list>
 			</group>
 		</list>
-		<list name="combat_target_exclude_unit_types" removedIds="-116817004, -1167424553">
+		<list name="combat_target_exclude_unit_types" removedIds="-1167424553">
 			<enum name="unit_class" value="building" overrideParent="True" List.ItemID="-116817004" List.ListAction="Append" />
 		</list>
 		<float name="direct_path_to_target_tolerance" value="3.3" overrideParent="True" />

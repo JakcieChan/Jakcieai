@@ -54,7 +54,7 @@
 				<bool name="value" value="False" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1252824685" List.ParentItemID="-1252824685">
-				<bool name="value" value="True" />
+				<bool name="value" value="True" overrideParent="True" />
 				<enum name="key" value="ai_phase_encounter_exit_on_path_blocker_detected" comment="Whether encounter should exit when its cached path detects path blocker to its intended target (&quot;TravelToTarget&quot; or &quot;EngageTarget&quot; -&gt; &quot;EngagePathBlocker&quot;)." />
 			</group>
 			<group name="value_tuning" comment="Indicates if the encounter can accept reinforcements from nearby clumps that are fleeing or running away or unable to continue on their original purpose" List.ItemID="357462454" List.ParentItemID="357462454">

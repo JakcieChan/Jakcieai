@@ -55,7 +55,7 @@
 			</group>
 			<group name="value_tuning" List.ItemID="-1252824685">
 				<enum name="key" value="ai_phase_encounter_exit_on_path_blocker_detected" comment="Whether encounter should exit when its cached path detects path blocker to its intended target (&quot;TravelToTarget&quot; or &quot;EngageTarget&quot; -&gt; &quot;EngagePathBlocker&quot;)." />
-				<bool name="value" value="True" />
+				<bool name="value" value="False" />
 			</group>
 			<group name="value_tuning" comment="Indicates if the encounter can accept reinforcements from nearby clumps that are fleeing or running away or unable to continue on their original purpose" List.ItemID="357462454">
 				<enum name="key" value="ai_phase_encounter_can_accept_reinforcements" comment="Indicates if the encounter can accept reinforcements from nearby clumps that are fleeing or running away or unable to continue on their original purpose" />
@@ -72,22 +72,6 @@
 			<group name="value_tuning" List.ItemID="-262142634">
 				<enum name="key" value="ai_phase_encounter_stealth_activated" />
 				<bool name="value" value="False" />
-			</group>
-			<group name="value_tuning" List.ItemID="-1292611004">
-				<enum name="key" value="ai_phase_encounter_allow_attack_move_enroute" />
-				<bool name="value" value="True" />
-			</group>
-			<group name="value_tuning" List.ItemID="-1260737405">
-				<enum name="key" value="ai_phase_encounter_clear_enemy_squads_enroute" />
-				<bool name="value" value="True" />
-			</group>
-			<group name="value_tuning" List.ItemID="797757752">
-				<enum name="key" value="ai_phase_encounter_clear_enemy_buildings_enroute" />
-				<bool name="value" value="True" />
-			</group>
-			<group name="value_tuning" List.ItemID="912213965">
-				<enum name="key" value="ai_phase_encounter_allow_attack_move" />
-				<bool name="value" value="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-288816098">
 				<enum name="key" value="ai_phase_encounter_trigger_monk_dropoff_relic" />

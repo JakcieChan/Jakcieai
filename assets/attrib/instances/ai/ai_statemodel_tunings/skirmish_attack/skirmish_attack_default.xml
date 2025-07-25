@@ -1,14 +1,14 @@
 <instance version="6" description="default tuning for skirmish attack encounters.  This is the base PBG that all other skirmish attack encounter tunings should be parented to." template="ai\ai_statemodel_tunings">
 	<group name="ai_statemodel_tunings_bag">
-		<list name="bool_tunings" removedIds="797757752, -1292611004, -1260737405, 912213965, -288816098">
+		<list name="bool_tunings" removedIds="-288816098">
 			<group name="value_tuning" List.ItemID="-1435389545" List.ParentItemID="-1435389545">
 				<bool name="value" value="False" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-192565608" List.ParentItemID="-192565608">
-				<bool name="value" value="True" overrideParent="True" />
+				<bool name="value" value="False" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="1770114847" List.ParentItemID="1770114847">
-				<bool name="value" value="True" overrideParent="True" />
+				<bool name="value" value="False" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="1396872278" List.ParentItemID="1396872278">
 				<bool name="value" value="False" overrideParent="True" />
@@ -20,7 +20,7 @@
 				<bool name="value" value="True" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="971463292" List.ParentItemID="971463292">
-				<bool name="value" value="True" overrideParent="True" />
+				<bool name="value" value="False" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-508736727" List.ParentItemID="-508736727">
 				<bool name="value" value="False" overrideParent="True" />
@@ -29,7 +29,7 @@
 				<bool name="value" value="True" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1252824685" List.ParentItemID="-1252824685">
-				<bool name="value" value="True" overrideParent="True" />
+				<bool name="value" value="False" overrideParent="True" />
 			</group>
 			<group name="value_tuning" comment="Archers should force attack at their best target (rather than attack-move which can make them auto-target buildings)." List.ItemID="-1988997661" List.ParentItemID="-1988997661">
 				<bool name="value" value="False" overrideParent="True" />

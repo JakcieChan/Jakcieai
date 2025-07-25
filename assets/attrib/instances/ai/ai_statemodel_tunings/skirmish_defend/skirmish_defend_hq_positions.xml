@@ -1,6 +1,6 @@
 <instance version="6" description="Skirmish Defend Encounter for taking defensive positions at HQ.  Inherit most of its settings from the Defend Ally Clumps." template="ai\ai_statemodel_tunings">
 	<group name="ai_statemodel_tunings_bag">
-		<list name="bool_tunings" removedIds="-1292611004, -1260737405">
+		<list name="bool_tunings">
 			<group name="value_tuning" List.ItemID="-1435389545" List.ParentItemID="-1435389545">
 				<bool name="value" value="False" overrideParent="True" />
 			</group>
