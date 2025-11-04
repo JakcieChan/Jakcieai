@@ -3,18 +3,22 @@
 		<float name="target_check_interval_seconds" value="3" />
 		<list name="formation_priority_options">
 			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1712427687">
-				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_kill_scale" value="1" />
 				<float name="time_to_target_scale" value="-5" />
 				<float name="already_assigned_scale" value="-1" />
-				<float name="can_move_scale" value="0" />
+				<float name="can_move_scale" value="-1" />
 				<float name="movement_speed_scale" value="0" />
-				<float name="critical_target_scale" value="0" />
+				<float name="critical_target_scale" value="1" />
 				<float name="current_target_scale" value="10" />
 				<template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
 					<list name="unit_type_scores">
 						<group name="unit_type_score" List.ItemID="1604417427">
-							<enum name="unit_type" value="siege" />
-							<float name="score" value="100" />
+							<enum name="unit_type" value="building" />
+							<float name="score" value="10" />
+						</group>
+						<group name="unit_type_score" List.ItemID="1366289002">
+							<enum name="unit_type" value="military" />
+							<float name="score" value="2" />
 						</group>
 					</list>
 				</template_reference>

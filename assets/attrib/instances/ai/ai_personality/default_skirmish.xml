@@ -4,29 +4,29 @@
 			<template_reference name="easy" value="ai\ai_personality_per_difficulty_info">
 				<file name="lua_script" value="cardinal_default_skirmish" />
 				<instance_reference name="settings" value="ai\ai_settings\default_skirmish_easy" mod="4162919852314ab4a1184f5a93aee14d" />
-				<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group_default" mod="4162919852314ab4a1184f5a93aee14d" />
+				<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group" />
 				<state_tree_node name="planner_statetree_node" value="ai_skirmish_default" />
 				<state_tree_node name="strategizer_statetree_node" value="ai_strategy_default" />
 				<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_easy" mod="4162919852314ab4a1184f5a93aee14d" />
-				<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_easy" mod="4162919852314ab4a1184f5a93aee14d" />
+				<instance_reference name="statemodel_tunings_console" value="ai\ai_statemodel_tunings\skirmish_difficulty_easy" mod="4162919852314ab4a1184f5a93aee14d" />
 			</template_reference>
 			<template_reference name="standard" value="ai\ai_personality_per_difficulty_info">
 				<file name="lua_script" value="cardinal_default_skirmish" />
 				<instance_reference name="settings" value="ai\ai_settings\default_skirmish_standard" mod="4162919852314ab4a1184f5a93aee14d" />
-				<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group_default" mod="4162919852314ab4a1184f5a93aee14d" />
+				<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group" />
 				<state_tree_node name="planner_statetree_node" value="ai_skirmish_default" />
 				<state_tree_node name="strategizer_statetree_node" value="ai_strategy_default" />
 				<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_standard" mod="4162919852314ab4a1184f5a93aee14d" />
-				<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_standard" mod="4162919852314ab4a1184f5a93aee14d" />
+				<instance_reference name="statemodel_tunings_console" value="ai\ai_statemodel_tunings\skirmish_difficulty_standard" mod="4162919852314ab4a1184f5a93aee14d" />
 			</template_reference>
 			<template_reference name="hard" value="ai\ai_personality_per_difficulty_info">
 				<file name="lua_script" value="cardinal_default_skirmish" />
 				<instance_reference name="settings" value="ai\ai_settings\default_skirmish_hard" mod="4162919852314ab4a1184f5a93aee14d" />
-				<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group_default" mod="4162919852314ab4a1184f5a93aee14d" />
+				<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group" mod="4162919852314ab4a1184f5a93aee14d" />
 				<state_tree_node name="planner_statetree_node" value="ai_skirmish_default" />
 				<state_tree_node name="strategizer_statetree_node" value="ai_strategy_default" />
 				<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_hard" mod="4162919852314ab4a1184f5a93aee14d" />
-				<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_hard" mod="4162919852314ab4a1184f5a93aee14d" />
+				<instance_reference name="statemodel_tunings_console" value="ai\ai_statemodel_tunings\skirmish_difficulty_hard" mod="4162919852314ab4a1184f5a93aee14d" />
 			</template_reference>
 			<template_reference name="hardest" value="ai\ai_personality_per_difficulty_info" comment="MODIFIED AI">
 				<file name="lua_script" value="cardinal_default_skirmish" />
@@ -35,7 +35,7 @@
 				<state_tree_node name="planner_statetree_node" value="ai_skirmish_default" />
 				<state_tree_node name="strategizer_statetree_node" value="ai_strategy_default" />
 				<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" mod="4162919852314ab4a1184f5a93aee14d" />
-				<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" mod="4162919852314ab4a1184f5a93aee14d" />
+				<instance_reference name="statemodel_tunings_console" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" mod="4162919852314ab4a1184f5a93aee14d" />
 			</template_reference>
 			<template_reference name="cheat1" value="ai\ai_personality_per_difficulty_info">
 				<file name="lua_script" value="cardinal_default_skirmish" />
@@ -44,7 +44,7 @@
 				<state_tree_node name="planner_statetree_node" value="ai_skirmish_default" />
 				<state_tree_node name="strategizer_statetree_node" value="ai_strategy_default" />
 				<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat1" mod="4162919852314ab4a1184f5a93aee14d" />
-				<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat1" mod="4162919852314ab4a1184f5a93aee14d" />
+				<instance_reference name="statemodel_tunings_console" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat1" mod="4162919852314ab4a1184f5a93aee14d" />
 			</template_reference>
 			<template_reference name="cheat2" value="ai\ai_personality_per_difficulty_info">
 				<file name="lua_script" value="cardinal_default_skirmish" />
@@ -53,7 +53,7 @@
 				<state_tree_node name="planner_statetree_node" value="ai_skirmish_default" />
 				<state_tree_node name="strategizer_statetree_node" value="ai_strategy_default" />
 				<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat2" mod="4162919852314ab4a1184f5a93aee14d" />
-				<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat2" mod="4162919852314ab4a1184f5a93aee14d" />
+				<instance_reference name="statemodel_tunings_console" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat2" mod="4162919852314ab4a1184f5a93aee14d" />
 			</template_reference>
 			<template_reference name="cheat3" value="ai\ai_personality_per_difficulty_info">
 				<file name="lua_script" value="cardinal_default_skirmish" />
@@ -62,7 +62,7 @@
 				<state_tree_node name="planner_statetree_node" value="ai_skirmish_default" />
 				<state_tree_node name="strategizer_statetree_node" value="ai_strategy_default" />
 				<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat3" mod="4162919852314ab4a1184f5a93aee14d" />
-				<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat3" mod="4162919852314ab4a1184f5a93aee14d" />
+				<instance_reference name="statemodel_tunings_console" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat3" mod="4162919852314ab4a1184f5a93aee14d" />
 			</template_reference>
 		</enum_table>
 	</group>
@@ -73,29 +73,29 @@
 				<template_reference name="easy" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
 					<instance_reference name="settings" value="ai\ai_settings\default_skirmish_easy" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group_default" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="economy" value="" />
 					<state_tree_node name="planner_statetree_node" value="xp3_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="xp3_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_easy" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_easy" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="standard" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
 					<instance_reference name="settings" value="ai\ai_settings\default_skirmish_standard" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group_default" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="economy" value="" />
 					<state_tree_node name="planner_statetree_node" value="xp3_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="xp3_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_standard" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_standard" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="hard" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
 					<instance_reference name="settings" value="ai\ai_settings\default_skirmish_hard" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group_default" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="economy" value="" />
 					<state_tree_node name="planner_statetree_node" value="xp3_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="xp3_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_hard" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_hard" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="hardest" value="ai\ai_personality_per_difficulty_info" comment="MODIFIED AI">
 					<file name="lua_script" value="cardinal_default_skirmish" />
@@ -104,7 +104,7 @@
 					<state_tree_node name="planner_statetree_node" value="xp3_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="xp3_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="cheat1" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
@@ -113,7 +113,7 @@
 					<state_tree_node name="planner_statetree_node" value="xp3_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="xp3_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat1" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat1" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="cheat2" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
@@ -122,7 +122,7 @@
 					<state_tree_node name="planner_statetree_node" value="xp3_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="xp3_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat2" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat2" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="cheat3" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
@@ -131,7 +131,7 @@
 					<state_tree_node name="planner_statetree_node" value="xp3_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="xp3_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat3" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat3" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 			</enum_table>
 		</group>
@@ -143,29 +143,29 @@
 				<template_reference name="easy" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
 					<instance_reference name="settings" value="ai\ai_settings\default_skirmish_easy" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group_default" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="economy" value="" />
 					<state_tree_node name="planner_statetree_node" value="ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="campaignMod_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_easy" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_easy" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="standard" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
 					<instance_reference name="settings" value="ai\ai_settings\default_skirmish_standard" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group_default" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="economy" value="" />
 					<state_tree_node name="planner_statetree_node" value="campaignMod_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="campaignMod_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_standard" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_standard" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="hard" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
 					<instance_reference name="settings" value="ai\ai_settings\default_skirmish_hard" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="economy" value="ai\ai_economy_group\default_economy_group_default" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="economy" value="" />
 					<state_tree_node name="planner_statetree_node" value="campaignMod_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="campaignMod_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_hard" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_hard" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="hardest" value="ai\ai_personality_per_difficulty_info" comment="MODIFIED AI">
 					<file name="lua_script" value="cardinal_default_skirmish" />
@@ -174,7 +174,7 @@
 					<state_tree_node name="planner_statetree_node" value="campaignMod_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="campaignMod_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="cheat1" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
@@ -183,7 +183,7 @@
 					<state_tree_node name="planner_statetree_node" value="campaignMod_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="campaignMod_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat1" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat1" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="cheat2" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
@@ -192,7 +192,7 @@
 					<state_tree_node name="planner_statetree_node" value="ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="campaignMod_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat2" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat2" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 				<template_reference name="cheat3" value="ai\ai_personality_per_difficulty_info">
 					<file name="lua_script" value="cardinal_default_skirmish" />
@@ -201,7 +201,7 @@
 					<state_tree_node name="planner_statetree_node" value="campaignMod_ai_skirmish_default" />
 					<state_tree_node name="strategizer_statetree_node" value="campaignMod_ai_strategy_default" />
 					<instance_reference name="statemodel_tunings_pc" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat3" mod="4162919852314ab4a1184f5a93aee14d" />
-					<instance_reference name="statemodel_tunings_xbox" value="ai\ai_statemodel_tunings\skirmish_difficulty_cheat3" mod="4162919852314ab4a1184f5a93aee14d" />
+					<instance_reference name="statemodel_tunings_console" value="" />
 				</template_reference>
 			</enum_table>
 		</group>

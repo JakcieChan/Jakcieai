@@ -2,15 +2,13 @@
 	<uniqueid name="pbgid" value="2146001" />
 	<group name="ai_entity_bag">
 		<list name="applicable_blueprints">
-			<instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_house_jpn" List.ItemID="-1213399370" />
 		</list>
 		<group name="construction">
 			<string name="placement_function" value="" />
 			<bool name="can_build_multiple_in_parallel" value="True" />
-			<int name="max_num_additional_builders" value="2" />
+			<int name="max_num_additional_builders" value="4" />
 			<int name="max_num_incomplete_structures_builders" value="-1" />
 			<list name="near_to_structures">
-				<instance_reference name="structure" value="ebps\races\japanese\buildings\building_house_jpn" List.ItemID="1418070896" />
 			</list>
 			<list name="requires_structures">
 			</list>

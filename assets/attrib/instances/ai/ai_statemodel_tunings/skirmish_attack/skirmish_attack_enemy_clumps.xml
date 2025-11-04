@@ -24,6 +24,12 @@
 			<group name="value_tuning" List.ItemID="1350356719" List.ParentItemID="1350356719">
 				<float name="value" value="30" overrideParent="True" />
 			</group>
+			<group name="value_tuning" List.ItemID="111519207" List.ParentItemID="111519207">
+				<float name="value" value="8" overrideParent="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="-1821254606" List.ParentItemID="-1821254606">
+				<float name="value" value="1" overrideParent="True" />
+			</group>
 			<group name="value_tuning" List.ItemID="784378127" List.ParentItemID="784378127">
 				<float name="value" value="0" overrideParent="True" />
 			</group>

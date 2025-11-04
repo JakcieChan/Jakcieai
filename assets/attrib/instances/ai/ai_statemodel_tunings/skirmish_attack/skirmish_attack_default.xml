@@ -29,7 +29,7 @@
 				<bool name="value" value="True" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1252824685" List.ParentItemID="-1252824685">
-				<bool name="value" value="False" overrideParent="True" />
+				<bool name="value" value="True" overrideParent="True" />
 			</group>
 			<group name="value_tuning" comment="Archers should force attack at their best target (rather than attack-move which can make them auto-target buildings)." List.ItemID="-1988997661" List.ParentItemID="-1988997661">
 				<bool name="value" value="False" overrideParent="True" />
@@ -62,7 +62,7 @@
 				<float name="value" value="1" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="111519207" List.ParentItemID="111519207">
-				<float name="value" value="10" overrideParent="True" />
+				<float name="value" value="-1" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-2015182844" List.ParentItemID="-2015182844">
 				<float name="value" value="0" overrideParent="True" />
@@ -71,10 +71,10 @@
 				<float name="value" value="0" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1696196552" List.ParentItemID="-1696196552">
-				<float name="value" value="0" overrideParent="True" />
+				<float name="value" value="-1" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-69499576" List.ParentItemID="-69499576">
-				<float name="value" value="1" overrideParent="True" />
+				<float name="value" value="-1" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1821254606" List.ParentItemID="-1821254606">
 				<float name="value" value="5" overrideParent="True" />

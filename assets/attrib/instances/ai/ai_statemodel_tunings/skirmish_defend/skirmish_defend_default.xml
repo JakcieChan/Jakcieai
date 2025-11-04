@@ -58,13 +58,13 @@
 				<float name="value" value="1" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="111519207" List.ParentItemID="111519207">
-				<float name="value" value="10" overrideParent="True" />
+				<float name="value" value="8" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-2015182844" List.ParentItemID="-2015182844">
 				<float name="value" value="0" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1821254606" List.ParentItemID="-1821254606">
-				<float name="value" value="5" overrideParent="True" />
+				<float name="value" value="1" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="1783478058" List.ParentItemID="1783478058">
 				<float name="value" value="60" overrideParent="True" />

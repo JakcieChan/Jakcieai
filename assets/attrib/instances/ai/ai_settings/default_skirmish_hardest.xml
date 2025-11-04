@@ -136,7 +136,7 @@
 				<float name="catchup_max_resource_deficit" value="1000" />
 			</group>
 			<group name="combat_eval">
-				<float name="desired_ratio" value="0.75" />
+				<float name="desired_ratio" value="0.5" />
 			</group>
 			<group name="tasks">
 				<int name="max_num_attack_objectives" value="100" />
