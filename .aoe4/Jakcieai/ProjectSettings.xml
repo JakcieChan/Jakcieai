@@ -12,6 +12,7 @@
 						<d2p1:string>assets\attrib\instances\ai\ai_entity</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_formation_coordinator</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_formation_path</d2p1:string>
+						<d2p1:string>assets\attrib\instances\ai\ai_formation_target_priority</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_personality</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_attack</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_strategizer_personality</d2p1:string>
@@ -28,6 +29,8 @@
 	</PluginSettings>
 	<RecentFiles>
 		<History xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_target_priority\catapult_target_priority.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\tuning_ai\tuning_ai.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_personality\default_skirmish.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_default.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_ability\cat_trample.xml</d3p1:string>
@@ -36,8 +39,6 @@
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_economy_group\default_economy_group.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\mod.rdo</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_path\ai_scout_avoid_threat_path.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_strategizer_personality\strategizer_balanced.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_cattle.xml</d3p1:string>
 		</History>
 	</RecentFiles>
 </ProjectSettings>

@@ -18,19 +18,19 @@
 						</group>
 						<group name="unit_type_score" comment="Keeps have a lot of health, so we need this big bonus to offset the negative score from time_to_kill. " List.ItemID="2137447397">
 							<enum name="unit_type" value="castle" />
-							<float name="score" value="300" />
+							<float name="score" value="400" />
 						</group>
 						<group name="unit_type_score" comment="This is here to prioritize landmarks that are also a keep. The generic priority of landmarks, wonders and other building types is controlled with the non_combat_target_into in the ai_formation_coordinator. " List.ItemID="-1614659630">
 							<enum name="unit_type" value="landmark" />
-							<float name="score" value="100" />
+							<float name="score" value="400" />
 						</group>
 						<group name="unit_type_score" List.ItemID="832565202">
 							<enum name="unit_type" value="stone_wall_tower" />
-							<float name="score" value="100" />
+							<float name="score" value="300" />
 						</group>
 						<group name="unit_type_score" List.ItemID="419087275">
 							<enum name="unit_type" value="outpost" />
-							<float name="score" value="100" />
+							<float name="score" value="300" />
 						</group>
 					</list>
 				</template_reference>

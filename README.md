@@ -1,6 +1,6 @@
 # Jakcie A.I (Age of Empires 4 AI improvement/bugfixes mod) 
 
-## (AND WITH A GITHUB)
+## (NOW WITH A GITHUB)
 
 For anybody that wants to see the mod uncompiled and want to copy its assets into their own mod in any way. Here it is!
 
