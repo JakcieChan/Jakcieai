@@ -10363,7 +10363,7 @@
 			<float name="m_builder_near_capital_safe_distance_bonus" value="20" />
 		</group>
 		<group name="gathering">
-			<float name="distance_to_dropoff_factor" value="3" />
+			<float name="distance_to_dropoff_factor" value="6" />
 			<float name="num_task_locked_factor" value="30" />
 			<float name="max_distance_to_dropoff" value="18" />
 			<float name="max_distance_to_naval_dropoff" value="200" />
@@ -10513,7 +10513,7 @@
 				<enum name="entity_type" value="gold" List.ItemID="-380491963" />
 			</list>
 			<float name="gatherer_rate_for_deposit_factor" value="500" />
-			<float name="distance_to_deposit_factor" value="2" />
+			<float name="distance_to_deposit_factor" value="4" />
 			<list name="gather_jobs_with_low_distance_importance">
 				<group name="gather_job_low_distance_importance_factor" List.ItemID="1600993142">
 					<enum name="gather_job" value="gather_deep_water_fish" />
@@ -10553,7 +10553,7 @@
 			</enum_table>
 			<float name="distance_scaling_factor_for_min_efficiency" value="0.7" />
 			<float name="distance_scaling_factor_for_nom_efficiency" value="0.7" />
-			<float name="distance_to_capital_factor" value="40" />
+			<float name="distance_to_capital_factor" value="45" />
 			<list name="squad_near_capital_gathering_bonus_multiplier">
 				<group name="squad_multiplier_pair" List.ItemID="1829753125">
 					<float name="multiplier" value="2" />

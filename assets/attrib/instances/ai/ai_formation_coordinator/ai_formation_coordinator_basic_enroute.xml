@@ -14,13 +14,18 @@
 			</group>
 			<group name="info" List.ItemID="1870002138" List.ParentItemID="1870002138">
 				<float name="burn_amount_threshold" value="0" overrideParent="True" />
-				<int name="priority" value="0" overrideParent="True" />
+				<int name="priority" value="1" overrideParent="True" />
 			</group>
 			<group name="info" List.ItemID="-286586598" List.ParentItemID="-286586598">
 				<float name="burn_amount_threshold" value="0" overrideParent="True" />
+				<int name="priority" value="4" overrideParent="True" />
+			</group>
+			<group name="info" List.ItemID="1580560633" List.ParentItemID="1580560633">
+				<int name="priority" value="3" overrideParent="True" />
 			</group>
 		</list>
 		<float name="path_distance_to_target_threshold" value="2" overrideParent="True" />
+		<float name="non_pathable_target_max_age" value="5" overrideParent="True" />
 	</group>
 	<uniqueid name="pbgid" value="197349" />
 	<instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" mod="4162919852314ab4a1184f5a93aee14d" />

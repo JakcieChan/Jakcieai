@@ -29,6 +29,9 @@
 				</list>
 				<float name="burn_amount_threshold" value="1" overrideParent="True" />
 			</group>
+			<group name="info" List.ItemID="1580560633" List.ParentItemID="1580560633">
+				<int name="priority" value="3" overrideParent="True" />
+			</group>
 		</list>
 		<list name="combat_target_exclude_unit_types" overrideParent="True">
 			<enum name="unit_class" value="wall" List.ItemID="828409273" />

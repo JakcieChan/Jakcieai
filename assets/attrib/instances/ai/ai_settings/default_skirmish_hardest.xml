@@ -206,7 +206,7 @@
 			<bool name="should_vehicle_out_maneuvre_enemy" value="True" />
 			<float name="avoidance_delay_time_max" value="0" />
 			<float name="kiting_target_update_delay" value="5" />
-			<float name="kiting_chance" value="0.5" />
+			<float name="kiting_chance" value="1" />
 			<float name="kiting_update_length" value="5" />
 			<group name="heavy_cover_max_occupancy">
 				<int name="default_max_squad_occupancy" value="2" />
@@ -273,8 +273,8 @@
 			<string name="decide_squad_military_target_type_function" value="CARDINAL_DetermineAIStatsMilitaryPointTypeSquad" />
 			<string name="military_target_scoring_function" value="CARDINAL_ScoreMilitaryTarget" />
 		</group>
-		<float name="scouting_location_cached_path_refresh_time" value="60" />
-		<float name="scouting_location_cached_path_extra_refresh_time_random_percent" value="0.3" />
+		<float name="scouting_location_cached_path_refresh_time" value="30" />
+		<float name="scouting_location_cached_path_extra_refresh_time_random_percent" value="0.6" />
 	</group>
 	<uniqueid name="pbgid" value="106737" />
 	<variant name="xp3">

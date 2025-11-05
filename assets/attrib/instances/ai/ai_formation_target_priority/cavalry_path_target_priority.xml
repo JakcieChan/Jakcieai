@@ -17,12 +17,12 @@
 							<float name="score" value="7" />
 						</group>
 						<group name="unit_type_score" List.ItemID="-1659802395">
-							<enum name="unit_type" value="siege_range" />
-							<float name="score" value="7" />
+							<enum name="unit_type" value="siege" />
+							<float name="score" value="8" />
 						</group>
 						<group name="unit_type_score" List.ItemID="808241945">
 							<enum name="unit_type" value="monk" />
-							<float name="score" value="8" />
+							<float name="score" value="6" />
 						</group>
 						<group name="unit_type_score" List.ItemID="-1377521481">
 							<enum name="unit_type" value="mobile_building" />

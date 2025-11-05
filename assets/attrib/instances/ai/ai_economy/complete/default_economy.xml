@@ -3,7 +3,7 @@
 		<list name="upgrades">
 			<group name="utility_entry" comment="defense" List.ItemID="946974344">
 				<template_reference name="utility" value="ai\economy\production_instance_utility">
-					<float name="utility" value="1000" />
+					<float name="utility" value="750" />
 					<float name="utility_random_range_offset" value="-1" />
 					<string name="utility_function" value="" />
 					<float name="per_unit_scale" value="0" />
@@ -15,9 +15,9 @@
 							<enum name="strategic_intention_type" value="defense" />
 							<float name="strategic_intention_weight" value="1" />
 						</group>
-						<group name="weighted_intention" List.ItemID="106921139">
-							<enum name="strategic_intention_type" value="" />
-							<float name="strategic_intention_weight" value="1" />
+						<group name="weighted_intention" List.ItemID="1382889087">
+							<enum name="strategic_intention_type" value="economy" />
+							<float name="strategic_intention_weight" value="0.3" />
 						</group>
 					</list>
 					<bool name="inherit_utility" value="True" />
@@ -929,7 +929,7 @@
 					<instance_reference name="entity" value="ebps\races\japanese\buildings\building_wonder_age4_nikko_toshogu_jpn" List.ItemID="-1469652383" />
 				</list>
 				<template_reference name="utility" value="ai\economy\production_instance_utility">
-					<float name="utility" value="250" />
+					<float name="utility" value="245" />
 					<float name="utility_random_range_offset" value="-1" />
 					<string name="utility_function" value="" />
 					<float name="per_unit_scale" value="0.1" />
@@ -3035,7 +3035,7 @@
 					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_defense_keep_byz_ha_mac" List.ItemID="-742770031" />
 					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_defense_keep_jpn_ha_sen" List.ItemID="-1392098190" />
 				</list>
-				<float name="base_scale" value="110" />
+				<float name="base_scale" value="115" />
 				<float name="minimum_score_to_produce" value="20" />
 				<string name="lua_binding" value="ScoringFunctions_Keeps" />
 				<int name="max_current" value="-1" />
@@ -3064,8 +3064,8 @@
 					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_defense_outpost_sul_ha_tug\building_defense_outpost_control_sul_ha_tug" List.ItemID="28275187" />
 					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_defense_outpost_jpn_ha_sen" List.ItemID="417198250" />
 				</list>
-				<float name="base_scale" value="115" />
-				<float name="minimum_score_to_produce" value="50" />
+				<float name="base_scale" value="120" />
+				<float name="minimum_score_to_produce" value="45" />
 				<string name="lua_binding" value="ScoringFunctions_Outposts" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -3232,13 +3232,13 @@
 					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_wonder_age4_final_wonder_mon_ha_gol" List.ItemID="-1253923390" />
 					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_wonder_age4_nikko_toshogu_jpn_ha_sen" List.ItemID="-477412067" />
 				</list>
-				<float name="base_scale" value="800" />
+				<float name="base_scale" value="700" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Wonder" />
 				<int name="max_current" value="1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
-			<template_reference name="production_group" value="ai\economy\production_group" comment="Defensive Structure Upgrades" List.ItemID="1682831550">
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Defensive Structure Upgrades (nerfed)" List.ItemID="1682831550">
 				<list name="members">
 					<instance_reference name="member" value="upgrade\races\common\research\upgrade_tower_springald" List.ItemID="1410650677" />
 					<instance_reference name="member" value="upgrade\races\common\research\upgrade_tower_cannon" List.ItemID="2112159268" />
@@ -3276,8 +3276,8 @@
 					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\tughluqabad_fort_tier\tughluqabad_tier_4_uch" List.ItemID="719074000" />
 					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_tech_stronghold_arrows_byz_ha_mac" List.ItemID="-425955546" />
 				</list>
-				<float name="base_scale" value="400" />
-				<float name="minimum_score_to_produce" value="2" />
+				<float name="base_scale" value="300" />
+				<float name="minimum_score_to_produce" value="3" />
 				<string name="lua_binding" value="ScoringFunctions_DefensiveStructureUpgrades" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -3437,7 +3437,7 @@
 					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_siege_jpn_ha_sen" List.ItemID="660736305" />
 					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_cavalry_jpn_ha_sen" List.ItemID="-1913756814" />
 				</list>
-				<float name="base_scale" value="1100" />
+				<float name="base_scale" value="1250" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_MilitaryProductionBuilding" />
 				<int name="max_current" value="-1" />
@@ -3935,8 +3935,8 @@
 					<instance_reference name="member" value="ebps\races\mongol\buildings\building_defense_outpost_mon" List.ItemID="1418963519" />
 					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_fortified_outpost_mon_ha_gol" List.ItemID="1412551288" />
 				</list>
-				<float name="base_scale" value="400" />
-				<float name="minimum_score_to_produce" value="15" />
+				<float name="base_scale" value="450" />
+				<float name="minimum_score_to_produce" value="10" />
 				<string name="lua_binding" value="ScoringFunctions_MongolOutposts" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4024,8 +4024,8 @@
 				<list name="members">
 					<instance_reference name="member" value="ebps\races\rus\buildings\building_defense_wooden_fort_rus\building_defense_wooden_fort_rus" List.ItemID="383625301" />
 				</list>
-				<float name="base_scale" value="200" />
-				<float name="minimum_score_to_produce" value="20" />
+				<float name="base_scale" value="250" />
+				<float name="minimum_score_to_produce" value="19" />
 				<string name="lua_binding" value="ScoringFunctions_WoodenFort" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -4048,7 +4048,6 @@
 					<instance_reference name="member" value="upgrade\races\sultanate\research\economy\upgrade_tech_university_architecture_4_sul" List.ItemID="1365055391" />
 					<instance_reference name="member" value="upgrade\races\common\research\economy\upgrade_tech_university_architecture_4" List.ItemID="-193422545" />
 					<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_architecture_chi" List.ItemID="126372015" />
-					<instance_reference name="member" value="upgrade\races\common\research\upgrade_outpost_stone" List.ItemID="1157101957" />
 					<instance_reference name="member" value="upgrade\races\hre\research\upgrade_building_fire_armor_hre" List.ItemID="1682227007" />
 					<instance_reference name="member" value="upgrade\races\hre\research\upgrade_reinforced_defenses_hre" List.ItemID="-776301201" />
 					<instance_reference name="member" value="upgrade\races\abbasid\research\upgrade_cul_medical_centers_abb" List.ItemID="-476710231" />
@@ -4066,7 +4065,6 @@
 					<instance_reference name="member" value="upgrade\races\chinese_ha_01\research\upgrade_library_architecture_4" List.ItemID="1032993312" />
 					<instance_reference name="member" value="upgrade\races\sultanate\research\landmark_new\upgrade_landmark_keep_defense_compond_sul" List.ItemID="-562241100" />
 					<instance_reference name="member" value="upgrade\races\sultanate\research\landmark_new\upgrade_tech_university_architecture_compound_sul" List.ItemID="1971204804" />
-					<instance_reference name="member" value="upgrade\races\mongol\research\unique\upgrade_outpost_stone_mon" List.ItemID="1988057767" />
 					<instance_reference name="member" value="upgrade\races\japanese\research\upgrade_shrine_gion_jpn" List.ItemID="-15332123" />
 					<instance_reference name="member" value="upgrade\races\japanese\research\upgrade_temple_fivemountain_jpn" List.ItemID="40080051" />
 					<instance_reference name="member" value="upgrade\races\templar\unique_upgrades\upgrade_desert_citadels" List.ItemID="757755059" />
@@ -4847,7 +4845,7 @@
 				<list name="members">
 					<instance_reference name="member" value="sbps\races\malian\animals\herdable_cattle_mal" List.ItemID="1606647622" />
 				</list>
-				<float name="base_scale" value="600" />
+				<float name="base_scale" value="650" />
 				<float name="minimum_score_to_produce" value="100" />
 				<string name="lua_binding" value="ScoringFunctions_Cattle" />
 				<int name="max_current" value="-1" />
@@ -5179,7 +5177,7 @@
 					<instance_reference name="member" value="upgrade\races\japanese\buildings\upgrade_capital_tier_2_jpn" List.ItemID="1366217024" />
 					<instance_reference name="member" value="upgrade\races\japanese\buildings\upgrade_capital_tier_3_jpn" List.ItemID="-2126498014" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="990" />
 				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_DaimyoUpgradeJapanese" />
 				<int name="max_current" value="-1" />
@@ -5321,7 +5319,7 @@
 				<list name="members">
 					<instance_reference name="member" value="ebps\races\mongol\buildings\building_pasture_mon" List.ItemID="2129849411" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="1050" />
 				<float name="minimum_score_to_produce" value="100" />
 				<string name="lua_binding" value="ScoringFunctions_Pastures" />
 				<int name="max_current" value="16" />
@@ -5425,8 +5423,8 @@
 				<list name="members">
 					<instance_reference name="member" value="upgrade\races\templar\unique_upgrades\upgrade_sanctuary_tem" List.ItemID="-1426374262" />
 				</list>
-				<float name="base_scale" value="600" />
-				<float name="minimum_score_to_produce" value="300" />
+				<float name="base_scale" value="750" />
+				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_PlayerForceUpgrades" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -5483,7 +5481,7 @@
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
-			<template_reference name="production_group" value="ai\economy\production_group" comment="Buff better defensive structures&#xD;&#xA;" List.ItemID="300181947">
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Buff better defensive structure upgrades&#xD;&#xA;" List.ItemID="300181947">
 				<list name="members">
 					<instance_reference name="member" value="upgrade\races\common\research\upgrade_tower_springald" List.ItemID="-2060857000" />
 					<instance_reference name="member" value="upgrade\races\common\research\upgrade_outpost_springald" List.ItemID="-32135499" />
@@ -5497,7 +5495,7 @@
 					<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_barbican_springald_chi" List.ItemID="220130134" />
 					<instance_reference name="member" value="upgrade\races\malian\research\upgrade_outpost_landmark_springald_mal" List.ItemID="736948137" />
 				</list>
-				<float name="base_scale" value="1300" />
+				<float name="base_scale" value="1500" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_DefensiveStructureUpgrades" />
 				<int name="max_current" value="-1" />
@@ -5611,7 +5609,7 @@
 					<instance_reference name="member" value="sbps\races\mongol_ha_gol\unit_khan_3_mon_ha_gol" List.ItemID="764832031" />
 					<instance_reference name="member" value="sbps\races\mongol_ha_gol\unit_khan_4_mon_ha_gol" List.ItemID="224680714" />
 				</list>
-				<float name="base_scale" value="1200" />
+				<float name="base_scale" value="1500" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Khan" />
 				<int name="max_current" value="-1" />
@@ -5632,10 +5630,9 @@
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Daimyo" List.ItemID="29726730">
 				<list name="members">
 					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_daimyo_estate_hojo_jpn_ha_sen" List.ItemID="1426180918" />
-					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_daimyo_estate_oda_jpn_ha_sen" List.ItemID="1823972873" />
 					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_daimyo_estate_takeda_jpn_ha_sen" List.ItemID="-480694063" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="900" />
 				<float name="minimum_score_to_produce" value="100" />
 				<string name="lua_binding" value="ScoringFunctions_Daimyo" />
 				<int name="max_current" value="-1" />
@@ -5645,8 +5642,8 @@
 				<list name="members">
 					<instance_reference name="member" value="sbps\races\japanese_ha_sen\unit_yatai_1_jpn_ha_sen" List.ItemID="351901229" />
 				</list>
-				<float name="base_scale" value="500" />
-				<float name="minimum_score_to_produce" value="501" />
+				<float name="base_scale" value="475" />
+				<float name="minimum_score_to_produce" value="500" />
 				<string name="lua_binding" value="ScoringFunctions_Yatai" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -5670,9 +5667,9 @@
 					<instance_reference name="member" value="upgrade\races\japanese_ha_sen\research\clan_upgrades\upgrade_tanegashima_pavise_jpn_ha_sen" List.ItemID="-1060398997" />
 					<instance_reference name="member" value="upgrade\races\japanese_ha_sen\research\clan_upgrades\upgrade_yari_horse_training_jpn_ha_sen" List.ItemID="-1956803804" />
 					<instance_reference name="member" value="upgrade\races\japanese_ha_sen\research\clan_upgrades\upgrade_yari_improved_damage_jpn_ha_sen" List.ItemID="1390759355" />
-					<instance_reference name="member" value="upgrade\races\japanese_ha_sen\research\clan_upgrades\upgrade_yumi_damage_jpn_ha_sen" List.ItemID="575141191" />
+					<instance_reference name="member" value="upgrade\races\japanese_ha_sen\research\clan_upgrades\upgrade_ozutsu_unlock_jpn_ha_sen" List.ItemID="-795255273" />
 				</list>
-				<float name="base_scale" value="300" />
+				<float name="base_scale" value="700" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_PlayerUnitCombatUpgrade" />
 				<int name="max_current" value="-1" />
@@ -5778,7 +5775,7 @@
 					<instance_reference name="member" value="sbps\races\japanese_ha_sen\unit_daimyo_3_jpn_ha_sen" List.ItemID="-1642323149" />
 					<instance_reference name="member" value="sbps\races\japanese_ha_sen\unit_daimyo_4_jpn_ha_sen" List.ItemID="-926594382" />
 				</list>
-				<float name="base_scale" value="1200" />
+				<float name="base_scale" value="1500" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Khan" />
 				<int name="max_current" value="2" />
@@ -5803,9 +5800,40 @@
 				<list name="members">
 					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_defense_keep_sul_ha_tug\building_defense_keep_control_sul_ha_tug" List.ItemID="779165689" />
 				</list>
-				<float name="base_scale" value="125" />
+				<float name="base_scale" value="127" />
 				<float name="minimum_score_to_produce" value="15" />
 				<string name="lua_binding" value="ScoringFunctions_Keeps" />
+				<int name="max_current" value="-1" />
+				<int name="max_produced_ever" value="-1" />
+			</template_reference>
+			<template_reference name="production_group" value="ai\economy\production_group" comment="nerf stone tower upgrade" List.ItemID="1433745994">
+				<list name="members">
+					<instance_reference name="member" value="upgrade\races\common\research\upgrade_outpost_stone" List.ItemID="1157101957" />
+					<instance_reference name="member" value="upgrade\races\mongol\research\unique\upgrade_outpost_stone_mon" List.ItemID="1988057767" />
+				</list>
+				<float name="base_scale" value="175" />
+				<float name="minimum_score_to_produce" value="1" />
+				<string name="lua_binding" value="ScoringFunctions_DefensiveUpgrade" />
+				<int name="max_current" value="-1" />
+				<int name="max_produced_ever" value="-1" />
+			</template_reference>
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Clan Upgrades (yumi dmg upgrade 100% buffed)" List.ItemID="-1091486558">
+				<list name="members">
+					<instance_reference name="member" value="upgrade\races\japanese_ha_sen\research\clan_upgrades\upgrade_yumi_damage_jpn_ha_sen" List.ItemID="575141191" />
+				</list>
+				<float name="base_scale" value="1000" />
+				<float name="minimum_score_to_produce" value="1" />
+				<string name="lua_binding" value="ScoringFunctions_PlayerUnitCombatUpgrade" />
+				<int name="max_current" value="-1" />
+				<int name="max_produced_ever" value="-1" />
+			</template_reference>
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Daimyo (buff oda estate as upgrades are super good)" List.ItemID="-971174991">
+				<list name="members">
+					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_daimyo_estate_oda_jpn_ha_sen" List.ItemID="1823972873" />
+				</list>
+				<float name="base_scale" value="1300" />
+				<float name="minimum_score_to_produce" value="100" />
+				<string name="lua_binding" value="ScoringFunctions_Daimyo" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>

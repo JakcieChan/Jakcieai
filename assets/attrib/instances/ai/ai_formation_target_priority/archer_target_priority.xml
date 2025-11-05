@@ -3,7 +3,7 @@
 		<float name="target_check_interval_seconds" value="2" />
 		<list name="formation_priority_options">
 			<template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="802895653">
-				<float name="time_to_kill_scale" value="-1" />
+				<float name="time_to_kill_scale" value="-2" />
 				<float name="time_to_target_scale" value="-2" />
 				<float name="already_assigned_scale" value="-1" comment="This is intentionally set to -1 to discurrage focus fire. Focus fire for ranged units is only good up until the point of overkill. Giving targets a slight malus if other tasks are already assigned to it spreads the damage a little bit. &#xD;&#xA;In testing the AI performed drastically better in mirror matchups with the same units for the AI and it's enemy. Beating the enemy (which is attack moving) with plenty of units to spare. &#xD;&#xA;Even very unfavourable matchups like knights against archers starts out splitting the damage but because of the impact of time_to_kill the damaged knights get focused eventually. The outcome in those cases is comparable to focus fire. " />
 				<float name="can_move_scale" value="0" />
