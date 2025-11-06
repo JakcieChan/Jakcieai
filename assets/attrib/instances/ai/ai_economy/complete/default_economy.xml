@@ -2756,7 +2756,7 @@
 					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_unit_naval_mon_ha_gol" List.ItemID="709513779" />
 					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_unit_naval_sul_ha_tug\building_unit_naval_sul_ha_tug" List.ItemID="-1322979459" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="1250" />
 				<float name="minimum_score_to_produce" value="100" />
 				<string name="lua_binding" value="ScoringFunctions_Dock" />
 				<int name="max_current" value="-1" />
@@ -2788,10 +2788,10 @@
 					<instance_reference name="member" value="sbps\races\mongol_ha_gol\unit_naval_fishing_boat_2_mon_ha_gol" List.ItemID="1174693810" />
 					<instance_reference name="member" value="sbps\races\byzantine_ha_mac\unit_naval_fishing_boat_2_byz_ha_mac" List.ItemID="1814543699" />
 				</list>
-				<float name="base_scale" value="800" />
+				<float name="base_scale" value="1250" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_FishingBoat" />
-				<int name="max_current" value="10" />
+				<int name="max_current" value="25" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Trade boats" List.ItemID="102950140">
@@ -3350,130 +3350,28 @@
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
-			<template_reference name="production_group" value="ai\economy\production_group" comment="Military Production Buildings&#xD;&#xA;" List.ItemID="-1065314205">
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Military Production Buildings (nerf mongol military production prio)" List.ItemID="-1065314205">
 				<list name="members">
-					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_unit_siege_sul\building_unit_siege_control_sul" List.ItemID="50829982" />
-					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_unit_ranged_sul\building_unit_ranged_control_sul" List.ItemID="980749817" />
-					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_unit_infantry_sul\building_unit_infantry_control_sul" List.ItemID="-272175204" />
-					<instance_reference name="member" value="ebps\races\french\buildings\building_unit_infantry_fre\building_unit_infantry_control_fre" List.ItemID="-1431589993" />
-					<instance_reference name="member" value="ebps\races\chinese\buildings\building_unit_ranged_chi\building_unit_ranged_control_chi" List.ItemID="-605356982" />
-					<instance_reference name="member" value="ebps\races\english\buildings\building_unit_cavalry_eng\building_unit_cavalry_control_eng" List.ItemID="-604390078" />
-					<instance_reference name="member" value="ebps\races\english\buildings\building_unit_infantry_eng\building_unit_infantry_control_eng" List.ItemID="2110279614" />
-					<instance_reference name="member" value="ebps\races\english\buildings\building_unit_siege_eng\building_unit_siege_control_eng" List.ItemID="1788047258" />
-					<instance_reference name="member" value="ebps\races\french\buildings\building_unit_cavalry_fre\building_unit_cavalry_control_fre" List.ItemID="-1389290408" />
-					<instance_reference name="member" value="ebps\races\french\buildings\building_unit_siege_fre\building_unit_siege_control_fre" List.ItemID="1791271035" />
-					<instance_reference name="member" value="ebps\races\hre\buildings\building_unit_infantry_hre\building_unit_infantry_control_hre" List.ItemID="-931161216" />
-					<instance_reference name="member" value="ebps\races\hre\buildings\building_unit_ranged_hre\building_unit_ranged_control_hre" List.ItemID="-769476347" />
-					<instance_reference name="member" value="ebps\races\hre\buildings\building_unit_cavalry_hre\building_unit_cavalry_control_hre" List.ItemID="-1698943550" />
-					<instance_reference name="member" value="ebps\races\hre\buildings\building_unit_siege_hre\building_unit_siege_control_hre" List.ItemID="-1180304066" />
-					<instance_reference name="member" value="ebps\races\rus\buildings\building_unit_cavalry_rus\building_unit_cavalry_control_rus" List.ItemID="-1095365298" />
-					<instance_reference name="member" value="ebps\races\french\buildings\building_unit_ranged_fre\building_unit_ranged_control_fre" List.ItemID="-45020322" />
-					<instance_reference name="member" value="ebps\races\rus\buildings\building_unit_ranged_rus\building_unit_ranged_control_rus" List.ItemID="-1951678660" />
-					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_unit_cavalry_sul\building_unit_cavalry_control_sul" List.ItemID="-340262013" />
-					<instance_reference name="member" value="ebps\races\rus\buildings\building_unit_siege_rus\building_unit_siege_control_rus" List.ItemID="-188304318" />
-					<instance_reference name="member" value="ebps\races\rus\buildings\building_unit_infantry_rus\building_unit_infantry_control_rus" List.ItemID="408500170" />
-					<instance_reference name="member" value="ebps\races\english\buildings\building_unit_ranged_eng\building_unit_ranged_control_eng" List.ItemID="-235764997" />
-					<instance_reference name="member" value="ebps\races\chinese\buildings\building_unit_siege_chi\building_unit_siege_control_chi" List.ItemID="-313183308" />
-					<instance_reference name="member" value="ebps\races\chinese\buildings\building_unit_infantry_chi\building_unit_infantry_control_chi" List.ItemID="-1045154743" />
-					<instance_reference name="member" value="ebps\races\chinese\buildings\building_unit_cavalry_chi\building_unit_cavalry_control_chi" List.ItemID="1244438703" />
-					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_unit_cavalry_control_abb" List.ItemID="-1617126553" />
-					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_unit_infantry_control_abb" List.ItemID="-1004084752" />
-					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_unit_ranged_control_abb" List.ItemID="1623593826" />
-					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_unit_siege_control_abb" List.ItemID="-1010398762" />
-					<instance_reference name="member" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="2024200356" />
-					<instance_reference name="member" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="837506275" />
-					<instance_reference name="member" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="918329102" />
-					<instance_reference name="member" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="-2138145692" />
-					<instance_reference name="member" value="ebps\races\malian\buildings\building_unit_cavalry_mal" List.ItemID="-517564200" />
-					<instance_reference name="member" value="ebps\races\malian\buildings\building_unit_infantry_mal" List.ItemID="-2033696039" />
-					<instance_reference name="member" value="ebps\races\malian\buildings\building_unit_ranged_mal" List.ItemID="-348306877" />
-					<instance_reference name="member" value="ebps\races\malian\buildings\building_unit_siege_mal" List.ItemID="1029811575" />
-					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_unit_cavalry_ott" List.ItemID="1134122354" />
-					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_unit_infantry_ott" List.ItemID="2041733079" />
-					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_unit_ranged_ott" List.ItemID="1526071104" />
-					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_unit_siege_ott" List.ItemID="1304869556" />
-					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_unit_cavalry_control_byz" List.ItemID="-705467844" />
-					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_unit_infantry_control_byz" List.ItemID="-1898567886" />
-					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_unit_siege_control_byz" List.ItemID="-380182855" />
-					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_unit_ranged_control_byz" List.ItemID="-341573158" />
-					<instance_reference name="member" value="ebps\races\japanese\buildings\building_unit_cavalry_jpn" List.ItemID="879365256" />
-					<instance_reference name="member" value="ebps\races\japanese\buildings\building_unit_infantry_jpn" List.ItemID="-1442719644" />
-					<instance_reference name="member" value="ebps\races\japanese\buildings\building_unit_ranged_jpn" List.ItemID="26711711" />
-					<instance_reference name="member" value="ebps\races\japanese\buildings\building_unit_siege_jpn" List.ItemID="1315042077" />
-					<instance_reference name="member" value="ebps\races\abbasid_ha_01\buildings\building_unit_cavalry_control_abb_ha_01" List.ItemID="421978789" />
-					<instance_reference name="member" value="ebps\races\abbasid_ha_01\buildings\building_unit_infantry_control_abb_ha_01" List.ItemID="2132062841" />
-					<instance_reference name="member" value="ebps\races\abbasid_ha_01\buildings\building_unit_ranged_control_abb_ha_01" List.ItemID="1856304464" />
-					<instance_reference name="member" value="ebps\races\abbasid_ha_01\buildings\building_unit_siege_control_abb_ha_01" List.ItemID="121650054" />
-					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_unit_cavalry_chi_ha_01\building_unit_cavalry_control_chi_ha_01" List.ItemID="-1964770070" />
-					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_unit_infantry_chi_ha_01\building_unit_infantry_control_chi_ha_01" List.ItemID="326463046" />
-					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_unit_ranged_chi_ha_01\building_unit_ranged_control_chi_ha_01" List.ItemID="-654762471" />
-					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_unit_siege_chi_ha_01\building_unit_siege_control_chi_ha_01" List.ItemID="1900431708" />
-					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_unit_cavalry_hre_ha_01\building_unit_cavalry_control_hre_ha_01" List.ItemID="1770630486" />
-					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_unit_infantry_hre_ha_01\building_unit_infantry_control_hre_ha_01" List.ItemID="-1604002331" />
-					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_unit_ranged_hre_ha_01\building_unit_ranged_control_hre_ha_01" List.ItemID="-1107024356" />
-					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_unit_siege_hre_ha_01\building_unit_siege_control_hre_ha_01" List.ItemID="-1101641281" />
-					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_unit_cavalry_fre_ha_01\building_unit_cavalry_control_fre_ha_01" List.ItemID="1004585516" />
-					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_unit_infantry_fre_ha_01\building_unit_infantry_control_fre_ha_01" List.ItemID="-1176522532" />
-					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_unit_ranged_fre_ha_01\building_unit_ranged_control_fre_ha_01" List.ItemID="572469843" />
-					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_unit_siege_fre_ha_01\building_unit_siege_control_fre_ha_01" List.ItemID="-1643434732" />
-					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_unit_barracks_lan" List.ItemID="1353690143" />
-					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_unit_stable_lan" List.ItemID="1781695246" />
-					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_unit_range_lan" List.ItemID="525687076" />
-					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_unit_siege_workshop_lan" List.ItemID="949093820" />
-					<instance_reference name="member" value="ebps\races\templar\buildings\building_archery_range_tem" List.ItemID="799102857" />
-					<instance_reference name="member" value="ebps\races\templar\buildings\building_stable_tem" List.ItemID="-732901337" />
-					<instance_reference name="member" value="ebps\races\templar\buildings\building_siege_workshop_tem" List.ItemID="321040961" />
-					<instance_reference name="member" value="ebps\races\templar\buildings\building_barracks_tem" List.ItemID="-491426057" />
-					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_unit_cavalry_control_byz_ha_mac" List.ItemID="-197402778" />
-					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_unit_infantry_control_byz_ha_mac" List.ItemID="-209527935" />
-					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_unit_ranged_control_byz_ha_mac" List.ItemID="1680063179" />
-					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_unit_siege_control_byz_ha_mac" List.ItemID="74008984" />
-					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_unit_cavalry_sul_ha_tug\building_unit_cavalry_control_sul_ha_tug" List.ItemID="473290409" />
-					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_unit_ranged_sul_ha_tug\building_unit_ranged_control_sul_ha_tug" List.ItemID="714861537" />
-					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_unit_infantry_sul_ha_tug\building_unit_infantry_control_sul_ha_tug" List.ItemID="-1279968991" />
-					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_unit_siege_sul_ha_tug\building_unit_siege_control_sul_ha_tug" List.ItemID="-80488853" />
-					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_unit_cavalry_mon_ha_gol" List.ItemID="-645223273" />
-					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_unit_infantry_mon_ha_gol" List.ItemID="254384276" />
-					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_unit_ranged_mon_ha_gol" List.ItemID="-288993359" />
-					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_unit_siege_mon_ha_gol" List.ItemID="841340994" />
-					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_infantry_jpn_ha_sen" List.ItemID="749411568" />
-					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_ranged_jpn_ha_sen" List.ItemID="-2121030006" />
-					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_siege_jpn_ha_sen" List.ItemID="660736305" />
-					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_cavalry_jpn_ha_sen" List.ItemID="-1913756814" />
+					<instance_reference name="member" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="-695491744" />
+					<instance_reference name="member" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="1276673318" />
+					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_unit_infantry_mon_ha_gol" List.ItemID="-603766991" />
+					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_unit_cavalry_mon_ha_gol" List.ItemID="-2098667186" />
+					<instance_reference name="member" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="544578148" />
+					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_unit_ranged_mon_ha_gol" List.ItemID="910199392" />
+					<instance_reference name="member" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="-2123245938" />
+					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_unit_siege_mon_ha_gol" List.ItemID="-308883342" />
 				</list>
-				<float name="base_scale" value="1500" />
+				<float name="base_scale" value="1005" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_MilitaryProductionBuilding" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>
-			<template_reference name="production_group" value="ai\economy\production_group" comment="Villagers" List.ItemID="-1900947265">
+			<template_reference name="production_group" value="ai\economy\production_group" comment="buff mongol villagers&#xD;&#xA;" List.ItemID="-1900947265">
 				<list name="members">
-					<instance_reference name="member" value="sbps\races\abbasid\unit_villager_1_abb" List.ItemID="-230449850" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_villager_1_sul" List.ItemID="-1000818740" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_villager_1_mon" List.ItemID="-1178637087" />
-					<instance_reference name="member" value="sbps\races\rus\unit_villager_1_rus" List.ItemID="-1753672299" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_villager_1_double_mon" List.ItemID="-1669891366" />
-					<instance_reference name="member" value="sbps\races\hre\unit_villager_1_hre" List.ItemID="189737435" />
-					<instance_reference name="member" value="sbps\races\french\unit_villager_1_fre" List.ItemID="486091481" />
-					<instance_reference name="member" value="sbps\races\english\unit_villager_1_eng" List.ItemID="-1694236801" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="-1542508375" />
-					<instance_reference name="member" value="sbps\races\malian\unit_villager_1_mal" List.ItemID="1028707017" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_villager_1_ott" List.ItemID="348679010" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_villager_1_byz" List.ItemID="1697689970" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_villager_1_jpn" List.ItemID="-1207938025" />
-					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_villager_1_abb_ha_01" List.ItemID="-944430896" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_villager_1_chi_ha_01" List.ItemID="-49401441" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_villager_1_fre_ha_01" List.ItemID="1758530365" />
-					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_villager_1_hre_ha_01" List.ItemID="-1558451915" />
-					<instance_reference name="member" value="sbps\races\templar\unit_villager_1_tem" List.ItemID="287677177" />
-					<instance_reference name="member" value="sbps\races\lancaster\unit_villager_1_lan" List.ItemID="-1241862023" />
-					<instance_reference name="member" value="sbps\races\byzantine_ha_mac\unit_villager_1_byz_ha_mac" List.ItemID="2084521163" />
-					<instance_reference name="member" value="sbps\races\sultanate_ha_tug\unit_villager_1_sul_ha_tug" List.ItemID="-779056850" />
-					<instance_reference name="member" value="sbps\races\mongol_ha_gol\unit_villager_1_mon_ha_gol" List.ItemID="-1870461273" />
-					<instance_reference name="member" value="sbps\races\japanese_ha_sen\unit_villager_1_jpn_ha_sen" List.ItemID="-1106884769" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_villager_1_mon" List.ItemID="-2089663046" />
 				</list>
-				<float name="base_scale" value="10000" />
+				<float name="base_scale" value="30000" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_Gatherer" />
 				<int name="max_current" value="-1" />
@@ -3937,10 +3835,9 @@
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Mongol Outposts" List.ItemID="-589509203">
 				<list name="members">
 					<instance_reference name="member" value="ebps\races\mongol\buildings\building_defense_outpost_mon" List.ItemID="1418963519" />
-					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_fortified_outpost_mon_ha_gol" List.ItemID="1412551288" />
 				</list>
-				<float name="base_scale" value="450" />
-				<float name="minimum_score_to_produce" value="10" />
+				<float name="base_scale" value="200" />
+				<float name="minimum_score_to_produce" value="45" />
 				<string name="lua_binding" value="ScoringFunctions_MongolOutposts" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -5000,9 +4897,8 @@
 					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_landmark_age3_eastern_merc_house_byz_ha_mac" List.ItemID="1605810560" />
 					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_landmark_age1_qutub_minar_sul_ha_tug\building_landmark_age1_qutub_minar_control_sul_ha_tug" List.ItemID="1410269494" />
 					<instance_reference name="member" value="upgrade\races\abbasid_ha_01\research\house_of_wisdom\upgrade_add_military_wing_dark_a_abb_ha_01" List.ItemID="926816402" />
-					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_landmark_golden_tent_mon_ha_gol" List.ItemID="-932336302" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="1050" />
 				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_LandmarkDarkAgeA" />
 				<int name="max_current" value="1" />
@@ -5032,7 +4928,7 @@
 					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_landmark_age3_western_merc_house_byz_ha_mac" List.ItemID="-704342566" />
 					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_landmark_age1_quwwat_ul_islam_sul_ha_tug\building_landmark_age1_quwwat_ul_islam_control_sul_ha_tug" List.ItemID="-1087978417" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="1050" />
 				<float name="minimum_score_to_produce" value="200" />
 				<string name="lua_binding" value="ScoringFunctions_LandmarkDarkAgeB" />
 				<int name="max_current" value="1" />
@@ -5323,8 +5219,8 @@
 				<list name="members">
 					<instance_reference name="member" value="ebps\races\mongol\buildings\building_pasture_mon" List.ItemID="2129849411" />
 				</list>
-				<float name="base_scale" value="1050" />
-				<float name="minimum_score_to_produce" value="100" />
+				<float name="base_scale" value="945" />
+				<float name="minimum_score_to_produce" value="110" />
 				<string name="lua_binding" value="ScoringFunctions_Pastures" />
 				<int name="max_current" value="16" />
 				<int name="max_produced_ever" value="-1" />
@@ -5625,7 +5521,7 @@
 					<instance_reference name="member" value="upgrade\races\mongol_ha_gol\research\golden_tent\upgrade_tent_castle_1_tribute_mon_ha_gol" List.ItemID="1753525038" />
 					<instance_reference name="member" value="upgrade\races\mongol_ha_gol\research\golden_tent\upgrade_tent_feudal_1_pasture_mon_ha_gol" List.ItemID="-128782755" />
 				</list>
-				<float name="base_scale" value="1100" />
+				<float name="base_scale" value="1150" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_GoldenHordeLandmarksA" />
 				<int name="max_current" value="-1" />
@@ -5746,7 +5642,7 @@
 					<instance_reference name="member" value="upgrade\races\mongol_ha_gol\research\golden_tent\upgrade_tent_castle_2_batch_production_mon_ha_gol" List.ItemID="-783909840" />
 					<instance_reference name="member" value="upgrade\races\mongol_ha_gol\research\golden_tent\upgrade_tent_feudal_2_relics_mon_ha_gol" List.ItemID="-1906426906" />
 				</list>
-				<float name="base_scale" value="1100" />
+				<float name="base_scale" value="1150" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_GoldenHordeLandmarksB" />
 				<int name="max_current" value="-1" />
@@ -5847,6 +5743,146 @@
 				<float name="base_scale" value="1250" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_SulPalaceGovernor" />
+				<int name="max_current" value="-1" />
+				<int name="max_produced_ever" value="-1" />
+			</template_reference>
+			<template_reference name="production_group" value="ai\economy\production_group" comment="golden horde tent gets delayed" List.ItemID="1297260526">
+				<list name="members">
+					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_landmark_golden_tent_mon_ha_gol" List.ItemID="-932336302" />
+				</list>
+				<float name="base_scale" value="500" />
+				<float name="minimum_score_to_produce" value="200" />
+				<string name="lua_binding" value="ScoringFunctions_LandmarkDarkAgeA" />
+				<int name="max_current" value="1" />
+				<int name="max_produced_ever" value="-1" />
+			</template_reference>
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Mongol Golden Horde Outposts" List.ItemID="1359357492">
+				<list name="members">
+					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_fortified_outpost_mon_ha_gol" List.ItemID="1412551288" />
+				</list>
+				<float name="base_scale" value="200" />
+				<float name="minimum_score_to_produce" value="45" />
+				<string name="lua_binding" value="ScoringFunctions_MongolOutposts" />
+				<int name="max_current" value="-1" />
+				<int name="max_produced_ever" value="-1" />
+			</template_reference>
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Military Production Buildings&#xD;&#xA;" List.ItemID="1994449207">
+				<list name="members">
+					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_unit_siege_sul\building_unit_siege_control_sul" List.ItemID="50829982" />
+					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_unit_ranged_sul\building_unit_ranged_control_sul" List.ItemID="980749817" />
+					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_unit_infantry_sul\building_unit_infantry_control_sul" List.ItemID="-272175204" />
+					<instance_reference name="member" value="ebps\races\french\buildings\building_unit_infantry_fre\building_unit_infantry_control_fre" List.ItemID="-1431589993" />
+					<instance_reference name="member" value="ebps\races\chinese\buildings\building_unit_ranged_chi\building_unit_ranged_control_chi" List.ItemID="-605356982" />
+					<instance_reference name="member" value="ebps\races\english\buildings\building_unit_cavalry_eng\building_unit_cavalry_control_eng" List.ItemID="-604390078" />
+					<instance_reference name="member" value="ebps\races\english\buildings\building_unit_infantry_eng\building_unit_infantry_control_eng" List.ItemID="2110279614" />
+					<instance_reference name="member" value="ebps\races\english\buildings\building_unit_siege_eng\building_unit_siege_control_eng" List.ItemID="1788047258" />
+					<instance_reference name="member" value="ebps\races\french\buildings\building_unit_cavalry_fre\building_unit_cavalry_control_fre" List.ItemID="-1389290408" />
+					<instance_reference name="member" value="ebps\races\french\buildings\building_unit_siege_fre\building_unit_siege_control_fre" List.ItemID="1791271035" />
+					<instance_reference name="member" value="ebps\races\hre\buildings\building_unit_infantry_hre\building_unit_infantry_control_hre" List.ItemID="-931161216" />
+					<instance_reference name="member" value="ebps\races\hre\buildings\building_unit_ranged_hre\building_unit_ranged_control_hre" List.ItemID="-769476347" />
+					<instance_reference name="member" value="ebps\races\hre\buildings\building_unit_cavalry_hre\building_unit_cavalry_control_hre" List.ItemID="-1698943550" />
+					<instance_reference name="member" value="ebps\races\hre\buildings\building_unit_siege_hre\building_unit_siege_control_hre" List.ItemID="-1180304066" />
+					<instance_reference name="member" value="ebps\races\rus\buildings\building_unit_cavalry_rus\building_unit_cavalry_control_rus" List.ItemID="-1095365298" />
+					<instance_reference name="member" value="ebps\races\french\buildings\building_unit_ranged_fre\building_unit_ranged_control_fre" List.ItemID="-45020322" />
+					<instance_reference name="member" value="ebps\races\rus\buildings\building_unit_ranged_rus\building_unit_ranged_control_rus" List.ItemID="-1951678660" />
+					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_unit_cavalry_sul\building_unit_cavalry_control_sul" List.ItemID="-340262013" />
+					<instance_reference name="member" value="ebps\races\rus\buildings\building_unit_siege_rus\building_unit_siege_control_rus" List.ItemID="-188304318" />
+					<instance_reference name="member" value="ebps\races\rus\buildings\building_unit_infantry_rus\building_unit_infantry_control_rus" List.ItemID="408500170" />
+					<instance_reference name="member" value="ebps\races\english\buildings\building_unit_ranged_eng\building_unit_ranged_control_eng" List.ItemID="-235764997" />
+					<instance_reference name="member" value="ebps\races\chinese\buildings\building_unit_siege_chi\building_unit_siege_control_chi" List.ItemID="-313183308" />
+					<instance_reference name="member" value="ebps\races\chinese\buildings\building_unit_infantry_chi\building_unit_infantry_control_chi" List.ItemID="-1045154743" />
+					<instance_reference name="member" value="ebps\races\chinese\buildings\building_unit_cavalry_chi\building_unit_cavalry_control_chi" List.ItemID="1244438703" />
+					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_unit_cavalry_control_abb" List.ItemID="-1617126553" />
+					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_unit_infantry_control_abb" List.ItemID="-1004084752" />
+					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_unit_ranged_control_abb" List.ItemID="1623593826" />
+					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_unit_siege_control_abb" List.ItemID="-1010398762" />
+					<instance_reference name="member" value="ebps\races\malian\buildings\building_unit_cavalry_mal" List.ItemID="-517564200" />
+					<instance_reference name="member" value="ebps\races\malian\buildings\building_unit_infantry_mal" List.ItemID="-2033696039" />
+					<instance_reference name="member" value="ebps\races\malian\buildings\building_unit_ranged_mal" List.ItemID="-348306877" />
+					<instance_reference name="member" value="ebps\races\malian\buildings\building_unit_siege_mal" List.ItemID="1029811575" />
+					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_unit_cavalry_ott" List.ItemID="1134122354" />
+					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_unit_infantry_ott" List.ItemID="2041733079" />
+					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_unit_ranged_ott" List.ItemID="1526071104" />
+					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_unit_siege_ott" List.ItemID="1304869556" />
+					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_unit_cavalry_control_byz" List.ItemID="-705467844" />
+					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_unit_infantry_control_byz" List.ItemID="-1898567886" />
+					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_unit_siege_control_byz" List.ItemID="-380182855" />
+					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_unit_ranged_control_byz" List.ItemID="-341573158" />
+					<instance_reference name="member" value="ebps\races\japanese\buildings\building_unit_cavalry_jpn" List.ItemID="879365256" />
+					<instance_reference name="member" value="ebps\races\japanese\buildings\building_unit_infantry_jpn" List.ItemID="-1442719644" />
+					<instance_reference name="member" value="ebps\races\japanese\buildings\building_unit_ranged_jpn" List.ItemID="26711711" />
+					<instance_reference name="member" value="ebps\races\japanese\buildings\building_unit_siege_jpn" List.ItemID="1315042077" />
+					<instance_reference name="member" value="ebps\races\abbasid_ha_01\buildings\building_unit_cavalry_control_abb_ha_01" List.ItemID="421978789" />
+					<instance_reference name="member" value="ebps\races\abbasid_ha_01\buildings\building_unit_infantry_control_abb_ha_01" List.ItemID="2132062841" />
+					<instance_reference name="member" value="ebps\races\abbasid_ha_01\buildings\building_unit_ranged_control_abb_ha_01" List.ItemID="1856304464" />
+					<instance_reference name="member" value="ebps\races\abbasid_ha_01\buildings\building_unit_siege_control_abb_ha_01" List.ItemID="121650054" />
+					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_unit_cavalry_chi_ha_01\building_unit_cavalry_control_chi_ha_01" List.ItemID="-1964770070" />
+					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_unit_infantry_chi_ha_01\building_unit_infantry_control_chi_ha_01" List.ItemID="326463046" />
+					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_unit_ranged_chi_ha_01\building_unit_ranged_control_chi_ha_01" List.ItemID="-654762471" />
+					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_unit_siege_chi_ha_01\building_unit_siege_control_chi_ha_01" List.ItemID="1900431708" />
+					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_unit_cavalry_hre_ha_01\building_unit_cavalry_control_hre_ha_01" List.ItemID="1770630486" />
+					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_unit_infantry_hre_ha_01\building_unit_infantry_control_hre_ha_01" List.ItemID="-1604002331" />
+					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_unit_ranged_hre_ha_01\building_unit_ranged_control_hre_ha_01" List.ItemID="-1107024356" />
+					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_unit_siege_hre_ha_01\building_unit_siege_control_hre_ha_01" List.ItemID="-1101641281" />
+					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_unit_cavalry_fre_ha_01\building_unit_cavalry_control_fre_ha_01" List.ItemID="1004585516" />
+					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_unit_infantry_fre_ha_01\building_unit_infantry_control_fre_ha_01" List.ItemID="-1176522532" />
+					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_unit_ranged_fre_ha_01\building_unit_ranged_control_fre_ha_01" List.ItemID="572469843" />
+					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_unit_siege_fre_ha_01\building_unit_siege_control_fre_ha_01" List.ItemID="-1643434732" />
+					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_unit_barracks_lan" List.ItemID="1353690143" />
+					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_unit_stable_lan" List.ItemID="1781695246" />
+					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_unit_range_lan" List.ItemID="525687076" />
+					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_unit_siege_workshop_lan" List.ItemID="949093820" />
+					<instance_reference name="member" value="ebps\races\templar\buildings\building_archery_range_tem" List.ItemID="799102857" />
+					<instance_reference name="member" value="ebps\races\templar\buildings\building_stable_tem" List.ItemID="-732901337" />
+					<instance_reference name="member" value="ebps\races\templar\buildings\building_siege_workshop_tem" List.ItemID="321040961" />
+					<instance_reference name="member" value="ebps\races\templar\buildings\building_barracks_tem" List.ItemID="-491426057" />
+					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_unit_cavalry_control_byz_ha_mac" List.ItemID="-197402778" />
+					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_unit_infantry_control_byz_ha_mac" List.ItemID="-209527935" />
+					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_unit_ranged_control_byz_ha_mac" List.ItemID="1680063179" />
+					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_unit_siege_control_byz_ha_mac" List.ItemID="74008984" />
+					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_unit_cavalry_sul_ha_tug\building_unit_cavalry_control_sul_ha_tug" List.ItemID="473290409" />
+					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_unit_ranged_sul_ha_tug\building_unit_ranged_control_sul_ha_tug" List.ItemID="714861537" />
+					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_unit_infantry_sul_ha_tug\building_unit_infantry_control_sul_ha_tug" List.ItemID="-1279968991" />
+					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_unit_siege_sul_ha_tug\building_unit_siege_control_sul_ha_tug" List.ItemID="-80488853" />
+					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_infantry_jpn_ha_sen" List.ItemID="749411568" />
+					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_ranged_jpn_ha_sen" List.ItemID="-2121030006" />
+					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_siege_jpn_ha_sen" List.ItemID="660736305" />
+					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_cavalry_jpn_ha_sen" List.ItemID="-1913756814" />
+				</list>
+				<float name="base_scale" value="1500" />
+				<float name="minimum_score_to_produce" value="1" />
+				<string name="lua_binding" value="ScoringFunctions_MilitaryProductionBuilding" />
+				<int name="max_current" value="-1" />
+				<int name="max_produced_ever" value="-1" />
+			</template_reference>
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Villagers" List.ItemID="1858982684">
+				<list name="members">
+					<instance_reference name="member" value="sbps\races\abbasid\unit_villager_1_abb" List.ItemID="-230449850" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_villager_1_sul" List.ItemID="-1000818740" />
+					<instance_reference name="member" value="sbps\races\rus\unit_villager_1_rus" List.ItemID="-1753672299" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_villager_1_double_mon" List.ItemID="-1669891366" />
+					<instance_reference name="member" value="sbps\races\hre\unit_villager_1_hre" List.ItemID="189737435" />
+					<instance_reference name="member" value="sbps\races\french\unit_villager_1_fre" List.ItemID="486091481" />
+					<instance_reference name="member" value="sbps\races\english\unit_villager_1_eng" List.ItemID="-1694236801" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="-1542508375" />
+					<instance_reference name="member" value="sbps\races\malian\unit_villager_1_mal" List.ItemID="1028707017" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_villager_1_ott" List.ItemID="348679010" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_villager_1_byz" List.ItemID="1697689970" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_villager_1_jpn" List.ItemID="-1207938025" />
+					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_villager_1_abb_ha_01" List.ItemID="-944430896" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_villager_1_chi_ha_01" List.ItemID="-49401441" />
+					<instance_reference name="member" value="sbps\races\french_ha_01\unit_villager_1_fre_ha_01" List.ItemID="1758530365" />
+					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_villager_1_hre_ha_01" List.ItemID="-1558451915" />
+					<instance_reference name="member" value="sbps\races\templar\unit_villager_1_tem" List.ItemID="287677177" />
+					<instance_reference name="member" value="sbps\races\lancaster\unit_villager_1_lan" List.ItemID="-1241862023" />
+					<instance_reference name="member" value="sbps\races\byzantine_ha_mac\unit_villager_1_byz_ha_mac" List.ItemID="2084521163" />
+					<instance_reference name="member" value="sbps\races\sultanate_ha_tug\unit_villager_1_sul_ha_tug" List.ItemID="-779056850" />
+					<instance_reference name="member" value="sbps\races\mongol_ha_gol\unit_villager_1_mon_ha_gol" List.ItemID="-1870461273" />
+					<instance_reference name="member" value="sbps\races\japanese_ha_sen\unit_villager_1_jpn_ha_sen" List.ItemID="-1106884769" />
+				</list>
+				<float name="base_scale" value="10000" />
+				<float name="minimum_score_to_produce" value="1" />
+				<string name="lua_binding" value="ScoringFunctions_Gatherer" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>

@@ -24,7 +24,7 @@
 			<group name="intention_tuning" List.ItemID="-2125709318">
 				<enum name="intention_type" value="wall" />
 				<float name="intention_max" value="1" />
-				<float name="intention_min" value="1" />
+				<float name="intention_min" value="0.99" />
 			</group>
 			<group name="intention_tuning" List.ItemID="696422544">
 				<enum name="intention_type" value="combat" />
