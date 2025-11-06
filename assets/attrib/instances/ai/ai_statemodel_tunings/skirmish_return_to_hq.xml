@@ -23,7 +23,7 @@
 			</group>
 			<group name="value_tuning" List.ItemID="-371807667">
 				<enum name="key" value="ai_phase_encounter_defend_destination" />
-				<bool name="value" value="False" />
+				<bool name="value" value="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="987867061">
 				<enum name="key" value="ai_phase_encounter_can_help_nearby" />
@@ -35,6 +35,10 @@
 			</group>
 			<group name="value_tuning" List.ItemID="-119700261">
 				<enum name="key" value="teardowns_disabled" />
+				<bool name="value" value="True" />
+			</group>
+			<group name="value_tuning" List.ItemID="1061687421">
+				<enum name="key" value="ai_phase_encounter_can_help_nearby" />
 				<bool name="value" value="True" />
 			</group>
 		</list>

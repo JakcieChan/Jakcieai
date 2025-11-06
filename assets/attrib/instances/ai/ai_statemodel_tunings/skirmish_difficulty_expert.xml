@@ -8,19 +8,19 @@
 				<float name="value" value="2" overrideParent="True" />
 			</group>
 			<group name="value_tuning" List.ItemID="1479877785" List.ParentItemID="1479877785">
-				<float name="value" value="0.1" overrideParent="True" />
+				<float name="value" value="0.15" overrideParent="True" />
 				<enum name="key" value="ai_difficulty_encounter_fallback_combat_rating" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1336523269" List.ParentItemID="-1336523269">
-				<float name="value" value="0.1" overrideParent="True" />
+				<float name="value" value="0.3" overrideParent="True" />
 				<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_threshold" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1232280868" List.ParentItemID="-1232280868">
-				<float name="value" value="0.1" overrideParent="True" />
+				<float name="value" value="0.75" overrideParent="True" />
 				<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_percent" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1077278942" List.ParentItemID="-1077278942">
-				<float name="value" value="0.2" overrideParent="True" />
+				<float name="value" value="0.25" overrideParent="True" />
 				<enum name="key" value="ai_difficulty_encounter_fallback_squads_remaining_percent" />
 			</group>
 			<group name="value_tuning" List.ItemID="-924152782" List.ParentItemID="-924152782">
@@ -28,7 +28,7 @@
 				<enum name="key" value="ai_difficulty_encounter_fallback_combat_rating_harass" />
 			</group>
 			<group name="value_tuning" List.ItemID="196835303" List.ParentItemID="196835303">
-				<float name="value" value="0.1" overrideParent="True" />
+				<float name="value" value="0.4" overrideParent="True" />
 				<enum name="key" value="ai_difficulty_encounter_fallback_squad_health_percent_harass" />
 			</group>
 			<group name="value_tuning" List.ItemID="1586781026" List.ParentItemID="1586781026">

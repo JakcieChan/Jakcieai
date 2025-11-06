@@ -845,6 +845,10 @@
 			<int name="max_num" value="-1" />
 			<int name="max_num_produced" value="-1" />
 			<list name="weighted_strategic_intentions">
+				<group name="weighted_intention" List.ItemID="-1816390319">
+					<enum name="strategic_intention_type" value="economy" />
+					<float name="strategic_intention_weight" value="1" />
+				</group>
 			</list>
 			<bool name="inherit_utility" value="True" />
 			<float name="requested_production_scale" value="-1" />
@@ -1723,7 +1727,7 @@
 			<bool name="recalculate_utility_when_produced" value="True" />
 		</template_reference>
 		<template_reference name="default_production_structure_utility" value="ai\economy\production_instance_utility">
-			<float name="utility" value="750" />
+			<float name="utility" value="1000" />
 			<float name="utility_random_range_offset" value="-1" />
 			<string name="utility_function" value="" />
 			<float name="per_unit_scale" value="0" />
@@ -3340,8 +3344,8 @@
 					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_stone_deposit_ovoo_large_mon_ha_gol" List.ItemID="656301243" />
 					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_stone_deposit_ovoo_mon_ha_gol" List.ItemID="202201159" />
 				</list>
-				<float name="base_scale" value="1000" />
-				<float name="minimum_score_to_produce" value="100" />
+				<float name="base_scale" value="995" />
+				<float name="minimum_score_to_produce" value="110" />
 				<string name="lua_binding" value="ScoringFunctions_ResourceGenerator" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
@@ -3437,7 +3441,7 @@
 					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_siege_jpn_ha_sen" List.ItemID="660736305" />
 					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_unit_cavalry_jpn_ha_sen" List.ItemID="-1913756814" />
 				</list>
-				<float name="base_scale" value="1250" />
+				<float name="base_scale" value="1500" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_MilitaryProductionBuilding" />
 				<int name="max_current" value="-1" />
@@ -5067,7 +5071,7 @@
 				<list name="members">
 					<instance_reference name="member" value="upgrade\races\abbasid\research\upgrade_econ_improved_carry_capacity_abb" List.ItemID="537590772" />
 				</list>
-				<float name="base_scale" value="900" />
+				<float name="base_scale" value="10000" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_PlayerUpgradeFreshFoodstuffs" />
 				<int name="max_current" value="-1" />

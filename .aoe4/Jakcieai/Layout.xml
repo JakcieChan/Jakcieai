@@ -5,17 +5,17 @@
       <LayoutPanel Orientation="Vertical">
         <LayoutDocumentPaneGroup Orientation="Horizontal">
           <LayoutDocumentPane Id="172c4545-7d79-44aa-bad9-d77ae0dd0df5" DockWidth="0.475409836065574*">
-            <LayoutDocument Title="mod.rdo" ContentId="Reflect|Essence.Editor.ReflectEditor.Controls.DefaultReflectControlActivator|0xFD4C65582FC0A152" LastActivationTimeStamp="11/05/2025 14:42:35" />
-            <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Asset Explorer" ContentId="EssenceEditor.AssetExplorer" FloatingLeft="-2018" FloatingTop="118" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="11/05/2025 15:14:58" PreviousContainerId="172c4545-7d79-44aa-bad9-d77ae0dd0df5" PreviousContainerIndex="3" />
+            <LayoutDocument Title="mod.rdo" ContentId="Reflect|Essence.Editor.ReflectEditor.Controls.DefaultReflectControlActivator|0xFD4C65582FC0A152" LastActivationTimeStamp="11/05/2025 18:53:28" />
+            <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Asset Explorer" ContentId="EssenceEditor.AssetExplorer" FloatingLeft="-2018" FloatingTop="118" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="11/05/2025 18:53:28" PreviousContainerId="172c4545-7d79-44aa-bad9-d77ae0dd0df5" PreviousContainerIndex="3" />
             <LayoutDocument Title="ebps" ContentId="Category|ebps" LastActivationTimeStamp="11/05/2025 12:19:04" />
-            <LayoutDocument Title="ai\ai_settings" ContentId="Category|ai\ai_settings" LastActivationTimeStamp="11/05/2025 13:09:00" />
-            <LayoutDocument Title="ai\ai_economy" ContentId="Category|ai\ai_economy" LastActivationTimeStamp="11/05/2025 13:20:30" />
-            <LayoutDocument Title="ai\ai_statemodel_tunings" ContentId="Category|ai\ai_statemodel_tunings" LastActivationTimeStamp="11/05/2025 14:42:48" />
+            <LayoutDocument Title="ai\ai_settings" ContentId="Category|ai\ai_settings" LastActivationTimeStamp="11/05/2025 18:30:13" />
+            <LayoutDocument Title="ai\ai_economy" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ai\ai_economy" LastActivationTimeStamp="11/05/2025 18:59:09" />
+            <LayoutDocument Title="ai\ai_statemodel_tunings" ContentId="Category|ai\ai_statemodel_tunings" LastActivationTimeStamp="11/05/2025 18:53:35" />
             <LayoutDocument Title="ai\ai_formation_coordinator" ContentId="Category|ai\ai_formation_coordinator" LastActivationTimeStamp="11/05/2025 11:36:08" />
             <LayoutDocument Title="ai\ai_formation_target_priority" ContentId="Category|ai\ai_formation_target_priority" LastActivationTimeStamp="11/05/2025 14:42:31" />
             <LayoutDocument Title="tuning_ai" ContentId="Category|tuning_ai" LastActivationTimeStamp="11/05/2025 14:29:06" />
-            <LayoutDocument Title="ai\ai_formation_path" ContentId="Category|ai\ai_formation_path" LastActivationTimeStamp="11/05/2025 14:39:04" />
-            <LayoutDocument Title="ai\ai_ability" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ai\ai_ability" LastActivationTimeStamp="11/05/2025 15:15:11" />
+            <LayoutDocument Title="ai\ai_formation_path" ContentId="Category|ai\ai_formation_path" LastActivationTimeStamp="11/05/2025 18:30:11" />
+            <LayoutDocument Title="ai\ai_ability" ContentId="Category|ai\ai_ability" LastActivationTimeStamp="11/05/2025 15:15:11" />
           </LayoutDocumentPane>
         </LayoutDocumentPaneGroup>
       </LayoutPanel>
