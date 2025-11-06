@@ -3500,8 +3500,8 @@
 					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_town_center_mon_ha_gol" List.ItemID="1623498774" />
 					<instance_reference name="member" value="ebps\races\japanese_ha_sen\buildings\building_town_center_jpn_ha_sen" List.ItemID="-1445500885" />
 				</list>
-				<float name="base_scale" value="1250" />
-				<float name="minimum_score_to_produce" value="45" />
+				<float name="base_scale" value="1300" />
+				<float name="minimum_score_to_produce" value="40" />
 				<string name="lua_binding" value="ScoringFunctions_ExpansionTC" />
 				<int name="max_current" value="1" />
 				<int name="max_produced_ever" value="-1" />
@@ -5652,7 +5652,7 @@
 				<list name="members">
 					<instance_reference name="member" value="ebps\races\byzantine_ha_mac\buildings\building_unit_passive_trait_byz_ha_mac" List.ItemID="-1643299225" />
 				</list>
-				<float name="base_scale" value="600" />
+				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="80" />
 				<string name="lua_binding" value="ScoringFunctions_MilitaryProductionBuilding" />
 				<int name="max_current" value="-1" />
@@ -5680,7 +5680,7 @@
 					<instance_reference name="member" value="sbps\races\mongol_ha_gol\unit_kharash_2_mon_ha_gol" List.ItemID="390164048" />
 					<instance_reference name="member" value="sbps\races\mongol_ha_gol\stone_armies\unit_stone_kharash_2_mon_ha_gol" List.ItemID="-1100823473" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="1100" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_SupportMilitary" />
 				<int name="max_current" value="-1" />
@@ -5690,7 +5690,7 @@
 				<list name="members">
 					<instance_reference name="member" value="sbps\races\sultanate_ha_tug\unit_worker_elephant_2_sul_ha_tug" List.ItemID="-556905995" />
 				</list>
-				<float name="base_scale" value="1100" />
+				<float name="base_scale" value="1150" />
 				<float name="minimum_score_to_produce" value="150" />
 				<string name="lua_binding" value="ScoringFunctions_WorkerElephants" />
 				<int name="max_current" value="-1" />
@@ -5720,7 +5720,7 @@
 				<list name="members">
 					<instance_reference name="member" value="sbps\races\sultanate_ha_tug\unit_war_elephant_tower_healer_3_sul_ha_tug" List.ItemID="-516285311" />
 				</list>
-				<float name="base_scale" value="800" />
+				<float name="base_scale" value="805" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="ScoringFunctions_HealingOnlyUnit" />
 				<int name="max_current" value="10" />
@@ -5783,12 +5783,8 @@
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Palace of the Sultan Governor" List.ItemID="1536410120">
 				<list name="members">
-					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\governors\palace_of_sultan\palace_governor_of_ajmer_sul_ha_tug" List.ItemID="-1436768385" />
 					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\governors\palace_of_sultan\palace_governor_of_bhakkar_sul_ha_tug" List.ItemID="948939631" />
 					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\governors\palace_of_sultan\palace_governor_of_jalor_sul_ha_tug" List.ItemID="-1680442813" />
-					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\governors\palace_of_sultan\palace_governor_of_multan_sul_ha_tug" List.ItemID="1629409102" />
-					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\governors\palace_of_sultan\palace_governor_of_sehwan_sul_ha_tug" List.ItemID="958121424" />
-					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\governors\palace_of_sultan\palace_governor_of_uch_sul_ha_tug" List.ItemID="1724591726" />
 				</list>
 				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -5800,7 +5796,7 @@
 				<list name="members">
 					<instance_reference name="member" value="ebps\races\sultanate_ha_tug\buildings\building_defense_keep_sul_ha_tug\building_defense_keep_control_sul_ha_tug" List.ItemID="779165689" />
 				</list>
-				<float name="base_scale" value="127" />
+				<float name="base_scale" value="150" />
 				<float name="minimum_score_to_produce" value="15" />
 				<string name="lua_binding" value="ScoringFunctions_Keeps" />
 				<int name="max_current" value="-1" />
@@ -5834,6 +5830,19 @@
 				<float name="base_scale" value="1300" />
 				<float name="minimum_score_to_produce" value="100" />
 				<string name="lua_binding" value="ScoringFunctions_Daimyo" />
+				<int name="max_current" value="-1" />
+				<int name="max_produced_ever" value="-1" />
+			</template_reference>
+			<template_reference name="production_group" value="ai\economy\production_group" comment="Prioritize these govoners as they dont require special building placement" List.ItemID="733228075">
+				<list name="members">
+					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\governors\palace_of_sultan\palace_governor_of_ajmer_sul_ha_tug" List.ItemID="-1436768385" />
+					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\governors\palace_of_sultan\palace_governor_of_multan_sul_ha_tug" List.ItemID="1629409102" />
+					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\governors\palace_of_sultan\palace_governor_of_sehwan_sul_ha_tug" List.ItemID="958121424" />
+					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\governors\palace_of_sultan\palace_governor_of_uch_sul_ha_tug" List.ItemID="1724591726" />
+				</list>
+				<float name="base_scale" value="1250" />
+				<float name="minimum_score_to_produce" value="1" />
+				<string name="lua_binding" value="ScoringFunctions_SulPalaceGovernor" />
 				<int name="max_current" value="-1" />
 				<int name="max_produced_ever" value="-1" />
 			</template_reference>

@@ -49,11 +49,11 @@
 			</group>
 			<group name="value_tuning" List.ItemID="-1317819310">
 				<enum name="key" value="ai_phase_encounter_formup_required_squads_percent" />
-				<float name="value" value="0.99" />
+				<float name="value" value="0.01" />
 			</group>
 			<group name="value_tuning" List.ItemID="520319722">
 				<enum name="key" value="ai_phase_encounter_formup_timeout" />
-				<float name="value" value="10" />
+				<float name="value" value="1" />
 			</group>
 			<group name="value_tuning" List.ItemID="756243100">
 				<enum name="key" value="ai_phase_encounter_combat_fitness_threshold" comment="Set to 0 for attack anyone we meet" />
@@ -89,7 +89,7 @@
 			</group>
 			<group name="value_tuning" List.ItemID="1920506268">
 				<enum name="key" value="ai_phase_encounter_enemy_scan_range" />
-				<float name="value" value="0" />
+				<float name="value" value="10" />
 			</group>
 		</list>
 		<list name="int_tunings">
@@ -138,6 +138,10 @@
 				</group>
 			</list>
 			<list name="ai_phase_encounter_path_bag">
+			</list>
+			<list name="ai_open_pit_mine_ebps">
+			</list>
+			<list name="civ_next_unique_upgrade_choice">
 			</list>
 		</group>
 	</group>
@@ -299,6 +303,10 @@
 					</group>
 				</list>
 				<list name="ai_phase_encounter_path_bag">
+				</list>
+				<list name="ai_open_pit_mine_ebps">
+				</list>
+				<list name="civ_next_unique_upgrade_choice">
 				</list>
 			</group>
 		</group>

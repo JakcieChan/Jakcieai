@@ -5,7 +5,7 @@
 			<bool name="use_threat_history" value="False" />
 			<float name="path_recalculate_interval_seconds" value="0" />
 			<float name="combat_fitness_min" value="0.1" />
-			<float name="combat_fitness_max" value="0.4" />
+			<float name="combat_fitness_max" value="0.5" />
 			<float name="threat_cost_min" value="0" />
 			<float name="threat_cost_max" value="1" />
 			<template_reference name="enemy_unit_type_scores" value="options\ai\encounters\unit_type_scores">

@@ -2,7 +2,7 @@
 	<group name="ai_ability_bag">
 		<list name="abilities">
 			<instance_reference name="ability" value="abilities\timed_abilities\byzantine_ha_mac\varangian_bowman_berserk_byz_ha_mac" List.ItemID="153669224" />
-			<instance_reference name="ability" value="abilities\timed_abilities\byzantine_ha_mac\champion_spawner_byz_ha_mac" List.ItemID="1342488930" />
+			<instance_reference name="ability" value="abilities\timed_abilities\byzantine_ha_mac\varangian_spearman_berserk_byz_ha_mac" List.ItemID="1342488930" />
 		</list>
 		<template_reference name="tactic_info_default" value="ai\tactic_info\tactic_info_ability">
 			<group name="tactic_info">

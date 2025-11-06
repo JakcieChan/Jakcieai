@@ -13,7 +13,7 @@
 			<float name="threat_weight_inside_area" value="1" />
 			<float name="threat_weight_outside_area" value="1" />
 			<float name="leaving_area_multiplier" value="0" />
-			<float name="_influence_threshold" value="0.4" />
+			<float name="_influence_threshold" value="0.5" />
 		</template_reference>
 	</group>
 	<variant name="xp3">

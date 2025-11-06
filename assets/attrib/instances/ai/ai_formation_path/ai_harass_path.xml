@@ -3,7 +3,7 @@
 	<group name="ai_formation_path">
 		<template_reference name="formation_path_query_option" value="options\ai\encounters\formation_threat_path_option">
 			<bool name="use_threat_history" value="True" />
-			<float name="path_recalculate_interval_seconds" value="2" />
+			<float name="path_recalculate_interval_seconds" value="5" />
 			<float name="combat_fitness_min" value="0.1" />
 			<float name="combat_fitness_max" value="0.5" />
 			<float name="threat_cost_min" value="10" />
@@ -13,7 +13,7 @@
 			<float name="threat_weight_inside_area" value="1" />
 			<float name="threat_weight_outside_area" value="1" />
 			<float name="leaving_area_multiplier" value="0" />
-			<float name="_influence_threshold" value="0.6" />
+			<float name="_influence_threshold" value="0.502" />
 		</template_reference>
 	</group>
 	<variant name="xp3">
