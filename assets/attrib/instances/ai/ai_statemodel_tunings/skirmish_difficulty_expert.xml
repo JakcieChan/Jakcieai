@@ -41,7 +41,7 @@
 			</group>
 			<group name="value_tuning" overrideParent="True" List.ItemID="5635391">
 				<enum name="key" value="ai_difficulty_villager_max_pop_percentage" />
-				<float name="value" value="0.525" overrideParent="True" />
+				<float name="value" value="0.5" overrideParent="True" />
 			</group>
 			<group name="value_tuning" overrideParent="True" List.ItemID="-980579590">
 				<enum name="key" value="ai_difficulty_villager_production_delay_time" />

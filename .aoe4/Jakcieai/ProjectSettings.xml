@@ -8,7 +8,6 @@
 				<d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
 					<d2p1:Key>AssetExplorerGeneric</d2p1:Key>
 					<d2p1:Value>
-						<d2p1:string>assets\attrib\instances\ai\ai_ability</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_economy\complete</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_entity</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_formation_coordinator</d2p1:string>
@@ -17,6 +16,7 @@
 						<d2p1:string>assets\attrib\instances\ai\ai_personality</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_settings</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_attack</d2p1:string>
+						<d2p1:string>assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_game_modes</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ai\ai_strategizer_personality</d2p1:string>
 						<d2p1:string>assets\attrib\instances\tuning_ai</d2p1:string>
 					</d2p1:Value>
@@ -31,16 +31,16 @@
 	</PluginSettings>
 	<RecentFiles>
 		<History xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_strategizer_personality\strategizer_balanced.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_difficulty_expert.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_default.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_economy\complete\default_economy.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_target_priority\catapult_target_priority.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_game_modes\skirmish_capture_point.xml</d3p1:string>
+			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_strategizer_personality\strategizer_balanced.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_statemodel_tunings\skirmish_return_to_hq.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_ability\mac_runestone.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_target_priority\anti_infantry_setup_ranged_priority.xml</d3p1:string>
 			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_path\ai_naval_scout_path.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_settings\default_skirmish_cheat1.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\tuning_ai\tuning_ai.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_settings\default_skirmish_hardest.xml</d3p1:string>
-			<d3p1:string>C:\Users\gotto\OneDrive\Documents\Jakcieai\assets\attrib\instances\ai\ai_formation_target_priority\cavalry_target_priority.xml</d3p1:string>
 		</History>
 	</RecentFiles>
 </ProjectSettings>

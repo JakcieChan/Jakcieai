@@ -81,11 +81,11 @@
 		<list name="float_tunings">
 			<group name="value_tuning" List.ItemID="1398867735">
 				<enum name="key" value="ai_phase_encounter_enemy_scan_range" comment="Scan range from the center of the formation to look for enemies in meters, used in conjunction with below combat fitness check, set to 0 disable to disable scanning and all below combat exit conditions" />
-				<float name="value" value="60" />
+				<float name="value" value="50" />
 			</group>
 			<group name="value_tuning" List.ItemID="-150290806">
 				<enum name="key" value="ai_phase_encounter_combat_area" comment="Minimum distance from the encounter target the squads needs to be within to be considered inside encounter area (during combat)." />
-				<float name="value" value="60" />
+				<float name="value" value="35" />
 			</group>
 			<group name="value_tuning" List.ItemID="-336056717">
 				<enum name="key" value="ai_phase_encounter_combat_leash" comment="Maximum radius from leash target that squads can stray to combat enemies or defend allies in &quot;EngageEnemyEnRoute&quot; or &quot;EngageTarget&quot; phases.  Leash target can be squads centre or final encounter target.  Specify 0 for no leash." />
@@ -105,7 +105,7 @@
 			</group>
 			<group name="value_tuning" List.ItemID="1350356719">
 				<enum name="key" value="ai_phase_encounter_destination_area" comment="Minimum distance from the encounter target the squads needs to be within to be considered arrived at encounter area (during movement phase such as &quot;TravelToTarget&quot;)." />
-				<float name="value" value="100" />
+				<float name="value" value="0" />
 			</group>
 			<group name="value_tuning" List.ItemID="1335932643">
 				<enum name="key" value="ai_phase_encounter_destination_required_squads_percent" comment="Minimum percentage of squads required to arrive at the destination area (to exit &quot;TravelToTarget&quot; phase). 1.0 implies all squads must arrive." />
@@ -161,15 +161,15 @@
 			</group>
 			<group name="value_tuning" List.ItemID="-120722255">
 				<enum name="key" value="ai_phase_encounter_enemy_scan_range_enroute" />
-				<float name="value" value="30" />
+				<float name="value" value="40" />
 			</group>
 			<group name="value_tuning" List.ItemID="1554747723">
 				<enum name="key" value="ai_phase_encounter_combat_area_enroute" />
-				<float name="value" value="48" />
+				<float name="value" value="25" />
 			</group>
 			<group name="value_tuning" List.ItemID="-1362021299">
 				<enum name="key" value="ai_phase_encounter_combat_leash_enroute" />
-				<float name="value" value="0" />
+				<float name="value" value="40" />
 			</group>
 		</list>
 		<list name="int_tunings">
@@ -207,6 +207,10 @@
 					<enum name="key" value="ai_phase_encounter_path_bag" comment="&quot;ai\ai_formation_path&quot; AE blueprint containing AI threat path tunings that allow encounter squads to automatically avoid threats enroute to target (i.e. &quot;TravelToTarget&quot; phase)." />
 					<instance_reference name="value" value="" />
 				</group>
+			</list>
+			<list name="ai_open_pit_mine_ebps">
+			</list>
+			<list name="civ_next_unique_upgrade_choice">
 			</list>
 		</group>
 	</group>
@@ -437,6 +441,10 @@
 						<enum name="key" value="ai_phase_encounter_path_bag" comment="&quot;ai\ai_formation_path&quot; AE blueprint containing AI threat path tunings that allow encounter squads to automatically avoid threats enroute to target (i.e. &quot;TravelToTarget&quot; phase)." />
 						<instance_reference name="value" value="" />
 					</group>
+				</list>
+				<list name="ai_open_pit_mine_ebps">
+				</list>
+				<list name="civ_next_unique_upgrade_choice">
 				</list>
 			</group>
 		</group>

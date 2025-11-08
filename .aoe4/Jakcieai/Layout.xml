@@ -5,11 +5,11 @@
       <LayoutPanel Orientation="Vertical">
         <LayoutDocumentPaneGroup Orientation="Horizontal">
           <LayoutDocumentPane Id="172c4545-7d79-44aa-bad9-d77ae0dd0df5" DockWidth="0.475409836065574*">
-            <LayoutDocument Title="mod.rdo" ContentId="Reflect|Essence.Editor.ReflectEditor.Controls.DefaultReflectControlActivator|0xFD4C65582FC0A152" LastActivationTimeStamp="11/06/2025 11:57:07" />
-            <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Asset Explorer" ContentId="EssenceEditor.AssetExplorer" FloatingLeft="-2018" FloatingTop="118" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="11/06/2025 11:57:08" PreviousContainerId="172c4545-7d79-44aa-bad9-d77ae0dd0df5" PreviousContainerIndex="3" />
-            <LayoutDocument Title="ebps" ContentId="Category|ebps" LastActivationTimeStamp="11/06/2025 11:25:14" />
-            <LayoutDocument Title="ai\ai_economy" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ai\ai_economy" LastActivationTimeStamp="11/06/2025 12:02:18" />
-            <LayoutDocument Title="ai\ai_strategizer_personality" ContentId="Category|ai\ai_strategizer_personality" LastActivationTimeStamp="11/06/2025 11:57:12" />
+            <LayoutDocument Title="mod.rdo" ContentId="Reflect|Essence.Editor.ReflectEditor.Controls.DefaultReflectControlActivator|0xFD4C65582FC0A152" LastActivationTimeStamp="11/07/2025 13:17:54" />
+            <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Asset Explorer" ContentId="EssenceEditor.AssetExplorer" FloatingLeft="-2018" FloatingTop="118" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="11/07/2025 13:17:55" PreviousContainerId="172c4545-7d79-44aa-bad9-d77ae0dd0df5" PreviousContainerIndex="3" />
+            <LayoutDocument Title="ebps" ContentId="Category|ebps" LastActivationTimeStamp="11/07/2025 13:15:41" />
+            <LayoutDocument Title="ai\ai_economy" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ai\ai_economy" LastActivationTimeStamp="11/07/2025 13:47:58" />
+            <LayoutDocument Title="ai\ai_statemodel_tunings" ContentId="Category|ai\ai_statemodel_tunings" LastActivationTimeStamp="11/07/2025 13:18:02" />
           </LayoutDocumentPane>
         </LayoutDocumentPaneGroup>
       </LayoutPanel>
@@ -24,8 +24,8 @@
         </LayoutAnchorablePaneGroup>
       </LayoutAnchorablePaneGroup>
     </LayoutPanel>
-    <LayoutAnchorablePaneGroup Orientation="Horizontal" DockHeight="190" FloatingWidth="1573" FloatingHeight="110" FloatingLeft="-352" FloatingTop="991">
-      <LayoutAnchorablePane DockHeight="190" FloatingWidth="1573" FloatingHeight="110" FloatingLeft="-352" FloatingTop="991">
+    <LayoutAnchorablePaneGroup Orientation="Horizontal" DockHeight="206" FloatingWidth="1573" FloatingHeight="110" FloatingLeft="-352" FloatingTop="991">
+      <LayoutAnchorablePane DockHeight="206" FloatingWidth="1573" FloatingHeight="110" FloatingLeft="-352" FloatingTop="991">
         <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Output" IsSelected="True" ContentId="Output" FloatingLeft="-352" FloatingTop="991" FloatingWidth="1573" FloatingHeight="110" LastActivationTimeStamp="11/01/2025 18:28:44" />
         <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Error List" ContentId="ErrorList" FloatingLeft="-352" FloatingTop="991" FloatingWidth="1573" FloatingHeight="110" LastActivationTimeStamp="04/11/2025 15:32:09" />
         <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Object Browser" ContentId="ScenarioEditor.ObjectBrowser" FloatingLeft="-352" FloatingTop="991" FloatingWidth="1573" FloatingHeight="110" LastActivationTimeStamp="10/26/2024 00:56:40" />
@@ -41,7 +41,7 @@
   <BottomSide />
   <FloatingWindows />
   <Hidden>
-    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Transformation" IsSelected="True" ContentId="ScenarioEditor.Transformation" FloatingLeft="200" FloatingTop="200" FloatingWidth="250" FloatingHeight="300" LastActivationTimeStamp="11/06/2025 11:24:30" />
-    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Painter" IsSelected="True" ContentId="ScenarioEditor.Painter" FloatingLeft="200" FloatingTop="200" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="11/06/2025 11:24:30" />
+    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Transformation" IsSelected="True" ContentId="ScenarioEditor.Transformation" FloatingLeft="200" FloatingTop="200" FloatingWidth="250" FloatingHeight="300" LastActivationTimeStamp="11/07/2025 11:38:59" />
+    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Painter" IsSelected="True" ContentId="ScenarioEditor.Painter" FloatingLeft="200" FloatingTop="200" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="11/07/2025 11:38:59" />
   </Hidden>
 </LayoutRoot>
